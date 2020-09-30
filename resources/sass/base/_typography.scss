@@ -3,7 +3,12 @@
 
 // headings
 h1, h2, h3 {
-    @apply font-bold leading-tight mt-0 mb-6 text-purple-900;
+    @apply font-bold font-display leading-tight mt-0 mb-6 text-red-700;
+}
+
+i, em, .italic {
+	/* Should be font-style: italic; */
+	font-variation-settings: 'ital' 1;
 }
 
 .page-title {

@@ -5,3 +5,14 @@
 @import 'buttons';
 @import 'form';
 
+.hero {
+    height: 35vh;
+
+    @media (min-width: 640px) {
+        height: 45vh;
+    }
+
+    @media (min-width: 992px) {
+        height: 50vh;
+    }
+}

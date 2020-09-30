@@ -8,6 +8,8 @@ module.exports = eleventyConfig => {
     // Add a HTML timestamp formatter filter to Nunjucks
     eleventyConfig.addFilter("htmlDateDisplay", require("./filters/timestamp.js"))
 
+    eleventyConfig.addFilter("sizes", require("./filters/cloudinary-sizes.js"))
+
     // Minify our HTML
     eleventyConfig.addTransform("htmlmin", (content, outputPath) => {
         if ( outputPath.endsWith(".html") )
@@ -49,6 +51,7 @@ module.exports = eleventyConfig => {
     eleventyConfig.addPassthroughCopy("css")
     eleventyConfig.addPassthroughCopy("js")
     eleventyConfig.addPassthroughCopy("images")
+    eleventyConfig.addPassthroughCopy("fonts")
     eleventyConfig.addPassthroughCopy("robots.txt")
 
     return {

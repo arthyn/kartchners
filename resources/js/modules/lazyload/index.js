@@ -19,11 +19,12 @@ const Lazyload = function Lazyload()
 
             // find and store the image's data-lazy attribute
             // commented out for now, but if you want to go the extra mile, then you can do all the srcset attribute stuff on the images ;)
-            // const srcset = img.dataset.srcset
+            const srcset = img.dataset.srcset
             const src = img.dataset.lazy
 
             img.src = src
-            // img.srcset = srcset
+            if (srcset)
+                img.srcset = srcset
 
             // add a class of loaded
             // we can then use this as a hook for fade-in animations etc

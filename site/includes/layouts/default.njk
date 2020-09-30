@@ -11,6 +11,7 @@
         <meta name="robots" content="index,follow" />
     {% endif %}
 
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Oswald:wght@700&display=swap" rel="stylesheet"> 
     {# if your site's entire CSS comes in under 14kb, you may want to inline in the head #}
     {# include main.css if in development mode #}
     {% if helpers.environment === "development" %}
@@ -37,7 +38,7 @@
     <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 </head>
 
-<body {% if body_class %} id="{{ body_class }}"{% endif %} class="text-purple-900 leading-normal text-lg">
+<body {% if body_class %} id="{{ body_class }}"{% endif %} class="text-gray-900 leading-normal text-lg font-body">
 
     <a class="sr-only" href="#main">Skip to content</a>
 
