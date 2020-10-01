@@ -1,10 +1,27 @@
 <footer id="footer" class="footer bg-gray-900 text-white">
 
-    <div class="inner md:flex justify-between items-center py-10 xl:px-12">
+    <div class="inner py-10 xl:px-12">
 
-        <p class="pb-8 md:pb-0">© 2020 Skeleventy: A skeleton boilerplate built with <a href="https://www.11ty.io/">Eleventy.</a></p>
+        <div class="flex flex-col md:flex-row justify-between items-center md:items-end">
+            <div class="text-center md:text-left mb-8">
+                <h2 id="hours" class="mb-3 text-2xl text-white">Store Hours</h2>
+                <ul class="list-none">
+                    <li>Monday through Saturday 6:00 AM - 9:00 PM</li>
+                    <li>Sunday 8:00 AM - 6:00 PM</li>
+                </ul>
+            </div>
 
-        {% include 'components/social-icons.njk' %}
+            <div class="flex flex-col items-center md:items-end text-xl mb-8">
+                <a class="text-white hover:text-red-500" href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a>
+                <a class="text-white hover:text-red-500" href="tel:{{ site.contact.phone }}">{{ site.contact.phone }}</a>
+            </div>
+        </div>
+
+        <div class="flex flex-col md:flex-row justify-between items-center">
+            <p class="pb-8 md:pb-0 text-gray-500">© 2020 Kartchner's Specialty Meats</p>
+
+            {% include 'components/social-icons.njk' %}
+        </div>
 
     </div>
 

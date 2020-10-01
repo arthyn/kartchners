@@ -3,9 +3,13 @@
 
 // subtle 'fade in' to the lazyloaded image
 [data-lazy] {
-    @apply opacity-0 w-full;
+    @apply w-full;
     transition: opacity 0.25s ease-in;
     min-height: 120px;
+
+    &:not(.loaded) {
+        @apply opacity-0;
+    }
 }
 
 .loaded {

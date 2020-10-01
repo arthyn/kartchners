@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<main id="main" class="main focus:outline-none text-xl xl:text-2xl" tabindex="-1">
+    <section class="relative">
+        <img 
+            class="hero w-full object-cover"
+            srcset="{{ "v1601152899/kartchners/building-dawn" | sizes("https://res.cloudinary.com/hmillerdev/image/upload/x_0,y_200,w_2400,h_703,c_crop,f_auto,q_80")}}"
+            sizes="100vw"
+            src="https://res.cloudinary.com/hmillerdev/image/upload/x_0,y_200,w_2048,h_600,c_crop,f_auto,q_80/v1601152899/kartchners/building-dawn" alt="Kartchner's Specialty Meats" 
+        />
+        {% block heroSection %}{% endblock %}
+    </section>
+
+    {{ content | safe }}
+
+</main>
+
+

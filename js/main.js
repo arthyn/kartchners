@@ -124,7 +124,7 @@ var Lazyload = function Lazyload() {
   if (Object(_utilities_helpers__WEBPACK_IMPORTED_MODULE_1__["exists"])(images)) {
     // options
     var options = {
-      threshold: 0.5
+      threshold: 0.2
     };
 
     var preloadImage = function preloadImage(img) {
@@ -179,6 +179,11 @@ var MobileNav = function MobileNav() {
     } else {
       this.setAttribute('aria-expanded', 'false');
     }
+  });
+  window.addEventListener('hashchange', function () {
+    _utilities_selectors__WEBPACK_IMPORTED_MODULE_0__["default"].mobileNavToggle.classList.remove('menu-toggle-active');
+    _utilities_selectors__WEBPACK_IMPORTED_MODULE_0__["default"].mobileNav.classList.remove('menu-visible');
+    _utilities_selectors__WEBPACK_IMPORTED_MODULE_0__["default"].mobileNavToggle.setAttribute('aria-expanded', 'false');
   });
 }();
 

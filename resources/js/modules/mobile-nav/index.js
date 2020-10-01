@@ -22,6 +22,12 @@ const MobileNav = function MobileNav()
 
     })
 
+    window.addEventListener('hashchange', function() {
+        $$.mobileNavToggle.classList.remove('menu-toggle-active');
+        $$.mobileNav.classList.remove('menu-visible')
+        $$.mobileNavToggle.setAttribute('aria-expanded', 'false')
+    });
+
 }()
 
 export default MobileNav

@@ -1,33 +1,31 @@
 {
-    "name": "Skeleventy",
-    "url": "https://skeleventy.netlify.app",
+    "name": "Kartchner's in Scott",
+    "url": "https://www.kartchnersinscott.com",
     "author": {
-        "name": "Max Power",
-        "email": "hello@maxpower.com",
-        "handle": "@maxpower",
+        "name": "Hunter Miller",
+        "email": "hunter@hmiller.dev",
+        "handle": "@hmillerdev",
         "avatar": "/images/blog/author.jpg"
     },
     "images": {
         "logo": "/images/logo/logo.svg",
         "favicon": "/images/favicon.ico",
-        "twitter": "/images/meta/twitter.jpg",
-        "og": "/images/meta/og.jpg"
+        "twitter": "/images/meta/building-dawn.png",
+        "og": "/images/meta/building-dawn.png"
     },
     "social_links": {
-        "facebook": "https://www.facebook.com",
-        "twitter": "https://twitter.com/joe_dyer1",
-        "linkedin": "https://www.linkedin.com"
+        "facebook": "https://www.facebook.com/Kartchners-in-Scott-100500935145847/",
+        "instagram": "https://instagram.com"
     },
     "address": {
-        "street": "123 Fake Street",
-        "street_2": "Fake Road",
-        "city": "London",
-        "postcode": "LN1 234",
-        "country": "GB"
+        "street": "312 LA-93",
+        "city": "Scott",
+        "postcode": "70583",
+        "state": "Louisiana",
+        "country": "US"
     },
     "contact": {
-        "phone": "123 456 789",
-        "mobile": "(+44) 1234 5678",
-        "email": "hello@maxpower.com"
+        "phone": "337-345-1992",
+        "email": "office@kartchnersinscott.com"
     }
 }

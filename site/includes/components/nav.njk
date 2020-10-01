@@ -4,12 +4,14 @@
 
         {% for item in navigation.main %}
 
-        <li class="level-1 mb-4 md:mr-6 md:mb-0">
+        {% if item.main %}
+            <li class="level-1 mb-4 md:mr-6 md:mb-0">
 
-            <a href="{{ item.url | safe }}" class="link font-bold text-white hover:text-red-600 active:text-red-600 {% if page.url == item.url %}active text-red-600{% endif %}
-            "{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}</a>
+                <a href="{{ item.url | safe }}" class="link font-bold text-white hover:text-red-600 active:text-red-600 {% if page.url == item.url %}active text-red-600{% endif %}
+                "{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}</a>
 
-        </li>
+            </li>
+        {% endif %}
 
         {% endfor %}
 

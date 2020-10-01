@@ -1,16 +1,29 @@
 {
     "main": [
         {
+            "label": "Home",
+            "url": "/",
+            "main": false
+        },
+        {
             "label": "Menu",
-            "url": "#menu"
+            "url": "/#menu",
+            "main": true
         },
         {
             "label": "Hours",
-            "url": "#hours"
+            "url": "/#hours",
+            "main": true
         },
         {
             "label": "Contact",
-            "url": "/contact/"
+            "url": "/contact",
+            "main": true
+        },
+        {
+            "label": "Get Directions",
+            "url": "/#directions",
+            "main": false
         }
     ]
 }

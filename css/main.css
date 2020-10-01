@@ -589,10 +589,13 @@ video {
 }
 
 [data-lazy] {
-  opacity: 0;
   width: 100%;
   transition: opacity 0.25s ease-in;
   min-height: 120px;
+}
+
+[data-lazy]:not(.loaded) {
+  opacity: 0;
 }
 
 .loaded {
@@ -746,8 +749,8 @@ i, em, .italic {
 .mobile-nav-toggle.menu-toggle-active .mobile-nav-icon-line {
   margin: 0;
   --bg-opacity: 1;
-  background-color: #ed64a6;
-  background-color: rgba(237, 100, 166, var(--bg-opacity));
+  background-color: #f56565;
+  background-color: rgba(245, 101, 101, var(--bg-opacity));
 }
 
 .mobile-nav-toggle.menu-toggle-active .mobile-nav-icon-line:nth-child(1) {
