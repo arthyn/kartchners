@@ -22,11 +22,13 @@ const MobileNav = function MobileNav()
 
     })
 
-    window.addEventListener('hashchange', function() {
-        $$.mobileNavToggle.classList.remove('menu-toggle-active');
-        $$.mobileNav.classList.remove('menu-visible')
-        $$.mobileNavToggle.setAttribute('aria-expanded', 'false')
-    });
+    $$.mobileNav.addEventListener('click', function(event) {
+        if (event.target.tagName === 'A') {
+            $$.mobileNavToggle.classList.remove('menu-toggle-active')
+            $$.mobileNav.classList.remove('menu-visible')
+            $$.mobileNavToggle.setAttribute('aria-expanded', 'false')
+        }
+    })
 
 }()
 

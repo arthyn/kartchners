@@ -180,10 +180,12 @@ var MobileNav = function MobileNav() {
       this.setAttribute('aria-expanded', 'false');
     }
   });
-  window.addEventListener('hashchange', function () {
-    _utilities_selectors__WEBPACK_IMPORTED_MODULE_0__["default"].mobileNavToggle.classList.remove('menu-toggle-active');
-    _utilities_selectors__WEBPACK_IMPORTED_MODULE_0__["default"].mobileNav.classList.remove('menu-visible');
-    _utilities_selectors__WEBPACK_IMPORTED_MODULE_0__["default"].mobileNavToggle.setAttribute('aria-expanded', 'false');
+  _utilities_selectors__WEBPACK_IMPORTED_MODULE_0__["default"].mobileNav.addEventListener('click', function (event) {
+    if (event.target.tagName === 'A') {
+      _utilities_selectors__WEBPACK_IMPORTED_MODULE_0__["default"].mobileNavToggle.classList.remove('menu-toggle-active');
+      _utilities_selectors__WEBPACK_IMPORTED_MODULE_0__["default"].mobileNav.classList.remove('menu-visible');
+      _utilities_selectors__WEBPACK_IMPORTED_MODULE_0__["default"].mobileNavToggle.setAttribute('aria-expanded', 'false');
+    }
   });
 }();
 

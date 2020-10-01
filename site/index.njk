@@ -1,103 +1,96 @@
 ---
-layout: default
+layout: page
 meta_title: Home
 meta_description: Kartchner's from Krotz Springs now offers offers your favorite boudin, specialty meats, and Cajun foods in Scott Louisiana. Come to the best rest stop in town with the best food!
 body_class: home
 title: Kartchner's Specialty Meats
 ---
 
-<main id="main" class="main focus:outline-none text-xl xl:text-2xl" tabindex="-1">
-    <section class="relative">
-        <img 
-            class="hero w-full object-cover"
-            srcset="{{ "v1601152899/kartchners/building-dawn" | sizes("https://res.cloudinary.com/hmillerdev/image/upload/x_0,y_200,w_2400,h_703,c_crop,f_auto,q_80")}}"
-            sizes="100vw"
-            src="https://res.cloudinary.com/hmillerdev/image/upload/x_0,y_200,w_2048,h_600,c_crop,f_auto,q_80/v1601152899/kartchners/building-dawn" alt="Kartchner's Specialty Meats" 
-        />
-        <div class="inner flex flex-col md:flex-row py-16 md:py-24 xl:px-12">
-            <div class="flex-1 md:px-4 xl:px-8 mb-12">
-                <h1 class="text-5xl text-red-700">
-                    <span class="block text-lg uppercase tracking-wider font-bold font-body text-gray-700">{{ title }}</span>
-                    Coming Soon to Scott
-                </h1>
-                <p>Your favorite boudin from Krotz Springs is coming to Scott. Kartchner's is opening it's new location in Scott, Louisiana to bring your favorites a little closer to home. We will be offering the same menu of ready to eat foods, boudin, sausage, specialty meats, and heat and eat items as well. Come give us a try!</p>
+{% block heroSection %}
+    <div class="inner flex flex-col md:flex-row py-16 md:py-24 xl:px-12">
+        <div class="flex-1 md:px-4 xl:px-8 mb-12">
+            <h1 class="text-5xl text-red-700">
+                <span class="block text-lg uppercase tracking-wider font-bold font-body text-gray-700">{{ title }}</span>
+                Coming Soon to Scott
+            </h1>
+            <p>Your favorite boudin from Krotz Springs is coming to Scott. Kartchner's is opening it's new location in Scott, Louisiana to bring your favorites a little closer to home. We will be offering the same menu of ready to eat foods, boudin, sausage, specialty meats, and heat and eat items as well. Come give us a try!</p>
+        </div>
+        <div class="flex-1 md:px-4 xl:px-8">
+            <img src="/images/boudin_1296x.jpg" />
+        </div>
+    </div>
+{% endblock %}
+
+<section id="menu" class="relative pt-16 pb-20 bg-red-800">
+    <img 
+        class="absolute top-0 left-0 h-full w-full object-cover multiply saturate-3 opacity-75" 
+        data-srcset="{{ "v1601164062/kartchners/cleaver" | sizes("https://res.cloudinary.com/hmillerdev/image/upload/f_auto,q_80")}}"
+        data-lazy="https://res.cloudinary.com/hmillerdev/image/upload/w_2400,f_auto,q_80/v1601164062/kartchners/cleaver" 
+        alt=""
+    />
+    <div class="relative z-10 max-w-5xl mx-auto px-6 xl:px-12 text-white">
+        <header class="w-full text-center">
+            <h2 class="text-4xl text-white mb-4">Menu</h2>
+            <p class="mb-12">Made fresh daily, served hot, and ready for you to enjoy!</p>
+        </header>
+        <ul class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-6 leading-tight">
+            <li class="flex">
+                <strong class="flex-1">Boudin</strong>
+                <span>$5.49/lb</span>
+            </li>
+            <li class="flex">
+                <strong class="flex-1">Smoked Boudin</strong>
+                <span>$6.49/lb</span>
+            </li>
+            <li class="flex">
+                <strong class="flex-1">Cracklin's</strong>
+                <span>$18.99/lb</span>
+            </li>
+            <li class="flex">
+                <strong class="flex-1">Beef Jerky</strong>
+                <span>$29.99/lb</span>
+            </li>
+            <li class="flex">
+                <strong class="flex-1">Hog's Head Cheese</strong>
+                <span>$4.99/lb</span>
+            </li>
+            <li class="flex">
+                <strong class="flex-1">Boudin Ball</strong>
+                <span>$0.99/ea</span>
+            </li>
+            <li class="flex">
+                <strong class="flex-1">Boudin Ball Stuffed with Jalapeno &amp; Cream Cheese</strong>
+                <span>$1.49/ea</span>
+            </li>
+            <li class="flex">
+                <strong class="flex-1">Jalapeno &amp; Cream Cheese Boudin Wrap</strong>
+                <span>$1.99/ea</span>
+            </li>
+            <li class="flex">
+                <strong class="flex-1">Crawfish Boudin Ball</strong>
+                <span>$1.49/ea</span>
+            </li>
+        </ul>
+    </div>
+</section>
+<section id="directions" class="py-16">
+    <div class="inner xl:px-12">
+        <div class="flex flex-col md:flex-row md:items-center md:-mx-4 xl:-mx-8">
+            <div class="embed embed-4:3 flex-1 mb-10 md:mb-0">
+                <iframe class="md:px-4 xl:px-8" data-lazy="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d861.6064839899785!2d-92.10791217075324!3d30.253442998862916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x862498df16c755f3%3A0x49fcf6da282679a2!2s312%20LA-93%2C%20Scott%2C%20LA%2070583!5e0!3m2!1sen!2sus!4v1601168218789!5m2!1sen!2sus"  frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             </div>
             <div class="flex-1 md:px-4 xl:px-8">
-                <img src="/images/boudin_1296x.jpg" />
+                <h2 class="text-4xl">Located Directly Off I-10</h2>
+                <p>If you're coming down I-10, simply take exit 97 and take Highway 93 north-bound. We're directly across from Super One Foods next to La Rumba. Come in and enjoy the best rest stop in Scott. Our store and bathrooms are always clean. We have grass for pet potty breaks and trees to sit under. And of course, we've got boudin for you and snacks for the kids too.</p>
             </div>
-        </div>
-    </section>
-    <section id="menu" class="relative pt-16 pb-20 bg-red-800">
-        <img 
-            class="absolute top-0 left-0 h-full w-full object-cover multiply saturate-3 opacity-75" 
-            data-srcset="{{ "v1601164062/kartchners/cleaver" | sizes("https://res.cloudinary.com/hmillerdev/image/upload/f_auto,q_80")}}"
-            data-lazy="https://res.cloudinary.com/hmillerdev/image/upload/w_2400,f_auto,q_80/v1601164062/kartchners/cleaver" 
-            alt=""
-        />
-        <div class="relative z-10 max-w-5xl mx-auto px-6 xl:px-12 text-white">
-            <header class="w-full text-center">
-                <h2 class="text-4xl text-white mb-4">Menu</h2>
-                <p class="mb-12">Made fresh daily, served hot, and ready for you to enjoy!</p>
-            </header>
-            <ul class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-6 leading-tight">
-                <li class="flex">
-                    <strong class="flex-1">Boudin</strong>
-                    <span>$5.49/lb</span>
-                </li>
-                <li class="flex">
-                    <strong class="flex-1">Smoked Boudin</strong>
-                    <span>$6.49/lb</span>
-                </li>
-                <li class="flex">
-                    <strong class="flex-1">Cracklin's</strong>
-                    <span>$18.99/lb</span>
-                </li>
-                <li class="flex">
-                    <strong class="flex-1">Beef Jerky</strong>
-                    <span>$29.99/lb</span>
-                </li>
-                <li class="flex">
-                    <strong class="flex-1">Hog's Head Cheese</strong>
-                    <span>$4.99/lb</span>
-                </li>
-                <li class="flex">
-                    <strong class="flex-1">Boudin Ball</strong>
-                    <span>$0.99/ea</span>
-                </li>
-                <li class="flex">
-                    <strong class="flex-1">Boudin Ball Stuffed with Jalapeno &amp; Cream Cheese</strong>
-                    <span>$1.49/ea</span>
-                </li>
-                <li class="flex">
-                    <strong class="flex-1">Jalapeno &amp; Cream Cheese Boudin Wrap</strong>
-                    <span>$1.99/ea</span>
-                </li>
-                <li class="flex">
-                    <strong class="flex-1">Crawfish Boudin Ball</strong>
-                    <span>$1.49/ea</span>
-                </li>
-            </ul>
-        </div>
-    </section>
-    <section id="directions" class="py-16">
-        <div class="inner xl:px-12">
-            <div class="flex flex-col md:flex-row md:items-center md:-mx-4 xl:-mx-8">
-                <div class="embed embed-4:3 flex-1 mb-10 md:mb-0">
-                    <iframe class="md:px-4 xl:px-8" data-lazy="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d861.6064839899785!2d-92.10791217075324!3d30.253442998862916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x862498df16c755f3%3A0x49fcf6da282679a2!2s312%20LA-93%2C%20Scott%2C%20LA%2070583!5e0!3m2!1sen!2sus!4v1601168218789!5m2!1sen!2sus"  frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                </div>
-                <div class="flex-1 md:px-4 xl:px-8">
-                    <h2 class="text-4xl">Located Directly Off I-10</h2>
-                    <p>If you're coming down I-10, simply take exit 97 and take Highway 93 north-bound. We're directly across from Super One Foods next to La Rumba. Come in and enjoy the best rest stop in Scott. Our store and bathrooms are always clean. We have grass for pet potty breaks and trees to sit under. And of course, we've got boudin for you and snacks for the kids too.</p>
-                </div>
-            </div>        
-        </div>
-    </section>
-    <!--<section id="contact" class="relative py-16 bg-red-800">
-        <img class="absolute top-0 left-0 h-full w-full object-cover multiply saturate-3 opacity-75" src="https://res.cloudinary.com/hmillerdev/image/upload/g_north,ar_3,c_crop/w_2400,f_auto,q_80/v1601164062/kartchners/wood.jpg" alt=""/>
-        <div class="inner relative z-10 xl:px-12">
-            
-        </div>
-    </section>-->
-</main>
+        </div>        
+    </div>
+</section>
+<!--<section id="contact" class="relative py-16 bg-red-800">
+    <img class="absolute top-0 left-0 h-full w-full object-cover multiply saturate-3 opacity-75" src="https://res.cloudinary.com/hmillerdev/image/upload/g_north,ar_3,c_crop/w_2400,f_auto,q_80/v1601164062/kartchners/wood.jpg" alt=""/>
+    <div class="inner relative z-10 xl:px-12">
+        
+    </div>
+</section>-->
 
 
