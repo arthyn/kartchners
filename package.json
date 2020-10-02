@@ -22,5 +22,11 @@
     "sass-loader": "^8.0.0",
     "tailwindcss": "^1.2.0",
     "vue-template-compiler": "^2.6.10"
+  },
+  "dependencies": {
+    "alpinejs": "^2.7.0",
+    "dotenv": "^8.2.0",
+    "lodash.escape": "^4.0.1",
+    "node-mailjet": "^3.3.1"
   }
 }
