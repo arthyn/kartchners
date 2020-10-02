@@ -1,8 +1,7 @@
 import $$ from '@utilities/selectors'
 import { exists } from '@utilities/helpers'
 
-const Lazyload = function Lazyload()
-{
+function Lazyload() {
 
     // lazyload our images
     const images = $$.wrapper.querySelectorAll('[data-lazy]')
@@ -33,9 +32,8 @@ const Lazyload = function Lazyload()
         }
 
         const lazyLoad = new IntersectionObserver((entries, lazyLoad) => {
-
             entries.forEach(entry => {
-
+                debugger;
                 if (entry.isIntersecting) {
 
                     preloadImage(entry.target)
@@ -51,8 +49,19 @@ const Lazyload = function Lazyload()
             lazyLoad.observe(image)
         })
 
+        console.log(lazyLoad.takeRecords())
+
+        return {
+            unload() {
+                lazyLoad.disconnect()
+            }
+        }
     }
 
-}()
+    return {
+        unload() {}
+    }
+
+}
 
 export default Lazyload

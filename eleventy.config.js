@@ -55,6 +55,18 @@ module.exports = eleventyConfig => {
     eleventyConfig.addPassthroughCopy("fonts")
     eleventyConfig.addPassthroughCopy("robots.txt")
 
+    eleventyConfig.setBrowserSyncConfig({
+        // scripts in body conflict with Turbolinks
+        snippetOptions: {
+          rule: {
+            match: /<\/head>/i,
+            fn: function(snippet, match) {
+              return snippet + match;
+            }
+          }
+        }
+      });
+
     return {
         templateFormats: ["md", "njk"],
         markdownTemplateEngine: 'njk',

@@ -24,9 +24,11 @@
     "vue-template-compiler": "^2.6.10"
   },
   "dependencies": {
+    "alpine-turbolinks-adapter": "^0.3.0",
     "alpinejs": "^2.7.0",
     "dotenv": "^8.2.0",
     "lodash.escape": "^4.0.1",
-    "node-mailjet": "^3.3.1"
+    "node-mailjet": "^3.3.1",
+    "turbolinks": "^5.2.0"
   }
 }
