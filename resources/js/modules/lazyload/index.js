@@ -1,67 +1,44 @@
-import $$ from '@utilities/selectors'
 import { exists } from '@utilities/helpers'
 
-function Lazyload() {
+function preloadImage(img) {
+    const srcset = img.dataset.srcset
+    const src = img.dataset.lazy
 
-    // lazyload our images
-    const images = $$.wrapper.querySelectorAll('[data-lazy]')
+    img.src = src
+    if (srcset)
+        img.srcset = srcset
 
-    if ( exists(images) )
-    {
+    img.classList.add('loaded')
+}
 
-        // options
-        const options = {
-            threshold: 0.2
+// options
+const options = {
+    threshold: 0.2
+}
+
+const observer = new IntersectionObserver((entries, obs) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            preloadImage(entry.target)
+            obs.unobserve(entry.target)
         }
+    })
+}, options)
 
-        const preloadImage = function preloadImage(img) {
+function Lazyload(lazyObserver) {
+    const obs = lazyObserver || observer;
+    const images = document.querySelectorAll('[data-lazy]')
 
-            // find and store the image's data-lazy attribute
-            // commented out for now, but if you want to go the extra mile, then you can do all the srcset attribute stuff on the images ;)
-            const srcset = img.dataset.srcset
-            const src = img.dataset.lazy
-
-            img.src = src
-            if (srcset)
-                img.srcset = srcset
-
-            // add a class of loaded
-            // we can then use this as a hook for fade-in animations etc
-            img.classList.add('loaded')
-
-        }
-
-        const lazyLoad = new IntersectionObserver((entries, lazyLoad) => {
-            entries.forEach(entry => {
-                debugger;
-                if (entry.isIntersecting) {
-
-                    preloadImage(entry.target)
-                    lazyLoad.unobserve(entry.target)
-
-                }
-
-            })
-
-        }, options)
-
-        images.forEach(image => {
-            lazyLoad.observe(image)
-        })
-
-        console.log(lazyLoad.takeRecords())
-
+    if ( !exists(images) )
         return {
-            unload() {
-                lazyLoad.disconnect()
-            }
+            unload() {}
         }
-    }
 
-    return {
-        unload() {}
-    }
+    images.forEach(image => {
+        obs.observe(image)
+    })
 
+    return obs;
 }
 
 export default Lazyload

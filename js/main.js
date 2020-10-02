@@ -2169,12 +2169,22 @@ var turbolinks = __webpack_require__(/*! turbolinks */ "./node_modules/turbolink
 
 turbolinks.start();
 var observer;
+document.addEventListener('turbolinks:click', function (event) {
+  var anchorElement = event.target;
+  var isSamePageAnchor = anchorElement.hash && anchorElement.origin === window.location.origin && anchorElement.pathname === window.location.pathname;
+
+  if (isSamePageAnchor) {
+    Turbolinks.controller.pushHistoryWithLocationAndRestorationIdentifier(event.data.url, Turbolinks.uuid());
+    event.preventDefault();
+  }
+});
 document.addEventListener("turbolinks:load", function () {
   observer = Object(_modules_lazyload__WEBPACK_IMPORTED_MODULE_3__["default"])();
+  console.log('connecting');
 });
 document.addEventListener("turbolinks:before-visit", function () {
-  observer.unload();
-  observer = null;
+  observer.disconnect();
+  console.log('disconnecting');
 });
 
 /***/ }),
@@ -2188,57 +2198,40 @@ document.addEventListener("turbolinks:before-visit", function () {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _utilities_selectors__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @utilities/selectors */ "./resources/js/utilities/selectors/index.js");
-/* harmony import */ var _utilities_helpers__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @utilities/helpers */ "./resources/js/utilities/helpers/index.js");
+/* harmony import */ var _utilities_helpers__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @utilities/helpers */ "./resources/js/utilities/helpers/index.js");
 
 
+function preloadImage(img) {
+  var srcset = img.dataset.srcset;
+  var src = img.dataset.lazy;
+  img.src = src;
+  if (srcset) img.srcset = srcset;
+  img.classList.add('loaded');
+} // options
 
-function Lazyload() {
-  // lazyload our images
-  var images = _utilities_selectors__WEBPACK_IMPORTED_MODULE_0__["default"].wrapper.querySelectorAll('[data-lazy]');
 
-  if (Object(_utilities_helpers__WEBPACK_IMPORTED_MODULE_1__["exists"])(images)) {
-    // options
-    var options = {
-      threshold: 0.2
-    };
+var options = {
+  threshold: 0.2
+};
+var observer = new IntersectionObserver(function (entries, obs) {
+  entries.forEach(function (entry) {
+    if (entry.isIntersecting) {
+      preloadImage(entry.target);
+      obs.unobserve(entry.target);
+    }
+  });
+}, options);
 
-    var preloadImage = function preloadImage(img) {
-      // find and store the image's data-lazy attribute
-      // commented out for now, but if you want to go the extra mile, then you can do all the srcset attribute stuff on the images ;)
-      var srcset = img.dataset.srcset;
-      var src = img.dataset.lazy;
-      img.src = src;
-      if (srcset) img.srcset = srcset; // add a class of loaded
-      // we can then use this as a hook for fade-in animations etc
-
-      img.classList.add('loaded');
-    };
-
-    var lazyLoad = new IntersectionObserver(function (entries, lazyLoad) {
-      entries.forEach(function (entry) {
-        debugger;
-
-        if (entry.isIntersecting) {
-          preloadImage(entry.target);
-          lazyLoad.unobserve(entry.target);
-        }
-      });
-    }, options);
-    images.forEach(function (image) {
-      lazyLoad.observe(image);
-    });
-    console.log(lazyLoad.takeRecords());
-    return {
-      unload: function unload() {
-        lazyLoad.disconnect();
-      }
-    };
-  }
-
-  return {
+function Lazyload(lazyObserver) {
+  var obs = lazyObserver || observer;
+  var images = document.querySelectorAll('[data-lazy]');
+  if (!Object(_utilities_helpers__WEBPACK_IMPORTED_MODULE_0__["exists"])(images)) return {
     unload: function unload() {}
   };
+  images.forEach(function (image) {
+    obs.observe(image);
+  });
+  return obs;
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Lazyload);
