@@ -80,7 +80,7 @@ function contactForm() {
                 if (!res.ok)
                     throw Error('Unable to submit message try again later or send us an email at office@kartchnersinscott.com');
 
-                return res.json()
+                return res.text()
             })
             .then(res => {
                 this.status = 'success'

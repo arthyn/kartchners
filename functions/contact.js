@@ -34,8 +34,8 @@ exports.handler = async function(event, context) {
                 "Messages":[
                     {
                         "From": {
-                            "Email": email,
-                            "Name": name
+                            "Email": 'hunter@hmiller.dev',
+                            "Name": 'Hunter'
                         },
                         "To": [{ "Email": to }],
                         "Subject": `[Contact Form Submission] ${name}`,
