@@ -611,6 +611,13 @@ video {
   padding-right: 1.5rem;
 }
 
+@media (min-width: 1280px) {
+  .inner {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
 .multiply {
   mix-blend-mode: multiply;
 }

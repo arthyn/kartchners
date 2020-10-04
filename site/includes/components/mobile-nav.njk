@@ -4,7 +4,7 @@
             {% for item in navigation.main %}
                 <li class="item relative opacity-0">
                     <a href="{{ item.url | safe }}" class="link block py-2 px-5 text-white text-3xl hover:text-red-500 {% if page.url == item.url %}active text-red-500{% endif %}
-                    "{% if page.url == item.url %} aria-current="page"{% endif %} @click="mainNavClick($event, {{item.submenu or null}})">{{ item.label }}</a>
+                    "{% if page.url == item.url %} aria-current="page"{% endif %} @click="navClick($event, {{item.submenu or 'null'}}, base)">{{ item.label }}</a>
                 </li>
             {% endfor %}
         </ul>
@@ -19,8 +19,7 @@
                     </li>
                     {% for subitem in collections[item.submenu] %}
                         <li class="item relative opacity-0">
-                            <a href="{{ subitem.url | safe }}" class="link block py-2 px-5 text-white text-3xl hover:text-red-500 {% if page.url == subitem.url %}active text-red-500{% endif %}
-                            "{% if page.url == subitem.url %} aria-current="page"{% endif %}>{{ subitem.data.title }}</a>
+                            <a href="{{ subitem.url | safe }}" class="link block py-2 px-5 text-white text-3xl hover:text-red-500 {% if page.url == subitem.url %}active text-red-500{% endif %}" {% if page.url == subitem.url %} aria-current="page"{% endif %} @click="subNavClick({{item.submenu}}, base)">{{ subitem.data.title }}</a>
                         </li>
                     {% endfor %}
                 </ul>
@@ -39,26 +38,31 @@
         </span>
 
     </button>
-
-    <script>
-        const mobileNavs = {
-            base: { open: false },
-            {% for item in navigation.main %}
-                {% if collections[item.submenu] %}
-                    {{ item.submenu }}: {
-                        open: false
-                    }
-                {% endif %}
-            {% endfor %}
-        }
-
-        function mainNavClick(event, nav) {
-            if (nav) {
-                event.preventDefault();
-                nav.open = true;
-            } else {
-                base.open = false;
-            }            
-        }
-    </script>
 </div>
+
+<script data-turbolinks-eval="false">
+    const mobileNavs = {
+        base: { open: false },
+        {% for item in navigation.main %}
+            {% if collections[item.submenu] %}
+                {{ item.submenu }}: {
+                    open: false
+                }
+            {% endif %}
+        {% endfor %}
+    }
+
+    function navClick(event, nav, base) {
+        if (nav) {
+            event.preventDefault();
+            nav.open = true;
+        } else {
+            base.open = false;
+        }            
+    }
+
+    function subNavClick(nav, base) {
+        nav.open = false;
+        base.open = false;
+    }
+</script>

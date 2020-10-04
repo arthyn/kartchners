@@ -18,7 +18,11 @@
 
 // 'container' helper class
 .inner {
-    @apply w-full max-w-8xl ml-auto mr-auto px-6 ;
+    @apply w-full max-w-8xl ml-auto mr-auto px-6;
+
+    @media (min-width: 1280px) {
+        @apply px-12;
+    }
 }
 
 .multiply {
