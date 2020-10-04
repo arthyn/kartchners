@@ -10,6 +10,15 @@ module.exports = eleventyConfig => {
 
     eleventyConfig.addFilter("sizes", require("./filters/cloudinary-sizes.js"))
 
+    eleventyConfig.addShortcode("productList", (products) => {
+        return products.reduce((html, product) => {
+            return html + `<li class="flex">
+                <strong class="flex-1">${product.name}</strong>
+                <span>${product.price}</span>
+            </li>`;
+        }, '')
+    })
+
     // Minify our HTML
     eleventyConfig.addTransform("htmlmin", (content, outputPath) => {
         if ( outputPath.endsWith(".html") )
@@ -46,6 +55,7 @@ module.exports = eleventyConfig => {
     // Layout aliases
     eleventyConfig.addLayoutAlias('default', 'layouts/default.njk')
     eleventyConfig.addLayoutAlias('page', 'layouts/page.njk')
+    eleventyConfig.addLayoutAlias('productList', 'layouts/productList.njk')
     eleventyConfig.addLayoutAlias('post', 'layouts/post.njk')
 
     // Include our static assets

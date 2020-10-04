@@ -2157,13 +2157,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var alpine_turbolinks_adapter__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(alpine_turbolinks_adapter__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var alpinejs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! alpinejs */ "./node_modules/alpinejs/dist/alpine.js");
 /* harmony import */ var alpinejs__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(alpinejs__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _modules_mobile_nav__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @modules/mobile-nav */ "./resources/js/modules/mobile-nav/index.js");
-/* harmony import */ var _modules_lazyload__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @modules/lazyload */ "./resources/js/modules/lazyload/index.js");
+/* harmony import */ var _modules_lazyload__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @modules/lazyload */ "./resources/js/modules/lazyload/index.js");
 
 
 
 var turbolinks = __webpack_require__(/*! turbolinks */ "./node_modules/turbolinks/dist/turbolinks.js"); // Import local modules
-
 
 
 
@@ -2179,12 +2177,14 @@ document.addEventListener('turbolinks:click', function (event) {
   }
 });
 document.addEventListener("turbolinks:load", function () {
-  observer = Object(_modules_lazyload__WEBPACK_IMPORTED_MODULE_3__["default"])();
+  observer = Object(_modules_lazyload__WEBPACK_IMPORTED_MODULE_2__["default"])();
   console.log('connecting');
 });
 document.addEventListener("turbolinks:before-visit", function () {
-  observer.disconnect();
-  console.log('disconnecting');
+  if (typeof observer.disconnect === 'function') {
+    observer.disconnect();
+    console.log('disconnecting');
+  }
 });
 
 /***/ }),
@@ -2235,42 +2235,6 @@ function Lazyload(lazyObserver) {
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Lazyload);
-
-/***/ }),
-
-/***/ "./resources/js/modules/mobile-nav/index.js":
-/*!**************************************************!*\
-  !*** ./resources/js/modules/mobile-nav/index.js ***!
-  \**************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _utilities_selectors__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @utilities/selectors */ "./resources/js/utilities/selectors/index.js");
-
-
-var MobileNav = function MobileNav() {
-  _utilities_selectors__WEBPACK_IMPORTED_MODULE_0__["default"].mobileNavToggle.addEventListener('click', function () {
-    this.classList.toggle('menu-toggle-active');
-    _utilities_selectors__WEBPACK_IMPORTED_MODULE_0__["default"].mobileNav.classList.toggle('menu-visible'); // set aria-expanded attribute on menu toggle button
-
-    if (this.getAttribute('aria-expanded') === 'false') {
-      this.setAttribute('aria-expanded', 'true');
-    } else {
-      this.setAttribute('aria-expanded', 'false');
-    }
-  });
-  _utilities_selectors__WEBPACK_IMPORTED_MODULE_0__["default"].mobileNav.addEventListener('click', function (event) {
-    if (event.target.tagName === 'A') {
-      _utilities_selectors__WEBPACK_IMPORTED_MODULE_0__["default"].mobileNavToggle.classList.remove('menu-toggle-active');
-      _utilities_selectors__WEBPACK_IMPORTED_MODULE_0__["default"].mobileNav.classList.remove('menu-visible');
-      _utilities_selectors__WEBPACK_IMPORTED_MODULE_0__["default"].mobileNavToggle.setAttribute('aria-expanded', 'false');
-    }
-  });
-}();
-
-/* harmony default export */ __webpack_exports__["default"] = (MobileNav);
 
 /***/ }),
 
@@ -2336,9 +2300,7 @@ var $$ = {
   containerCentre: document.getElementById('container-centre'),
   containerRight: document.getElementById('container-right'),
   preFooter: document.getElementById('pre-footer'),
-  footer: document.getElementById('footer'),
-  mobileNav: document.getElementById('mobile-nav'),
-  mobileNavToggle: document.getElementById('mobile-nav-toggle')
+  footer: document.getElementById('footer')
 };
 /* harmony default export */ __webpack_exports__["default"] = ($$);
 

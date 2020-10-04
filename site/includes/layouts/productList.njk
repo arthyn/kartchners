@@ -1,0 +1,21 @@
+---
+layout: page
+---
+
+<section class="py-16">
+    <div class="inner">        
+        <h1 class="text-5xl text-center text-red-700 mb-12">{{ title }}</h1>
+        {% set lists = productLists | d([{ name: null, products: products }]) %}
+        {% for list in lists %}
+            {% if list.name %}
+                <h2 class="text-4xl text-center text-red-700 mb-10">{{ list.name }}</h2>
+            {% endif %}
+            <ul class="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-6 max-w-5xl mb-16 mx-auto leading-tight">
+                {% productList list.products %}
+            </ul>
+        {% endfor %}
+
+        {{ content | safe }}
+
+    </div>
+</div>

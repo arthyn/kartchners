@@ -5,11 +5,20 @@
         {% for item in navigation.main %}
 
         {% if item.main %}
-            <li class="level-1 mb-4 md:mr-6 md:mb-0">
+            <li class="level-1 relative py-2 mb-4 md:mr-6 md:mb-0" x-data="{ open: false }" @mouseLeave="open = false">
 
                 <a href="{{ item.url | safe }}" class="link font-bold text-white hover:text-red-600 active:text-red-600 {% if page.url == item.url %}active text-red-600{% endif %}
-                "{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}</a>
+                "{% if page.url == item.url %} aria-current="page"{% endif %} @mouseEnter="open = true">{{ item.label }}</a>
 
+                {% if collections[item.submenu] %}
+                    <ul class="absolute top-0 right-0 w-64 py-2 mt-10 text-xl bg-white rounded shadow-lg" x-show.transition="open">
+                        {% for subitem in collections[item.submenu] %}
+                            <li>
+                                <a class="block px-4 py-2 text-lg text-gray-900 hover:text-red-700" href="{{ subitem.url }}">{{ subitem.data.title }}</a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
             </li>
         {% endif %}
 
@@ -20,5 +29,4 @@
         </li>
 
     </ul>
-
 </nav>

@@ -1,0 +1,54 @@
+---
+layout: page
+title: Chicken
+tags: product
+chicken: [
+    { name: "Crawfish and Rice", price: "$17.99/ea" },
+    { name: "Shrimp and Rice", price: "$16.99/ea" },
+    { name: "Andouille Sausage", price: "$15.99/ea" },
+    { name: "Cornbread Dressing", price: "$16.99/ea" },
+    { name: "Broccoli and Cheese", price: "$16.99/ea" },
+    { name: "Spinach and Cheese", price: "$16.99/ea" },
+    { name: "Boudin", price: "$16.99/ea" }
+]
+thighs: [
+    { name: "Jalapeno &amp; Cream Cheese", price: "$5.99/lb" },
+    { name: "Pepper Jack Cheese", price: "$5.99/lb" },
+    { name: "Spinach &amp; Cream Cheese", price: "$5.99/lb" },
+    { name: "Pepperoni &amp; Mozzarella Cheese", price: "$5.99/lb" },
+    { name: "Goat Cheese, Sundried Tomato, &amp; Spinach", price: "$6.99/lb" },
+    { name: "Pineapple &amp; Cream Cheese", price: "$5.99/lb" },
+    { name: "Mushroom &amp; Swiss Cheese", price: "$6.99/lb" },
+    { name: "Mushroom, Black Olive, &amp; Mozzarella Cheese", price: "$6.99/lb" },
+    { name: "Boudin &amp; Pepper Jack Cheese", price: "$5.99/lb" }
+]
+breasts: [
+    { name: "Shrimp Dressing", price: "$7.99/lb" },
+    { name: "Cornbread Dressing", price: "$6.99/lb" },
+    { name: "Crawfish Dressing", price: "$8.99/lb" },
+    { name: "Boudin", price: "$6.99/lb" },
+    { name: "Spinach &amp; Cheese", price: "$6.99/lb" },
+    { name: "Jalapeno &amp; Cream Cheese Wrapped in Bacon", price: "$6.99/lb" },
+    { name: "Pepper Jack Cheese Wrapped in Bacon", price: "$6.99/lb" },
+    { name: "Pineapple &amp; Cream Cheese Wrapped in Bacon", price: "$6.99/lb" },
+]
+---
+
+<section class="py-16">
+    <div class="inner">    
+        <h1 class="text-5xl text-center text-red-700 mb-12">{{ title }}</h1>
+        <h2 class="text-4xl text-center text-red-700 mb-10">Stuffed Boneless Chicken</h2>
+        <ul class="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-6 max-w-5xl mb-16 mx-auto leading-tight">
+            {% productList chicken %}
+        </ul>
+        <h2 class="text-4xl text-center text-red-700 mb-4">Stuffed Boneless Chicken Thighs</h2>
+        <p class="text-center mb-10">All thighs wrapped in bacon</p>
+        <ul class="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-6 max-w-5xl mb-16 mx-auto leading-tight">
+            {% productList thighs %}
+        </ul>
+        <h2 class="text-4xl text-center text-red-700 mb-10">Stuffed Boneless Chicken Breast</h2>
+        <ul class="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-6 max-w-5xl mb-16 mx-auto leading-tight">
+            {% productList breasts %}
+        </ul>
+    </div>
+</section>

@@ -21,10 +21,6 @@ const $$ = {
 
     footer              : document.getElementById('footer'),
 
-    mobileNav           : document.getElementById('mobile-nav'),
-
-    mobileNavToggle     : document.getElementById('mobile-nav-toggle')
-
 }
 
 export default $$

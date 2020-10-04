@@ -1,0 +1,45 @@
+---
+layout: page
+title: Heat and Eat
+tags: product
+products: [
+    { name: "Crawfish Etouffee", price: "$15.99/ea" },
+    { name: "Shrimp &amp; Rice Etouffee", price: "$8.50/ea" },
+    { name: "Duck &amp; Andouille Gumbo", price: "$9.99/ea" },
+    { name: "Crawfish &amp; Corn Soup", price: "$15.99/ea" },
+    { name: "Shrimp &amp; Corn Soup", price: "$14.99/ea" },
+    { name: "Vegetable Soup", price: "$4.99/ea" },
+    { name: "Seafood Gumbo", price: "$13.99/ea" },
+    { name: "Chicken &amp; Sausage Gumbo", price: "$13.99/ea" },
+    { name: "Loaded Baked Potato Soup", price: "$9.99/ea" },
+    { name: "Red Beans &amp; Sausage", price: "$6.99/ea" },
+    { name: "Chili", price: "$6.99/ea" },
+    { name: "Corn Maque Choux", price: "$6.99/ea" },
+    { name: "Chicken Sauce Piquant", price: "$9.99/ea" },
+    { name: "White Beans and Smoked Sausage", price: "$4.99/ea" },
+    { name: "Pork &amp; Sausage Pastalaya", price: "$6.99/ea" },
+    { name: "Alligator Sauce Piquant", price: "$12.99/ea" },
+    { name: "Stuffed Potato", price: "$4.99/lb" },
+    { name: "Guacamole", price: "$12.00/ea" },
+    { name: "Flame Roasted Corn &amp; Peppers", price: "$4.99/ea" },
+    { name: "9\" Crabmeat Pie", price: "$17.99/ea" },
+    { name: "9\" Crawfish Pie", price: "$15.99/ea" },
+    { name: "Stuffed Potato Pan", price: "$5.99/ea" },
+    { name: "Smothered Cabbage Pan", price: "$5.99/ea" },
+    { name: "Smothered Cabbage Pan", price: "$5.99/ea" },
+    { name: "Yam Pan", price: "$5.99/ea" },
+    { name: "Cornbread Dressing Pan", price: "$5.99/ea" },
+    { name: "Green Bean Pan", price: "$5.99/ea" },
+    { name: "Creamed Spinach Pan", price: "$5.99/ea" },
+]
+---
+
+<section class="py-16">
+    <div class="inner">    
+        <h1 class="text-5xl text-center text-red-700 mb-4">{{ title }}</h1>
+        <p class="text-center mb-12">All items are packaged in a 4mil boilable bag containing 24oz of product.</p>
+        <ul class="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-6 max-w-5xl mb-16 mx-auto leading-tight">
+            {% productList products %}
+        </ul>
+    </div>
+</section>

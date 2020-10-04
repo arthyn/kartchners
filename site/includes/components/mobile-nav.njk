@@ -1,30 +1,64 @@
-<nav id="mobile-nav" class="mobile-nav fixed left-0 top-0 h-screen w-full overflow-y-auto pt-12 bg-red-800 z-50 md:hidden">
+<div x-data="mobileNavs">
+    <nav id="mobile-nav" class="mobile-nav fixed left-0 top-0 h-screen w-full overflow-y-auto pt-12 bg-red-800 z-20 md:hidden" :class="{ 'menu-visible': base.open }">
+        <ul>
+            {% for item in navigation.main %}
+                <li class="item relative opacity-0">
+                    <a href="{{ item.url | safe }}" class="link block py-2 px-5 text-white text-3xl hover:text-red-500 {% if page.url == item.url %}active text-red-500{% endif %}
+                    "{% if page.url == item.url %} aria-current="page"{% endif %} @click="mainNavClick($event, {{item.submenu or null}})">{{ item.label }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+    </nav>
 
-    <ul>
+    {% for item in navigation.main %}
+        {% if collections[item.submenu] %}
+            <nav class="mobile-nav fixed left-0 top-0 h-screen w-full overflow-y-auto pt-12 bg-red-800 z-30 md:hidden" :class="{ 'menu-visible': {{item.submenu}}.open }">
+                <ul>
+                    <li class="item relative opacity-0">
+                        <button class="link block py-2 px-5 text-white text-3xl hover:text-red-500 bg-transparent border-0" @click="{{item.submenu}}.open = false">&laquo; Back</button>
+                    </li>
+                    {% for subitem in collections[item.submenu] %}
+                        <li class="item relative opacity-0">
+                            <a href="{{ subitem.url | safe }}" class="link block py-2 px-5 text-white text-3xl hover:text-red-500 {% if page.url == subitem.url %}active text-red-500{% endif %}
+                            "{% if page.url == subitem.url %} aria-current="page"{% endif %}>{{ subitem.data.title }}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </nav>
+        {% endif %}
+    {% endfor %}
 
-        {% for item in navigation.main %}
+    <button class="mobile-nav-toggle block fixed h-16 w-full bottom-0 flex items-center justify-center font-bold border-none bg-red-800 text-white z-50 focus:outline-none md:hidden font-display uppercase tracking-wider" :class="{ 'menu-toggle-active': base.open }" aria-label="Mobile menu toggle" :aria-expanded="base.open.toString()" aria-controls="mobile-nav" @click="base.open = !base.open">
 
-        <li class="item relative opacity-0">
+        <span class="mobile-nav-label mr-2 font-medium">Menu</span>
 
-            <a href="{{ item.url | safe }}" class="link block py-2 px-5 text-white text-3xl hover:text-red-500 {% if page.url == item.url %}active text-red-500{% endif %}
-            "{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}</a>
+        <span class="mobile-nav-icon" aria-hidden="true">
+            <span class="mobile-nav-icon-line bg-white w-6 block transition-all duration-200 ease-out mb-1"></span>
+            <span class="mobile-nav-icon-line bg-white w-6 block transition-all duration-200 ease-out mb-1"></span>
+            <span class="mobile-nav-icon-line bg-white w-6 block transition-all duration-200 ease-out"></span>
+        </span>
 
-        </li>
+    </button>
 
-        {% endfor %}
+    <script>
+        const mobileNavs = {
+            base: { open: false },
+            {% for item in navigation.main %}
+                {% if collections[item.submenu] %}
+                    {{ item.submenu }}: {
+                        open: false
+                    }
+                {% endif %}
+            {% endfor %}
+        }
 
-    </ul>
-
-</nav>
-
-<button id="mobile-nav-toggle" class="mobile-nav-toggle block fixed h-16 w-full bottom-0 flex items-center justify-center font-bold border-none bg-red-800 text-white z-50 focus:outline-none md:hidden font-display uppercase tracking-wider" aria-label="Mobile menu toggle" aria-expanded="false" aria-controls="mobile-nav">
-
-   <span class="mobile-nav-label mr-2 font-medium">Menu</span>
-
-   <span class="mobile-nav-icon" aria-hidden="true">
-      <span class="mobile-nav-icon-line bg-white w-6 block transition-all duration-200 ease-out mb-1"></span>
-      <span class="mobile-nav-icon-line bg-white w-6 block transition-all duration-200 ease-out mb-1"></span>
-      <span class="mobile-nav-icon-line bg-white w-6 block transition-all duration-200 ease-out"></span>
-   </span>
-
-</button>
+        function mainNavClick(event, nav) {
+            if (nav) {
+                event.preventDefault();
+                nav.open = true;
+            } else {
+                base.open = false;
+            }            
+        }
+    </script>
+</div>

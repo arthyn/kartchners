@@ -2,7 +2,6 @@ import 'alpine-turbolinks-adapter'
 import 'alpinejs'
 const turbolinks = require('turbolinks')
 // Import local modules
-import '@modules/mobile-nav'
 import lazyload from '@modules/lazyload'
 
 turbolinks.start()
@@ -32,6 +31,8 @@ document.addEventListener("turbolinks:load", function() {
 })
 
 document.addEventListener("turbolinks:before-visit", function() {
-    observer.disconnect()
-    console.log('disconnecting')
+    if (typeof observer.disconnect === 'function') {
+      observer.disconnect()
+      console.log('disconnecting')
+    }
 })

@@ -1,0 +1,59 @@
+---
+layout: page
+title: Specialty Items
+tags: product
+---
+
+<section class="py-16">
+    <div class="inner">        
+        <h1 class="text-5xl text-center text-red-700 mb-12">{{ title }}</h1>
+        <h2 class="text-4xl text-center text-red-700 mb-10">Stuffed Bell Peppers</h2>
+        <ul class="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-6 max-w-5xl mb-16 mx-auto leading-tight">
+            {% set peppers = [
+                { name: "Boudin", price: "$5.99/lb" },
+                { name: "Shrimp Dressing", price: "$6.99/lb" },
+                { name: "Cornbread Dressing", price: "$5.99/lb" },
+                { name: "Crawfish Dressing", price: "$7.99/lb" },
+                { name: "Green Onion Sausage", price: "$5.99/lb" }
+            ] %}
+            {% productList peppers %}
+        </ul>
+        <h2 class="text-4xl text-center text-red-700 mb-10">Other Items</h2>
+        <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-16 gap-y-6 max-w-5xl mb-16 mx-auto leading-tight">
+            {% set others = [
+                "Stuffed Mini Pork Roast with Seasoning Blend",
+                "Stuffed Mini Pork Roast with Boudin",
+                "Marinated Chicken",
+                "Marinated Beef",
+                "Marinated Pork",
+                "Marinated Boneless Rabbit",
+                "Mushroom Stuffed with Green Onion Sausage",
+                "Mushroom Stuffed with Shrimp & Crab Meat Au Gratin",
+                "Jalapeno Stuffed with Boudin",
+                "Boneless Pork Loin Stuffed with Jalapeno & Cream Cheese",
+                "Boneless Pork Loin Stuffed with Andouille & Seasoning Blend",
+                "Fresh Pounce Stuffed with Green Onion Sausage",
+                "Smoked Pounce Stuffed with Green Onion Sausage",
+                "Seasoned Hamburger Patty",
+                "Seasoned Jalapeno Patty",
+                "Seasoned Chicken Patty",
+                "Stuffed \"Pooyie\" Patty",
+                "Seasoned Meatball",
+                "Cornish Hen Stuffed with Boudin",
+                "Cornish Hen Stuffed with Cornbread Dressing",
+                "Fresh Beef Bouie",
+                "Rice Dressing Mix",
+                "Seasoned Leg Quarters",
+                "Seasoned Chicken Wings",
+                "Boston Butt Pork Roast",
+                "Stuffed with Seasoning Blend",
+                "Meat Pies",
+                "Crawfish Pies",
+                "Beef Tongue Stuffed with Seasoning Blend"
+            ] %}
+            {% for item in others %}
+                <li>{{ item }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>

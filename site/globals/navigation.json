@@ -11,6 +11,12 @@
             "main": true
         },
         {
+            "label": "Products",
+            "url": "/products",
+            "main": true,
+            "submenu": "product"
+        },
+        {
             "label": "Hours",
             "url": "/#hours",
             "main": true
