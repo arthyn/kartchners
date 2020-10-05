@@ -5,12 +5,22 @@ title: Products
 
 <section class="py-16">
     <div class="inner">
-        <div class="flex flex-col md:flex-row -mx-4 xl:-mx-8 mb-12">
-            <div class="flex-1 px-4 md:px-8 mb-8">
+        <div class="flex flex-col md:flex-row -mx-4 xl:-mx-8">
+            <div class="flex-1 px-4 md:px-8">
                 <h1 class="text-5xl text-red-700">Products</h1>
-                <p>Just like our location in Krotz Springs, we offer you the best boudin, sausage, and specialty meats. Everything is made in house, ready for you to pick up and cook with. Browse our categories below to see what'll complement your next meal. 
+                <p class="mb-10">Just like our location in Krotz Springs, we offer you the best boudin, sausage, and specialty meats. Everything is made in house, ready for you to pick up and cook with. Browse our categories below to see what'll complement your next meal.</p>
+                <hr class="mb-10"/>
+                <ul class="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-6 max-w-5xl mb-16 mx-auto leading-tight">
+                    {% for product in collections.product %}
+                        <li>
+                            <a href="{{ product.url }}">
+                                <h2 class="text-2xl text-gray-900 hover:text-red-700 transition-colors duration-200 mb-0">{{ product.data.title }}</h2>
+                            </a>
+                        </li>
+                    {% endfor %}
+                </ul>
             </div>
-            <div class="flex-1 px-4 xl:px-8">
+            <div class="flex-1 order-first md:order-last px-4 xl:px-8 mb-8">
                 <img
                     srcset="{{ "v1601937878/kartchners/tenderloin" | sizes("https://res.cloudinary.com/hmillerdev/image/upload/ar_1.3,c_crop/f_auto,q_80")}}" 
                     src="https://res.cloudinary.com/hmillerdev/image/upload/ar_1.3,c_crop/f_auto,q_80/v1601937878/kartchners/tenderloin"
@@ -18,15 +28,6 @@ title: Products
                 />
             </div>
         </div>
-        <hr class="mb-12"/>
-        <ul class="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-6 max-w-5xl mb-16 mx-auto leading-tight">
-            {% for product in collections.product %}
-                <li>
-                    <a href="{{ product.url }}">
-                        <h2 class="text-3xl text-gray-900 hover:text-red-700 transition-colors duration-200">{{ product.data.title }}</h2>
-                    </a>
-                </li>
-            {% endfor %}
-        </ul>
+
     </div>
 </div>
