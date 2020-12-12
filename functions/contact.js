@@ -1,5 +1,5 @@
-if (process.env.NODE_ENV !== 'production') {
-	require('dotenv').load();
+if (process.env.CONTEXT !== 'production') {
+	require('dotenv').config();
 }
 
 const mailjet = require('node-mailjet').connect(process.env.MAILJET_API, process.env.MAILJET_SECRET);
