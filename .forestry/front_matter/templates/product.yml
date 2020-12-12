@@ -30,6 +30,23 @@ fields:
     max: 
     step: 
     required: true
+- name: categories
+  type: tag_list
+  default: []
+  label: Categories
+  description: Product won't appear without a category assigned
+- name: primary_category
+  type: select
+  default: ''
+  config:
+    required: true
+    options: []
+    source:
+      type: simple
+      section: ''
+      file: 
+      path: 
+  label: Primary Category
 - name: image
   type: file
   config:
