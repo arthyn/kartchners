@@ -1,4 +1,78 @@
 ---
 label: Product
 hide_body: true
-fields: []
+fields:
+- name: name
+  type: text
+  config:
+    required: true
+    max: 140
+  label: Name
+- name: sku
+  type: number
+  label: SKU
+  description: Must be unique
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+    required: true
+- name: price
+  type: number
+  label: Price
+  description: ''
+  default: 5.99
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+    required: true
+- name: image
+  type: file
+  config:
+    maxSize: 5
+  label: Image
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: false
+    schema:
+      format: markdown
+    max: 800
+  label: Description
+- name: weight
+  type: text
+  config:
+    required: false
+  label: Weight
+  default: 1 lb
+- name: product_options
+  type: field_group_list
+  fields:
+  - name: option_name
+    type: text
+    config:
+      required: true
+    label: Option Name
+  - name: option_price
+    type: number
+    label: Option Price
+    description: ''
+    default: 0
+    required: true
+    config:
+      min: 
+      max: 
+      step: 
+      required: false
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Product Options
+  description: If using options, include option for default or base product as well.
