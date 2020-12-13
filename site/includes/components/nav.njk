@@ -11,7 +11,7 @@
                 "{% if page.url == item.url %} aria-current="page"{% endif %} @mouseEnter="open = true">{{ item.label }}</a>
 
                 {% if collections[item.submenu] %}
-                    <ul class="absolute top-0 right-0 w-64 py-2 mt-10 text-xl bg-white rounded shadow-lg" x-show.transition="open">
+                    <ul class="absolute top-0 right-0 w-64 py-2 mt-10 text-xl bg-white rounded shadow-lg" x-show.transition="open" style="display: none">
                         {% for subitem in collections[item.submenu] %}
                             <li>
                                 <a class="block px-4 py-2 text-lg text-gray-900 hover:text-red-700" href="{{ subitem.url }}">{{ subitem.data.title }}</a>

@@ -6,11 +6,10 @@ layout: page
     <div class="inner">
         <div class="flex flex-col md:flex-row -mx-4 xl:-mx-8">
             <div class="flex-1 px-4 xl:px-8 mb-8">
-                {{ image }}
                 <img
-                    srcset="{{ "v1601937878/kartchners/tenderloin" | sizes("https://res.cloudinary.com/hmillerdev/image/upload/ar_1.3,c_crop/f_auto,q_80")}}" 
-                    src="https://res.cloudinary.com/hmillerdev/image/upload/ar_1.3,c_crop/f_auto,q_80/v1601937878/kartchners/tenderloin"
-                    alt="Well seasoned stuffed pork tenderloin on ice"
+                    srcset="{{ image | sizes("https://res.cloudinary.com/hmillerdev/image/upload/ar_1.3,c_crop/f_auto,q_80")}}" 
+                    src="https://res.cloudinary.com/hmillerdev/image/upload/ar_1.3,c_crop/f_auto,q_80{{ image }}"
+                    alt=""
                 />
             </div>
             <div class="flex-1 px-4 md:px-8">

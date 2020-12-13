@@ -10,8 +10,11 @@
         <span class="snipcart-total-price"></span>
     </a>
 
-    <div class="absolute top-0 right-0 flex items-center p-4 mt-10 text-xl bg-white rounded shadow-lg" x-show.transition="open">
-        <img class="flex-none w-20 h-20 object-cover mr-4" :src="item.image" />
+    <div class="absolute top-0 right-0 flex flex-wrap items-center w-64 p-4 mt-10 text-xl bg-white rounded shadow-lg" x-show.transition="open" style="display: none">
+        <img 
+            class="flex-none w-20 h-20 object-cover mr-4" 
+            :src="item.image && 'https://res.cloudinary.com/hmillerdev/image/upload/ar_1,c_crop/f_auto,q_80,w_80' + item.image" 
+        />
         <div class="flex-auto leading-none">
             <div class="text-red-700 font-bold mb-2" x-text="item.name"></div>
             <div class="">
@@ -20,5 +23,6 @@
                 <strong x-text="'$' + item.price"></strong>
             </div>
         </div>
+        <button class="flex-none w-full py-1 px-2 mt-3 text-sm text-center leading-none font-semibold bg-red-700 hover:bg-red-600 text-white rounded transition-colors duration-200">View Cart</button>
     </div>
 </li>
