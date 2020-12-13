@@ -6,6 +6,11 @@
             "main": false
         },
         {
+            "label": "Shop Now",
+            "url": "/products",
+            "main": false
+        },
+        {
             "label": "Menu",
             "url": "/#menu",
             "main": true
@@ -17,19 +22,14 @@
             "submenu": "product"
         },
         {
-            "label": "Hours",
-            "url": "/#hours",
+            "label": "Visit Us",
+            "url": "/#visit-us",
             "main": true
         },
         {
             "label": "Contact",
             "url": "/contact",
             "main": true
-        },
-        {
-            "label": "Get Directions",
-            "url": "/#directions",
-            "main": false
         }
     ]
 }

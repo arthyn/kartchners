@@ -1,0 +1,53 @@
+---
+layout: page
+---
+
+<section class="py-16">
+    <div class="inner">
+        <div class="flex flex-col md:flex-row -mx-4 xl:-mx-8">
+            <div class="flex-1 px-4 xl:px-8 mb-8">
+                {{ image }}
+                <img
+                    srcset="{{ "v1601937878/kartchners/tenderloin" | sizes("https://res.cloudinary.com/hmillerdev/image/upload/ar_1.3,c_crop/f_auto,q_80")}}" 
+                    src="https://res.cloudinary.com/hmillerdev/image/upload/ar_1.3,c_crop/f_auto,q_80/v1601937878/kartchners/tenderloin"
+                    alt="Well seasoned stuffed pork tenderloin on ice"
+                />
+            </div>
+            <div class="flex-1 px-4 md:px-8">
+                <h1 class="text-4xl leading-none text-red-700 mb-4">{{ name }}</h1>
+                <span class="block text-2xl font-semibold leading-none mb-6">${{ price }}</span>
+                <p class="mb-6 text-gray-700">{{ description }}</p>
+                <div class="flex items-center mb-10">
+                    <div class="inline-flex mr-6 text-gray-500 rounded border border-gray-400 divide-x divide-gray-400" x-data="{ quantity: 1 }">
+                        <button class="h-8 w-8 hover:text-gray-700 transition-colors duration-200" @click="quantity--" :disabled="quantity <= 1">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-8 w-8"><path fill="currentColor" fill-rule="evenodd" d="M17 11a1 1 0 0 1 0 2H7a1 1 0 0 1 0-2h10z"/></svg>
+                            <span class="sr-only">Decrease quantity</span>
+                        </button>
+                        <input type="number" class="h-8 w-8 text-center text-gray-700 appearance-none" name="quantity" min="1" value="1" :value="quantity"/>
+                        <button class="h-8 w-8 hover:text-gray-700 transition-colors duration-200" @click="quantity++">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-8 w-8"><path fill="currentColor" fill-rule="evenodd" d="M17 11a1 1 0 0 1 0 2h-4v4a1 1 0 0 1-2 0v-4H7a1 1 0 0 1 0-2h4V7a1 1 0 0 1 2 0v4h4z"/></svg>
+                            <span class="sr-only">Increase quantity</span>
+                        </button>
+                    </div>
+                    <button 
+                        class="snipcart-add-item p-3 leading-none font-semibold bg-red-700 hover:bg-red-600 text-white rounded transition-colors duration-200"
+                        data-item-id="{{ sku }}"
+                        data-item-price="{{ price }}"
+                        data-item-url="{{ permalink or page.url }}"
+                        data-item-name="{{ name }}"
+                        data-item-description="{{ description }}"
+                        data-item-image="{{ image }}"
+                        data-item-weight="{{ weight }}"
+                        :data-item-quantity="quantity"
+                    >
+                        Add to Cart
+                    </button>
+                </div>
+                <hr class="mb-10"/>
+            </div>
+        </div>
+
+        {{ content | safe }}
+
+    </div>
+</div>

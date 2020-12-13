@@ -1,13 +1,14 @@
 ---
+layout: product
 sku: 1
 price: 5.99
 categories:
 - Boudin
-weight: 1 lb
+weight: 1
 name: Pork Boudin
 primary_category: ''
 image: ''
-description: This boudin is great
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dictum nec massa ac lacinia. Sed imperdiet elit sed efficitur facilisis. Nam posuere turpis in est tempus ultricies.
 product_options: []
 
 ---

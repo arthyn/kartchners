@@ -3,6 +3,9 @@ import 'alpinejs'
 const turbolinks = require('turbolinks')
 // Import local modules
 import lazyload from '@modules/lazyload'
+import { cartPopup } from '@modules/cart'
+
+window.cartPopup = cartPopup;
 
 turbolinks.start()
 

@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if meta_title %}{{ meta_title }}{% else %}{{ title }}{% endif %} | {{ site.name }}</title>
+    <title>{{ meta_title or title or name }} | {{ site.name }}</title>
     <meta name="description" content="{% if meta_description %}{{ meta_description }}{% else %}{{ excerpt }}{% endif %}">
     {% if page.fileSlug === 'blog' %}
         <meta name="robots" content="noindex,follow" />
@@ -20,6 +20,12 @@
         {# else, use the minified css file for production #}
         <link rel="stylesheet" href="/css/main.min.css">
     {% endif %}
+
+    {# snipcart #}
+    <link rel="preconnect" href="https://app.snipcart.com">
+    <link rel="preconnect" href="https://cdn.snipcart.com"> 
+    <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.css" />
+    <script defer src="https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.js"></script>
 
     {# include scripts #}
     {% if helpers.environment === "development" %}
@@ -63,6 +69,13 @@
 
     {# include mobile nav #}
     {% include "components/mobile-nav.njk" %}
+
+    <div 
+        hidden 
+        id="snipcart" data-api-key="Y2IyNjk3ODYtYzlkNy00OGI1LWI4ZDUtM2Y2ZjA4MjQwNGJhNjM3NDMzMzAxNjMzNzYwODI5"
+        data-config-add-product-behavior="none"
+        data-config-modal-style="side"
+    ></div>
 
 </body>
 </html>
