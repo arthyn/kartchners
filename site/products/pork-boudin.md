@@ -6,7 +6,7 @@ categories:
 weight: 1 lb
 name: Pork Boudin
 primary_category: ''
-image: ''
+image: "/v1601937878/kartchners/tenderloin.jpg"
 description: This boudin is great
 product_options: []
 
