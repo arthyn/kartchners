@@ -11,6 +11,11 @@ title: Products
                 <p class="mb-10">Just like our location in Krotz Springs, we offer you the best boudin, sausage, and specialty meats. Everything is made in house, ready for you to pick up and cook with. Browse our categories below to see what'll complement your next meal.</p>
                 <hr class="mb-10"/>
                 <ul class="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-6 max-w-5xl mb-16 mx-auto leading-tight">
+                    <li>
+                        <a href="/products/pork-boudin">
+                            <h2 class="text-2xl text-gray-900 hover:text-red-700 transition-colors duration-200 mb-0">Pork Boudin</h2>
+                        </a>
+                    </li>
                     {% for product in collections.product %}
                         <li>
                             <a href="{{ product.url }}">
