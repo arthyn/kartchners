@@ -27,17 +27,19 @@
         {% endif %}
     {% endfor %}
 
-    <button class="mobile-nav-toggle block fixed h-16 w-full bottom-0 flex items-center justify-center font-bold border-none bg-red-800 text-white z-50 focus:outline-none md:hidden font-display uppercase tracking-wider" :class="{ 'menu-toggle-active': base.open }" aria-label="Mobile menu toggle" :aria-expanded="base.open.toString()" aria-controls="mobile-nav" @click="base.open = !base.open">
-
-        <span class="mobile-nav-label mr-2 font-medium">Menu</span>
-
-        <span class="mobile-nav-icon" aria-hidden="true">
-            <span class="mobile-nav-icon-line bg-white w-6 block transition-all duration-200 ease-out mb-1"></span>
-            <span class="mobile-nav-icon-line bg-white w-6 block transition-all duration-200 ease-out mb-1"></span>
-            <span class="mobile-nav-icon-line bg-white w-6 block transition-all duration-200 ease-out"></span>
-        </span>
-
-    </button>
+    <div class="fixed bottom-0 z-50 flex items-center md:hidden h-16 w-full bg-red-800">
+        <div class="flex-1 flex items-center justify-center">
+            {% include 'components/cart.njk' %}
+        </div>
+        <button class="mobile-nav-toggle flex-1 flex items-center justify-center w-full font-bold border-none text-white focus:outline-none font-display uppercase tracking-wider" :class="{ 'menu-toggle-active': base.open }" aria-label="Mobile menu toggle" :aria-expanded="base.open.toString()" aria-controls="mobile-nav" @click="base.open = !base.open">
+            <span class="mobile-nav-label mr-2 font-medium">Menu</span>
+            <span class="mobile-nav-icon" aria-hidden="true">
+                <span class="mobile-nav-icon-line bg-white w-6 block transition-all duration-200 ease-out mb-1"></span>
+                <span class="mobile-nav-icon-line bg-white w-6 block transition-all duration-200 ease-out mb-1"></span>
+                <span class="mobile-nav-icon-line bg-white w-6 block transition-all duration-200 ease-out"></span>
+            </span>
+        </button>
+    </div>
 </div>
 
 <script data-turbolinks-eval="false">

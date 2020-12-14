@@ -3,8 +3,8 @@
   "version": "2.0.0",
   "description": "Skeleventy - A skeleton boilerplate built with Eleventy",
   "scripts": {
-    "dev": "ELEVENTY_ENV=development npx @11ty/eleventy --config=eleventy.config.js --serve & node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "production": "NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js && npx @11ty/eleventy --config=eleventy.config.js"
+    "dev": "ELEVENTY_ENV=development npx @11ty/eleventy --config=eleventy.config.js --serve & mix watch",
+    "production": "mix --production && npx @11ty/eleventy --config=eleventy.config.js"
   },
   "repository": {
     "type": "git",
@@ -15,20 +15,22 @@
   "devDependencies": {
     "@11ty/eleventy": "^0.10.0",
     "html-minifier": "^4.0.0",
-    "laravel-mix": "^5.0.1",
+    "laravel-mix": "^6.0.0-beta.14",
     "laravel-mix-purgecss": "^4.2.0",
     "resolve-url-loader": "^3.1.0",
     "sass": "^1.22.12",
     "sass-loader": "^8.0.0",
-    "tailwindcss": "^1.2.0",
+    "tailwindcss": "^2.0.2",
     "vue-template-compiler": "^2.6.10"
   },
   "dependencies": {
     "alpine-turbolinks-adapter": "^0.3.0",
     "alpinejs": "^2.7.0",
+    "autoprefixer": "^10.1.0",
     "dotenv": "^8.2.0",
     "lodash.escape": "^4.0.1",
     "node-mailjet": "^3.3.1",
+    "postcss": "^8.2.1",
     "turbolinks": "^5.2.0"
   }
 }
