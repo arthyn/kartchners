@@ -2,7 +2,7 @@
 layout: product
 sku: 1
 price: 5.99
-categories:
+tags:
 - Boudin
 weight: 1
 name: Pork Boudin
