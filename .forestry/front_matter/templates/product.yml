@@ -33,8 +33,9 @@ fields:
 - name: tags
   type: tag_list
   default: []
-  label: Categories
-  description: Product won't appear without a category assigned
+  label: Extra Categories
+  description: Product will appear in these categories in addition to whatever folder
+    it's under, which will be it's primary category.
 - name: image
   type: file
   config:
