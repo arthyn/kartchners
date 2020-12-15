@@ -2,7 +2,29 @@
 label: Product Category
 hide_body: true
 fields:
-- name: categories
+- name: tags
   type: tag_list
   default: []
-  label: Categories
+  label: Tags
+  hidden: true
+- name: name
+  type: text
+  config:
+    required: false
+  label: Name
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: Image
+  description: Shows up on the products page
+- name: short_description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Short Description
+  description: Shows up on the products page where the categories are listed
