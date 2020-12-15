@@ -30,23 +30,12 @@ fields:
     max: 
     step: 
     required: true
-- name: categories
+- name: tags
   type: tag_list
   default: []
-  label: Categories
-  description: Product won't appear without a category assigned
-- name: primary_category
-  type: select
-  default: ''
-  config:
-    required: false
-    options: []
-    source:
-      type: simple
-      section: ''
-      file: 
-      path: 
-  label: Primary Category
+  label: Extra Categories
+  description: Product will appear in these categories in addition to whatever folder
+    it's under, which will be it's primary category.
 - name: image
   type: file
   config:
