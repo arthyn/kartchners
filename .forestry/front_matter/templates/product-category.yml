@@ -4,7 +4,8 @@ hide_body: false
 fields:
 - name: tags
   type: tag_list
-  default: ["product-category"]
+  default:
+  - product-category
   label: Tags
   hidden: true
 - name: name
@@ -30,3 +31,4 @@ fields:
   description: Shows up on the products page where the categories are listed
 pages:
 - site/products/boudin/index.md
+- site/products/sausage-and-smoked-meats/index.md

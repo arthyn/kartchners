@@ -82,5 +82,3 @@ fields:
     labelField: 
   label: Product Options
   description: If using options, include option for default or base product as well.
-pages:
-- site/products/pork-boudin.md
