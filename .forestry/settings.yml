@@ -10,7 +10,6 @@ sections:
   create: all
   match: "**/*"
   templates:
-  - product-category
   - product
 upload_dir: ''
 public_path: ''
