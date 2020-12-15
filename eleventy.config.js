@@ -9,6 +9,7 @@ module.exports = eleventyConfig => {
     eleventyConfig.addFilter("htmlDateDisplay", require("./filters/timestamp.js"))
 
     eleventyConfig.addFilter("sizes", require("./filters/cloudinary-sizes.js"))
+    eleventyConfig.addFilter("keys", require("./filters/keys.js"))
 
     eleventyConfig.addShortcode("productList", (products) => {
         return products.reduce((html, product) => {
