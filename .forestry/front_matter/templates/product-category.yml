@@ -1,6 +1,6 @@
 ---
 label: Product Category
-hide_body: true
+hide_body: false
 fields:
 - name: tags
   type: tag_list
