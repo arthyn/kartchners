@@ -8,15 +8,21 @@ fields:
   - product-category
   label: Tags
   hidden: true
+- name: layout
+  type: text
+  default: product-grid
+  label: Layout
+  hidden: true
 - name: name
   type: text
   config:
-    required: false
+    required: true
   label: Name
 - name: image
   type: file
   config:
     maxSize: 64
+    required: true
   label: Image
   description: Shows up on the products page
 - name: short_description

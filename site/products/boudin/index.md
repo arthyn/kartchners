@@ -1,4 +1,5 @@
 ---
+layout: product-grid
 tags: ["product-category"]
 name: Boudin
 image: "/v1601937878/kartchners/tenderloin.jpg"

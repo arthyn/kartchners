@@ -1,4 +1,5 @@
 ---
+layout: product-grid
 tags:
 - product-category
 name: Sausage and Smoked Meats
