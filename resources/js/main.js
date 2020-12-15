@@ -39,3 +39,8 @@ document.addEventListener("turbolinks:before-visit", function() {
       console.log('disconnecting')
     }
 })
+
+Snipcart.events.on('snipcart.initialized', function () {
+  const snipcart = document.getElementById('snipcart');
+  snipcart.setAttribute('data-turbolinks-permanent', '');
+})

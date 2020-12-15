@@ -28,7 +28,7 @@
     {% endfor %}
 
     <div class="fixed bottom-0 z-50 flex items-center md:hidden h-16 w-full bg-red-800">
-        <div class="flex-1 flex items-center justify-center">
+        <div id="mobile-cart" class="flex-1 flex items-center justify-center" data-turbolinks-permanent>
             {% include 'components/cart.njk' %}
         </div>
         <button class="mobile-nav-toggle flex-1 flex items-center justify-center w-full font-bold border-none text-white focus:outline-none font-display uppercase tracking-wider" :class="{ 'menu-toggle-active': base.open }" aria-label="Mobile menu toggle" :aria-expanded="base.open.toString()" aria-controls="mobile-nav" @click="base.open = !base.open">

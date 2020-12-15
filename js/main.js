@@ -2081,6 +2081,10 @@ document.addEventListener("turbolinks:before-visit", function () {
     console.log('disconnecting');
   }
 });
+Snipcart.events.on('snipcart.initialized', function () {
+  var snipcart = document.getElementById('snipcart');
+  snipcart.setAttribute('data-turbolinks-permanent', '');
+});
 
 /***/ }),
 
