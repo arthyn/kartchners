@@ -30,7 +30,7 @@ fields:
     max: 
     step: 
     required: true
-- name: categories
+- name: tags
   type: tag_list
   default: []
   label: Categories
