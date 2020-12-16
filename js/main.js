@@ -2051,6 +2051,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var alpinejs__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(alpinejs__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _modules_lazyload__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @modules/lazyload */ "./resources/js/modules/lazyload/index.js");
 /* harmony import */ var _modules_cart__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @modules/cart */ "./resources/js/modules/cart.js");
+/* harmony import */ var _utilities_helpers__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @utilities/helpers */ "./resources/js/utilities/helpers/index.js");
 
 
 
@@ -2059,7 +2060,9 @@ var turbolinks = __webpack_require__(/*! turbolinks */ "./node_modules/turbolink
 
 
 
+
 window.cartPopup = _modules_cart__WEBPACK_IMPORTED_MODULE_3__.cartPopup;
+window.kUtils = _utilities_helpers__WEBPACK_IMPORTED_MODULE_4__;
 turbolinks.start();
 var observer;
 document.addEventListener('turbolinks:click', function (event) {
@@ -2193,7 +2196,8 @@ function Lazyload(lazyObserver) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "page": () => /* binding */ page,
-/* harmony export */   "exists": () => /* binding */ exists
+/* harmony export */   "exists": () => /* binding */ exists,
+/* harmony export */   "extractCloudinaryParts": () => /* binding */ extractCloudinaryParts
 /* harmony export */ });
 /* harmony import */ var _utilities_selectors__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @utilities/selectors */ "./resources/js/utilities/selectors/index.js");
 
@@ -2221,6 +2225,17 @@ var page = function page(name) {
 
 var exists = function exists(el, limit) {
   return el.length > 0;
+};
+
+var extractCloudinaryParts = function extractCloudinaryParts(url) {
+  var pattern = /^(.*\/image\/upload\/)(.*\/)(v\d+.*)$/;
+  var matches = pattern.exec(url);
+  if (!matches) return null;
+  return {
+    prefix: matches[1],
+    formatting: matches[2],
+    path: matches[3]
+  };
 };
 
 

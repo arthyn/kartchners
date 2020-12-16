@@ -12,7 +12,7 @@
     <div class="absolute left-4 bottom-20 md:left-auto md:bottom-auto md:top-10 md:right-0 flex flex-wrap items-center w-96 p-4 text-xl bg-white rounded shadow-lg" x-show.transition="open" style="display: none">
         <img 
             class="flex-none w-20 h-20 object-cover mr-4" 
-            :src="item.image && 'https://res.cloudinary.com/hmillerdev/image/upload/ar_1,c_crop/f_auto,q_80,w_80' + item.image" 
+            :src="item.image && 'https://res.cloudinary.com/hmillerdev/image/upload/ar_1,c_crop/f_auto,q_80,w_80/' + kUtils.extractCloudinaryParts(item.image).path" 
         />
         <div class="flex-auto leading-none">
             <div class="text-red-700 font-bold mb-2" x-text="item.name"></div>
@@ -20,7 +20,7 @@
                 <strong x-text="'Added ' + item.quantity"></strong>
                 at
                 <strong x-text="'$' + item.price"></strong>
-                <button class="block w-full py-1 px-2 mt-3 text-base text-center leading-none font-semibold bg-red-700 hover:bg-red-600 text-white rounded transition-colors duration-200">View Cart</button>
+                <button class="snipcart-checkout block w-full py-1 px-2 mt-3 text-base text-center leading-none font-semibold bg-red-700 hover:bg-red-600 text-white rounded transition-colors duration-200">View Cart</button>
             </div>
         </div>
     </div>
