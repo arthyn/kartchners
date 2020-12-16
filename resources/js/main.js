@@ -11,7 +11,7 @@ window.kUtils = helpers;
 turbolinks.start()
 
 let observer;
-
+ 
 document.addEventListener('turbolinks:click', function (event) {
     var anchorElement = event.target
     var isSamePageAnchor = (
