@@ -1,4 +1,8 @@
 const htmlmin = require("html-minifier")
+const utils = require('./utilities')
+const klawSync = require('klaw-sync')
+const multimatch = require('multimatch')
+const casing = require('change-case')
 
 module.exports = eleventyConfig => {
 
@@ -10,6 +14,10 @@ module.exports = eleventyConfig => {
 
     eleventyConfig.addFilter("sizes", require("./filters/cloudinary-sizes.js"))
     eleventyConfig.addFilter("keys", require("./filters/keys.js"))
+
+    Object.keys(casing).forEach(key => {
+        eleventyConfig.addFilter(key, casing[key])
+    })
 
     eleventyConfig.addShortcode("productList", (products) => {
         return products.reduce((html, product) => {
@@ -51,6 +59,31 @@ module.exports = eleventyConfig => {
 
         return blogs.reverse()
 
+    })
+ 
+    const paths = klawSync('./site')
+                    .filter(item => !item.stats.isDirectory())
+                    .map(item => item.path.replace(process.cwd() + '/site/', ''))
+    const products = multimatch(paths, ['products/**/*', '!products/**/{index,*11tydata}.*'])
+    const categories = new Set()
+
+    for (const product of products) {
+        let dir = utils.getDir(product);
+        categories.add(dir);
+    }
+
+    for (const category of categories) {
+        eleventyConfig.addCollection(category, collection => {
+            const prefix = `site/products/${category}/`
+            const items = collection.getFilteredByGlob([`${prefix}*.md`, `!${prefix}index.md`])
+                            .filter(item => !item.inputPath.includes('index.md'));
+            return items
+        });
+    }
+
+    eleventyConfig.addCollection("products", async collection => {
+        return collection.getFilteredByGlob('./site/products/**/*.md')
+                    .filter(item => !item.inputPath.includes('index.md'))
     })
 
     // Layout aliases

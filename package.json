@@ -3,8 +3,9 @@
   "version": "2.0.0",
   "description": "Skeleventy - A skeleton boilerplate built with Eleventy",
   "scripts": {
-    "dev": "ELEVENTY_ENV=development npx @11ty/eleventy --config=eleventy.config.js --serve & mix watch",
-    "production": "mix --production && npx @11ty/eleventy --config=eleventy.config.js"
+    "debug": "DEBUG=Eleventy* ELEVENTY_ENV=development npx @11ty/eleventy --serve & mix watch",
+    "dev": "ELEVENTY_ENV=development npx @11ty/eleventy --serve & mix watch",
+    "production": "mix --production && npx @11ty/eleventy"
   },
   "repository": {
     "type": "git",
@@ -13,7 +14,7 @@
   "author": "Joseph Dyer",
   "license": "MIT",
   "devDependencies": {
-    "@11ty/eleventy": "^0.10.0",
+    "@11ty/eleventy": "^0.11.1",
     "html-minifier": "^4.0.0",
     "laravel-mix": "^6.0.0-beta.14",
     "laravel-mix-purgecss": "^4.2.0",
@@ -27,8 +28,11 @@
     "alpine-turbolinks-adapter": "^0.3.0",
     "alpinejs": "^2.7.0",
     "autoprefixer": "^10.1.0",
+    "change-case": "^4.1.2",
     "dotenv": "^8.2.0",
+    "klaw-sync": "^6.0.0",
     "lodash.escape": "^4.0.1",
+    "multimatch": "^5.0.0",
     "node-mailjet": "^3.3.1",
     "postcss": "^8.2.1",
     "turbolinks": "^5.2.0"

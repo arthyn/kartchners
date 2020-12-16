@@ -19,7 +19,7 @@
             "label": "Products",
             "url": "/products",
             "main": true,
-            "submenu": "product"
+            "submenu": "product-category"
         },
         {
             "label": "Visit Us",

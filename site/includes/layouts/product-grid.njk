@@ -17,12 +17,12 @@ layout: page
                 <h1 class="text-5xl text-red-700">{{ title or name }}</h1>
                 {{ content | safe }}
             </div>
-            <hr class="col-span-3 mb-10"/>
+            <hr class="col-span-3 my-10"/>
         </div>
-        <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-16 gap-y-6 mb-16 leading-tight">
+        <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-10 xl:gap-x-16 gap-y-6 mb-16 leading-tight">
             {% for item in collections[category] %}
                 <li class="group">
-                    <a href="{{ item.url }}">
+                    <a href="{{ item.url }}" class="no-underline">
                         <img 
                             class="mb-2"
                             srcset="{{ item.data.image | sizes("https://res.cloudinary.com/hmillerdev/image/upload/ar_1.5,c_crop/f_auto,q_80")}}" 
@@ -30,6 +30,9 @@ layout: page
                             alt=""
                         />
                         <h2 class="text-2xl text-gray-800 group-hover:text-red-700 transition-colors duration-200 mb-0">{{ item.data.name }}</h2>
+                        {% if item.data.price %}
+                        <strong class="text-red-700">${{ item.data.price }}</strong>
+                        {% endif %}
                     </a>
                 </li>
             {% endfor %}
