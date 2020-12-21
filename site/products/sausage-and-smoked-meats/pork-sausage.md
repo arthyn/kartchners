@@ -1,6 +1,6 @@
 ---
 layout: product
-sku: 1
+sku: 2
 price: 5.99
 tags:
 weight: 1
