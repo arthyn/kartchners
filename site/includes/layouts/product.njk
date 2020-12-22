@@ -32,7 +32,7 @@ layout: page
                         class="snipcart-add-item p-3 leading-none font-semibold bg-red-700 hover:bg-red-600 text-white rounded transition-colors duration-200"
                         data-item-id="{{ sku }}"
                         data-item-price="{{ price }}"
-                        data-item-url="{{ permalink or page.url }}"
+                        data-item-url="{{ process.env.DEPLOY_PRIME_URL }}{{ permalink or page.url }}"
                         data-item-name="{{ name }}"
                         data-item-description="{{ description }}"
                         data-item-image="https://res.cloudinary.com/hmillerdev/image/upload/ar_1.3,c_crop/f_auto,q_80{{ image }}"
