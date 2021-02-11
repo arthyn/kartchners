@@ -30,6 +30,12 @@ fields:
     max: 
     step: 
     required: true
+- name: tags
+  type: tag_list
+  default: []
+  label: Extra Categories
+  description: Product will appear in these categories in addition to whatever folder
+    it's under, which will be it's primary category.
 - name: image
   type: file
   config:
@@ -76,3 +82,10 @@ fields:
     labelField: 
   label: Product Options
   description: If using options, include option for default or base product as well.
+- name: layout
+  type: text
+  config:
+    required: false
+  label: Layout
+  hidden: true
+  default: product

@@ -1,0 +1,40 @@
+---
+label: Product Category
+hide_body: false
+fields:
+- name: tags
+  type: tag_list
+  default:
+  - product-category
+  label: Tags
+  hidden: true
+- name: layout
+  type: text
+  default: product-grid
+  label: Layout
+  hidden: true
+- name: name
+  type: text
+  config:
+    required: true
+  label: Name
+- name: image
+  type: file
+  config:
+    maxSize: 64
+    required: true
+  label: Image
+  description: Shows up on the products page
+- name: short_description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Short Description
+  description: Shows up on the products page where the categories are listed
+pages:
+- site/products/boudin/index.md
+- site/products/sausage-and-smoked-meats/index.md

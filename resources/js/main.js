@@ -3,7 +3,11 @@ import 'alpinejs'
 const turbolinks = require('turbolinks')
 // Import local modules
 import lazyload from '@modules/lazyload'
+import { cartPopup } from '@modules/cart'
+import * as helpers from '@utilities/helpers'
 
+window.cartPopup = cartPopup;
+window.kUtils = helpers;
 turbolinks.start()
 
 let observer;
@@ -35,4 +39,9 @@ document.addEventListener("turbolinks:before-visit", function() {
       observer.disconnect()
       console.log('disconnecting')
     }
+})
+
+Snipcart.events.on('snipcart.initialized', function () {
+  const snipcart = document.getElementById('snipcart');
+  snipcart.setAttribute('data-turbolinks-permanent', '');
 })

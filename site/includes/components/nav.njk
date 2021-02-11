@@ -11,10 +11,10 @@
                 "{% if page.url == item.url %} aria-current="page"{% endif %} @mouseEnter="open = true">{{ item.label }}</a>
 
                 {% if collections[item.submenu] %}
-                    <ul class="absolute top-0 right-0 w-64 py-2 mt-10 text-xl bg-white rounded shadow-lg" x-show.transition="open">
+                    <ul class="absolute top-0 right-0 w-64 py-2 mt-10 text-xl bg-white rounded shadow-lg" x-show.transition="open" style="display: none">
                         {% for subitem in collections[item.submenu] %}
                             <li>
-                                <a class="block px-4 py-2 text-lg text-gray-900 hover:text-red-700" href="{{ subitem.url }}">{{ subitem.data.title }}</a>
+                                <a class="block px-4 py-2 text-lg text-gray-900 hover:text-red-700" href="{{ subitem.url }}">{{ subitem.data.title or subitem.data.name }}</a>
                             </li>
                         {% endfor %}
                     </ul>
@@ -24,8 +24,12 @@
 
         {% endfor %}
 
+        <li id="desktop-cart" class="relative py-2 mb-4 md:mr-6 md:mb-0" data-turbolinks-permanent>
+            {% include "components/cart.njk" %}
+        </li>
+
         <li>
-            <a class="inline-block rounded md:ml-2 py-2 px-4 text-white font-bold bg-red-700 hover:bg-white hover:text-red-600 leading-tight font-display uppercase tracking-wider" href="/#directions">Get Directions</a>
+            <a class="inline-block rounded py-2 px-4 text-white font-bold bg-red-700 hover:bg-white hover:text-red-600 leading-tight font-display uppercase tracking-wider" href="/products">Shop Now</a>
         </li>
 
     </ul>
