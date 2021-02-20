@@ -91,3 +91,4 @@ fields:
   default: product
 pages:
 - site/products/boudin/pork-boudin.md
+- site/products/boudin/smoked-boudin.md
