@@ -16,7 +16,11 @@ title: Kartchner's Specialty Meats
             <p>Your favorite boudin from Krotz Springs is here! Kartchner's new location in Scott, Louisiana brings your favorites a little closer to home. We offer the same menu of ready to eat foods, boudin, sausage, specialty meats, and heat and eat items as well. Come give us a try!</p>
         </div>
         <div class="flex-1 md:px-4 xl:px-8">
-            <img src="/images/boudin_1296x.jpg" />
+            <img 
+                srcset="{{ "v1613842194/kartchners/DSC_1554_pbu5su" | sizes("https://res.cloudinary.com/hmillerdev/image/upload/f_auto,q_80") }}"
+                sizes="(min-width: 1536px) 656px, (min-width: 768px) 50vw, 100vw"
+                src="https://res.cloudinary.com/hmillerdev/image/upload/w_1312,f_auto,q_80/v1613842194/kartchners/DSC_1554_pbu5su" 
+            />
         </div>
     </div>
 {% endblock %}
