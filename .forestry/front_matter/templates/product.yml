@@ -82,3 +82,10 @@ fields:
     labelField: 
   label: Product Options
   description: If using options, include option for default or base product as well.
+- name: layout
+  type: text
+  config:
+    required: false
+  label: Layout
+  hidden: true
+  default: product
