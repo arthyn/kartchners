@@ -90,5 +90,6 @@ fields:
   hidden: true
   default: product
 pages:
+- site/products/boudin/deer-boudin.md
 - site/products/boudin/pork-boudin.md
 - site/products/boudin/smoked-boudin.md
