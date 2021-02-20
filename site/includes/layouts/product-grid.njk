@@ -8,8 +8,12 @@ layout: page
             <div class="px-4 xl:px-8 mb-8">
                 {% set imgUrl = ["https://res.cloudinary.com/hmillerdev/image/upload/", image_format] | join %}
                 <img
-                    srcset="{{ image | sizes(imgUrl) }}" 
+                    class="w-full h-auto"
+                    srcset="{{ image | sizes(imgUrl) }}"
+                    sizes="(min-width: 1166px) 352px, (min-width: 768px) 33vw, 100vw"
                     src="{{ imgUrl }}/{{ image }}"
+                    width="352"
+                    height="235"
                     alt=""
                 />
             </div>
@@ -24,9 +28,12 @@ layout: page
                 <li class="group">
                     <a href="{{ item.url }}" class="no-underline">
                         <img 
-                            class="mb-2"
-                            srcset="{{ item.data.image | sizes("https://res.cloudinary.com/hmillerdev/image/upload/ar_1.5,c_crop/f_auto,q_80")}}" 
-                            src="https://res.cloudinary.com/hmillerdev/image/upload/ar_1.5,c_crop/f_auto,q_80{{ item.data.image }}"
+                            class="w-full h-auto mb-2"
+                            data-srcset="{{ item.data.image | sizes("https://res.cloudinary.com/hmillerdev/image/upload/ar_1.5,c_crop/f_auto,q_80")}}"
+                            sizes="(min-width: 1536px) 312px, (min-width: 992px) 25vw, (min-width: 768px) 33vw, (min-width: 640px) 50vw, 100vw" 
+                            data-lazy="https://res.cloudinary.com/hmillerdev/image/upload/ar_1.5,c_crop/f_auto,q_80{{ item.data.image }}"
+                            width="312"
+                            height="208"
                             alt=""
                         />
                         <h2 class="text-2xl text-gray-800 group-hover:text-red-700 transition-colors duration-200 mb-0">{{ item.data.name }}</h2>
