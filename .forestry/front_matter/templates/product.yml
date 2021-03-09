@@ -51,12 +51,24 @@ fields:
       format: markdown
     max: 800
   label: Description
-- name: weight
+- name: weight__display_
   type: text
   config:
-    required: false
-  label: Weight
+    required: true
+  label: Weight (Display)
+  description: Displayed to the user, include units.
   default: 1 lb
+- name: weight
+  type: number
+  label: Weight (ounces)
+  description: Not displayed, used for shipping weight in Snipcart
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+    required: true
 - name: product_options
   type: field_group_list
   fields:
