@@ -12,7 +12,7 @@ fields:
   type: number
   label: SKU
   description: Must be unique
-  default: 0
+  default: 
   required: true
   config:
     min: 
@@ -45,7 +45,7 @@ fields:
   type: textarea
   default: ''
   config:
-    required: true
+    required: false
     wysiwyg: false
     schema:
       format: markdown
