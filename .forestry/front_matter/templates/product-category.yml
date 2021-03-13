@@ -47,5 +47,6 @@ fields:
   label: Product Navigation
   description: Use this list to sort the products
 pages:
+- site/products/Chicken/index.md
 - site/products/boudin/index.md
 - site/products/sausage-and-smoked-meats/index.md
