@@ -2,11 +2,12 @@
 layout: product
 sku: 2
 price: 5.99
-tags:
-weight: 1
+tags: 
+weight: 16
 name: Pork Sausage
-image: "/v1601937878/kartchners/tenderloin.jpg"
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dictum nec massa ac lacinia. Sed imperdiet elit sed efficitur facilisis. Nam posuere turpis in est tempus ultricies.
+image: "/v1613851803/kartchners/sausage/DSC_1644_yxilip.jpg"
+description: ''
 product_options: []
+weight__display_: 1 lb
 
 ---
