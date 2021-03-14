@@ -30,27 +30,6 @@ fields:
     max: 
     step: 
     required: true
-- name: tags
-  type: tag_list
-  default: []
-  label: Extra Categories
-  description: Product will appear in these categories in addition to whatever folder
-    it's under, which will be it's primary category.
-- name: image
-  type: file
-  config:
-    maxSize: 5
-  label: Image
-- name: description
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-    max: 800
-  label: Description
 - name: weight__display_
   type: text
   config:
@@ -69,6 +48,21 @@ fields:
     max: 
     step: 
     required: true
+- name: image
+  type: file
+  config:
+    maxSize: 5
+  label: Image
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+    max: 800
+  label: Description
 - name: product_options
   type: field_group_list
   fields:
@@ -94,6 +88,12 @@ fields:
     labelField: 
   label: Product Options
   description: If using options, include option for default or base product as well.
+- name: tags
+  type: tag_list
+  default: []
+  label: Extra Categories
+  description: Product will appear in these categories in addition to whatever folder
+    it's under, which will be it's primary category.
 - name: layout
   type: text
   config:
