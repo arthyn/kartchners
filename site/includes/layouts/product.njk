@@ -7,10 +7,13 @@ layout: page
     <div class="inner">
         <div class="flex flex-col md:flex-row -mx-4 xl:-mx-8" x-data="{ {% if hasOptions %}option: null,{% endif %} quantity: 1 }">
             <div class="flex-1 px-4 xl:px-8 mb-8">
+                {% set format = image_format or "ar_1.3,c_crop/f_auto,q_80" %}
                 <img
-                    srcset="{{ image | sizes("https://res.cloudinary.com/hmillerdev/image/upload/ar_1.3,c_crop/f_auto,q_80")}}" 
-                    src="https://res.cloudinary.com/hmillerdev/image/upload/ar_1.3,c_crop/f_auto,q_80{{ image }}"
+                    srcset="{{ image | sizes("https://res.cloudinary.com/hmillerdev/image/upload/" + format)}}" 
+                    src="https://res.cloudinary.com/hmillerdev/image/upload/{{ format }}{{ image }}"
                     alt=""
+                    width="2400"
+                    height="1846"
                 />
             </div>
             <div class="flex-1 px-4 md:px-8">
@@ -58,7 +61,6 @@ layout: page
                             :data-item-custom1-value="option"
                         {% endif %}
                         :data-item-quantity="quantity"
-                        :data-item-option="option"
                     >
                         Add to Cart
                     </button>
