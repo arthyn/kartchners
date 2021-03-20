@@ -44,6 +44,16 @@ fields:
       format: markdown
   label: Short Description
   description: Shows up on the products page where the categories are listed
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: SEO
+- name: banner
+  type: include
+  config: {}
+  template: banner
+  label: Banner
 pages:
 - site/products/Chicken/index.md
 - site/products/boudin/index.md
