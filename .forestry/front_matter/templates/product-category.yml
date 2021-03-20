@@ -46,11 +46,20 @@ fields:
   description: Shows up on the products page where the categories are listed
 pages:
 - site/products/Chicken/index.md
+- site/products/Chicken/index.md
+- site/products/boudin/index.md
 - site/products/boudin/index.md
 - site/products/game/index.md
+- site/products/game/index.md
+- site/products/hand-cut-steaks/index.md
 - site/products/hand-cut-steaks/index.md
 - site/products/heat-and-eat/index.md
+- site/products/heat-and-eat/index.md
+- site/products/pork/index.md
 - site/products/pork/index.md
 - site/products/sausage-and-smoked-meats/index.md
+- site/products/sausage-and-smoked-meats/index.md
 - site/products/seafood/index.md
+- site/products/seafood/index.md
+- site/products/specialty-items/index.md
 - site/products/specialty-items/index.md

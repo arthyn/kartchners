@@ -9,7 +9,7 @@ sections:
   label: Pages
   create: all
   match: "**/*"
-  exclude: "{globals|includes}/**/*"
+  exclude: "{globals,includes,products}/**/*"
 - type: directory
   path: site/products
   label: Products
