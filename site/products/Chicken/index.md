@@ -3,7 +3,7 @@ tags:
 - product-category
 layout: product-grid
 name: Chicken
-image: "/v1613851855/kartchners/shelves%20and%20coolers/DSC_1847_usbu8y.jpg"
+image: "/v1613851705/kartchners/cracklins/DSC_1666_hscv4t.jpg"
 short_description: ''
 product_navigation: []
 
