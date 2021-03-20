@@ -35,17 +35,6 @@ fields:
       format: markdown
   label: Short Description
   description: Shows up on the products page where the categories are listed
-- name: product_navigation
-  type: list
-  config:
-    use_select: true
-    min: 
-    max: 
-    source:
-      type: pages
-      section: products
-  label: Product Navigation
-  description: Use this list to sort the products
 pages:
 - site/products/Chicken/index.md
 - site/products/boudin/index.md
