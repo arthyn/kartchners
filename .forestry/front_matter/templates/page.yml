@@ -18,6 +18,11 @@ fields:
   config: {}
   template: seo
   label: SEO
+- name: banner
+  type: include
+  config: {}
+  template: banner
+  label: Banner
 - name: layout
   type: text
   config:
@@ -25,8 +30,3 @@ fields:
   label: Layout
   hidden: true
   default: page
-- name: banner
-  type: include
-  config: {}
-  template: banner
-  label: Banner
