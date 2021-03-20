@@ -30,3 +30,5 @@ fields:
   label: Layout
   hidden: true
   default: page
+pages:
+- site/test.md
