@@ -1,4 +1,20 @@
 ---
 label: Page
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+- name: edited_url
+  type: text
+  config:
+    required: false
+  label: URL
+  description: Overrides the default URL which is the filename of the page
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: SEO
