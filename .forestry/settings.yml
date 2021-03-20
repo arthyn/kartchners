@@ -5,6 +5,12 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: site
+  label: Pages
+  create: all
+  match: "**/*"
+  exclude: "{globals|includes}/**/*"
+- type: directory
   path: site/products
   label: Products
   create: all
