@@ -7,7 +7,8 @@ fields:
   config:
     maxSize: 4
   label: Banner Image
-  description: Overrides the top banner image
+  description: Overrides the top banner image, the image should be at least 2400px
+    wide
 - name: banner_format
   type: text
   config:
