@@ -18,3 +18,10 @@ fields:
   config: {}
   template: seo
   label: SEO
+- name: layout
+  type: text
+  config:
+    required: false
+  label: Layout
+  hidden: true
+  default: page
