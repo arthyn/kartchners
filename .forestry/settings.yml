@@ -13,6 +13,10 @@ sections:
   - product
   - product-category
 - type: document
+  path: site/globals/navigation.json
+  label: Navigation
+  match: "**/*"
+- type: document
   path: site/globals/site.json
   label: Site Info
 upload_dir: ''
