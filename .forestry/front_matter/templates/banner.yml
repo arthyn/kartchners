@@ -1,4 +1,28 @@
 ---
 label: Banner
 hide_body: true
-fields: []
+fields:
+- name: banner_image
+  type: file
+  config:
+    maxSize: 4
+  label: Banner Image
+  description: Overrides the top banner image
+- name: banner_format
+  type: text
+  config:
+    required: false
+  label: Banner Format
+  description: Overrides the top banner image formatting
+- name: banner_class
+  type: text
+  config:
+    required: false
+  label: Banner Class
+  description: Overrides the top banner image class or use to add classes
+- name: banner_alt
+  type: text
+  config:
+    required: false
+  label: Banner Alt Text
+  description: Overrides the top banner image alt text
