@@ -101,6 +101,13 @@ fields:
   label: Layout
   hidden: true
   default: product
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: SEO
+  description: These fields are not required and only need to be filled out if you're
+    overriding what's on the page.
 pages:
 - site/products/boudin/deer-boudin.md
 - site/products/boudin/pork-boudin.md
