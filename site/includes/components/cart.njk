@@ -9,13 +9,13 @@
         <span class="snipcart-total-price"></span>
     </a>
 
-    <div class="absolute left-4 bottom-20 md:left-auto md:bottom-auto md:top-10 md:right-0 flex flex-wrap items-center w-96 p-4 text-xl bg-white rounded shadow-lg" x-show.transition="open" style="display: none">
+    <div class="fixed left-4 bottom-20 md:left-auto md:bottom-auto md:top-6 md:right-6 flex flex-wrap items-center w-96 p-4 text-xl bg-white rounded shadow-lg" x-show.transition="open" style="display: none">
         <img 
             class="flex-none w-20 h-20 object-cover mr-4" 
             :src="item.image && 'https://res.cloudinary.com/hmillerdev/image/upload/ar_1,c_crop/f_auto,q_80,w_80/' + kUtils.extractCloudinaryParts(item.image).path" 
         />
         <div class="flex-auto leading-none">
-            <div class="text-red-700 font-bold mb-2" x-text="item.name"></div>
+            <div class="text-red-700 font-bold mb-2" x-text="getName()"></div>
             <div class="">
                 <strong x-text="'Added ' + item.quantity"></strong>
                 at

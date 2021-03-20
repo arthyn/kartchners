@@ -2109,7 +2109,8 @@ var cartPopup = function cartPopup() {
       name: '',
       quantity: 0,
       price: 0,
-      image: ''
+      image: '',
+      customFields: []
     },
     timeout: null,
     init: function init() {
@@ -2122,13 +2123,21 @@ var cartPopup = function cartPopup() {
     show: function show(item) {
       var _this2 = this;
 
-      debugger;
       clearTimeout(this.timeout);
       this.item = item;
       this.open = true;
       this.timeout = setTimeout(function () {
         _this2.open = false;
       }, 3000);
+    },
+    getName: function getName() {
+      var optionField = this.item.customFields[0];
+
+      if (optionField && optionField.value) {
+        return this.item.name + ' - ' + optionField.value;
+      }
+
+      return this.item.name;
     }
   };
 };

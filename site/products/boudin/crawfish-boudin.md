@@ -1,7 +1,7 @@
 ---
 layout: product
-sku: 1
-price: 5.99
+sku: 4
+price: 8.99
 tags: 
 weight: "1"
 name: Crawfish Boudin

@@ -2,9 +2,10 @@
 layout: page
 ---
 
+{% set hasOptions = product_options | length >= 1 %}
 <section class="py-16">
     <div class="inner">
-        <div class="flex flex-col md:flex-row -mx-4 xl:-mx-8">
+        <div class="flex flex-col md:flex-row -mx-4 xl:-mx-8" x-data="{ {% if hasOptions %}option: null,{% endif %} quantity: 1 }">
             <div class="flex-1 px-4 xl:px-8 mb-8">
                 <img
                     srcset="{{ image | sizes("https://res.cloudinary.com/hmillerdev/image/upload/ar_1.3,c_crop/f_auto,q_80")}}" 
@@ -21,22 +22,29 @@ layout: page
                 </div>
                 <hr class="mb-10"/>
                 {% if description %}
-                <p class="mb-6 text-gray-700">{{ description }}</p>
-                {% endif %}
-                <div class="flex items-center mb-10" x-data="{ quantity: 1 }">
-                    <div class="inline-flex mr-6 text-gray-500 rounded border border-gray-400 divide-x divide-gray-400">
+                    <p class="mb-6 text-gray-700">{{ description }}</p>
+                {% endif %}  
+                <div class="flex flex-wrap items-center mb-10">
+                    {% if hasOptions %}
+                        <select name="product-options" x-model="option" class="pl-2 pr-10 py-1 mr-6 mb-3 rounded border border-gray-400 focus:border-gray-500 focus:bg-white focus:ring-0">
+                            {% for option in product_options %}
+                                <option value="{{option.option_name}}">{{option.option_name}} ${{option.option_price}}</option>
+                            {% endfor %}
+                        </select>
+                    {% endif %} 
+                    <div class="inline-flex mr-6 mb-3 text-gray-500 rounded border border-gray-400 divide-x divide-gray-400">
                         <button class="h-8 w-8 hover:text-gray-700 transition-colors duration-200" @click="quantity--" :disabled="quantity <= 1">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-8 w-8"><path fill="currentColor" fill-rule="evenodd" d="M17 11a1 1 0 0 1 0 2H7a1 1 0 0 1 0-2h10z"/></svg>
                             <span class="sr-only">Decrease quantity</span>
                         </button>
-                        <input type="number" class="h-8 w-8 text-center text-gray-700 appearance-none" name="quantity" min="1" value="1" x-model="quantity"/>
+                        <input type="number" class="h-8 w-8 p-0 text-center text-gray-700 border-0 appearance-none" name="quantity" min="1" value="1" x-model="quantity"/>
                         <button class="h-8 w-8 hover:text-gray-700 transition-colors duration-200" @click="quantity++">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-8 w-8"><path fill="currentColor" fill-rule="evenodd" d="M17 11a1 1 0 0 1 0 2h-4v4a1 1 0 0 1-2 0v-4H7a1 1 0 0 1 0-2h4V7a1 1 0 0 1 2 0v4h4z"/></svg>
                             <span class="sr-only">Increase quantity</span>
                         </button>
                     </div>
                     <button 
-                        class="snipcart-add-item p-3 leading-none font-semibold bg-red-700 hover:bg-red-600 text-white rounded transition-colors duration-200"
+                        class="snipcart-add-item p-3 mb-3 leading-none font-semibold bg-red-700 hover:bg-red-600 text-white rounded transition-colors duration-200"
                         data-item-id="{{ sku }}"
                         data-item-price="{{ price }}"
                         data-item-url="{{ helpers.domain }}{{ permalink or page.url }}"
@@ -44,11 +52,17 @@ layout: page
                         data-item-description="{{ description }}"
                         data-item-image="https://res.cloudinary.com/hmillerdev/image/upload/ar_1.3,c_crop/f_auto,q_80{{ image }}"
                         data-item-weight="{{ weight * 28.34952 }}"
+                        {% if hasOptions %}
+                            data-item-custom1-name="Option"
+                            data-item-custom1-options="{{ product_options | variants(price) }}"
+                            :data-item-custom1-value="option"
+                        {% endif %}
                         :data-item-quantity="quantity"
+                        :data-item-option="option"
                     >
                         Add to Cart
                     </button>
-                </div>                
+                </div>                              
             </div>
         </div>
 

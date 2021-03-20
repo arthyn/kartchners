@@ -14,6 +14,7 @@ module.exports = eleventyConfig => {
 
     eleventyConfig.addFilter("sizes", require("./filters/cloudinary-sizes.js"))
     eleventyConfig.addFilter("keys", require("./filters/keys.js"))
+    eleventyConfig.addFilter("variants", require("./filters/product-variant.js"))
 
     Object.keys(casing).forEach(key => {
         eleventyConfig.addFilter(key, casing[key])
