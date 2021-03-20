@@ -4,10 +4,6 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: document
-  path: site/globals/site.json
-  label: Site Info
-  match: "**/*"
 - type: directory
   path: site/products
   label: Products
@@ -16,6 +12,9 @@ sections:
   templates:
   - product
   - product-category
+- type: document
+  path: site/globals/site.json
+  label: Site Info
 upload_dir: ''
 public_path: ''
 front_matter_path: ''
