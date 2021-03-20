@@ -1,4 +1,35 @@
 ---
 label: SEO
 hide_body: true
-fields: []
+fields:
+- name: meta_title
+  type: text
+  config:
+    required: false
+  label: Meta Title
+  description: Overrides the page title or product name so it appears differently
+    in Google searches
+- name: meta_description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+    max: 180
+  label: Meta Description
+  description: Overrides the excerpt or description so it appears differently in Google
+    searches
+- name: social_image
+  type: file
+  config:
+    maxSize: 5
+  label: Social Image
+  description: Sets a specific image for sharing on social
+- name: canonical
+  type: text
+  config:
+    required: false
+  label: Canonical URL
+  description: Overrides the SEO value of the page to another URL
