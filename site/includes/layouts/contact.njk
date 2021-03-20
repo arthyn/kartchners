@@ -1,9 +1,5 @@
 ---
 layout: page
-meta_title: Contact
-meta_description: Contact Kartchner's in Scott with any comments, feedback, or questions you have. We'll try to contact you as soon as we can.
-body_class: contact
-title: Contact Us
 ---
 
 <article class="inner max-w-4xl py-16 ">
@@ -14,7 +10,7 @@ title: Contact Us
 
     <div class="content" x-data="contactForm()">
 
-        <p>Contact us with any comments, feedback, or questions you have. We'll try to contact you as soon as we can.</p>
+        {{ content | safe }}
 
         <form class="form" 
             action="/.netlify/functions/contact" 

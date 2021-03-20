@@ -1,20 +1,27 @@
 {# Google Schema #}
-<meta itemprop="name" content="{% if meta_title %}{{ meta_title }}{% else %}{{ title }}{% endif %} | {{ site.name }}">
-<meta itemprop="description" content="{% if meta_description %}{{ meta_description }}{% else %}{{ excerpt }}{% endif %}">
+<meta itemprop="name" content="{{ normalizedTitle }} | {{ site.name }}">
+<meta itemprop="description" content="{{ normalizedDescription }}">
+{% if social_image %}
+    {% set ogImage = "https://res.cloudinary.com/hmillerdev/image/upload/ar_2,c_crop/f_png" + social_image %}
+{% else %}
+    {% set ogImage = site.url + (image or site.images.og) %}
+{% endif %}
 
 {# Twitter #}
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="{% if meta_title %}{{ meta_title }}{% else %}{{ title }}{% endif %} | {{ site.name }}">
-<meta name="twitter:description" content="{% if meta_description %}{{ meta_description }}{% else %}{{ excerpt }}{% endif %}">
+<meta name="twitter:title" content="{{ normalizedTitle }} | {{ site.name }}">
+<meta name="twitter:description" content="{{ normalizedDescription }}">
+{% if site.author.handle %}
 <meta name="twitter:site" content="{{ site.author.handle }}">
 <meta name="twitter:creator" content="{{ site.author.handle }}">
-<meta name="twitter:image:src" content="{{ site.url }}{{ site.images.twitter }}">
+{% endif %}
+<meta name="twitter:image:src" content="{{ ogImage }}">
 
 {# Open Graph #}
-<meta name="og:title" content="{% if meta_title %}{{ meta_title }}{% else %}{{ title }}{% endif %} | {{ site.name }}">
-<meta name="og:description" content="{% if meta_description %}{{ meta_description }}{% else %}{{ excerpt }}{% endif %}">
-<meta name="og:image" content="{{ site.url }}{{ site.images.og }}">
+<meta name="og:title" content="{{ normalizedTitle }} | {{ site.name }}">
+<meta name="og:description" content="{{ normalizedDescription }}">
+<meta name="og:image" content="{{ ogImage }}">
 <meta name="og:url" content="{{ site.url }}{{ page.url }}">
 <meta name="og:site_name" content="{{ site.name }}">
-<meta name="og:locale" content="en_GB">
+<meta name="og:locale" content="en_US">
 <meta name="og:type" content="website">

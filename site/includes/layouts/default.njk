@@ -3,8 +3,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ meta_title or title or name }} | {{ site.name }}</title>
-    <meta name="description" content="{% if meta_description %}{{ meta_description }}{% else %}{{ excerpt }}{% endif %}">
+    {% set normalizedTitle = meta_title or title or name %}
+    {% set normalizedDescription = meta_description or excerpt or description %}
+    <title>{{ normalizedTitle }} | {{ site.name }}</title>
+    <meta name="description" content="{{ normalizedDescription }}">
     {% if page.fileSlug === 'blog' %}
         <meta name="robots" content="noindex,follow" />
     {% else %}
@@ -43,7 +45,7 @@
     <link rel="icon" type="image/png" href="{{ site.images.favicon }}">
 
     {# canonical #}
-    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+    <link rel="canonical" href="{{ canonical or (site.url + page.url) }}">
 
     <!-- Fathom - beautiful, simple website analytics -->
     <script src="https://cdn.usefathom.com/script.js" site="EXAJNODE" defer></script>
