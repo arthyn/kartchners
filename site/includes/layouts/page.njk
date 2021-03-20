@@ -4,15 +4,20 @@ layout: default
 
 <main id="main" class="main focus:outline-none text-xl xl:text-2xl" tabindex="-1">
     <section class="relative">
-        <img 
-            class="hero peach w-full object-cover"
-            srcset="{{ "v1601152899/kartchners/building-dawn" | sizes("https://res.cloudinary.com/hmillerdev/image/upload/x_0,y_200,w_2400,h_703,c_crop,f_auto,q_80")}}"
-            sizes="100vw"
-            width="2400"
-            height="703"
-            src="https://res.cloudinary.com/hmillerdev/image/upload/x_0,y_200,w_2048,h_600,c_crop,f_auto,q_80/v1601152899/kartchners/building-dawn" alt="Kartchner's Specialty Meats" 
-        />
-        {% block heroSection %}{% endblock %}
+        {% block heroSection %}
+            {% set heroImage = banner_image or "v1601152899/kartchners/building-dawn" %}
+            {% set heroFormat = banner_format or "x_0,y_200,w_2400,h_703,c_crop,f_auto,q_80" %}
+            {% set heroClass = banner_class or "peach" %}
+            {% set heroAlt = banner_alt or site.name %}
+            <img 
+                class="hero {{ heroClass }} w-full object-cover"
+                srcset="{{ heroImage | sizes("https://res.cloudinary.com/hmillerdev/image/upload/" + heroFormat)}}"
+                sizes="100vw"
+                width="2400"
+                height="703"
+                src="https://res.cloudinary.com/hmillerdev/image/upload/{{ heroFormat }}{{ heroImage }}" alt="{{ heroAlt }}" 
+            />
+        {% endblock %}
     </section>
 
     {{ content | safe }}
