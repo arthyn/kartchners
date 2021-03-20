@@ -25,6 +25,15 @@ fields:
     required: true
   label: Image
   description: Shows up on the products page
+- name: image_formatting
+  type: text
+  config:
+    required: false
+  label: Image Formatting
+  description: Allows you to transform the image, like cropping, quality, etc. The
+    different operations can be seen here <a href="https://cloudinary.com/documentation/image_transformations"
+    title="https://cloudinary.com/documentation/image_transformations" target="_blank">https://cloudinary.com/documentation/image_transformations</a>
+  default: ar_1.3,c_crop/f_auto,q_80
 - name: short_description
   type: textarea
   default: ''
