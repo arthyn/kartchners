@@ -51,3 +51,4 @@ fields:
   config:
     required: false
   label: Section Class
+  default: relative py-16
