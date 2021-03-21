@@ -30,6 +30,9 @@ layout: default
         {% if section.template == "image-text-section" %}
             {% include "components/image-text-split.njk" %}
         {% endif %}
+        {% if section.template == "open-section" %}
+            {% include "components/section.njk" %}
+        {% endif %}
     {% endfor %}
 
 </main>
