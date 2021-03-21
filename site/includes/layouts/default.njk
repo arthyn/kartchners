@@ -7,11 +7,7 @@
     {% set normalizedDescription = meta_description or excerpt or description %}
     <title>{{ normalizedTitle }} | {{ site.name }}</title>
     <meta name="description" content="{{ normalizedDescription }}">
-    {% if page.fileSlug === 'blog' %}
-        <meta name="robots" content="noindex,follow" />
-    {% else %}
-        <meta name="robots" content="index,follow" />
-    {% endif %}
+    <meta name="robots" content="index,follow" />
 
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Oswald:wght@700&display=swap" rel="stylesheet"> 
     {# if your site's entire CSS comes in under 14kb, you may want to inline in the head #}
