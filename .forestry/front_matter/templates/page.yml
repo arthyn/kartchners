@@ -18,6 +18,7 @@ fields:
   label: Sections
   template_types:
   - image-text-section
+  - open-section
   config:
     min: 
     max: 
