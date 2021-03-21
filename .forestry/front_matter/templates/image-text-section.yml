@@ -2,20 +2,6 @@
 label: Image + Text Section
 hide_body: true
 fields:
-- name: text
-  type: textarea
-  default: ''
-  config:
-    required: true
-    wysiwyg: true
-    schema:
-      format: html-blocks
-  label: Text
-- name: image
-  type: file
-  config:
-    maxSize: 4
-  label: Image
 - name: image_position
   type: select
   default: Right
@@ -30,6 +16,25 @@ fields:
       file: 
       path: 
   label: Image Position
+- name: text
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Text
+- name: image
+  type: file
+  config:
+    maxSize: 4
+  label: Image
+- name: image_format
+  type: text
+  config:
+    required: false
+  label: Image Format
 - name: section_id
   type: text
   config:
