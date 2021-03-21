@@ -18,6 +18,7 @@ fields:
   label: Sections
   template_types:
   - image-text-section
+  - open-section
   config:
     min: 
     max: 
@@ -39,4 +40,5 @@ fields:
   hidden: true
   default: page
 pages:
+- site/home.md
 - site/test.md
