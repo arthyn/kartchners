@@ -35,6 +35,11 @@ fields:
   config:
     required: false
   label: Image Format
+- name: image_alt
+  type: text
+  config:
+    required: false
+  label: Image Alt Text
 - name: section_id
   type: text
   config:
