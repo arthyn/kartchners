@@ -2,7 +2,7 @@
     <div class="inner flex flex-col md:flex-row py-16 md:py-24 ">
         <div class="flex-1 md:px-4 xl:px-8 mb-12">
             {% if section.image_position == "Right" %}
-                {{ section.text }}
+                {{ section.text | safe }}
             {% else %}
                 <img 
                     srcset="{{ section.image | sizes("https://res.cloudinary.com/hmillerdev/image/upload/" + section.image_format) }}"
@@ -14,7 +14,7 @@
         </div>
         <div class="flex-1 md:px-4 xl:px-8">
             {% if image_position == "Left" %}
-                {{ section.text }}
+                {{ section.text | safe }}
             {% else %}
                 <img 
                     srcset="{{ section.image | sizes("https://res.cloudinary.com/hmillerdev/image/upload/" + section.image_format) }}"
