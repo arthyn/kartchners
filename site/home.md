@@ -122,7 +122,7 @@ sections:
 
     <div class="embed embed-4:3 flex-1 mb-10 md:mb-0">
 
-    <iframe class="md:px-4 xl:px-8" data-lazy="[https://www.google.com/maps/embed?pb=](https://www.google.com/maps/embed?pb= "https://www.google.com/maps/embed?pb=")!1m18!1m12!1m3!1d861.6064839899785!2d-92.10791217075324!3d30.253442998862916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x862498df16c755f3%3A0x49fcf6da282679a2!2s312%20LA-93%2C%20Scott%2C%20LA%2070583!5e0!3m2!1sen!2sus!4v1601168218789!5m2!1sen!2sus" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    <iframe class="md:px-4 xl:px-8" data-lazy="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d861.6064839899785!2d-92.10791217075324!3d30.253442998862916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x862498df16c755f3%3A0x49fcf6da282679a2!2s312%20LA-93%2C%20Scott%2C%20LA%2070583!5e0!3m2!1sen!2sus!4v1601168218789!5m2!1sen!2sus" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
     </div>
 
