@@ -20,7 +20,17 @@ layout: default
         {% endblock %}
     </section>
 
-    {{ content | safe }}
+    {% if content %}
+        <article class="inner py-16">
+            {{ content | safe }}
+        </article>
+    {% endif %}
+
+    {% for section in sections %}
+        {% if section.template == "image-text-section" %}
+            {% include "components/image-text-split.njk" %}
+        {% endif %}
+    {% endfor %}
 
 </main>
 

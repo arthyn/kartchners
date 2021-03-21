@@ -1,26 +1,26 @@
-<section {% if section_id %} id="{{ section_id }}" {% endif %} {% if section_class %} class="{{ section_class }}" {% endif %}>
+<section {% if section.section_id %} id="{{ section.section_id }}" {% endif %} {% if section_class %} class="{{ section.section_class }}" {% endif %}>
     <div class="inner flex flex-col md:flex-row py-16 md:py-24 ">
         <div class="flex-1 md:px-4 xl:px-8 mb-12">
-            {% if image_position == "right" %}
-                {{ text }}
+            {% if section.image_position == "Right" %}
+                {{ section.text }}
             {% else %}
                 <img 
-                    srcset="{{ image | sizes("https://res.cloudinary.com/hmillerdev/image/upload/" + image_format) }}"
+                    srcset="{{ section.image | sizes("https://res.cloudinary.com/hmillerdev/image/upload/" + section.image_format) }}"
                     sizes="(min-width: 1536px) 656px, (min-width: 768px) 50vw, 100vw"
-                    src="https://res.cloudinary.com/hmillerdev/image/upload/{{ image_format }}{{ image }}"
-                    alt="{{ image_alt }}" 
+                    src="https://res.cloudinary.com/hmillerdev/image/upload/{{ section.image_format }}{{ section.image }}"
+                    alt="{{ section.image_alt }}" 
                 />
             {% endif %}
         </div>
         <div class="flex-1 md:px-4 xl:px-8">
-            {% if image_position == "left" %}
-                {{ text }}
+            {% if image_position == "Left" %}
+                {{ section.text }}
             {% else %}
                 <img 
-                    srcset="{{ image | sizes("https://res.cloudinary.com/hmillerdev/image/upload/" + image_format) }}"
+                    srcset="{{ section.image | sizes("https://res.cloudinary.com/hmillerdev/image/upload/" + section.image_format) }}"
                     sizes="(min-width: 1536px) 656px, (min-width: 768px) 50vw, 100vw"
-                    src="https://res.cloudinary.com/hmillerdev/image/upload/{{ image_format }}{{ image }}"
-                    alt="{{ image_alt }}" 
+                    src="https://res.cloudinary.com/hmillerdev/image/upload/{{ section.image_format }}{{ section.image }}"
+                    alt="{{ section.image_alt }}" 
                 />
             {% endif %}
         </div>
