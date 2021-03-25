@@ -90,4 +90,5 @@ fields:
   hidden: true
   default: product
 pages:
+- site/products/boudin.md
 - site/products/boudin/boudin.md
