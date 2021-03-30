@@ -9,6 +9,8 @@ sku: 26
 image: ''
 description: Chicken Thighs Stuffed With Your Choice of Stuffing
 product_options:
+- option_name: boudin and pepper jack cheese
+  option_price: 19.29
 - option_name: mushroom, black olive, and mozzarella cheese
   option_price: 19.69
 - option_name: mushroom and cream cheese
