@@ -7,7 +7,7 @@ layout: product
 name: Smoked Rabbit and Pork Sausage
 sku: 21
 image: "/v1613851803/kartchners/sausage/DSC_1644_yxilip.jpg"
-description: ''
+description: Smoked Rabbit and Pork Sausage
 product_options: []
 meta_title: ''
 meta_description: ''
