@@ -9,7 +9,7 @@ image: "/v1613851784/kartchners/plates/DSC_1753_kubudd.jpg"
 description: Un-battered Frozen Boudin Balls
 product_options:
 - option_name: Regular
-  option_price: 13.19
+  option_price: 13.99
 - option_name: Stuffed with Jalapeño & Cream Cheese
   option_price: 18.69
 weight_display_: 1 dozen
