@@ -7,7 +7,7 @@ layout: product
 name: Pork Andouille
 sku: 18
 image: ''
-description: ''
+description: Pork Andouille
 product_options: []
 meta_title: ''
 meta_description: ''
