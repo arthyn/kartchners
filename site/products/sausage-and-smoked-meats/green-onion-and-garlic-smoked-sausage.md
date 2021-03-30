@@ -7,7 +7,7 @@ layout: product
 name: Smoked Green Onion and Garlic Sausage
 sku: 14
 image: "/v1613851803/kartchners/sausage/DSC_1644_yxilip.jpg"
-description: ''
+description: Smoked Green Onion and Garlic Sausage
 product_options: []
 meta_title: ''
 meta_description: ''
