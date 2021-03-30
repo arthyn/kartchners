@@ -10,6 +10,8 @@ image: "/v1617134641/kartchners/heat_and_eat_jugwkm.jpg"
 description: Ready made meals packed in a boiler bag. All you need to do is boil for
   15mins and serve!
 product_options:
+- option_name: chicken and sausage gumbo
+  option_price: 9.89
 - option_name: seafood gumbo
   option_price: 16.39
 - option_name: vegetable soup
