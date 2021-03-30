@@ -7,7 +7,7 @@ layout: product
 name: Smoked Jalapeno and Pepper Jack Cheese Sausage
 sku: 16
 image: "/v1613851803/kartchners/sausage/DSC_1644_yxilip.jpg"
-description: ''
+description: Smoked Jalapeno and Pepper Jack Cheese Sausage
 product_options: []
 meta_title: ''
 meta_description: ''
