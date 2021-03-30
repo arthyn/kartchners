@@ -4,7 +4,7 @@ weight__display_: 1 lb
 weight: 16
 tags: []
 layout: product
-name: Jalapeno Smoked Pork Boudin
+name: Jalapeno Smoked Pork Sausage
 sku: 13
 image: "/v1613851803/kartchners/sausage/DSC_1644_yxilip.jpg"
 description: ''
