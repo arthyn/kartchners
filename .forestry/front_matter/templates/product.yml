@@ -114,7 +114,6 @@ fields:
   template: banner
   label: Banner
 pages:
-- site/products/boudin/boudin.md
 - site/products/boudin/deer-boudin.md
 - site/products/boudin/pork-boudin.md
 - site/products/boudin/smoked-boudin.md
