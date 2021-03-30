@@ -13,7 +13,7 @@ product_options:
 - option_name: Regular
   option_price: 5.49
 - option_name: Spicy
-  option_price: 5.49
+  option_price: 9.39
 - option_name: Jalapeño & Pepper Jack Cheese Pork
   option_price: 5.99
 weight__display_: 2 lb
