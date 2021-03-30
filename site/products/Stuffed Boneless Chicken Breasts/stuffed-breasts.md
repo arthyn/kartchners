@@ -9,6 +9,10 @@ sku: 27
 image: ''
 description: Stuffed Boneless Chicken Breasts with Your Choice of Stuffing
 product_options:
+- option_name: pineapple and cream cheese wrapped in bacon
+  option_price: 11.29
+- option_name: pepper jack cheese wrapped in bacon
+  option_price: 9.49
 - option_name: spinach and cream cheese
   option_price: 8.19
 - option_name: boudin
