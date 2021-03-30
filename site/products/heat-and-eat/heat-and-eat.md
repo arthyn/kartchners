@@ -10,6 +10,8 @@ image: "/v1617134641/kartchners/heat_and_eat_jugwkm.jpg"
 description: Ready made meals packed in a boiler bag. All you need to do is boil for
   15mins and serve!
 product_options:
+- option_name: stuffed potato pan
+  option_price: 6.59
 - option_name: 9" crawfish pie
   option_price: 17.59
 - option_name: 9" crabmeat pie
