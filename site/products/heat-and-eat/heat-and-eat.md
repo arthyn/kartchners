@@ -10,6 +10,8 @@ image: "/v1617134641/kartchners/heat_and_eat_jugwkm.jpg"
 description: Ready made meals packed in a boiler bag. All you need to do is boil for
   15mins and serve!
 product_options:
+- option_name: alligator sauce piquant
+  option_price: 14.29
 - option_name: pork and sausage pastalaya
   option_price: 7.69
 - option_name: white beans and smoked sausage
