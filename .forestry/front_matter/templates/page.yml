@@ -39,6 +39,3 @@ fields:
   label: Layout
   hidden: true
   default: page
-pages:
-- site/home.md
-- site/test.md
