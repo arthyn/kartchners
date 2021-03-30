@@ -1,14 +1,13 @@
 ---
 layout: product
 sku: 4
-price: 8.99
+price: 11.09
 tags: 
-weight: "1"
+weight: 16
 name: Crawfish Boudin
 image: "/v1613851663/kartchners/boudin/DSC_1553_a6hrtv.jpg"
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dictum
-  nec massa ac lacinia. Sed imperdiet elit sed efficitur facilisis. Nam posuere turpis
-  in est tempus ultricies.
+description: Crawfish Boudin
 product_options: []
+weight__display_: 1lb.
 
 ---
