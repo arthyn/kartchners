@@ -11,7 +11,7 @@ product_options:
 - option_name: Regular
   option_price: 11.99
 - option_name: Stuffed with Jalapeño & Cream Cheese
-  option_price: 16.99
+  option_price: 18.69
 weight_display_: 1 dozen
 weight__display_: 1 dozen
 
