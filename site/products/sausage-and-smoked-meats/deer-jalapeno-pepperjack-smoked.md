@@ -7,7 +7,7 @@ layout: product
 name: Smoked Deer with Jalapeno and Pepper Jack Sausage
 sku: 19
 image: "/v1613851803/kartchners/sausage/DSC_1644_yxilip.jpg"
-description: ''
+description: Smoked Deer with Jalapeno and Pepper Jack Sausage
 product_options: []
 meta_title: ''
 meta_description: ''
