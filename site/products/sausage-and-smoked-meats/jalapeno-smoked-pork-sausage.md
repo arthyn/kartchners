@@ -7,7 +7,7 @@ layout: product
 name: Jalapeno Smoked Pork Sausage
 sku: 13
 image: "/v1613851803/kartchners/sausage/DSC_1644_yxilip.jpg"
-description: ''
+description: Jalapeno Smoked Pork Sausage
 product_options: []
 meta_title: ''
 meta_description: ''
