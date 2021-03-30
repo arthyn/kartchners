@@ -10,6 +10,10 @@ image: "/v1617134641/kartchners/heat_and_eat_jugwkm.jpg"
 description: Ready made meals packed in a boiler bag. All you need to do is boil for
   15mins and serve!
 product_options:
+- option_name: white beans and smoked sausage
+  option_price: 5.49
+- option_name: chicken sauce piquant
+  option_price: 10.99
 - option_name: corn maque choux
   option_price: 7.69
 - option_name: chili
