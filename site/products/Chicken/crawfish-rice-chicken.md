@@ -9,6 +9,8 @@ sku: 25
 image: ''
 description: Whole Deboned Chickens Stuffed with a Variety of Options
 product_options:
+- option_name: shrimp and rice
+  option_price: 18.69
 - option_name: crawfish and rice
   option_price: 19.79
 meta_title: ''
