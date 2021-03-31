@@ -9,6 +9,8 @@ sku: 42
 image: ''
 description: 'seafood '
 product_options:
+- option_name: alligator meat
+  option_price: 15.39
 - option_name: seasoned catfish filets
   option_price: 10.59
 - option_name: unseasoned catfish filets
