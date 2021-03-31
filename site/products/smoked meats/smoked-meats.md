@@ -9,6 +9,8 @@ sku: 41
 image: ''
 description: Smoked Meats
 product_options:
+- option_name: pork ribs
+  option_price: 6.49
 - option_name: pork tasso
   option_price: 8.89
 - option_name: pork ribs
