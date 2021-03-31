@@ -1,12 +1,12 @@
 ---
-price: 8.89
+price: 8.69
 weight__display_: 1 lb
 weight: 16
 tags: []
 layout: product
-name: pork tasso
+name: slab bacon
 sku: 41
-image: ''
+image: "/v1601937878/kartchners/bacon_pf9pxg.jpg"
 description: Smoked Meats
 product_options:
 - option_name: pork wild wings
