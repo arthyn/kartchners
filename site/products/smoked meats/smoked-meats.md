@@ -8,7 +8,9 @@ name: pork tasso
 sku: 41
 image: ''
 description: Smoked Meats
-product_options: []
+product_options:
+- option_name: turkey necks
+  option_price: 4.39
 meta_title: ''
 meta_description: ''
 social_image: ''
