@@ -9,6 +9,8 @@ sku: 42
 image: ''
 description: 'seafood '
 product_options:
+- option_name: frog legs
+  option_price: 11.89
 - option_name: 'garfish balls '
   option_price: 13.19
 meta_title: ''
