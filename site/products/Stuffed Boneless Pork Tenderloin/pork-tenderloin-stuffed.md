@@ -9,6 +9,8 @@ sku: 38
 image: ''
 description: Stuffed Boneless Pork Tenderloin with Jalapeno Cream Cheese
 product_options:
+- option_name: boudin
+  option_price: 15.39
 - option_price: 14.69
   option_name: pepper jack cheese
 meta_title: ''
