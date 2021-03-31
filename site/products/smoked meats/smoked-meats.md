@@ -9,6 +9,8 @@ sku: 41
 image: ''
 description: Smoked Meats
 product_options:
+- option_name: ham hocks
+  option_price: 6.19
 - option_name: turkey wings
   option_price: 5.09
 - option_name: turkey necks
