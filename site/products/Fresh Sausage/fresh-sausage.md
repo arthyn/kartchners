@@ -9,6 +9,8 @@ sku: 40
 image: ''
 description: Fresh Pork Sausage
 product_options:
+- option_name: duck and pork
+  option_price: 10.49
 - option_name: spinach and sundried tomatoes
   option_price: 10.79
 - option_name: italian
