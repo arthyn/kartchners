@@ -9,6 +9,8 @@ sku: 40
 image: ''
 description: Fresh Pork Sausage
 product_options:
+- option_name: green onion
+  option_price: 8.79
 - option_name: jalapeno and cheddar cheese
   option_price: 8.39
 - option_price: 12.69
