@@ -9,6 +9,8 @@ sku: 40
 image: ''
 description: Fresh Pork Sausage
 product_options:
+- option_name: green onion and garlic
+  option_price: 9.59
 - option_name: chicken
   option_price: 11.19
 - option_name: chicken bacon and pepper jack cheese
