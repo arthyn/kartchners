@@ -9,6 +9,8 @@ sku: 41
 image: ''
 description: Smoked Meats
 product_options:
+- option_name: turkey wings
+  option_price: 5.09
 - option_name: turkey necks
   option_price: 4.39
 meta_title: ''
