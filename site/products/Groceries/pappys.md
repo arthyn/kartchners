@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Pappy's Cajun BBQ Sauce
 sku: 205
-image: ''
+image: "/v1618518805/kartchners/pappys_czalsl.jpg"
 description: Pappy's Cajun BBQ Sauce
 product_options: []
 meta_title: ''
