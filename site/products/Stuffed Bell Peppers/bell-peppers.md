@@ -9,6 +9,8 @@ sku: 84
 image: ''
 description: 2 stuffed bell peppers with a variety of different options
 product_options:
+- option_name: Crawfish Dressing
+  option_price: 15.59
 - option_name: Cornbread Dressing
   option_price: 9.79
 - option_name: Shrimp Dressing
