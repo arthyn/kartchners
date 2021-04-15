@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Zydeco Chop Chop
 sku: 175
-image: ''
+image: "/v1618519081/kartchners/chop_chop_ieqsuz.png"
 description: Zydeco Chop Chop
 product_options: []
 meta_title: ''
