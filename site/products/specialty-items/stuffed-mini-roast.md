@@ -8,7 +8,9 @@ name: Stuffed Mini Pork Roast
 sku: 85
 image: ''
 description: 'stuffed mini pork roast with onions and bell peppers '
-product_options: []
+product_options:
+- option_price: 18.19
+  option_name: boudin
 meta_title: ''
 meta_description: ''
 social_image: ''
