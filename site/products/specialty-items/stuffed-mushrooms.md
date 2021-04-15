@@ -9,7 +9,9 @@ sku: 92
 image: ''
 description: 'Stuffed mushrooms with your choice of green onion sausage or shrimp
   and crab meat au gratin. '
-product_options: []
+product_options:
+- option_name: Shrimp and Crab Meat Au Gratin
+  option_price: 0
 meta_title: ''
 meta_description: ''
 social_image: ''
