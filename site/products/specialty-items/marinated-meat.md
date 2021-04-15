@@ -10,6 +10,8 @@ image: ''
 description: Your choice of marinated chicken, beef, pork, bone-in rabbit, or boneless
   rabbit marinated in our own homemade marinade and seasoning.
 product_options:
+- option_name: marinated pork
+  option_price: 9.89
 - option_name: marinated beef
   option_price: 8.59
 meta_title: ''
