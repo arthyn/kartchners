@@ -1,7 +1,7 @@
 ---
 price: 4.99
-weight__display_: 1 lb
-weight: 16
+weight__display_: 2 lb
+weight: 32
 tags: []
 layout: product
 name: Kartchner's Seafood Boil
