@@ -9,7 +9,9 @@ sku: 87
 image: ''
 description: Your choice of marinated chicken, beef, pork, bone-in rabbit, or boneless
   rabbit marinated in our own homemade marinade and seasoning.
-product_options: []
+product_options:
+- option_name: marinated beef
+  option_price: 8.59
 meta_title: ''
 meta_description: ''
 social_image: ''
