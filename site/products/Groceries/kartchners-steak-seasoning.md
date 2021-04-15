@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: 'Kartchner''s Steak Seasoning '
 sku: 208
-image: ''
+image: "/v1618518849/kartchners/steak_seasoning_xddqby.jpg"
 description: 'Kartchner''s Steak Seasoning '
 product_options: []
 meta_title: ''
