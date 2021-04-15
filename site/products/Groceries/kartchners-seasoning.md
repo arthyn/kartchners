@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: 'Kartchner''s All Purpose Seasoning '
 sku: 207
-image: ''
+image: "/v1618517075/kartchners/seasoning_pj9ag2.png"
 description: 'Kartchner''s All Purpose Seasoning '
 product_options: []
 meta_title: ''
