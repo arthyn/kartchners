@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Cajun Stuff It Capsules
 sku: 176
-image: ''
+image: "/v1618518755/kartchners/stuff_it_rwfpf0.jpg"
 description: Cajun Stuff It Capsules
 product_options: []
 meta_title: ''
