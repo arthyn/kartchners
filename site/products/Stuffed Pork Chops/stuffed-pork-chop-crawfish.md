@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Stuffed Pork Chop with Crawfish Dressing
 sku: 118
-image: ''
+image: "/v1620663450/kartchners/Stuffed_Pork_Chop_2_ooequ5.jpg"
 description: Stuffed Pork Chop with Crawfish Dressing
 product_options: []
 meta_title: ''
