@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Seasoned Hamburger Patties
 sku: 98
-image: ''
+image: "/v1620663800/kartchners/Hamburger_Pats_hjjbfd.jpg"
 description: Seasoned Hamburger Patties
 product_options: []
 meta_title: ''
