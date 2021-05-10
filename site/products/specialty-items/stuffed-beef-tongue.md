@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Stuffed Beef Tongue
 sku: 112
-image: ''
+image: "/v1620663721/kartchners/Stuffed_Seasoned_Beef_Tongue_bzsbug.jpg"
 description: Seasoned beef tongue stuffed with onions and bell peppers
 product_options: []
 meta_title: ''
