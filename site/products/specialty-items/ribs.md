@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Baby Back Ribs
 sku: 113
-image: ''
+image: "/v1620663834/kartchners/Ribs_seasoned_l4mu2o.jpg"
 description: Baby Back Ribs
 product_options: []
 meta_title: ''
