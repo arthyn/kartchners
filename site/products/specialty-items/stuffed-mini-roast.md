@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Stuffed Mini Pork Roast
 sku: 85
-image: ''
+image: "/v1620663678/kartchners/Stuffed_Pork_Chop_hcmb8c.jpg"
 description: 'stuffed mini pork roast with onions and bell peppers '
 product_options:
 - option_price: 18.19
