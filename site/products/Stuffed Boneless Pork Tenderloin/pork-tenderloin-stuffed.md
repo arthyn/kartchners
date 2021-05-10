@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Stuffed Boneless Pork Tenderloin with Jalapeno Cream Cheese
 sku: 38
-image: ''
+image: "/v1620663578/kartchners/Pork_Tenderloin_2_iudxe8.jpg"
 description: Stuffed Boneless Pork Tenderloin with Jalapeno Cream Cheese
 product_options:
 - option_name: boudin
