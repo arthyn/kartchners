@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Stuffed Pork Chop with Shrimp Dressing
 sku: 117
-image: ''
+image: "/v1620663450/kartchners/Stuffed_Pork_Chop_2_ooequ5.jpg"
 description: Stuffed Pork Chops with Shrimp Dressing
 product_options: []
 meta_title: ''
