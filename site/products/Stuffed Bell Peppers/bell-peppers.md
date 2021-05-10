@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Stuffed Bell Peppers with Boudin
 sku: 84
-image: ''
+image: "/v1620663632/kartchners/Seafood_Stuffed_BP_kdv31u.jpg"
 description: 2 stuffed bell peppers with a variety of different options
 product_options:
 - option_name: Green Onion Sausage
