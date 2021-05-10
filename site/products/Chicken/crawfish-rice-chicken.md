@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Stuffed Boneless Chicken with Boudin
 sku: 25
-image: ''
+image: "/v1620664611/kartchners/Stuffed_Chicken_t9nu0r.jpg"
 description: Whole Deboned Chickens Stuffed with a Variety of Options
 product_options:
 - option_name: spinach and cheese
