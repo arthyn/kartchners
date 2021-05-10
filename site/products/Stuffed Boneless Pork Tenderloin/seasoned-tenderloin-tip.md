@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Seasoned Tenderloin Tip
 sku: 39
-image: ''
+image: "/v1620663539/kartchners/tenderloin_tips_2_dfb7vi.jpg"
 description: Seasoned Tenderloin Tip
 product_options: []
 meta_title: ''
