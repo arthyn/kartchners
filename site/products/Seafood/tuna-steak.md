@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Ahi Tuna Steak
 sku: 83
-image: ''
+image: "/v1620664553/kartchners/Tuna_Steak_fx8hdp.jpg"
 description: Ahi Tuna Steak
 product_options: []
 meta_title: ''
