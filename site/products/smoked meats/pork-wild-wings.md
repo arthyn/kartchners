@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Pork Wild Wings
 sku: 75
-image: ''
+image: "/v1621004836/kartchners/wild_wings_n2kefq.jpg"
 description: Smoked Pork Wild Wings
 product_options: []
 meta_title: ''
