@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Alligator Meat
 sku: 80
-image: ''
+image: "/v1621005121/kartchners/Alligator_fillets_eulqeu.jpg"
 description: Louisiana Caught Alligator Meat
 product_options: []
 meta_title: ''
