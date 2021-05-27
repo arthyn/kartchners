@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: marinated chicken
 sku: 87
-image: ''
+image: "/v1622131728/kartchners/Marinated_Pork_mabigp.jpg"
 description: Your choice of marinated chicken, beef, pork, bone-in rabbit, or boneless
   rabbit marinated in our own homemade marinade and seasoning.
 product_options:
