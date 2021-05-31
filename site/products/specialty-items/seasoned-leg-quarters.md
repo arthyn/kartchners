@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Seasoned Leg Quarters
 sku: 106
-image: "/v1620663776/kartchners/Chickenshit2_aau267.jpg"
+image: "/v1622471602/kartchners/Leg_Quarters_4_s98oq8.jpg"
 description: Seasoned Leg Quarters
 product_options: []
 meta_title: ''
