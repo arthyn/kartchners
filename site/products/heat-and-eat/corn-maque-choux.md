@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Corn Maque Choux
 sku: 52
-image: ''
+image: "/v1622471475/kartchners/Corn_Maque_Choux_hm8amc.jpg"
 description: Our own homemade cajun dish, fully cooked and ready to be boiled and
   served.
 product_options: []
