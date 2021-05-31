@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Fresh pork Sausage
 sku: 40
-image: ''
+image: "/v1622471536/kartchners/Boudin_otwora.jpg"
 description: Fresh Pork Sausage
 product_options:
 - option_name: green onion and garlic
