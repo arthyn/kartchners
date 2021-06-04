@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: 9" Crabmeat Pie
 sku: 60
-image: ''
+image: "/v1622835295/kartchners/Crabmeat_Pie_sik3oc.jpg"
 description: Our own homemade cajun dish, fully cooked and ready to be heated and
   served.
 product_options: []
