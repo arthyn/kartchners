@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Jalapeno Stuffed with Boudin
 sku: 94
-image: "/v1621005029/kartchners/Jal_w_bacon_vudygo.jpg"
+image: "/v1622835486/kartchners/IMG_5127_ogcj2b.jpg"
 description: Jalapeno Stuffed with Boudin
 product_options: []
 meta_title: ''
