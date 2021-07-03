@@ -55,8 +55,8 @@ fields:
   template: banner
   label: Banner
 pages:
-- site/products/chicken/index.md
-- site/products/groceries/index.md
+- site/products/Chicken/index.md
+- site/products/Seafood/index.md
 - site/products/boudin/index.md
 - site/products/game/index.md
 - site/products/hand-cut-steaks/index.md
