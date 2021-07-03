@@ -9,7 +9,7 @@ layout: page
             <div class="flex-1 px-4 xl:px-8 mb-8">
                 {% set format = image_format or "ar_1.3,c_crop/f_auto,q_80" %}
                 <img
-                    srcset="{{ image | sizes("https://res.cloudinary.com/hmillerdev/image/upload/" + format)}}" 
+                    srcset="{{ (image or default_image) | sizes("https://res.cloudinary.com/hmillerdev/image/upload/" + format)}}" 
                     src="https://res.cloudinary.com/hmillerdev/image/upload/{{ format }}{{ image }}"
                     alt=""
                     width="2400"

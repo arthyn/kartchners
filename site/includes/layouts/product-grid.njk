@@ -29,7 +29,7 @@ layout: page
                     <a href="{{ item.url }}" class="no-underline">
                         <img 
                             class="w-full h-auto mb-2"
-                            data-srcset="{{ item.data.image | sizes("https://res.cloudinary.com/hmillerdev/image/upload/ar_1.5,c_crop/f_auto,q_80")}}"
+                            data-srcset="{{ (item.data.image or default_image) | sizes("https://res.cloudinary.com/hmillerdev/image/upload/ar_1.5,c_crop/f_auto,q_80")}}"
                             sizes="(min-width: 1536px) 312px, (min-width: 992px) 25vw, (min-width: 768px) 33vw, (min-width: 640px) 50vw, 100vw" 
                             data-lazy="https://res.cloudinary.com/hmillerdev/image/upload/ar_1.5,c_crop/f_auto,q_80{{ item.data.image }}"
                             width="312"
