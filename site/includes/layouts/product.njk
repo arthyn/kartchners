@@ -2,7 +2,7 @@
 layout: page
 ---
 
-{% set hasOptions = product_options | length >= 1 %}
+{% set hasOptions = product_options | length >= 1 %} 
 <section class="py-16">
     <div class="inner">
         <div class="flex flex-col md:flex-row -mx-4 xl:-mx-8" x-data="{ {% if hasOptions %}option: null,{% endif %} quantity: 1 }">
