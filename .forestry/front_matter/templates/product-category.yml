@@ -55,13 +55,12 @@ fields:
   template: banner
   label: Banner
 pages:
-- site/products/Chicken/index.md
-- site/products/Groceries/index.md.md
+- site/products/chicken/index.md
+- site/products/groceries/index.md
 - site/products/boudin/index.md
 - site/products/game/index.md
 - site/products/hand-cut-steaks/index.md
 - site/products/heat-and-eat/index.md
-- site/products/pork-tenderloin.md
 - site/products/pork/index.md
 - site/products/sausage-and-smoked-meats/index.md
 - site/products/specialty-items/index.md
