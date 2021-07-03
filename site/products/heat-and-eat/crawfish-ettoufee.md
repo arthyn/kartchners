@@ -4,7 +4,7 @@ weight__display_: 1 lb
 weight: 16
 tags: []
 layout: product
-name: 'crawfish ettoufee '
+name: 'Crawfish Ettoufee'
 sku: 37
 image: "/v1617134641/kartchners/heat_and_eat_jugwkm.jpg"
 description: |2-

@@ -82,10 +82,10 @@ module.exports = eleventyConfig => {
         });
     }
 
-    eleventyConfig.addCollection("products", async collection => {
-        return collection.getFilteredByGlob('./site/products/**/*.md')
-                    .filter(item => !item.inputPath.includes('index.md'))
-    })
+    // eleventyConfig.addCollection("products", async collection => {
+    //     return collection.getFilteredByGlob('./site/products/**/*.md')
+    //                 .filter(item => !item.inputPath.includes('index.md'))
+    // })
 
     // Layout aliases
     eleventyConfig.addLayoutAlias('default', 'layouts/default.njk')
