@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Stuffed Potato
 sku: 57
-image: ''
+image: "/v1627929381/kartchners/twice_baked_potato_pan_nwdmg4.jpg"
 description: 'A quick and easy side for every meal. Can be prepared within minutes
   once defrosted. '
 product_options: []
