@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: White Beans and Smoked Sausage
 sku: 54
-image: ''
+image: "/v1627929314/kartchners/white_beans_mm1k8h.jpg"
 description: Our own homemade cajun dish, fully cooked and ready to be boiled and
   served.
 product_options: []
