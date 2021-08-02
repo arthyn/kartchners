@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Crawfish and Corn Soup
 sku: 45
-image: ''
+image: "/v1627929907/kartchners/craw._soup_rv70jp.jpg"
 description: Our own homemade cajun dish, fully cooked and ready to be boiled and
   served.
 product_options: []
