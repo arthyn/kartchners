@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Chicken Sauce Piquant
 sku: 53
-image: ''
+image: "/v1627930023/kartchners/ckn_sauce_piquant_eorfnc.jpg"
 description: Our own homemade cajun dish, fully cooked and ready to be boiled and
   served.
 product_options: []
