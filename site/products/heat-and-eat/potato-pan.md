@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Stuffed Potato Pan
 sku: 62
-image: ''
+image: "/v1627929370/kartchners/stuffed_potato_fgsrg6.jpg"
 description: A perfect side to any dish. Can be prepared within minutes once defrosted.
 product_options: []
 meta_title: ''
