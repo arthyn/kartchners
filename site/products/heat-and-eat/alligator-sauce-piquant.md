@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Alligator Sauce Piquant
 sku: 56
-image: ''
+image: "/v1627930043/kartchners/alligator_sauce_piq._dnlmvn.jpg"
 description: Our own homemade cajun dish, fully cooked and ready to be boiled and
   served.
 product_options: []
