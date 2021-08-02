@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Flame Roasted Corn and Peppers
 sku: 59
-image: ''
+image: "/v1627929818/kartchners/fire_roasted_corn_hcyfds.jpg"
 description: A perfect cajun side for any meal. Can be prepared within minutes once
   defrosted.
 product_options: []
