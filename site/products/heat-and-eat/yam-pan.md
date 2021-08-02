@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Yam Pan
 sku: 64
-image: ''
+image: "/v1627928123/kartchners/sweet_potato_kfbvmq.jpg"
 description: 'A perfect side to any dish. Can be prepared within minutes once defrosted. '
 product_options: []
 meta_title: ''
