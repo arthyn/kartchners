@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: 'Shrimp Ettouffee '
 sku: 43
-image: ''
+image: "/v1627929426/kartchners/shrimp_ett._d0crkf.jpg"
 description: Our own homemade cajun dish, fully cooked and ready to be boiled and
   served.
 product_options: []
