@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Smothered Cabbage Pan
 sku: 63
-image: ''
+image: "/v1627929408/kartchners/smothered_cabbage_kbwvpw.jpg"
 description: 'A perfect side to any dish. Can be prepared within minutes once defrosted. '
 product_options: []
 meta_title: ''
