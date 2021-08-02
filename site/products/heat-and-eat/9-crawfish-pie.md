@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: 9" Crawfish Pie
 sku: 61
-image: ''
+image: "/v1627930078/kartchners/crawfish_pie_xw9lv2.jpg"
 description: Our own homemade cajun dish, fully cooked and ready to be heated and
   served.
 product_options: []
