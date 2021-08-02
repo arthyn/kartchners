@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Red Beans and Sausage
 sku: 50
-image: ''
+image: "/v1627929665/kartchners/red_beans_fdidr5.jpg"
 description: Our own homemade cajun dish, fully cooked and ready to be boiled and
   served.
 product_options: []
