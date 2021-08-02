@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: 'Guacamole '
 sku: 58
-image: ''
+image: "/v1627929783/kartchners/avacado_cpc1zv.jpg"
 description: All the ingredients to make the perfect guacamole dip in one package.
   Just defrost, stir, and serve.
 product_options: []
