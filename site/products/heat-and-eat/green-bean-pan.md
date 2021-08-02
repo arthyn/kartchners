@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Green Bean Pan
 sku: 66
-image: ''
+image: "/v1627929801/kartchners/grean_bean_cass._pgtil3.jpg"
 description: Our own homemade cajun dish, fully cooked and ready to be heated and
   served.
 product_options: []
