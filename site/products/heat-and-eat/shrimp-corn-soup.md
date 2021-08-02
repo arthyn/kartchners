@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Shrimp and Corn Soup
 sku: 46
-image: ''
+image: "/v1627929459/kartchners/shrimp_soup_klibl2.jpg"
 description: Our own homemade cajun dish, fully cooked and ready to be boiled and
   served.
 product_options: []
