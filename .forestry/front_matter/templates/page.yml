@@ -40,4 +40,4 @@ fields:
   hidden: true
   default: page
 pages:
-- site/cooking-instructions.md
+- site/page.md
