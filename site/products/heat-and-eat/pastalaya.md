@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Pork and Sausage Pastalaya
 sku: 55
-image: ''
+image: "/v1627929761/kartchners/pastalaya_ko0whu.jpg"
 description: Our own homemade cajun dish, fully cooked and ready to be boiled and
   served.
 product_options: []
