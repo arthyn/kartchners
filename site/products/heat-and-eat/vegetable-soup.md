@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Vegetable Soup
 sku: 47
-image: ''
+image: "/v1627929334/kartchners/vege_soup_qll3kx.jpg"
 description: Our own homemade cajun dish, fully cooked and ready to be boiled and
   served.
 product_options: []
