@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Chicken and Sausage Gumbo
 sku: 49
-image: ''
+image: "/v1627929998/kartchners/chicken_gumbo_hfqw71.jpg"
 description: Our own homemade cajun dish, fully cooked and ready to be boiled and
   served.
 product_options: []
