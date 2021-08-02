@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: 'Chili '
 sku: 51
-image: ''
+image: "/v1627929981/kartchners/chili_lsmbli.jpg"
 description: Our own homemade cajun dish, fully cooked and ready to be boiled and
   served.
 product_options: []
