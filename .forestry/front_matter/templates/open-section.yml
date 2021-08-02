@@ -22,5 +22,3 @@ fields:
     required: false
   label: Section Class
   default: relative py-16
-pages:
-- site/page.md

@@ -39,3 +39,5 @@ fields:
   label: Layout
   hidden: true
   default: page
+pages:
+- site/page.md
