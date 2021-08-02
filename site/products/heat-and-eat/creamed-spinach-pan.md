@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Creamed Spinach Pan
 sku: 67
-image: ''
+image: "/v1627929869/kartchners/spinach_qxrmia.jpg"
 description: Our own homemade cajun dish, fully cooked and ready to be heated and
   served.
 product_options: []
