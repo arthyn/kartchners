@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Seasoned Chicken Wings
 sku: 107
-image: ''
+image: "/v1620663764/kartchners/Chickenshit_ngl4ou.jpg"
 description: Seasoned Chicken Wings
 product_options: []
 meta_title: ''
