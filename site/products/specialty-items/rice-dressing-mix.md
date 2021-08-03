@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Rice Dressing Mix
 sku: 105
-image: ''
+image: "/v1628006898/kartchners/dressing_mix_cuisyu.jpg"
 description: Rice Dressing Mix
 product_options: []
 meta_title: ''
