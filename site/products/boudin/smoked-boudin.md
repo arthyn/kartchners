@@ -5,7 +5,7 @@ price: 11.49
 tags: []
 weight: 32
 name: Smoked Boudin
-image: "/v1613851663/kartchners/boudin/DSC_1566_pxnmqz.jpg"
+image: "/v1628006080/kartchners/smoked_boudin_hhlohi.jpg"
 description: "smoked pork boudin \n3 links"
 product_options: []
 weight__display_: 2lb.
