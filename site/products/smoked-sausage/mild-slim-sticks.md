@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Mild Slim Sticks
 sku: 23
-image: ''
+image: "/v1628006496/kartchners/slim_sticks_mlxmpt.jpg"
 description: Mild Slim Sticks
 product_options: []
 meta_title: ''
