@@ -5,7 +5,7 @@ price: 13.99
 tags: 
 weight: 48
 name: Frozen Boudin Balls
-image: "/v1613851784/kartchners/plates/DSC_1753_kubudd.jpg"
+image: "/v1628004609/kartchners/boudin_balls_auetpo.jpg"
 description: Un-battered Frozen Boudin Balls
 product_options:
 - option_name: Regular
