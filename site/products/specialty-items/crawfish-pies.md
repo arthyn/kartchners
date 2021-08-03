@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Crawfish Pies
 sku: 111
-image: ''
+image: "/v1628007219/kartchners/mini_crawfish_pies_xb0gjz.jpg"
 description: mini crawfish pies stuffed with crawfish and rice
 product_options: []
 meta_title: ''
