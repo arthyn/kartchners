@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Louisiana Crawfish Tails
 sku: 81
-image: ''
+image: "/v1628014981/kartchners/crawfish_tails_dfb4ji.jpg"
 description: Louisiana Raised Crawfish Tails
 product_options: []
 meta_title: ''
