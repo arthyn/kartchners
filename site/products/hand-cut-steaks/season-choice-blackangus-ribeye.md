@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Seasoned Choice Black Angus Ribeye
 sku: 34
-image: ''
+image: "/v1628085528/kartchners/seasoned_ribeye_ksjd6n.jpg"
 description: Seasoned Choice Black Angus Ribeye
 product_options: []
 meta_title: ''
