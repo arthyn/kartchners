@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Seasoned Choice Filet Mignon
 sku: 36
-image: ''
+image: "/v1628085500/kartchners/filet_mignon_zs8b7y.jpg"
 description: Seasoned Choice Filet Mignon
 product_options: []
 meta_title: ''
