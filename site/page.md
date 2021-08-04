@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Cooking Instructions
-edited_url: cookinginstructions
+edited_url: cooking-instructions
 sections: []
 meta_title: ''
 meta_description: ''
