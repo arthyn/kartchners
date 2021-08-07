@@ -10,6 +10,8 @@ image: "/v1620663450/kartchners/Stuffed_Pork_Chop_2_ooequ5.jpg"
 description: Pork Chops Stuffed With Either Crawfish Dressing, Cornbread Dressing,
   or Shrimp Dressing
 product_options:
+- option_name: shrimp dressing
+  option_price: 10.59
 - option_name: cornbread dressing
   option_price: 9.79
 - option_name: crawfish dressing
