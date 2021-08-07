@@ -1,14 +1,16 @@
 ---
-price: 11.29
+price: 0.0
 weight__display_: 1 lb
 weight: 16
 tags: []
 layout: product
-name: Stuffed Boneless Chicken Breasts with Jalapeno and Cream Cheese
+name: 'Stuffed Boneless Chicken Breasts '
 sku: 27
 image: ''
 description: Stuffed Boneless Chicken Breasts with Your Choice of Stuffing
 product_options:
+- option_name: Jalapeno Cream Cheese
+  option_price: 11.09
 - option_name: pineapple and cream cheese wrapped in bacon
   option_price: 11.29
 - option_name: pepper jack cheese wrapped in bacon
