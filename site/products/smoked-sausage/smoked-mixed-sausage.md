@@ -10,6 +10,8 @@ image: "/v1613851803/kartchners/sausage/DSC_1644_yxilip.jpg"
 description: 'One of the largest varieties of smoked sausage in our area, all guaranteed
   to make your mouth water. '
 product_options:
+- option_name: rabbit and pork
+  option_price: 7.79
 - option_name: pork
   option_price: 6.89
 - option_name: jalapeno pork
