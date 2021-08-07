@@ -10,7 +10,7 @@ image: "/v1613851803/kartchners/sausage/DSC_1644_yxilip.jpg"
 description: 'One of the largest varieties of smoked sausage in our area, all guaranteed
   to make your mouth water. '
 product_options:
-- option_name: green onion garlic porl
+- option_name: green onion garlic pork
   option_price: 7.59
 - option_name: mixed beef and pork
   option_price: 8.19
