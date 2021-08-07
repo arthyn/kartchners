@@ -1,14 +1,17 @@
 ---
-price: 10.29
+price: 0.0
 weight__display_: 1 lb
 weight: 16
 tags: []
 layout: product
-name: Fresh pork Sausage
+name: Fresh Sausage
 sku: 40
 image: "/v1622471536/kartchners/Boudin_otwora.jpg"
-description: Fresh Pork Sausage
+description: Large Variety of Homemade Fresh Sausage to Choose From, All Guaranteed
+  to Make Your Mouth Water.
 product_options:
+- option_name: pork
+  option_price: 7.89
 - option_name: green onion and garlic
   option_price: 9.59
 - option_name: chicken
