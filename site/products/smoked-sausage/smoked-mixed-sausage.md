@@ -10,6 +10,8 @@ image: "/v1613851803/kartchners/sausage/DSC_1644_yxilip.jpg"
 description: 'One of the largest varieties of smoked sausage in our area, all guaranteed
   to make your mouth water. '
 product_options:
+- option_name: deer with jalapeno pepper jack cheese
+  option_price: 9.99
 - option_name: caution hot pork
   option_price: 7.09
 - option_name: brown sugar and syrup
