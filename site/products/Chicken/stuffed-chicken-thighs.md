@@ -1,14 +1,16 @@
 ---
-price: 17.09
+price: 0.0
 weight__display_: 2 lb
 weight: 32
 tags: []
 layout: product
-name: Stuffed Chicken Thigh with Jalapeno Cream Cheese
+name: Stuffed Chicken Thighs
 sku: 26
 image: ''
 description: Chicken Thighs Stuffed With Your Choice of Stuffing
 product_options:
+- option_name: Jalapeno Cream Cheese
+  option_price: 17.09
 - option_name: boudin and pepper jack cheese
   option_price: 19.29
 - option_name: mushroom, black olive, and mozzarella cheese
