@@ -1,14 +1,16 @@
 ---
-price: 15.99
+price: 0.0
 weight__display_: 1 lb
 weight: 16
 tags: []
 layout: product
-name: Stuffed Boneless Pork Tenderloin with Jalapeno Cream Cheese
+name: Stuffed Boneless Pork Tenderloins
 sku: 38
 image: "/v1620663578/kartchners/Pork_Tenderloin_2_iudxe8.jpg"
-description: Stuffed Boneless Pork Tenderloin with Jalapeno Cream Cheese
+description: Stuffed Tenderloins With Your Choice of Stuffing
 product_options:
+- option_name: Jalapeno Cream Cheese
+  option_price: 15.99
 - option_name: boudin
   option_price: 16.39
 - option_name: spinach and cream cheese
