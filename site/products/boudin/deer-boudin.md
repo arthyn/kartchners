@@ -5,7 +5,7 @@ price: 12.09
 tags: []
 weight: 32
 name: Deer Boudin
-image: "/v1613851663/kartchners/boudin/DSC_1553_a6hrtv.jpg"
+image: "/v1625337970/kartchners/logo_q8zfwf.jpg"
 description: Deer Boudin
 product_options: []
 weight__display_: 2lb.
