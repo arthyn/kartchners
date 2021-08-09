@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Seasoned Catfish Fillets
 sku: 79
-image: ''
+image: "/v1628527264/kartchners/seasoned_fish_fwro6z.jpg"
 description: 2 Seasoned Catfish Fillets
 product_options: []
 meta_title: ''
