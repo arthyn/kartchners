@@ -10,6 +10,10 @@ image: ''
 description: Fresh sausage made in house daily, with a variety big enough to make
   everyone's taste buds happy
 product_options:
+- option_name: italian
+  option_price: 7.89
+- option_name: pork, spinach and sundried tomatoes
+  option_price: 10.79
 - option_name: duck and pork
   option_price: 10.49
 - option_name: chicken, bacon, pepper jack cheese
