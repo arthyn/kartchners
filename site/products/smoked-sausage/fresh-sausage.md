@@ -10,6 +10,8 @@ image: ''
 description: Fresh sausage made in house daily, with a variety big enough to make
   everyone's taste buds happy
 product_options:
+- option_name: chicken
+  option_price: 11.19
 - option_name: green onion garlic pork
   option_price: 9.59
 - option_name: pork
