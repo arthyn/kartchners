@@ -1,6 +1,11 @@
 {
   "main": [
     {
+      "label": "Cooking Instructions",
+      "url": "cooking-instructions",
+      "main": true
+    },
+    {
       "label": "Home",
       "url": "/",
       "main": false
