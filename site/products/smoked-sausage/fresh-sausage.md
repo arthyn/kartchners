@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Fresh Sausage
 sku: 200
-image: ''
+image: "/v1613851803/kartchners/sausage/DSC_1644_yxilip.jpg"
 description: Fresh sausage made in house daily, with a variety big enough to make
   everyone's taste buds happy
 product_options:
