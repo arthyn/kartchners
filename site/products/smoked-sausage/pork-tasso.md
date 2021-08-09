@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Pork Tasso
 sku: 70
-image: ''
+image: "/v1621005210/kartchners/Pork_or_not_to_pork_shrq1q.jpg"
 description: Pork Tasso
 product_options: []
 meta_title: ''
