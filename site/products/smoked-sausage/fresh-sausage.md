@@ -10,6 +10,10 @@ image: ''
 description: Fresh sausage made in house daily, with a variety big enough to make
   everyone's taste buds happy
 product_options:
+- option_name: jalapeno cheddar cheese pork
+  option_price: 8.39
+- option_name: green onion pork
+  option_price: 8.79
 - option_name: italian
   option_price: 7.89
 - option_name: pork, spinach and sundried tomatoes
