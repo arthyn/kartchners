@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Smoked Turkey Necks
 sku: 71
-image: ''
+image: "/v1622471382/kartchners/Mmm_xtuwd7.jpg"
 description: Smoked Turkey Necks
 product_options: []
 meta_title: ''
