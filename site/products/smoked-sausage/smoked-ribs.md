@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Smoked Pork Ribs
 sku: 74
-image: ''
+image: "/v1621004902/kartchners/Yummy_d598pu.jpg"
 description: Smoked Pork Ribs
 product_options: []
 meta_title: ''
