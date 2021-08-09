@@ -10,6 +10,8 @@ image: ''
 description: Fresh sausage made in house daily, with a variety big enough to make
   everyone's taste buds happy
 product_options:
+- option_name: deer and pork
+  option_price: 12.69
 - option_name: jalapeno cheddar cheese pork
   option_price: 8.39
 - option_name: green onion pork
