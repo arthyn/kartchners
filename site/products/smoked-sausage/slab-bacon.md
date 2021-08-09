@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Slab Bacon
 sku: 41
-image: ''
+image: "/v1601937878/kartchners/bacon_pf9pxg.jpg"
 description: Slab Bacon
 product_options: []
 meta_title: ''
