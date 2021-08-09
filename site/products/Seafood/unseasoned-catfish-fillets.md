@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Unseasoned Catfish Fillets
 sku: 78
-image: ''
+image: "/v1628527315/kartchners/unseasoned_fish_fursg6.jpg"
 description: 2 Unseasoned Catfish Fillets
 product_options: []
 meta_title: ''
