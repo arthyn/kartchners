@@ -4,12 +4,14 @@ weight__display_: 1 lb
 weight: 16
 tags: []
 layout: product
-name: marinated chicken
+name: Marinated Meats
 sku: 87
 image: "/v1622131728/kartchners/Marinated_Pork_mabigp.jpg"
 description: Your choice of marinated chicken, beef, pork, bone-in rabbit, or boneless
   rabbit marinated in our own homemade marinade and seasoning.
 product_options:
+- option_name: marinated chicken
+  option_price: 7.39
 - option_name: marinated boneless rabbit
   option_price: 13.69
 - option_name: marinated bone-in rabbit
