@@ -9,6 +9,8 @@ sku: 95
 image: ''
 description: Boneless Pork Loin stuffed with Jalapeno and Cream Cheese
 product_options:
+- option_name: andouille and seasoning blend
+  option_price: 32.99
 - option_name: jalapeno cream cheese
   option_price: 32.99
 meta_title: ''
