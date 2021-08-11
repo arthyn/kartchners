@@ -9,6 +9,8 @@ sku: 205
 image: "/v1628703006/kartchners/pops_2_qcr1v2.jpg"
 description: ''
 product_options:
+- option_name: cayenne on demand
+  option_price: 7.19
 - option_price: 7.19
   option_name: banana
 meta_title: ''
