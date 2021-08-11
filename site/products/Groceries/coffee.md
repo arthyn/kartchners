@@ -9,6 +9,8 @@ sku: 202
 image: "/v1628702263/kartchners/breakfast_coffee_zxe3vj.jpg"
 description: ''
 product_options:
+- option_name: signature blend
+  option_price: 7.89
 - option_name: breakfast blend
   option_price: 7.89
 meta_title: ''
