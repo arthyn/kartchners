@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: 'Savoie''s Roux '
 sku: 121
-image: ''
+image: "/v1628701375/kartchners/savoies_pwbg6p.jpg"
 description: "Savoie's Roux\n32oz. "
 product_options: []
 meta_title: ''
