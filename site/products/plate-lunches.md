@@ -52,6 +52,6 @@ banner_alt: ''
 >
 > BBQ 1/2 chicken or pork steak, rice dressing, baked beans, potato salad
 
-> > **_It is advised to call our store and place orders for plate lunches in advance as they sell out quickly._**
+> > #### **_Plate lunch orders can not be placed online._**
 > >
-> > **_Orders can not be placed online._**
+> > **_It is advised to call our store and place orders for plate lunches in advance as they sell out quickly._**
