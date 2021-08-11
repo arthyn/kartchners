@@ -9,6 +9,8 @@ sku: 203
 image: "/v1628702819/kartchners/cjn_pepper_jelly_fcvkxz.jpg"
 description: ''
 product_options:
+- option_name: mago
+  option_price: 6.99
 - option_name: cranberry
   option_price: 6.99
 - option_name: grape
