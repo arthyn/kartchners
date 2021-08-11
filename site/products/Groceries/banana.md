@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Pop's Hot Sauces
 sku: 205
-image: "/v1628703006/kartchners/pops_2_qcr1v2.jpg"
+image: "/v1628704291/kartchners/pops_sauces_w8wl3j.jpg"
 description: ''
 product_options:
 - option_name: ghost pepper
