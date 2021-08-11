@@ -4,7 +4,7 @@ tags:
 layout: product-grid
 image_formatting: ar_1.3,c_crop/f_auto,q_80
 name: Groceries
-image: "/v1628695515/kartchners/seasoning_gk728m.png"
+image: "/v1628695675/kartchners/seasoning_hnie93.png"
 short_description: ''
 meta_title: ''
 meta_description: ''
