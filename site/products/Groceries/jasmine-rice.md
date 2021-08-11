@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Cajun Country Jasmine Rice
 sku: 122
-image: ''
+image: "/v1628701562/kartchners/jasmine_rice_luaquf.jpg"
 description: 'Cajun Country Jasmine Rice 2lbs. '
 product_options: []
 meta_title: ''

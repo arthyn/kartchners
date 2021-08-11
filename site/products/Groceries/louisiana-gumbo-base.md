@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Louisiana Cajun Gumbo Base
 sku: 126
-image: ''
+image: "/v1628701509/kartchners/gumbo_base_its3nn.jpg"
 description: louisiana cajun gumbo base
 product_options: []
 meta_title: ''
