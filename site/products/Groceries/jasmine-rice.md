@@ -1,5 +1,5 @@
 ---
-price: 2.79
+price: 3.79
 weight__display_: 2 lb
 weight: 32
 tags: []
