@@ -9,6 +9,8 @@ sku: 205
 image: "/v1628703006/kartchners/pops_2_qcr1v2.jpg"
 description: ''
 product_options:
+- option_name: midnight fire
+  option_price: 7.19
 - option_name: midnight heat
   option_price: 7.19
 - option_name: cayenne on demand
