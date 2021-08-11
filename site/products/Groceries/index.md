@@ -4,7 +4,7 @@ tags:
 layout: product-grid
 image_formatting: ar_1.3,c_crop/f_auto,q_80
 name: Groceries
-image: "/v1613851857/kartchners/shelves%20and%20coolers/DSC_1844_v5ko5q.jpg"
+image: "/v1628695515/kartchners/seasoning_gk728m.png"
 short_description: ''
 meta_title: ''
 meta_description: ''
@@ -14,5 +14,9 @@ banner_image: ''
 banner_format: ''
 banner_class: ''
 banner_alt: ''
+sku: 180
+price: 0.0
+weight__display_: ".5"
+weight: 8
 
 ---
