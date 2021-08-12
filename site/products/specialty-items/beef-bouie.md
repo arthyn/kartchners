@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Fresh Beef Bouie
 sku: 104
-image: ''
+image: "/v1628792343/kartchners/bouie_g33rfh.jpg"
 description: Fresh Beef Bouie
 product_options: []
 meta_title: ''
