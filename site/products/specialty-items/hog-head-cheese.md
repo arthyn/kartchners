@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Hog Head Cheese
 sku: 115
-image: "/v1628006953/kartchners/hog_head_cheese_vqpu81.jpg"
+image: "/v1629735010/kartchners/hog_head_cheese_2_gvu2fm.jpg"
 description: Hog Head Cheese
 product_options: []
 meta_title: ''
