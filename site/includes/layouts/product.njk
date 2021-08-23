@@ -19,8 +19,10 @@ layout: page
             <div class="flex-1 px-4 md:px-8">
                 <h1 class="text-4xl leading-none text-red-700 mb-4">{{ name }}</h1>
                 <div class="flex items-center space-x-3 mb-6 text-2xl leading-none">
+                    {% if price %}
                     <span class="font-semibold">${{ price }}</span>
                     <span>|</span>
+                    {% endif %}
                     <span>{{ weight__display_ }}</span>
                 </div>
                 <hr class="mb-10"/>
