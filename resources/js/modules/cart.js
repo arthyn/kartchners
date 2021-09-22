@@ -10,7 +10,11 @@ export const cartPopup = function() {
         },
         timeout: null,
         init() {
-            Snipcart.events.on('item.adding', (cartItem) => this.show(cartItem));
+            Snipcart.events.on('item.adding', (cartItem) => {
+                if (cartItem.id !== '9999') {
+                    this.show(cartItem)
+                }
+            });
         },
         show(item) {
             clearTimeout(this.timeout);
