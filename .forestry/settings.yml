@@ -5,15 +5,30 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: site
+  label: Pages
+  create: all
+  match: "**/*"
+  exclude: "{globals,includes,products}/**/*"
+- type: directory
   path: site/products
   label: Products
   create: all
   match: "**/*"
-upload_dir: uploads
-public_path: "/uploads"
+  templates:
+  - product
+  - product-category
+- type: document
+  path: site/globals/navigation.json
+  label: Navigation
+- type: document
+  path: site/globals/site.json
+  label: Site Info
+upload_dir: ''
+public_path: ''
 front_matter_path: ''
-use_front_matter_path: false
-file_template: ":filename:"
+use_front_matter_path: 
+file_template: 'kartchners/:filename:'
 build:
   preview_output_directory: dist
   install_dependencies_command: npm install

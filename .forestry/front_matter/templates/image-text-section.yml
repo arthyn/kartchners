@@ -1,0 +1,54 @@
+---
+label: Image + Text Section
+hide_body: true
+fields:
+- name: image_position
+  type: select
+  default: Right
+  config:
+    required: false
+    options:
+    - Left
+    - Right
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Image Position
+- name: text
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Text
+- name: image
+  type: file
+  config:
+    maxSize: 4
+  label: Image
+- name: image_format
+  type: text
+  config:
+    required: false
+  label: Image Format
+- name: image_alt
+  type: text
+  config:
+    required: false
+  label: Image Alt Text
+- name: section_id
+  type: text
+  config:
+    required: false
+  label: Section ID
+  description: 'Allows you to link to the section with #'
+- name: section_class
+  type: text
+  config:
+    required: false
+  label: Section Class
+  default: relative py-16

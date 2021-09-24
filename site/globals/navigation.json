@@ -1,35 +1,35 @@
 {
-    "main": [
-        {
-            "label": "Home",
-            "url": "/",
-            "main": false
-        },
-        {
-            "label": "Menu",
-            "url": "/#menu",
-            "main": true
-        },
-        {
-            "label": "Products",
-            "url": "/products",
-            "main": true,
-            "submenu": "product"
-        },
-        {
-            "label": "Hours",
-            "url": "/#hours",
-            "main": true
-        },
-        {
-            "label": "Contact",
-            "url": "/contact",
-            "main": true
-        },
-        {
-            "label": "Get Directions",
-            "url": "/#directions",
-            "main": false
-        }
-    ]
+  "main": [
+    {
+      "label": "Home",
+      "url": "/",
+      "main": false
+    },
+    {
+      "label": "Shop Now",
+      "url": "/products",
+      "main": false
+    },
+    {
+      "label": "Products",
+      "url": "/products",
+      "main": true,
+      "submenu": "product-category"
+    },
+    {
+      "label": "Menu",
+      "url": "/#menu",
+      "main": true
+    },
+    {
+      "label": "Visit Us",
+      "url": "/#visit-us",
+      "main": true
+    },
+    {
+      "label": "Contact",
+      "url": "/contact",
+      "main": true
+    }
+  ]
 }

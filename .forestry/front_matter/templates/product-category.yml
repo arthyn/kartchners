@@ -1,0 +1,67 @@
+---
+label: Product Category
+hide_body: false
+fields:
+- name: tags
+  type: tag_list
+  default:
+  - product-category
+  label: Tags
+  hidden: true
+- name: layout
+  type: text
+  default: product-grid
+  label: Layout
+  hidden: true
+- name: name
+  type: text
+  config:
+    required: true
+  label: Name
+- name: image
+  type: file
+  config:
+    maxSize: 64
+    required: true
+  label: Image
+  description: Shows up on the products page
+- name: image_formatting
+  type: text
+  config:
+    required: false
+  label: Image Formatting
+  description: Allows you to transform the image, like cropping, quality, etc. The
+    different operations can be seen here <a href="https://cloudinary.com/documentation/image_transformations"
+    title="https://cloudinary.com/documentation/image_transformations" target="_blank">https://cloudinary.com/documentation/image_transformations</a>
+  default: ar_1.3,c_crop/f_auto,q_80
+- name: short_description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Short Description
+  description: Shows up on the products page where the categories are listed
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: SEO
+- name: banner
+  type: include
+  config: {}
+  template: banner
+  label: Banner
+pages:
+- site/products/Chicken/index.md
+- site/products/Seafood/index.md
+- site/products/boudin/index.md
+- site/products/cooking-instructions.md
+- site/products/game/index.md
+- site/products/hand-cut-steaks/index.md
+- site/products/heat-and-eat/index.md
+- site/products/plate-lunches.md
+- site/products/pork/index.md
+- site/products/specialty-items/index.md

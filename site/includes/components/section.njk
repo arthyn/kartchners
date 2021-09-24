@@ -1,0 +1,3 @@
+<section {% if section.section_id %} id="{{ section.section_id }}" {% endif %} {% if section.section_class %} class="{{ section.section_class }}" {% endif %}>
+    {{ section.content | safe }}
+</section>

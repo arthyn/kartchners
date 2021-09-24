@@ -12,7 +12,7 @@ fields:
   type: number
   label: SKU
   description: Must be unique
-  default: 0
+  default: 
   required: true
   config:
     min: 
@@ -30,6 +30,24 @@ fields:
     max: 
     step: 
     required: true
+- name: weight__display_
+  type: text
+  config:
+    required: true
+  label: Weight (Display)
+  description: Displayed to the user, include units.
+  default: 1 lb
+- name: weight
+  type: number
+  label: Weight (ounces)
+  description: Not displayed, used for shipping weight in Snipcart
+  default: 16
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+    required: true
 - name: image
   type: file
   config:
@@ -39,18 +57,12 @@ fields:
   type: textarea
   default: ''
   config:
-    required: true
+    required: false
     wysiwyg: false
     schema:
       format: markdown
     max: 800
   label: Description
-- name: weight
-  type: text
-  config:
-    required: false
-  label: Weight
-  default: 1 lb
 - name: product_options
   type: field_group_list
   fields:
@@ -76,3 +88,127 @@ fields:
     labelField: 
   label: Product Options
   description: If using options, include option for default or base product as well.
+- name: tags
+  type: tag_list
+  default: []
+  label: Extra Categories
+  description: Product will appear in these categories in addition to whatever folder
+    it's under, which will be it's primary category.
+- name: layout
+  type: text
+  config:
+    required: false
+  label: Layout
+  hidden: true
+  default: product
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: SEO
+  description: These fields are not required and only need to be filled out if you're
+    overriding what's on the page.
+- name: banner
+  type: include
+  config: {}
+  template: banner
+  label: Banner
+pages:
+- site/products/Chicken/crawfish-rice-chicken.md
+- site/products/Groceries/banana.md
+- site/products/Groceries/bread.md
+- site/products/Groceries/breading.md
+- site/products/Groceries/chop-chop.md
+- site/products/Groceries/coffee.md
+- site/products/Groceries/jasmine-rice.md
+- site/products/Groceries/kartchners-seasoning.md
+- site/products/Groceries/kartchners-steak-seasoning.md
+- site/products/Groceries/lees-cajun-blends.md
+- site/products/Groceries/louisiana-gumbo-base.md
+- site/products/Groceries/pappys.md
+- site/products/Groceries/pepper-jelly.md
+- site/products/Groceries/popcorn-rice.md
+- site/products/Groceries/rice.md
+- site/products/Groceries/savoies-roux-16.md
+- site/products/Groceries/savoies-roux-32.md
+- site/products/Groceries/seafood-boil.md
+- site/products/Groceries/squash.md
+- site/products/Groceries/stuff-it-capsules.md
+- site/products/Seafood/alligator-meat.md
+- site/products/Seafood/crawfish-tails.md
+- site/products/Seafood/frog-legs.md
+- site/products/Seafood/garfish-balls.md
+- site/products/Seafood/lump-crab-cakes.md
+- site/products/Seafood/peeled-shrimp.md
+- site/products/Seafood/seasoned-catfish-fillets.md
+- site/products/Seafood/tuna-steak.md
+- site/products/Seafood/unseasoned-catfish-fillets.md
+- site/products/boudin/deer-boudin.md
+- site/products/boudin/pork-boudin.md
+- site/products/boudin/smoked-boudin.md
+- site/products/game/duck-breast-jal-cc.md
+- site/products/game/seasoned-duck-breast.md
+- site/products/game/stuffed-rabbit.md
+- site/products/game/whole-quail-stuffed.md
+- site/products/game/whole-rabbit.md
+- site/products/hand-cut-steaks/filet-mignon.md
+- site/products/hand-cut-steaks/porterhouse-steak.md
+- site/products/hand-cut-steaks/season-choice-blackangus-ribeye.md
+- site/products/hand-cut-steaks/stuffed-ribeye-jalapeno-creamcheese.md
+- site/products/heat-and-eat/9-crabmeat-pie.md
+- site/products/heat-and-eat/9-crawfish-pie.md
+- site/products/heat-and-eat/alligator-sauce-piquant.md
+- site/products/heat-and-eat/chicken-sauce-piquant.md
+- site/products/heat-and-eat/chicken-sausage-gumbo.md
+- site/products/heat-and-eat/chili.md
+- site/products/heat-and-eat/corn-maque-choux.md
+- site/products/heat-and-eat/cornbread-dressing.md
+- site/products/heat-and-eat/crawfish-corn-soup.md
+- site/products/heat-and-eat/creamed-spinach-pan.md
+- site/products/heat-and-eat/duck-andouille-gumbo.md
+- site/products/heat-and-eat/flame-roasted-corn.md
+- site/products/heat-and-eat/green-bean-pan.md
+- site/products/heat-and-eat/guacamole.md
+- site/products/heat-and-eat/pastalaya.md
+- site/products/heat-and-eat/potato-pan.md
+- site/products/heat-and-eat/red-beans-sausage.md
+- site/products/heat-and-eat/seafood-gumbo.md
+- site/products/heat-and-eat/shrimp-corn-soup.md
+- site/products/heat-and-eat/shrimp-ettoufee.md
+- site/products/heat-and-eat/smotherd-cabbage-pan.md
+- site/products/heat-and-eat/stuffed-potato.md
+- site/products/heat-and-eat/vegetable-soup.md
+- site/products/heat-and-eat/white-beans.md
+- site/products/heat-and-eat/yam-pan.md
+- site/products/smoked-sausage/andouille.md
+- site/products/smoked-sausage/fresh-sausage.md
+- site/products/smoked-sausage/mild-slim-sticks.md
+- site/products/smoked-sausage/pork-tasso.md
+- site/products/smoked-sausage/slab-bacon.md
+- site/products/smoked-sausage/smoked-hocks.md
+- site/products/smoked-sausage/smoked-mixed-sausage.md
+- site/products/smoked-sausage/smoked-ribs.md
+- site/products/smoked-sausage/turkey-necks.md
+- site/products/smoked-sausage/turkey-wings.md
+- site/products/smoked-sausage/wild-wings.md
+- site/products/specialty-items/andouille-pork-loin.md
+- site/products/specialty-items/beef-bouie.md
+- site/products/specialty-items/boston-butt-roast.md
+- site/products/specialty-items/chicken-patties.md
+- site/products/specialty-items/crawfish-pies.md
+- site/products/specialty-items/hog-head-cheese.md
+- site/products/specialty-items/jalapeno-patties.md
+- site/products/specialty-items/jalapeno-stuffed-with-boudin.md
+- site/products/specialty-items/loin-jalapeno-cream-cheese.md
+- site/products/specialty-items/marinated-meat.md
+- site/products/specialty-items/meat-pies.md
+- site/products/specialty-items/ribs.md
+- site/products/specialty-items/rice-dressing-mix.md
+- site/products/specialty-items/seasoned-hamburger-patties.md
+- site/products/specialty-items/seasoned-leg-quarters.md
+- site/products/specialty-items/seasoned-meatballs.md
+- site/products/specialty-items/stuffed-beef-tongue.md
+- site/products/specialty-items/stuffed-boston-butt.md
+- site/products/specialty-items/stuffed-mini-roast.md
+- site/products/specialty-items/stuffed-mushrooms.md
+- site/products/specialty-items/stuffed-ponce.md

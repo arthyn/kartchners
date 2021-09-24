@@ -6,8 +6,9 @@
             <div class="text-center md:text-left mb-8">
                 <h2 id="hours" class="mb-3 text-2xl text-white">Store Hours</h2>
                 <ul class="list-none">
-                    <li>Monday through Friday 6:00 AM - 7:00 PM</li>
-                    <li>Saturday through Sunday 7:00 AM - 7:00 PM</li>
+                    {% for hour in site.hours %}
+                        <li>{{ hour }}</li>
+                    {% endfor %}
                 </ul>
             </div>
 
@@ -18,7 +19,7 @@
         </div>
 
         <div class="flex flex-col md:flex-row justify-between items-center">
-            <p class="pb-8 md:pb-0 text-gray-500">© 2020 Kartchner's Specialty Meats</p>
+            <p class="pb-8 md:pb-0 text-gray-500">© 2021 {{ site.name }}</p>
 
             {% include 'components/social-icons.njk' %}
         </div>

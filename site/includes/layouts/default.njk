@@ -3,13 +3,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if meta_title %}{{ meta_title }}{% else %}{{ title }}{% endif %} | {{ site.name }}</title>
-    <meta name="description" content="{% if meta_description %}{{ meta_description }}{% else %}{{ excerpt }}{% endif %}">
-    {% if page.fileSlug === 'blog' %}
-        <meta name="robots" content="noindex,follow" />
-    {% else %}
-        <meta name="robots" content="index,follow" />
-    {% endif %}
+    {% set normalizedTitle = meta_title or title or name %}
+    {% set normalizedDescription = meta_description or excerpt or description %}
+    <title>{{ normalizedTitle }} | {{ site.name }}</title>
+    <meta name="description" content="{{ normalizedDescription }}">
+    <meta name="robots" content="index,follow" />
 
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Oswald:wght@700&display=swap" rel="stylesheet"> 
     {# if your site's entire CSS comes in under 14kb, you may want to inline in the head #}
@@ -20,6 +18,12 @@
         {# else, use the minified css file for production #}
         <link rel="stylesheet" href="/css/main.min.css">
     {% endif %}
+
+    {# snipcart #}
+    <link rel="preconnect" href="https://app.snipcart.com">
+    <link rel="preconnect" href="https://cdn.snipcart.com"> 
+    <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.2.1/default/snipcart.css" />
+    <script async src="https://cdn.snipcart.com/themes/v3.2.1/default/snipcart.js"></script>
 
     {# include scripts #}
     {% if helpers.environment === "development" %}
@@ -37,14 +41,14 @@
     <link rel="icon" type="image/png" href="{{ site.images.favicon }}">
 
     {# canonical #}
-    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+    <link rel="canonical" href="{{ canonical or (site.url + page.url) }}">
 
     <!-- Fathom - beautiful, simple website analytics -->
     <script src="https://cdn.usefathom.com/script.js" site="EXAJNODE" defer></script>
     <!-- / Fathom -->
 </head>
 
-<body {% if body_class %} id="{{ body_class }}"{% endif %} class="text-gray-900 leading-normal text-lg font-body">
+<body {% if body_class %} id="{{ body_class }}"{% endif %} class="text-gray-800 leading-normal text-lg font-body">
 
     <a class="sr-only" href="#main">Skip to content</a>
 
@@ -63,6 +67,15 @@
 
     {# include mobile nav #}
     {% include "components/mobile-nav.njk" %}
+
+    <div 
+        hidden 
+        id="snipcart" 
+        data-api-key="NjFlYmVmZWYtMzA3Yy00MGJjLTkwMDYtMzc4Y2U0OTFjOWU1NjM3NDMzMzAxNjMzNzYwODI5"
+        data-config-add-product-behavior="none"
+        data-config-modal-style="side"
+        data-turbolinks-permanent
+    ></div>
 
 </body>
 </html>

@@ -31,9 +31,23 @@ const exists = function(el, limit) {
 
 }
 
+const extractCloudinaryParts = (url) => {
+    const pattern = /^(.*\/image\/upload\/)(.*\/)(v\d+.*)$/
+    const matches = pattern.exec(url);
+    if (!matches)
+        return null;
+
+    return {
+        prefix: matches[1],
+        formatting: matches[2],
+        path: matches[3]
+    }
+}
+
 export {
     page,
-    exists
+    exists,
+    extractCloudinaryParts
 }
 
 

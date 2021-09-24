@@ -1,0 +1,124 @@
+---
+layout: page
+---
+
+<article class="inner max-w-4xl py-16 ">
+
+    <header>
+        <h1 class="page-title">{{ title }}</h1>
+    </header>
+
+    <div class="content" x-data="contactForm()">
+
+        {{ content | safe }}
+
+        <form class="form" 
+            action="/.netlify/functions/contact" 
+            method="POST" 
+            x-on:submit.prevent="handleSubmit"
+            x-show="isIdle() || isLoading()"
+        >
+            <div class="row required">
+                <label for="name">Name</label>
+                <input class="input" id="name" type="text" name="name" autocomplete="name" required>
+            </div>
+
+            <div class="row required">
+                <label for="email">Email</label>
+                <input class="input" id="email" type="text" name="email" autocapitalize="off" autocomplete="email" required>
+            </div>
+
+            <div class="row required">
+                <label for="phone">Phone</label>
+                <input class="input" id="phone" type="text" name="phone" autocomplete="tel" required>
+            </div>
+
+            {# this field label will show as (optional) as the required class has been left off #}
+            <div class="row">
+                <label for="message">Message</label>
+                <textarea class="textarea" id="message" name="message"></textarea>
+            </div>
+         
+            <div class="row">
+                <button class="inline-flex items-center rounded py-4 px-6 text-white font-bold bg-red-700 hover:bg-red-500" type="submit" :disabled="isLoading()">
+                    <svg x-show="isLoading()" class="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                        <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                    </svg>
+                    <span x-show="isIdle()">Send message!</span>
+                    <span x-show="isLoading()">Sending...</span>
+                </button>
+            </div>
+        </form>
+
+        <p x-show="isSuccess() || isError()" x-text="message"></p>
+
+</article>
+
+<script>
+function contactForm() {
+    return {
+        status: 'idle',
+        message: '',
+        isIdle() { return this.status === 'idle' },
+        isLoading() { return this.status === 'loading' },
+        isSuccess() { return this.status === 'success' },
+        isError() { return this.status === 'error' },
+        handleSubmit(event) {
+            const body = getFormData(event.target)
+
+            this.status = 'loading';
+            fetch(event.target.action, {
+                method: 'POST',
+                body: JSON.stringify(body),
+            })
+            .then(res => {
+                if (!res.ok)
+                    throw Error('Unable to submit message try again later or send us an email at office@kartchnersinscott.com');
+
+                return res.text()
+            })
+            .then(res => {
+                this.status = 'success'
+                this.message = 'Thank you so much for sending us a message. We\'ll get back to you as soon as we can!'
+            })
+            .catch(error => {
+                this.status = 'error'
+                this.message = error.message;
+            })
+        }
+    }
+}
+
+function getFormData(form) {
+    const formData = new FormData(form);
+    // `Object.fromEntries` requires polyfill in IE & Edge
+    return Object.fromEntries(formData.entries());
+}
+</script>
+
+{# an optional and basic local business schema example #}
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "{{ site.name }}",
+    "image": "{{ site.url }}{{ site.images.logo }}",
+    "url": "{{ site.url }}{{ page.url }}",
+    "email": "{{ site.contact.email }}",
+    "telephone": "{{ site.contact.phone }}",
+    "priceRange": "$",
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "{{ site.address.street }}",
+        "addressLocality": "{{ site.address.city }}",
+        "postalCode": "{{ site.address.postcode }}",
+        "addressCountry": "{{ site.address.country }}"
+    },
+    "sameAs": [
+        "{{ site.social_links.twitter }}",
+        "{{ site.social_links.facebook }}",
+        "{{ site.social_links.instagram }}"
+    ]
+}
+</script>

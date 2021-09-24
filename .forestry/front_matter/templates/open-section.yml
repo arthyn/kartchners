@@ -1,0 +1,24 @@
+---
+label: Open Section
+hide_body: true
+fields:
+- name: content
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Content
+- name: section_id
+  type: text
+  config:
+    required: false
+  label: Section Id
+- name: section_class
+  type: text
+  config:
+    required: false
+  label: Section Class
+  default: relative py-16

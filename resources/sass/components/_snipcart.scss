@@ -1,0 +1,50 @@
+.snipcart-modal__container {
+    z-index: 60 !important;
+}
+
+//to win specificity
+#snipcart {
+    @apply font-body;
+
+    .snipcart-modal__close,
+    .snipcart__font--secondary, 
+    .snipcart__font--subtitle {
+        @apply font-body;
+    }
+
+    .snipcart__actions--link {
+        @apply text-gray-600 hover:text-red-700 font-body;
+    }
+
+    .snipcart__icon--blue-dark path,
+    .snipcart__icon--blue-light path {
+        @apply fill-current text-gray-600;
+    }
+
+    .snipcart-cart-button {
+        align-items: center;
+    }
+
+    .snipcart-cart-button--highlight {
+        @apply bg-red-700 hover:bg-red-600 bg-none text-2xl font-bold rounded;
+    }
+
+    .snipcart-cart-button__icon {
+        flex: 0 0 auto;
+    }
+
+    .snipcart-cart-button__icon--right {
+        width: 30px;
+        height: 30px;
+    }
+
+    .snipcart-cart-summary-side .snipcart-cart__content {
+        overflow: auto;
+    }
+
+    // .snipcart-input:focus-within,
+    // .snipcart-textbox--focus,
+    // .snipcart-typeahead__suggestions {
+    //     @apply border-red-300;
+    // }
+}
