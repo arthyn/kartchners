@@ -17,4 +17,4 @@ banner_class: ''
 banner_alt: ''
 
 ---
-Here's a description about our chicken
+We have one of the widest selections stuffed chicken that you can choose from, guaranteed to make your taste buds water.
