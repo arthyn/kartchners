@@ -2881,9 +2881,10 @@ function _addIce() {
             return Snipcart.api.cart.items.add({
               id: iceId,
               name: 'Dry Ice',
+              description: 'Not allowed for sale, only used in shipping',
               image: 'https://res.cloudinary.com/hmillerdev/image/upload/ar_1.3,c_crop/f_auto,q_80/v1625337970/kartchners/logo_q8zfwf.jpg',
               price: 0,
-              url: '/hidden/dry-ice',
+              url: location.origin + '/hidden/dry-ice',
               quantity: 1,
               dimensions: {
                 weight: 4536
