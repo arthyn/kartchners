@@ -56,7 +56,7 @@ layout: page
                         data-item-name="{{ name }}"
                         data-item-description="{{ description }}"
                         data-item-image="https://res.cloudinary.com/hmillerdev/image/upload/ar_1.3,c_crop/f_auto,q_80{{ image or default_image }}"
-                        data-item-weight="{{ weight * 28.34952 }}"
+                        data-item-weight="{{ weight * 28.34952 | round }}"
                         {% if hasOptions %}
                             data-item-custom1-name="Option"
                             data-item-custom1-options="{{ product_options | variants(price) }}"

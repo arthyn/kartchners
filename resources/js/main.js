@@ -57,7 +57,7 @@ async function addIce(iceId) {
         url: location.origin + '/hidden/dry-ice',
         quantity: 1,
         dimensions: {
-          weight: 4535.923199999999
+          weight: 4536
         },
         customFields: []
     });
