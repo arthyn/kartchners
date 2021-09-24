@@ -7,7 +7,7 @@ layout: product
 name: Jumbo Lump Crab Cakes
 sku: 42
 image: "/v1628527214/kartchners/crab_cakes_bwqlif.jpg"
-description: Jumbo Lump Crab Cakes
+description: 2 Jumbo Lump Crab Cakes
 product_options: []
 meta_title: ''
 meta_description: ''
