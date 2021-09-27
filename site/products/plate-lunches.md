@@ -30,7 +30,7 @@ banner_alt: ''
 
 > **_Thursday_**
 >
-> smothered pork in a gravy over rice, smothered cabbage, black eyed peas, dinner roll
+> smothered pork in a gravy over rice, smothered potatoes , black eyed peas, dinner roll
 
 > **_Friday_**
 >
@@ -52,7 +52,7 @@ banner_alt: ''
 >
 > BBQ 1/2 chicken or pork steak, rice dressing, baked beans, potato salad
 >
->                     **_Now serving hot dogs Monday - Friday_**
+> > ##### NOW SERVING HOT DOGS MONDAY - SATURDAY
 
 > > #### **_Plate lunch orders can not be placed online._**
 > >
