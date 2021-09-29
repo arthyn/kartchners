@@ -46,6 +46,11 @@ Snipcart.events.on('snipcart.initialized', function () {
   snipcart.setAttribute('data-turbolinks-permanent', '');
 })
 
+document.addEventListener('snipcart.ready', () => {
+  Snipcart.events.on('item.added', needIce);
+  Snipcart.events.on('item.removed', needIce);
+});
+
 async function addIce(iceId) {
   try {
     await Snipcart.api.cart.items.add({
@@ -76,6 +81,3 @@ function needIce() {
 
   addIce(iceId);
 }
-
-Snipcart.events.on('item.added', needIce);
-Snipcart.events.on('item.removed', needIce);
