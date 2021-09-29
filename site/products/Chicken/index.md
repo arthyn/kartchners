@@ -17,4 +17,4 @@ banner_class: ''
 banner_alt: ''
 
 ---
-Here's a description about our chicken
+From whole deboned stuffed chickens, to stuffed chicken thighs and breasts, you're guaranteed to find something to make your mouth water!
