@@ -9,6 +9,8 @@ sku: 200
 image: "/kartchners/img_0553.jpg"
 description: 'Our own homemade cracklins, made fresh daily! '
 product_options:
+- option_name: 1lb. Cracklin Just Salt
+  option_price: 24.0
 - option_name: 1/2lb. Cracklin
   option_price: 12.0
 - option_name: 1lb. Cracklin
