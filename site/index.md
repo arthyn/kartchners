@@ -21,100 +21,7 @@ sections:
   section_id: ''
   section_class: ''
 - template: open-section
-  section_class: relative pt-16 pb-20 bg-red-800
-  content: |-
-    <img class="absolute top-0 left-0 h-full w-full object-cover multiply saturate-3 opacity-75 loaded" data-srcset="https://res.cloudinary.com/hmillerdev/image/upload/f_auto,q_80/w_400/v1601164062/kartchners/cleaver 400w, https://res.cloudinary.com/hmillerdev/image/upload/f_auto,q_80/w_800/v1601164062/kartchners/cleaver 800w, https://res.cloudinary.com/hmillerdev/image/upload/f_auto,q_80/w_1200/v1601164062/kartchners/cleaver 1200w, https://res.cloudinary.com/hmillerdev/image/upload/f_auto,q_80/w_1600/v1601164062/kartchners/cleaver 1600w, https://res.cloudinary.com/hmillerdev/image/upload/f_auto,q_80/w_2000/v1601164062/kartchners/cleaver 2000w, https://res.cloudinary.com/hmillerdev/image/upload/f_auto,q_80/w_2400/v1601164062/kartchners/cleaver 2400w" data-lazy="https://res.cloudinary.com/hmillerdev/image/upload/w_2400,f_auto,q_80/v1601164062/kartchners/cleaver" alt="">
-
-    <div class="relative z-10 max-w-5xl mx-auto px-6 xl:px-12 text-white">
-
-    <header class="w-full text-center">
-
-    <h2 class="text-4xl text-white mb-4">Menu</h2>
-
-    <p class="mb-12">Made fresh daily, served hot, and ready for you to enjoy!</p>
-
-    </header>
-
-    <ul class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-6 leading-tight">
-
-    <li class="flex">
-
-    <strong class="flex-1">Boudin</strong>
-
-    <span>$5.49/lb</span>
-
-    </li>
-
-    <li class="flex">
-
-    <strong class="flex-1">Smoked Boudin</strong>
-
-    <span>$6.49/lb</span>
-
-    </li>
-
-    <li class="flex">
-
-    <strong class="flex-1">Cracklin's</strong>
-
-    <span>$18.99/lb</span>
-
-    </li>
-
-    <li class="flex">
-
-    <strong class="flex-1">Beef Jerky</strong>
-
-    <span>$29.99/lb</span>
-
-    </li>
-
-    <li class="flex">
-
-    <strong class="flex-1">Hog's Head Cheese</strong>
-
-    <span>$4.99/lb</span>
-
-    </li>
-
-    <li class="flex">
-
-    <strong class="flex-1">Boudin Ball</strong>
-
-    <span>$0.99/ea</span>
-
-    </li>
-
-    <li class="flex">
-
-    <strong class="flex-1">Boudin Ball Stuffed with Jalapeño & Cream Cheese</strong>
-
-    <span>$1.49/ea</span>
-
-    </li>
-
-    <li class="flex">
-
-    <strong class="flex-1">Jalapeño & Cream Cheese Boudin Wrap</strong>
-
-    <span>$1.99/ea</span>
-
-    </li>
-
-    <li class="flex">
-
-    <strong class="flex-1">Crawfish Boudin Ball</strong>
-
-    <span>$1.49/ea</span>
-
-    </li>
-
-    </ul>
-
-    </div>
-  section_id: menu
-- template: open-section
-  section_class: relative py-16
+  section_class: relative py-16 text-white bg-red-800
   content: |-
     <div class="inner ">
 
@@ -128,7 +35,7 @@ sections:
 
     <div class="flex-1 md:px-4 xl:px-8">
 
-    <h2 class="text-4xl">Located Directly Off I-10</h2>
+    <h2 class="text-4xl text-white">Located Directly Off I-10</h2>
 
     <p>If you're coming down I-10, simply take exit 97 and take Highway 93 north-bound. We're directly across from Super One Foods next to La Rumba. Come in and enjoy the best rest stop in Scott. Our store and bathrooms are always clean. We have grass for pet potty breaks and trees to sit under. And of course, we've got boudin for you and snacks for the kids too.</p>
 
