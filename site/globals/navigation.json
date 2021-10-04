@@ -17,11 +17,6 @@
       "submenu": "product-category"
     },
     {
-      "label": "Menu",
-      "url": "/#menu",
-      "main": true
-    },
-    {
       "label": "Visit Us",
       "url": "/#visit-us",
       "main": true
