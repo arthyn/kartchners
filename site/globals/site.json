@@ -1,35 +1,35 @@
 {
-    "name": "Kartchner's in Scott",
-    "url": "https://www.kartchnersinscott.com",
-    "author": {
-        "name": "Hunter Miller",
-        "email": "hunter@hmiller.dev",
-        "handle": "",
-        "avatar": "/images/blog/author.jpg"
-    },
-    "images": {
-        "logo": "/images/logo/logo.svg",
-        "favicon": "/images/favicon.ico",
-        "twitter": "/images/meta/building-dawn.png",
-        "og": "/images/meta/building-dawn.png"
-    },
-    "social_links": {
-        "facebook": "https://www.facebook.com/Kartchners-in-Scott-100500935145847/",
-        "instagram": "https://www.instagram.com/explore/locations/100500935145847/kartchners-in-scott/"
-    },
-    "address": {
-        "street": "312 LA-93",
-        "city": "Scott",
-        "postcode": "70583",
-        "state": "Louisiana",
-        "country": "US"
-    },
-    "contact": {
-        "phone": "337-345-1992",
-        "email": "office@kartchnersinscott.com"
-    },
-    "hours": [
-        "Monday through Friday 6:00 AM - 7:00 PM",
-        "Saturday through Sunday 7:00 AM - 7:00 PM"
-    ]
+  "name": "Kartchner's in Scott",
+  "url": "https://www.kartchnersinscott.com",
+  "author": {
+    "name": "Hunter Miller",
+    "email": "hunter@hmiller.dev",
+    "handle": "",
+    "avatar": "/images/blog/author.jpg"
+  },
+  "images": {
+    "logo": "/images/logo/logo.svg",
+    "favicon": "/images/favicon.ico",
+    "twitter": "/images/meta/building-dawn.png",
+    "og": "/images/meta/building-dawn.png"
+  },
+  "social_links": {
+    "facebook": "https://www.facebook.com/Kartchners-in-Scott-100500935145847/",
+    "instagram": "https://www.instagram.com/explore/locations/100500935145847/kartchners-in-scott/"
+  },
+  "address": {
+    "street": "312 LA-93",
+    "city": "Scott",
+    "postcode": "70583",
+    "state": "Louisiana",
+    "country": "US"
+  },
+  "contact": {
+    "phone": "337-345-1992",
+    "email": "shipping@kartchnersinscott.com"
+  },
+  "hours": [
+    "Monday through Friday 6:00 AM - 7:00 PM",
+    "Saturday through Sunday 7:00 AM - 7:00 PM"
+  ]
 }
