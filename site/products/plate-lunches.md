@@ -26,21 +26,21 @@ banner_alt: ''
 
 > **_Wednesday_**
 >
-> country fried steak, mashed potatoes and white gravy, green bean casserole, dinner roll
+> hamburger steak, mashed potatoes and brown gravy, green bean casserole, dinner roll
 
 > **_Thursday_**
 >
-> smothered pork in a gravy over rice, smothered potatoes , black eyed peas, dinner roll
+> smothered beef in a gravy over rice, smothered potatoes , black eyed peas, dinner roll
 
 > **_Friday_**
 >
-> option 1: crawfish ettoufee over rice, corn, salad, dinner roll
+> option 1: shrimp fettucine, corn, salad, dinner roll
 >
 > option 2: fried fish dinner, fries, hushpuppies, tarter sauce and roll
 >
 > option 3: fried shrimp dinner, fries, hushpuppies, tarter sauce and roll
 >
-> Fried platters can be combined into a combo plate. Fried seafood can be added to ettoufee plate.
+> Fried platters can be combined into a combo plate. Fried seafood can be added to fettucine plate.
 
 > **_Saturday_**
 >
