@@ -9,6 +9,8 @@ sku: 300
 image: "/kartchners/cracklins-1.jpeg"
 description: Our own homemade cracklins, made fresh daily!
 product_options:
+- option_name: 1/2lb. cracklin
+  option_price: 12.99
 - option_name: 1lb. Cracklin
   option_price: 24.99
 meta_title: ''
