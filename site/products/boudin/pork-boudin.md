@@ -13,7 +13,7 @@ product_options:
 - option_name: Regular
   option_price: 11.99
 - option_name: Spicy
-  option_price: 9.39
+  option_price: 11.99
 weight__display_: 2 lb
 meta_title: ''
 meta_description: ''
