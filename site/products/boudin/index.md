@@ -23,4 +23,4 @@ banner_class: ''
 banner_alt: ''
 
 ---
-We have one of the widest selections of boudin that you can choose from. Served fresh in our store or you can purchase them frozen here and have them shipped right to your door.
+With 11 different varieties of boudin to choose from, we've got something to satisfy everyone's taste buds! All of our boudin is sold in 3 link packs and can be easily prepared at home! And don't forget to grab you a bag of our homemade cracklins if you want a real Cajun treat!
