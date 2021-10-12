@@ -17,3 +17,4 @@ banner_class: ''
 banner_alt: ''
 
 ---
+It's hard to beat the freshness of the steaks we offer. Hand cut and seasoned to perfection! Pair that with one of our homemade stuffed potato pans and you've got yourself the perfect treat!
