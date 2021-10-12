@@ -17,3 +17,4 @@ banner_class: ''
 banner_alt: ''
 
 ---
+All of our specialty pork options are perfect for the grill or to throw in the oven for an effortless meal! All are seasoned to perfection and stuffed with your choice of stuffing.
