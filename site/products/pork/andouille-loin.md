@@ -9,6 +9,8 @@ sku: 95
 image: ''
 description: 'Boneless Stuffed Pork Loins '
 product_options:
+- option_name: seasoning blend
+  option_price: 32.99
 - option_name: andouille
   option_price: 32.99
 meta_title: ''
