@@ -16,3 +16,4 @@ banner_class: ''
 banner_alt: ''
 
 ---
+We proudly carry all locally harvested seafood. If you're trying to bring a taste of Louisiana to your dinner table, we've got you covered!
