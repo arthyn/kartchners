@@ -17,3 +17,4 @@ banner_class: ''
 banner_alt: ''
 
 ---
+We wouldn't be Kartchners if we didn't put our own spin on things. Here you'll find all of our specialty items. From stuffed mushrooms wrapped in bacon to our famous Pooyie patties, you're in for a real treat!
