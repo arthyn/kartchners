@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Cracklin
 sku: 300
-image: "/kartchners/img_0553.jpg"
+image: "/kartchners/cracklins-1.jpeg"
 description: Our own homemade cracklins, made fresh daily!
 product_options:
 - option_name: 1/2lb. cracklin just salt
