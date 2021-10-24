@@ -10,6 +10,8 @@ image: "/v1635081738/kartchners/fried_boudin_balls_gp1igk.jpg"
 description: Pre-Battered Boudin Balls & Wraps Perfect for an Air Fryer, or Oven for
   a Quick Treat
 product_options:
+- option_name: Maple Wraps
+  option_price: 10.99
 - option_name: Crawfish Balls
   option_price: 10.99
 - option_name: Jalapeno Cream Cheese Boudin Wraps
