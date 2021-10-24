@@ -1,6 +1,6 @@
 ---
 price: 19.49
-weight__display_: 1 lb
+weight__display_: "0"
 weight: 16
 tags: []
 layout: product
