@@ -7,7 +7,9 @@ layout: product
 name: Whole Quail Stuffed With Green Onion Sausage
 sku: 30
 image: ''
-description: Whole Quail Stuffed With Green Onion Sausage
+description: |-
+  Whole Quail Stuffed With Green Onion Sausage
+  2 per pack
 product_options: []
 meta_title: ''
 meta_description: ''
