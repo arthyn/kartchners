@@ -7,7 +7,7 @@ layout: product
 name: Frog Legs
 sku: 77
 image: "/v1621005104/kartchners/Frog_Legs_ydctgh.jpg"
-description: "Frog Legs \npack of 4"
+description: "Frog Legs \npack of 3"
 product_options: []
 meta_title: ''
 meta_description: ''
