@@ -1,5 +1,5 @@
 ---
-price: 0.0
+price: 0
 weight__display_: 1 lb
 weight: 16
 tags: []
@@ -7,8 +7,9 @@ layout: product
 name: Stuffed Pork Chops
 sku: 119
 image: "/v1620663450/kartchners/Stuffed_Pork_Chop_2_ooequ5.jpg"
-description: Pork Chops Stuffed With Either Crawfish Dressing, Cornbread Dressing,
-  or Shrimp Dressing
+description: |-
+  Pork Chops Stuffed With Either Crawfish Dressing, Cornbread Dressing, or Shrimp Dressing
+  1 per pack
 product_options:
 - option_name: shrimp dressing
   option_price: 10.59
