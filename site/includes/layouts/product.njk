@@ -21,9 +21,10 @@ layout: page
                 <div class="flex items-center space-x-3 mb-6 text-2xl leading-none">
                     {% if price %}
                     <span class="font-semibold">${{ price }}</span>
-                    <span>|</span>
                     {% endif %}
-                    <span>{{ weight__display_ }}</span>
+                    {# <span>|</span>
+                        <span>{{ weight__display_ }}</span>
+                    #}
                 </div>
                 <hr class="mb-10"/>
                 {% if description %}

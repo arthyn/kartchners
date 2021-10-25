@@ -2865,6 +2865,10 @@ Snipcart.events.on('snipcart.initialized', function () {
   var snipcart = document.getElementById('snipcart');
   snipcart.setAttribute('data-turbolinks-permanent', '');
 });
+document.addEventListener('snipcart.ready', function () {
+  Snipcart.events.on('item.added', needIce);
+  Snipcart.events.on('item.removed', needIce);
+});
 
 function addIce(_x) {
   return _addIce.apply(this, arguments);
@@ -2924,9 +2928,6 @@ function needIce() {
 
   addIce(iceId);
 }
-
-Snipcart.events.on('item.added', needIce);
-Snipcart.events.on('item.removed', needIce);
 
 /***/ }),
 
