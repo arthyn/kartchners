@@ -7,7 +7,9 @@ layout: product
 name: Seasoned Boneless Skinless Duck Breast Wrapped in Bacon
 sku: 29
 image: ''
-description: Seasoned Boneless Skinless Duck Breast Wrapped in Bacon
+description: |-
+  Seasoned Boneless Skinless Duck Breast Wrapped in Bacon
+  1 per pack
 product_options: []
 meta_title: ''
 meta_description: ''
