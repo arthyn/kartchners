@@ -7,7 +7,9 @@ layout: product
 name: 'Stuffed Bell Peppers '
 sku: 84
 image: "/v1620663632/kartchners/Seafood_Stuffed_BP_kdv31u.jpg"
-description: 2 stuffed bell peppers with a variety of different options
+description: |-
+  2 stuffed bell peppers with a variety of different options
+  2 per pack
 product_options:
 - option_name: boudin
   option_price: 10.39
