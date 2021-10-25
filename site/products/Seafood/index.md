@@ -16,4 +16,4 @@ banner_class: ''
 banner_alt: ''
 
 ---
-We proudly carry all locally harvested seafood. If you're trying to bring a taste of Louisiana to your dinner table, we've got you covered!
+As Louisiana is known for our wide variety of seafood, we've got the selection you're looking for. Perfect for a family seafood fry, or grab a tuna steak for the grill!
