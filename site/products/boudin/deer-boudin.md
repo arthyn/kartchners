@@ -6,7 +6,9 @@ tags: []
 weight: 24
 name: Deer Boudin
 image: "/v1625337970/kartchners/logo_q8zfwf.jpg"
-description: Deer Boudin
+description: |-
+  Deer Boudin
+  3 link pack
 product_options: []
 weight__display_: 1.5lb.
 meta_title: ''
