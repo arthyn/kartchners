@@ -7,7 +7,9 @@ layout: product
 name: Stuffed Mini Pork Roast
 sku: 85
 image: "/kartchners/stuffed-pork-chop.jpeg"
-description: Stuffed Mini Pork Roast
+description: |-
+  Stuffed Mini Pork Roast
+  1 per pack
 product_options: []
 meta_title: ''
 meta_description: ''
