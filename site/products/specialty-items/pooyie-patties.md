@@ -7,7 +7,9 @@ layout: product
 name: Stuffed "Pooyie" Patties
 sku: 101
 image: "/v1620664647/kartchners/Pooyie_Pat_zgfktz.jpg"
-description: Seasoned and Stuffed "Pooyie" Patties
+description: |-
+  Seasoned and Stuffed "Pooyie" Patties
+  2 per pack
 product_options: []
 meta_title: ''
 meta_description: ''
