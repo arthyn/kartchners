@@ -7,7 +7,9 @@ layout: product
 name: Smoked Turkey Wings
 sku: 72
 image: ''
-description: Smoked Turkey Wings
+description: |-
+  Smoked Turkey Wings
+  Approx. 1 1/2 lbs.
 product_options: []
 meta_title: ''
 meta_description: ''
