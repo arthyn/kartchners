@@ -1,5 +1,5 @@
 ---
-price: 0.0
+price: 0
 weight__display_: 1 lb
 weight: 16
 tags: []
@@ -7,8 +7,9 @@ layout: product
 name: Fresh Sausage
 sku: 200
 image: "/v1613851803/kartchners/sausage/DSC_1644_yxilip.jpg"
-description: Fresh sausage made in house daily, with a variety big enough to make
-  everyone's taste buds happy
+description: |-
+  Fresh sausage made in house daily, with a variety big enough to make everyone's taste buds happy!
+  3 link packs
 product_options:
 - option_name: deer and pork
   option_price: 12.69
