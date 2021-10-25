@@ -7,7 +7,7 @@ layout: product
 name: Boston Butt Pork Roast
 sku: 109
 image: "/kartchners/stuffed-pork-chop.jpeg"
-description: ''
+description: 1 per pack
 product_options: []
 meta_title: ''
 meta_description: ''
