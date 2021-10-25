@@ -7,7 +7,7 @@ layout: product
 name: Stuffed Pork Loin
 sku: 95
 image: ''
-description: 'Boneless Stuffed Pork Loins '
+description: "Boneless Stuffed Pork Loins \n1 per pack"
 product_options:
 - option_name: seasoning blend
   option_price: 32.99
