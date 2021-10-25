@@ -1,5 +1,5 @@
 ---
-price: 0.0
+price: 0
 weight__display_: 1 lb
 weight: 16
 tags: []
@@ -7,7 +7,9 @@ layout: product
 name: 'Stuffed Boneless Chicken Breasts '
 sku: 27
 image: ''
-description: Stuffed Boneless Chicken Breasts with Your Choice of Stuffing
+description: |-
+  Stuffed Boneless Chicken Breasts with Your Choice of Stuffing
+  1 per pack
 product_options:
 - option_name: Jalapeno Cream Cheese
   option_price: 11.09
