@@ -7,7 +7,9 @@ layout: product
 name: 31-40 Peeled Gulf Shrimp
 sku: 82
 image: "/v1628021691/kartchners/SHRIMP_p6jnz6.jpg"
-description: 31-40 Peeled Gulf Shrimp
+description: |-
+  31-40 Peeled Gulf Shrimp
+  2lb. Bag
 product_options: []
 meta_title: ''
 meta_description: ''
