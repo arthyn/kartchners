@@ -7,7 +7,9 @@ layout: product
 name: Pork Wild Wings
 sku: 75
 image: "/v1621004836/kartchners/wild_wings_n2kefq.jpg"
-description: Pork Wild Wings
+description: |-
+  Pork Wild Wings
+  4 per pack
 product_options: []
 meta_title: ''
 meta_description: ''
