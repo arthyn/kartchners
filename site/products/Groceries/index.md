@@ -15,8 +15,10 @@ banner_format: ''
 banner_class: ''
 banner_alt: ''
 sku: 180
-price: 0.0
+price: 0
 weight__display_: ".5"
 weight: 8
+description: We've got all the best Cajun treats, from seasonings, to pickled vegetables,
+  or even just Evangeline Maid bread, we've got you covered!
 
 ---
