@@ -7,8 +7,9 @@ layout: product
 name: Pre-battered Boudin Balls & Wraps
 sku: 202
 image: "/v1635081738/kartchners/fried_boudin_balls_gp1igk.jpg"
-description: Pre-Battered Boudin Balls & Wraps Perfect for an Air Fryer, or Oven for
-  a Quick Treat
+description: |-
+  Pre-Battered Boudin Balls & Wraps Perfect for an Air Fryer, or Oven for a Quick Treat
+  6 per pack
 product_options:
 - option_name: Maple Wraps
   option_price: 10.99
