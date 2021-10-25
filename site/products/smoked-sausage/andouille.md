@@ -7,7 +7,9 @@ layout: product
 name: Andouille
 sku: 18
 image: "/v1628527030/kartchners/andouille_xgpgom.jpg"
-description: Smoked Pork Andouille
+description: |-
+  Smoked Pork Andouille
+  Approx. 1lb.
 product_options: []
 meta_title: ''
 meta_description: ''
