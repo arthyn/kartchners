@@ -7,8 +7,8 @@ layout: product
 name: Stuffed Mushrooms
 sku: 92
 image: "/v1622471434/kartchners/Mushrooms_vejw01.jpg"
-description: 'Stuffed mushrooms with your choice of green onion sausage or shrimp
-  and crab meat au gratin. '
+description: "Stuffed mushrooms with your choice of green onion sausage or shrimp
+  and crab meat au gratin. \n5 per pack "
 product_options:
 - option_name: Green Onion Sausage
   option_price: 24.89
