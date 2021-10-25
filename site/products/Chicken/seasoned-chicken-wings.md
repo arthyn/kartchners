@@ -7,7 +7,9 @@ layout: product
 name: Seasoned Chicken Wings
 sku: 107
 image: "/v1620663764/kartchners/Chickenshit_ngl4ou.jpg"
-description: Seasoned Chicken Wings
+description: |-
+  Seasoned Chicken Wings
+  6 per pack
 product_options: []
 meta_title: ''
 meta_description: ''
