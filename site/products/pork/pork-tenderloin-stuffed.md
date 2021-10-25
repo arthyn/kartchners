@@ -1,5 +1,5 @@
 ---
-price: 0.0
+price: 0
 weight__display_: 1 lb
 weight: 16
 tags: []
@@ -7,7 +7,9 @@ layout: product
 name: Stuffed Boneless Pork Tenderloins
 sku: 38
 image: "/v1620663578/kartchners/Pork_Tenderloin_2_iudxe8.jpg"
-description: Stuffed Tenderloins With Your Choice of Stuffing
+description: |-
+  Stuffed Tenderloins With Your Choice of Stuffing
+  1 per pack
 product_options:
 - option_name: Jalapeno Cream Cheese
   option_price: 15.99
