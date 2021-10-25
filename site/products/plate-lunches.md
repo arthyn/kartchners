@@ -26,15 +26,15 @@ banner_alt: ''
 
 > **_Wednesday_**
 >
-> hamburger steak, mashed potatoes and brown gravy, green bean casserole, dinner roll
+> pork tenderloin stuffed with with pepper jack cheese wrapped in apple wood smoked bacon, mashed potatoes and brown gravy, green bean casserole, dinner roll
 
 > **_Thursday_**
 >
-> smothered beef in a gravy over rice, smothered cabbage , black eyed peas, dinner roll
+> smothered pork in a gravy over rice, smothered potatoes , black eyed peas, dinner roll
 
 > **_Friday_**
 >
-> option 1: shrimp fettucine, corn, salad, dinner roll
+> option 1: crawfish fettucine, corn, salad, dinner roll
 >
 > option 2: fried fish dinner, fries, hushpuppies, tarter sauce and roll
 >
