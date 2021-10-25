@@ -1,5 +1,5 @@
 ---
-price: 0.0
+price: 0
 weight__display_: 1 lb
 weight: 16
 tags: []
@@ -7,8 +7,8 @@ layout: product
 name: Smoked Sausage
 sku: 11
 image: "/v1613851803/kartchners/sausage/DSC_1644_yxilip.jpg"
-description: 'One of the largest varieties of smoked sausage in our area, all guaranteed
-  to make your mouth water. '
+description: "One of the largest varieties of smoked sausage in our area, all guaranteed
+  to make your mouth water. \n3 link packs"
 product_options:
 - option_name: green onion garlic pork
   option_price: 7.59
