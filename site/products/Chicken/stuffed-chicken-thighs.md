@@ -1,5 +1,5 @@
 ---
-price: 0.0
+price: 0
 weight__display_: 2 lb
 weight: 32
 tags: []
@@ -7,7 +7,9 @@ layout: product
 name: Stuffed Chicken Thighs
 sku: 26
 image: ''
-description: Chicken Thighs Stuffed With Your Choice of Stuffing
+description: |-
+  Chicken Thighs Stuffed With Your Choice of Stuffing
+  4 per pack
 product_options:
 - option_name: Jalapeno Cream Cheese
   option_price: 17.09
