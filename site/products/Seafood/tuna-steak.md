@@ -7,7 +7,9 @@ layout: product
 name: Ahi Tuna Steak
 sku: 83
 image: "/v1620664553/kartchners/Tuna_Steak_fx8hdp.jpg"
-description: Ahi Tuna Steak
+description: |-
+  Ahi Tuna Steak
+  8oz
 product_options: []
 meta_title: ''
 meta_description: ''
