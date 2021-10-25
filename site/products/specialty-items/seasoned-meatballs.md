@@ -7,7 +7,7 @@ layout: product
 name: Seasoned Meatballs
 sku: 102
 image: "/v1620663745/kartchners/Meatballs_cg4pln.jpg"
-description: 'Seasoned Meatballs '
+description: "Seasoned Meatballs \n12 per pack"
 product_options: []
 meta_title: ''
 meta_description: ''
