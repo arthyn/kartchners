@@ -7,7 +7,9 @@ layout: product
 name: Seasoned Chicken Patties
 sku: 100
 image: "/v1628021807/kartchners/CHICKEN_PATTIES_jiuzez.jpg"
-description: Seasoned Chicken Patties
+description: |-
+  Seasoned Chicken Patties
+  2 per pack
 product_options: []
 meta_title: ''
 meta_description: ''
