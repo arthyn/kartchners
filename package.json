@@ -5,7 +5,7 @@
   "scripts": {
     "debug": "DEBUG=Eleventy* ELEVENTY_ENV=development npx @11ty/eleventy --serve & mix watch",
     "dev": "ELEVENTY_ENV=development npx @11ty/eleventy --serve & mix watch",
-    "production": "mix --production && npx @11ty/eleventy"
+    "production": "mix -p && npx @11ty/eleventy"
   },
   "repository": {
     "type": "git",
@@ -16,13 +16,13 @@
   "devDependencies": {
     "@11ty/eleventy": "^0.11.1",
     "html-minifier": "^4.0.0",
-    "laravel-mix": "^6.0.0-beta.14",
-    "laravel-mix-purgecss": "^4.2.0",
+    "laravel-mix": "^6.0.27",
     "resolve-url-loader": "^3.1.0",
     "sass": "^1.22.12",
     "sass-loader": "^8.0.0",
     "tailwindcss": "^2.0.2",
-    "vue-template-compiler": "^2.6.10"
+    "vue-template-compiler": "^2.6.10",
+    "webpack-cli": "^4.9.1"
   },
   "dependencies": {
     "@tailwindcss/forms": "^0.2.1",

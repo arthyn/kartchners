@@ -17,7 +17,7 @@ const paths = {
 
 // Run mix
 mix
-
+    .setPublicPath('./')
     .webpackConfig({
         resolve: {
             alias: {
@@ -26,64 +26,15 @@ mix
             }
         }
     })
-
     // Concatenate & Compile Javascript
     .js(paths.javascript.source, paths.javascript.dest)
-
     // Compile singles
     // .js(paths.javascript.singles, paths.javascript.dest)
-
     // Compile SCSS & TailwindCSS
     .sass(paths.sass.source, paths.sass.dest)
+    // .minify(paths.sass.dest + 'main.css')
+    // .minify(paths.javascript.dest + 'main.js')
+    .version()
     .options({
         processCssUrls: false
     })
-
-    // Production only
-    if ( mix.inProduction() )
-    {
-
-        // Remove any unused CSS using Purge
-        mix
-
-            // .purgeCss({
-            //     folders: [
-            //         'site'
-            //     ],
-            //     extensions: [
-            //         'html',
-            //         'njk'
-            //     ],
-            //     whitelist: [
-            //         'body',
-            //         'html',
-            //         'a',
-            //         'h1',
-            //         'h2',
-            //         'h3',
-            //         'h4',
-            //         'p',
-            //         'blockquote',
-            //         'breadcrumbs',
-            //         'content',
-            //         'form',
-            //         'input',
-            //         'textarea',
-            //         'intro',
-            //         'btn',
-            //         'loaded',
-            //         'page-title',
-            //         'required',
-            //         'row',
-            //         'visually-hidden',
-            //         'menu-visible'
-            //     ]
-            // })
-
-            // Minifies CSS & JS files
-            .minify(paths.sass.dest + 'main.css')
-            .minify(paths.javascript.dest + 'main.js')
-
-    }
-
-

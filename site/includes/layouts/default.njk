@@ -16,7 +16,7 @@
         <link rel="stylesheet" href="/css/main.css">
     {% else %}
         {# else, use the minified css file for production #}
-        <link rel="stylesheet" href="/css/main.min.css">
+        <link rel="stylesheet" href="{{ helpers.prodCSS }}">
     {% endif %}
 
     {# snipcart #}
@@ -29,7 +29,7 @@
     {% if helpers.environment === "development" %}
         <script src="/js/main.js" defer></script>
     {% else %}
-        <script src="/js/main.min.js" defer></script>
+        <script src="{{ helpers.prodJS }}" defer></script>
     {% endif %}
 
     {% block head %}{% endblock %}
@@ -75,7 +75,17 @@
         data-config-add-product-behavior="none"
         data-config-modal-style="side"
         data-turbolinks-permanent
-    ></div>
+    >
+        <address-fields section="top">
+            <div>
+                <snipcart-label for="phone">
+                    Phone number
+                </snipcart-label>
+                <snipcart-input name="phone" required>
+                </snipcart-input>
+            </div>
+        </address-fields>
+    </div>
 
 </body>
 </html>
