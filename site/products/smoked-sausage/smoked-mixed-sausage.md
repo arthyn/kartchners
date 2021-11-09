@@ -22,8 +22,6 @@ product_options:
   option_price: 9.09
 - option_name: deer and pork
   option_price: 8.89
-- option_name: rabbit and pork
-  option_price: 7.79
 - option_name: pork
   option_price: 6.89
 - option_name: jalapeno pork
