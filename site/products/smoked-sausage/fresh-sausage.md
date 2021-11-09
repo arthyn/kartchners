@@ -11,6 +11,10 @@ description: |-
   Fresh sausage made in house daily, with a variety big enough to make everyone's taste buds happy!
   3 link packs
 product_options:
+- option_name: 'cabbage and pork '
+  option_price: 8.79
+- option_name: jack miller
+  option_price: 8.79
 - option_name: deer and pork
   option_price: 12.69
 - option_name: jalapeno cheddar cheese pork
