@@ -9,7 +9,7 @@ sku: 95
 image: ''
 description: "Boneless Stuffed Pork Loins \n1 per pack"
 product_options:
-- option_name: seasoning blend
+- option_name: jalapeno and cream cheese
   option_price: 32.99
 - option_name: andouille and seasoning blend
   option_price: 32.99
