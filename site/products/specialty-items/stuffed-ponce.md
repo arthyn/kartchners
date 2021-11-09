@@ -4,7 +4,7 @@ weight__display_: "0"
 weight: 16
 tags: []
 layout: product
-name: 'Stuffed Ponce '
+name: 'Stuffed Ponce (Chaudin) '
 sku: 97
 image: ''
 description: Stuffed Ponce(Chaudin)
