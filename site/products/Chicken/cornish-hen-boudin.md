@@ -9,6 +9,8 @@ sku: 103
 image: "/v1628014584/kartchners/cornish_hen_tnbjvm.jpg"
 description: Cornish Hen Stuffed with Boudin
 product_options:
+- option_name: Cornish Hen stuffed with Cornbread
+  option_price: 9.89
 - option_name: Cornish Hen stuffed with Boudin
   option_price: 9.89
 meta_title: ''
