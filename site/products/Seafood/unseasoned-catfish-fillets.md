@@ -7,7 +7,7 @@ layout: product
 name: Catfish Fillets
 sku: 78
 image: "/v1628527315/kartchners/unseasoned_fish_fursg6.jpg"
-description: 2 Unseasoned Catfish Fillets
+description: 2 Catfish Fillets
 product_options:
 - option_name: Seasoned Catfish Fillets
   option_price: 11.59
