@@ -13,7 +13,7 @@ description: |-
 product_options:
 - option_name: Jalapeno stuffed with Cream Cheese
   option_price: 8.79
-- option_name: Jalapeno Stuffed with Boudin
+- option_name: Jalapeno stuffed with Boudin
   option_price: 8.79
 meta_title: ''
 meta_description: ''
