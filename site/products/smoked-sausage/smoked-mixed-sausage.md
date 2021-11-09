@@ -22,8 +22,6 @@ product_options:
   option_price: 9.09
 - option_name: deer and pork
   option_price: 8.89
-- option_name: rabbit and pork
-  option_price: 7.79
 - option_name: pork
   option_price: 6.89
 - option_name: jalapeno pork
@@ -32,7 +30,7 @@ product_options:
   option_price: 9.99
 - option_name: caution hot pork
   option_price: 7.09
-- option_name: brown sugar and syrup
+- option_name: brown sugar and steens syrup
   option_price: 8.69
 - option_name: chicken with green onion
   option_price: 7.89

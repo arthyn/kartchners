@@ -1,16 +1,20 @@
 ---
-price: 8.79
+price: 0
 weight__display_: "0"
 weight: 16
 tags: []
 layout: product
-name: Jalapeno Stuffed with Boudin
+name: 'Stuffed Jalapeno '
 sku: 94
 image: "/v1622835486/kartchners/IMG_5127_ogcj2b.jpg"
 description: |-
   Jalapeno Stuffed with Boudin
   5 per pack
-product_options: []
+product_options:
+- option_name: Jalapeno stuffed with Cream Cheese
+  option_price: 8.79
+- option_name: Jalapeno stuffed with Boudin
+  option_price: 8.79
 meta_title: ''
 meta_description: ''
 social_image: ''

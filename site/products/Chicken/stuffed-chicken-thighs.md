@@ -17,7 +17,7 @@ product_options:
   option_price: 19.29
 - option_name: mushroom, black olive, and mozzarella cheese
   option_price: 19.69
-- option_name: mushroom and cream cheese
+- option_name: mushroom and swiss cheese
   option_price: 19.09
 - option_name: pineapple and cream cheese
   option_price: 16.89

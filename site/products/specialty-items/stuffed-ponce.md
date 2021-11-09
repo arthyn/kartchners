@@ -1,14 +1,18 @@
 ---
-price: 22.49
+price: 0
 weight__display_: "0"
 weight: 16
 tags: []
 layout: product
-name: Fresh Ponce stuffed with Green Onion Sausage
+name: 'Stuffed Ponce (Chaudin) '
 sku: 97
 image: ''
-description: Fresh Ponce stuffed with Green Onion Sausage
-product_options: []
+description: Stuffed Ponce(Chaudin)
+product_options:
+- option_name: Fresh Ponce(Chaudin) stuffed with Green Onion Sausage
+  option_price: 22.49
+- option_name: Smoked Ponce(Chaudin) stuffed with Green Onion Sausage
+  option_price: 23.49
 meta_title: ''
 meta_description: ''
 social_image: ''
