@@ -7,8 +7,8 @@ layout: product
 name: Marinated Meats
 sku: 87
 image: "/v1622131728/kartchners/Marinated_Pork_mabigp.jpg"
-description: Your choice of marinated chicken, beef, pork, bone-in rabbit, or boneless
-  rabbit marinated in our own homemade marinade and seasoning.
+description: Your choice of chicken, beef, pork,  or bone-in rabbit seasoned with
+  our own homeade seasoning.
 product_options:
 - option_name: marinated chicken
   option_price: 7.39
