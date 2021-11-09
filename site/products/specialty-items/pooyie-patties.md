@@ -4,7 +4,7 @@ weight__display_: "0"
 weight: 16
 tags: []
 layout: product
-name: Stuffed "Pooyie" Patties
+name: Pooyie Patties
 sku: 101
 image: "/v1620664647/kartchners/Pooyie_Pat_zgfktz.jpg"
 description: |-
