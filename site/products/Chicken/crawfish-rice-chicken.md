@@ -13,7 +13,7 @@ product_options:
   option_price: 19.69
 - option_name: spinach and cheese
   option_price: 19.69
-- option_name: broccoli and cheese
+- option_name: broccoli, rice, and cheese
   option_price: 19.69
 - option_name: cornbread dressing
   option_price: 19.69
