@@ -7,7 +7,7 @@ layout: product
 name: Boneless Stuffed Chickens
 sku: 25
 image: "/v1620664611/kartchners/Stuffed_Chicken_t9nu0r.jpg"
-description: Whole Deboned Chickens Stuffed with a Variety of Options
+description: Whole Deboned Chicken Stuffed with a Variety of Options
 product_options:
 - option_name: boudin
   option_price: 19.69
