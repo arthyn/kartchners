@@ -11,7 +11,7 @@ description: |-
   Chicken Thighs Stuffed With Your Choice of Stuffing
   4 per pack
 product_options:
-- option_name: jalapeno cream cheese
+- option_name: jalapeno and cream cheese
   option_price: 19.99
 - option_name: boudin and pepper jack cheese
   option_price: 19.99
