@@ -16,7 +16,7 @@ product_options:
 - option_name: boudin and pepper jack cheese
   option_price: 19.99
 - option_name: mushroom, black olive, and mozzarella cheese
-  option_price: 19.99
+  option_price: 22.99
 - option_name: mushroom and swiss cheese
   option_price: 19.09
 - option_name: pineapple and cream cheese
