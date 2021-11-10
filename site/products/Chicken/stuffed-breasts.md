@@ -14,7 +14,7 @@ product_options:
 - option_name: Jalapeno Cream Cheese
   option_price: 11.09
 - option_name: pineapple and cream cheese wrapped in bacon
-  option_price: 11.29
+  option_price: 11.09
 - option_name: pepper jack cheese wrapped in bacon
   option_price: 9.49
 - option_name: spinach and cream cheese
