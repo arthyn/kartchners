@@ -24,7 +24,7 @@ product_options:
 - option_name: goat cheese, sundried tomato, spinach
   option_price: 22.99
 - option_name: pepperoni and mozzarella cheese
-  option_price: 23.19
+  option_price: 22.99
 - option_name: spinach and cream cheese
   option_price: 14.49
 - option_name: pepper jack cheese
