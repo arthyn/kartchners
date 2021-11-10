@@ -18,7 +18,7 @@ product_options:
 - option_name: pepper jack cheese wrapped in bacon
   option_price: 11.09
 - option_name: spinach and cream cheese
-  option_price: 8.19
+  option_price: 11.09
 - option_name: boudin
   option_price: 8.19
 - option_name: cornbread dressing
