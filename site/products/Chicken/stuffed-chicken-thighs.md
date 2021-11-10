@@ -15,20 +15,20 @@ product_options:
   option_price: 19.99
 - option_name: boudin and pepper jack cheese
   option_price: 19.99
-- option_name: mushroom, black olive, and mozzarella cheese
-  option_price: 22.99
-- option_name: mushroom and swiss cheese
-  option_price: 22.99
 - option_name: pineapple and cream cheese
   option_price: 19.99
-- option_name: goat cheese, sundried tomato, spinach
-  option_price: 22.99
-- option_name: pepperoni and mozzarella cheese
-  option_price: 22.99
 - option_name: spinach and cream cheese
   option_price: 19.99
 - option_name: pepper jack cheese
   option_price: 19.99
+- option_name: mushroom, black olive, and mozzarella cheese
+  option_price: 22.99
+- option_name: mushroom and swiss cheese
+  option_price: 22.99
+- option_name: pepperoni and mozzarella cheese
+  option_price: 22.99
+- option_name: goat cheese, sundried tomato, spinach
+  option_price: 22.99
 meta_title: ''
 meta_description: ''
 social_image: ''
