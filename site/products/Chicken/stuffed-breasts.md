@@ -26,7 +26,7 @@ product_options:
 - option_name: shrimp dressing
   option_price: 14.09
 - option_name: crawfish dressing
-  option_price: 15.89
+  option_price: 15.09
 meta_title: ''
 meta_description: ''
 social_image: ''
