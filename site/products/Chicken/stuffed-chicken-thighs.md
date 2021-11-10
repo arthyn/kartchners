@@ -20,7 +20,7 @@ product_options:
 - option_name: mushroom and swiss cheese
   option_price: 22.99
 - option_name: pineapple and cream cheese
-  option_price: 16.89
+  option_price: 19.99
 - option_name: goat cheese, sundried tomato, spinach
   option_price: 19.99
 - option_name: pepperoni and mozzarella cheese
