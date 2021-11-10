@@ -22,7 +22,7 @@ product_options:
 - option_name: pineapple and cream cheese
   option_price: 19.99
 - option_name: goat cheese, sundried tomato, spinach
-  option_price: 19.99
+  option_price: 22.99
 - option_name: pepperoni and mozzarella cheese
   option_price: 23.19
 - option_name: spinach and cream cheese
