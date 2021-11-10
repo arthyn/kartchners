@@ -26,7 +26,7 @@ product_options:
 - option_name: pepperoni and mozzarella cheese
   option_price: 22.99
 - option_name: spinach and cream cheese
-  option_price: 14.49
+  option_price: 19.99
 - option_name: pepper jack cheese
   option_price: 15.79
 meta_title: ''
