@@ -21,12 +21,12 @@ product_options:
   option_price: 8.19
 - option_name: boudin
   option_price: 8.19
-- option_name: crawfish dressing
-  option_price: 15.89
 - option_name: cornbread dressing
   option_price: 8.19
 - option_name: shrimp dressing
   option_price: 14.09
+- option_name: crawfish dressing
+  option_price: 15.89
 meta_title: ''
 meta_description: ''
 social_image: ''
