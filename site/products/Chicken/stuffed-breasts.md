@@ -11,7 +11,7 @@ description: |-
   Stuffed Boneless Chicken Breasts with Your Choice of Stuffing
   1 per pack
 product_options:
-- option_name: jalapeno and cream cheese
+- option_name: jalapeno and cream cheese wrapped in bacon
   option_price: 11.09
 - option_name: pineapple and cream cheese wrapped in bacon
   option_price: 11.09
