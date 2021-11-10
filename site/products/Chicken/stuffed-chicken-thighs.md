@@ -12,7 +12,7 @@ description: |-
   4 per pack
 product_options:
 - option_name: Jalapeno Cream Cheese
-  option_price: 17.09
+  option_price: 19.99
 - option_name: boudin and pepper jack cheese
   option_price: 19.29
 - option_name: mushroom, black olive, and mozzarella cheese
