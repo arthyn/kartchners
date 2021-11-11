@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Smoked Beef Jerky
 sku: 241
-image: ''
+image: "/v1636647036/kartchners/IMG_2027_uky9sb.jpg"
 description: ''
 product_options:
 - option_name: 1/2 lb of jerky
