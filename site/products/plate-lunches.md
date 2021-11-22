@@ -18,7 +18,7 @@ banner_alt: ''
 ---
 > **_Monday_**
 >
-> chicken thigh stuffed with boudin & pepper jack cheese wrapped with apple wood smoked bacon 
+> Spaghetti with meatballs, corn, salad, dinner roll
 
 > **_Tuesday_**
 >
@@ -30,7 +30,7 @@ banner_alt: ''
 
 > **_Thursday_**
 >
-> smothered pork in a gravy over rice, smothered cabbage, black eyed peas, dinner roll
+> CLOSED FOR THANKSGIVING
 
 > **_Friday_**
 >
@@ -45,8 +45,6 @@ banner_alt: ''
 > **_Saturday_**
 >
 > chili cheese dogs
->
-> bbq hamburgers
 >
 > frito pies
 
