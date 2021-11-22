@@ -16,9 +16,10 @@ banner_class: ''
 banner_alt: ''
 
 ---
+> ![](/v1637606894/kartchners/SHIPPING_MAP_3_fcpoal.jpg)
+>
 > #### All shipments are shipped Monday - Friday. Orders that go out on Thursday will only be sent if Saturday Delivery is available. Orders that are placed for Friday have to be PRIORITY OVERNIGHT.
 
->   
-> The picture shown above is a great guidline when choosing shipping method. As of now, we are only doing 2day shipments for all out of state orders as FedEx is experiencing delays and perishable items are not guaranteed to remain frozen after 2 days.  
+> The picture shown above is a great guideline when choosing shipping method. As of now, we are only doing 2day shipments for all out of state orders as FedEx is experiencing delays and perishable items are not guaranteed to remain frozen after 2 days.
 
 **Any further questions, please contact us before placing order!**
