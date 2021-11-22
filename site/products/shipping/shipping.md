@@ -10,7 +10,7 @@ meta_title: ''
 meta_description: ''
 social_image: ''
 canonical: ''
-banner_image: ''
+banner_image: "/v1637606894/kartchners/SHIPPING_MAP_3_fcpoal.jpg"
 banner_format: ''
 banner_class: ''
 banner_alt: ''
