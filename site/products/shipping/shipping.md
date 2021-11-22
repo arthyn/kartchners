@@ -10,7 +10,7 @@ meta_title: ''
 meta_description: ''
 social_image: ''
 canonical: ''
-banner_image: "/v1637607645/kartchners/SHIPPING_MAP_4_ob4cb8.jpg"
+banner_image: ''
 banner_format: ''
 banner_class: ''
 banner_alt: ''
