@@ -18,7 +18,9 @@ banner_alt: ''
 ---
 > **_Monday_**
 >
-> Spaghetti with meatballs, corn, salad, dinner roll
+> pepper jack cheese stuffed chicken thigh, wrapped in bacon
+>
+> loaded potato casserole, corn, dinner roll
 
 > **_Tuesday_**
 >
@@ -30,7 +32,7 @@ banner_alt: ''
 
 > **_Thursday_**
 >
-> CLOSED FOR THANKSGIVING
+> smothered beef over rice, smothered cabbage, black eye peas, dinner roll
 
 > **_Friday_**
 >
