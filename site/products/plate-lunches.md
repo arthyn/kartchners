@@ -18,9 +18,9 @@ banner_alt: ''
 ---
 > **_Monday_**
 >
-> pepper jack cheese stuffed chicken thigh, wrapped in bacon
+> jalapeno & cream cheese stuffed chicken thigh, wrapped in bacon
 >
-> loaded potato casserole, corn, dinner roll
+> baked mac & cheese, corn, dinner roll
 
 > **_Tuesday_**
 >
@@ -28,15 +28,15 @@ banner_alt: ''
 
 > **_Wednesday_**
 >
-> chicken fried steak, mashed potatoes and white gravy, green bean casserole, dinner roll
+> hamburger steak, mashed potatoes and brown gravy, green bean casserole, dinner roll
 
 > **_Thursday_**
 >
-> smothered beef over rice, smothered cabbage, black eye peas, dinner roll
+> smothered pork over rice, smothered cabbage, black eye peas, dinner roll
 
 > **_Friday_**
 >
-> option 1: shrimp fettucine, corn, salad, dinner roll
+> option 1: crawfish fettucine, corn, salad, dinner roll
 >
 > option 2: fried fish dinner, fries, hushpuppies, tarter sauce and roll
 >
