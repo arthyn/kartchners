@@ -17,6 +17,8 @@ banner_alt: ''
 
 ---
 > All shipments are shipped Monday - Friday. Orders that go out on Thursday will only be sent if Saturday Delivery is available. Orders that are placed for Friday have to be PRIORITY OVERNIGHT.
+>
+> For same day shipping please call or place your order online before noon!
 
 > The picture shown above is a great guideline when choosing shipping method. As of now, we are only doing 2day shipments for all out of state orders as FedEx is experiencing delays and perishable items are not guaranteed to remain frozen after 2 days.
 
