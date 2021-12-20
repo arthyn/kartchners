@@ -23,3 +23,5 @@ banner_alt: ''
 > The picture shown above is a great guideline when choosing shipping method. As of now, we are only doing 2day shipments for all out of state orders as FedEx is experiencing delays and perishable items are not guaranteed to remain frozen after 2 days.
 
 **Any further questions, please contact us before placing order!**
+
+### **_MONDAY 12/20/21 IS THE LAST DAY WE WILL BE SHIPPING AND WE WILL START AGAIN 1/3/22!_**
