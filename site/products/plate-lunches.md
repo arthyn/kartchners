@@ -36,13 +36,7 @@ banner_alt: ''
 
 > **_Friday_**
 >
-> option 1: crawfish fettucine, corn, salad, dinner roll
->
-> option 2: fried fish dinner, fries, hushpuppies, tarter sauce and roll
->
-> option 3: fried shrimp dinner, fries, hushpuppies, tarter sauce and roll
->
-> Fried platters can be combined into a combo plate. Fried seafood can be added to fettucine plate.
+> ### NO LUNCHES WILL BE SOLD THIS FRIDAY 12/24/2021!
 
 > **_Saturday_**
 >
