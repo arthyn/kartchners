@@ -18,7 +18,7 @@ banner_alt: ''
 ---
 > **_Monday_**
 >
-> jalapeno & cream cheese stuffed chicken thigh, wrapped in bacon
+> jalapeno & cream cheese stuffed tenderloin, wrapped in bacon
 >
 > baked mac & cheese, corn, dinner roll
 
@@ -36,8 +36,14 @@ banner_alt: ''
 
 > **_Friday_**
 >
-> ### NO LUNCHES WILL BE SOLD THIS FRIDAY 12/24/2021!
-
+> > option 1: crawfish fettucine, corn, salad, dinner roll
+>
+> > option 2: fried fish dinner, fries, hushpuppies, tarter sauce and roll
+>
+> > option 3: fried shrimp dinner, fries, hushpuppies, tarter sauce and roll
+>
+> > Fried platters can be combined into a combo plate. Fried seafood can be added to fettucine plate.
+>
 > **_Saturday_**
 >
 > chili cheese dogs
