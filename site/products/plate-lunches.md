@@ -18,9 +18,7 @@ banner_alt: ''
 ---
 > **_Monday_**
 >
-> jalapeno & cream cheese stuffed tenderloin, wrapped in bacon
->
-> baked mac & cheese, corn, dinner roll
+> cheesy chicken spaghetti, corn, green salad, dinner roll
 
 > **_Tuesday_**
 >
@@ -28,11 +26,11 @@ banner_alt: ''
 
 > **_Wednesday_**
 >
-> hamburger steak, mashed potatoes and brown gravy, green bean casserole, dinner roll
+> chicken fried steak, mashed potatoes and white gravy, green bean casserole, dinner roll
 
 > **_Thursday_**
 >
-> smothered pork over rice, smothered cabbage, black eye peas, dinner roll
+> smothered beef over rice, smothered cabbage, black eye peas, dinner roll
 
 > **_Friday_**
 >
