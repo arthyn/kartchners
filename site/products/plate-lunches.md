@@ -30,7 +30,7 @@ banner_alt: ''
 
 > **_Thursday_**
 >
-> smothered pork over rice, smothered potatoes, black eye peas, dinner roll
+> smothered pork over rice, smothered cabbage, black eye peas, dinner roll
 
 > **_Friday_**
 >
@@ -46,7 +46,9 @@ banner_alt: ''
 >
 > chili cheese dogs
 >
-> frito pies
+> bbq burger
+>
+> tasso sandwiches 
 
 > **_Sunday_**
 >
@@ -54,9 +56,9 @@ banner_alt: ''
 >
 > ##### HOT DOGS MONDAY - SATURDAY
 >
-> > ## NOW SERVING TASSO SANDWICHES  
+> > ## NOW SERVING TASSO SANDWICHES
 > >
-> > ##  FRIDAY - SUNDAY
+> > ## FRIDAY - SATURDAY
 
 > > #### **_Plate lunch orders can not be placed online._**
 > >
