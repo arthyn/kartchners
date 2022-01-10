@@ -18,7 +18,7 @@ banner_alt: ''
 ---
 > **_Monday_**
 >
-> cheesy chicken spaghetti, corn, green salad, dinner roll
+> Boudin stuffed pork tenderloin wrapped in apple wood smoked bacon, white beans and sausage over rice, salad, dinner roll
 
 > **_Tuesday_**
 >
@@ -26,15 +26,15 @@ banner_alt: ''
 
 > **_Wednesday_**
 >
-> chicken fried steak, mashed potatoes and white gravy, green bean casserole, dinner roll
+> hamburger steak, mashed potatoes and brown gravy, green bean casserole, dinner roll
 
 > **_Thursday_**
 >
-> smothered beef over rice, smothered cabbage, black eye peas, dinner roll
+> smothered pork over rice, smothered potatoes, black eye peas, dinner roll
 
 > **_Friday_**
 >
-> > option 1: crawfish fettucine, corn, salad, dinner roll
+> > option 1: shrimp fettucine, corn, salad, dinner roll
 >
 > > option 2: fried fish dinner, fries, hushpuppies, tarter sauce and roll
 >
@@ -52,7 +52,11 @@ banner_alt: ''
 >
 > BBQ 1/2 chicken or pork steak, rice dressing, baked beans, potato salad
 >
-> > ##### NOW SERVING HOT DOGS MONDAY - SATURDAY
+> ##### HOT DOGS MONDAY - SATURDAY
+>
+> > ## NOW SERVING TASSO SANDWICHES  
+> >
+> > ##  FRIDAY - SUNDAY
 
 > > #### **_Plate lunch orders can not be placed online._**
 > >
