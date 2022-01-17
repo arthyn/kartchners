@@ -18,7 +18,7 @@ banner_alt: ''
 ---
 > **_Monday_**
 >
-> Boudin stuffed pork tenderloin wrapped in apple wood smoked bacon, white beans and sausage over rice, salad, dinner roll
+> jalapeno & cream cheese stuffed chicken thighs wrapped in apple wood smoked bacon, loaded potato casserole, corn, dinner roll
 
 > **_Tuesday_**
 >
@@ -26,15 +26,15 @@ banner_alt: ''
 
 > **_Wednesday_**
 >
-> hamburger steak, mashed potatoes and brown gravy, green bean casserole, dinner roll
+> chicken fried steak, mashed potatoes and white gravy, green bean casserole, dinner roll
 
 > **_Thursday_**
 >
-> smothered pork over rice, smothered cabbage, black eye peas, dinner roll
+> meatball stew over rice, corn, salad, dinner roll
 
 > **_Friday_**
 >
-> > option 1: shrimp fettucine, corn, salad, dinner roll
+> > option 1: crawfish fettucine, corn, salad, dinner roll
 >
 > > option 2: fried fish dinner, fries, hushpuppies, tarter sauce and roll
 >
@@ -48,7 +48,7 @@ banner_alt: ''
 >
 > bbq burger
 >
-> tasso sandwiches 
+> tasso sandwiches
 
 > **_Sunday_**
 >
