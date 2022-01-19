@@ -7,8 +7,9 @@ layout: product
 name: Duck and Andouille Gumbo
 sku: 44
 image: "/v1627929849/kartchners/duck_gumbo_stncja.jpg"
-description: Our own homemade cajun dish, fully cooked and ready to be boiled and
-  served.
+description: |-
+  *TEMPORARILY OUT OF STOCK*
+  Our own homemade cajun dish, fully cooked and ready to be boiled and served.
 product_options: []
 meta_title: ''
 meta_description: ''
