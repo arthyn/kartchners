@@ -9,6 +9,8 @@ name: Boneless Skinless Duck Breast Stuffed with Jalapeno Cream Cheese Wrapped i
 sku: 28
 image: ''
 description: |-
+  *TEMPORARILY OUT OF STOCK*
+
   Boneless Skinless Duck Breast Stuffed with Jalapeno Cream Cheese Wrapped in Bacon
   1 per pack
 product_options: []
