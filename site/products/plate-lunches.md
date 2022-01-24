@@ -18,7 +18,7 @@ banner_alt: ''
 ---
 > **_Monday_**
 >
-> jalapeno & cream cheese stuffed chicken thighs wrapped in apple wood smoked bacon, loaded potato casserole, corn, dinner roll
+> pepper jack cheese stuffed chicken thighs wrapped in apple wood smoked bacon, baked mac & cheese, corn, dinner roll
 
 > **_Tuesday_**
 >
@@ -26,11 +26,11 @@ banner_alt: ''
 
 > **_Wednesday_**
 >
-> chicken fried steak, mashed potatoes and white gravy, green bean casserole, dinner roll
+> hamburger steak, mashed potatoes and brown gravy, green bean casserole, dinner roll
 
 > **_Thursday_**
 >
-> meatball stew over rice, corn, salad, dinner roll
+> pork stew over rice, corn, salad, dinner roll
 
 > **_Friday_**
 >
