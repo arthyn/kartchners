@@ -1,7 +1,7 @@
 ---
 price: 3.99
 weight__display_: ".25lb"
-weight: 16
+weight: 4
 tags: []
 layout: product
 name: Seasoned Pork Rinds
