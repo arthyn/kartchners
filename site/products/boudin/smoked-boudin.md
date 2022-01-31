@@ -1,7 +1,7 @@
 ---
 layout: product
 sku: 2
-price: 11.49
+price: 12.99
 tags: []
 weight: 24
 name: Smoked Boudin
