@@ -1,7 +1,7 @@
 ---
 layout: product
 sku: 8
-price: 13.99
+price: 0
 tags: 
 weight: 48
 name: Frozen Boudin Balls
