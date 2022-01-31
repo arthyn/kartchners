@@ -12,12 +12,12 @@ description: Your choice of chicken, beef, pork,  or bone-in rabbit seasoned wit
 product_options:
 - option_name: marinated chicken
   option_price: 7.39
-- option_name: marinated bone-in rabbit
-  option_price: 17.79
 - option_name: marinated pork
-  option_price: 9.89
+  option_price: 8.59
 - option_name: marinated beef
   option_price: 8.59
+- option_name: marinated bone-in rabbit
+  option_price: 17.79
 meta_title: ''
 meta_description: ''
 social_image: ''
