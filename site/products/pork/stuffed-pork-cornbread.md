@@ -12,7 +12,7 @@ description: |-
   1 per pack
 product_options:
 - option_name: shrimp dressing
-  option_price: 10.59
+  option_price: 10.79
 - option_name: cornbread dressing
   option_price: 9.79
 - option_name: crawfish dressing
