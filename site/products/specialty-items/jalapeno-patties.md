@@ -1,5 +1,5 @@
 ---
-price: 7.39
+price: 8.79
 weight__display_: "0"
 weight: 16
 tags: []
