@@ -16,7 +16,7 @@ product_options:
 - option_name: cornbread dressing
   option_price: 9.79
 - option_name: crawfish dressing
-  option_price: 13.19
+  option_price: 12.79
 meta_title: ''
 meta_description: ''
 social_image: ''
