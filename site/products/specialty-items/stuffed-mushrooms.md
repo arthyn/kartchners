@@ -11,9 +11,9 @@ description: "Stuffed mushrooms with your choice of green onion sausage or shrim
   and crab meat au gratin. \n5 per pack "
 product_options:
 - option_name: Green Onion Sausage
-  option_price: 24.89
+  option_price: 24.99
 - option_name: Shrimp and Crab Meat Au Gratin
-  option_price: 
+  option_price: 28.99
 meta_title: ''
 meta_description: ''
 social_image: ''
