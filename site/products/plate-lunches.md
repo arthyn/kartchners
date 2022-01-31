@@ -18,7 +18,7 @@ banner_alt: ''
 ---
 > **_Monday_**
 >
-> pepper jack cheese stuffed chicken thighs wrapped in apple wood smoked bacon, baked mac & cheese, corn, dinner roll
+> smoked sausage in a red gravy over rice, smothered potatoes, cole slaw, and a dinner roll
 
 > **_Tuesday_**
 >
@@ -26,15 +26,15 @@ banner_alt: ''
 
 > **_Wednesday_**
 >
-> hamburger steak, mashed potatoes and brown gravy, green bean casserole, dinner roll
+> chicken fried steak, mashed potatoes and white gravy, green bean casserole, dinner roll
 
 > **_Thursday_**
 >
-> pork stew over rice, corn, salad, dinner roll
+> chicken stew over rice, corn, salad, dinner roll
 
 > **_Friday_**
 >
-> > option 1: crawfish fettucine, corn, salad, dinner roll
+> > option 1: shrimp fettucine, corn, salad, dinner roll
 >
 > > option 2: fried fish dinner, fries, hushpuppies, tarter sauce and roll
 >
@@ -58,7 +58,7 @@ banner_alt: ''
 >
 > > ## NOW SERVING TASSO SANDWICHES
 > >
-> > ## FRIDAY - SATURDAY
+> > ## SATURDAY
 
 > > #### **_Plate lunch orders can not be placed online._**
 > >
