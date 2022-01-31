@@ -12,15 +12,15 @@ description: |-
   2 per pack
 product_options:
 - option_name: boudin
-  option_price: 10.39
+  option_price: 11.99
 - option_name: Green Onion Sausage
-  option_price: 11.09
+  option_price: 11.99
+- option_name: Cornbread Dressing
+  option_price: 11.99
+- option_name: Shrimp Dressing
+  option_price: 11.99
 - option_name: Crawfish Dressing
   option_price: 15.59
-- option_name: Cornbread Dressing
-  option_price: 9.79
-- option_name: Shrimp Dressing
-  option_price: 12.19
 meta_title: ''
 meta_description: ''
 social_image: ''
