@@ -5,7 +5,7 @@ price: 11.99
 tags: []
 weight: 24
 name: Pork Boudin
-image: "/v1628366735/kartchners/Boudin_rowzu4.jpg"
+image: "/v1643824102/kartchners/boudin2_ebgppi.jpg"
 description: |-
   Original Pork Boudin
   3 links
