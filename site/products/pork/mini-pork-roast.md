@@ -6,7 +6,7 @@ tags: []
 layout: product
 name: Seasoned and Stuffed Mini Pork Roast
 sku: 312
-image: ''
+image: "/v1643819342/kartchners/mini_pork_roast_rsakuk.png"
 description: Seasoned and Stuffed Mini Pork Roast
 product_options: []
 meta_title: ''
