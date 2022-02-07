@@ -7,7 +7,7 @@ layout: product
 name: Meat Pies
 sku: 110
 image: "/v1622471643/kartchners/Meat_Pie_maybe_pzobaq.jpg"
-description: "Meat pies stuffed with seasoned ground beef. \n2 per pack"
+description: "Meat pies stuffed with seasoned ground beef. \n4 per pack"
 product_options: []
 meta_title: ''
 meta_description: ''
