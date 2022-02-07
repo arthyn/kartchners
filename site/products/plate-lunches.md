@@ -18,7 +18,7 @@ banner_alt: ''
 ---
 > **_Monday_**
 >
-> smoked sausage in a red gravy over rice, smothered potatoes, cole slaw, and a dinner roll
+> baked chicken (white or dark), loaded potato casserole, salad, dinner
 
 > **_Tuesday_**
 >
@@ -26,15 +26,15 @@ banner_alt: ''
 
 > **_Wednesday_**
 >
-> chicken fried steak, mashed potatoes and white gravy, green bean casserole, dinner roll
+> hamburger steak, mashed potatoes and brown gravy, green bean casserole, dinner roll
 
 > **_Thursday_**
 >
-> chicken stew over rice, corn, salad, dinner roll
+> smothered pork, black eye peas, smothered potatoes, dinner roll
 
 > **_Friday_**
 >
-> > option 1: shrimp fettucine, corn, salad, dinner roll
+> > option 1: crawfish fettucine, corn, salad, dinner roll
 >
 > > option 2: fried fish dinner, fries, hushpuppies, tarter sauce and roll
 >
