@@ -17,7 +17,7 @@ meta_title: ''
 meta_description: ''
 social_image: ''
 canonical: ''
-banner_image: "/v1644343244/kartchners/IMG_1936_n0h2ue.jpg"
+banner_image: ''
 banner_format: ''
 banner_class: ''
 banner_alt: ''
