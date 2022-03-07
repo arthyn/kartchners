@@ -18,7 +18,7 @@ banner_alt: ''
 ---
 > **_Monday_**
 >
-> chicken stew, corn, salad, dinner roll
+> pork tenderloin stuffed with spinach & cream cheese wrapped in applewood smoked bacon , potato salad, rice dressing, cucumbers & tomatoes, dinner roll
 
 > **_Tuesday_**
 >
@@ -34,7 +34,7 @@ banner_alt: ''
 
 > **_Friday_**
 >
-> > option 1: crawfish fettucine, corn, salad, dinner roll
+> > option 1: shrimp fettucine, corn, salad, dinner roll
 >
 > > option 2: fried fish dinner, fries, hushpuppies, tarter sauce and roll
 >
@@ -45,8 +45,6 @@ banner_alt: ''
 > **_Saturday_**
 >
 > chili cheese dogs
->
-> bbq burger
 >
 > tasso sandwiches
 
