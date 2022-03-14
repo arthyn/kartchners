@@ -30,11 +30,11 @@ banner_alt: ''
 
 > **_Thursday_**
 >
-> smothered pork, black eye peas, smothered potatoes, dinner roll
+> smothered pork, black eye peas, smothered cabbage, dinner roll
 
 > **_Friday_**
 >
-> > option 1: shrimp fettucine, corn, salad, dinner roll
+> > option 1: crawfish fettucine, corn, salad, dinner roll
 >
 > > option 2: fried fish dinner, fries, hushpuppies, tarter sauce and roll
 >
