@@ -47,8 +47,9 @@ sections:
   section_id: visit-us
 meta_title: ''
 meta_description: Kartchner's from Krotz Springs now offers offers your favorite boudin,
-  specialty meats, and Cajun foods in Scott Louisiana. Come to the best rest stop
-  in town with the best food!
+  specialty meats, and Cajun foods in Scott and Lafayette Louisiana! Come for the
+  most convenient shopping experience with drive-thrus at both locations and the best
+  specialty meats and boudin in the area!
 social_image: ''
 canonical: ''
 banner_image: ''
