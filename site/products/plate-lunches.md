@@ -50,7 +50,7 @@ banner_alt: ''
 
 > **_Sunday_**
 >
-> BBQ 1/2 chicken or pork steak, rice dressing, baked beans, potato salad
+> NO LUNCHES (EASTER)
 >
 > ##### HOT DOGS MONDAY - SATURDAY
 >
