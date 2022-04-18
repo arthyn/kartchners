@@ -50,7 +50,7 @@ banner_alt: ''
 
 > **_Sunday_**
 >
-> NO LUNCHES (EASTER)
+> 1/2 Chicken or Pork Steak, Rice Dressing, Potato Salad, Baked Beans, and Dinner Roll
 >
 > ##### HOT DOGS MONDAY - SATURDAY
 >
