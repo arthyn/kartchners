@@ -18,7 +18,7 @@ banner_alt: ''
 ---
 > **_Monday_**
 >
-> sausage creole over rice, sweet peas, potato salad, dinner roll
+> pork tenderloin stuffed with spinach & cream cheese wrapped with apple wood smoked bacon, loaded potato casserole, cucumber & tomato salad, corn, and dinner roll
 
 > **_Tuesday_**
 >
