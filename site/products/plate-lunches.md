@@ -18,7 +18,7 @@ banner_alt: ''
 ---
 > **_Monday_**
 >
-> chicken thigh stuffed with pepper jack cheese wrapped with apple wood smoked bacon, baked mac & cheese, sweet pea salad, dinner roll
+> chicken thigh stuffed with pepper jack cheese wrapped with apple wood smoked bacon, baked mac & cheese, sweet pea salad, corn, dinner roll
 
 > **_Tuesday_**
 >
