@@ -18,7 +18,7 @@ banner_alt: ''
 ---
 > **_Monday_**
 >
-> chicken thigh stuffed with pepper jack cheese wrapped with apple wood smoked bacon, baked mac & cheese, sweet pea salad, corn, dinner roll
+> spaghetti & meatballs, cucumber & tomatoes, corn, dinner roll
 
 > **_Tuesday_**
 >
@@ -26,15 +26,15 @@ banner_alt: ''
 
 > **_Wednesday_**
 >
-> chicken fried steak, mashed potatoes and white gravy, green bean casserole, dinner roll
+> hamburger steak, mashed potatoes and white gravy, green bean casserole, dinner roll
 
 > **_Thursday_**
 >
-> smothered beef, black eye peas, broccoli & cheese, dinner roll
+> smothered pork, black eye peas, smothered green beans, dinner roll
 
 > **_Friday_**
 >
-> > option 1: shrimp fettucine, corn, salad, dinner roll
+> > option 1: crawfish fettucine, corn, salad, dinner roll
 >
 > > option 2: fried fish dinner, fries, hushpuppies, tarter sauce and roll
 >
