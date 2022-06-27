@@ -20,7 +20,7 @@ banner_alt: ''
 >
 > **_Monday_**
 >
-> spaghetti and meatballs, corn, cucumber & tomato salad, dinner roll
+> white beans and sausage over rice, fried chicken thigh, fried okra, dinner roll
 
 > **_Tuesday_**
 >
@@ -32,11 +32,11 @@ banner_alt: ''
 
 > **_Thursday_**
 >
-> smothered pork, black eye peas, smothered cabbage, dinner roll
+> smothered beef, black eye peas, smothered potatoes, dinner roll
 
 > **_Friday_**
 >
-> > option 1: crawfish fettucine, corn, salad, dinner roll
+> > option 1: shrimp fettucine, corn, salad, dinner roll
 >
 > > option 2: fried fish dinner, fries, hushpuppies, tarter sauce and roll
 >
@@ -54,7 +54,7 @@ banner_alt: ''
 
 > **_Sunday_**
 >
-> 1/2 Chicken or Pork Steak, Rice Dressing, Potato Salad, Baked Beans, and Dinner Roll
+> 1/2 Chicken 1/4 rack Baby Back Ribs, or Pork Steak, Rice Dressing, Potato Salad, Baked Beans, and Dinner Roll
 >
 > ##### HOT DOGS MONDAY - SATURDAY
 >
