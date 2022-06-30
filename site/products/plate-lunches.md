@@ -18,6 +18,12 @@ banner_alt: ''
 ---
 > **_LUNCHES ARE SUBJECT TO CHANGE PLEASE CALL!!!!!_**
 >
+> **Scott**: [337-345-1992](tel:3373451992)
+>
+> **Lafayette**: [337-534-4060](tel:3375344060)
+
+> 
+>
 > **_Monday_**
 >
 > white beans and sausage over rice, fried chicken thigh, fried okra, dinner roll
