@@ -22,11 +22,9 @@ banner_alt: ''
 >
 > **Lafayette**: [337-534-4060](tel:3375344060)
 
-> 
->
 > **_Monday_**
 >
-> white beans and sausage over rice, fried chicken thigh, fried okra, dinner roll
+> No Lunch special...Happy 4th of July!!!
 
 > **_Tuesday_**
 >
@@ -34,15 +32,15 @@ banner_alt: ''
 
 > **_Wednesday_**
 >
-> hamburger steak, mashed potatoes and brown gravy, green bean casserole, dinner roll
+> chicken fried steak, mashed potatoes and white gravy, green bean casserole, dinner roll
 
 > **_Thursday_**
 >
-> smothered beef, black eye peas, smothered potatoes, dinner roll
+> smothered pork, black eye peas, smothered cabbage, dinner roll
 
 > **_Friday_**
 >
-> > option 1: shrimp fettucine, corn, salad, dinner roll
+> > option 1: crawfish fettucine, corn nuggets, cucumber & tomato  salad, dinner roll
 >
 > > option 2: fried fish dinner, fries, hushpuppies, tarter sauce and roll
 >
@@ -54,9 +52,9 @@ banner_alt: ''
 >
 > chili cheese dogs
 >
-> tasso sandwiches
+> Tasso sandwiches
 >
-> bbq burgers
+> BBQ burgers
 
 > **_Sunday_**
 >
