@@ -24,4 +24,4 @@ banner_alt: ''
 
 **Any further questions, please contact us before placing order!**
 
-### **_MONDAY 12/20/21 IS THE LAST DAY WE WILL BE SHIPPING AND WE WILL START AGAIN 1/3/22!_**
+## __* Please call the store directly for dry good only purchases *__
