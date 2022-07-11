@@ -24,23 +24,23 @@ banner_alt: ''
 
 > **_Monday_**
 >
-> No Lunch special...Happy 4th of July!!!
-
+> cheesy chicken spaghetti, cucumber & tomato salad, fried orka, dinner roll
+>
 > **_Tuesday_**
 >
 > fried pork chop, red beans & sausage with rice, cole slaw, cornbread
 
 > **_Wednesday_**
 >
-> chicken fried steak, mashed potatoes and white gravy, green bean casserole, dinner roll
+> hamburger steak , mashed potatoes and brown gravy, green bean casserole, dinner roll
 
 > **_Thursday_**
 >
-> smothered pork, black eye peas, smothered cabbage, dinner roll
+> smothered beef, black eye peas, smothered cabbage, dinner roll
 
 > **_Friday_**
 >
-> > option 1: crawfish fettucine, corn nuggets, cucumber & tomato  salad, dinner roll
+> > option 1: shrimp fettucine, corn nuggets, cucumber & tomato  salad, dinner roll
 >
 > > option 2: fried fish dinner, fries, hushpuppies, tarter sauce and roll
 >
