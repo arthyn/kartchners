@@ -24,23 +24,23 @@ banner_alt: ''
 
 > **_Monday_**
 >
-> cheesy chicken spaghetti, cucumber & tomato salad, fried orka, dinner roll
+> Fried Chicken Thigh, White Beans Over Rice, fried okra, dinner roll
 >
 > **_Tuesday_**
 >
-> fried pork chop, red beans & sausage with rice, cole slaw, cornbread
+> fried pork chop, red beans & sausage with rice, Cole slaw, cornbread
 
 > **_Wednesday_**
 >
-> hamburger steak , mashed potatoes and brown gravy, green bean casserole, dinner roll
+> Chicken Fried Steak ,Mashed Potatoes and White Gravy, green bean casserole, dinner roll
 
 > **_Thursday_**
 >
-> smothered beef, black eye peas, smothered cabbage, dinner roll
+> smothered pork, black eye peas, smothered potatoes, dinner roll
 
 > **_Friday_**
 >
-> > option 1: shrimp fettucine, corn nuggets, cucumber & tomato  salad, dinner roll
+> > option 1: crawfish fettucine, corn nuggets, cucumber & tomato  salad, dinner roll
 >
 > > option 2: fried fish dinner, fries, hushpuppies, tarter sauce and roll
 >
