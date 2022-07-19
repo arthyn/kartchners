@@ -36,7 +36,7 @@ banner_alt: ''
 
 > **_Thursday_**
 >
-> smothered pork, black eye peas, smothered potatoes, dinner roll
+> smothered beef, black eye peas, smothered potatoes, dinner roll
 
 > **_Friday_**
 >
