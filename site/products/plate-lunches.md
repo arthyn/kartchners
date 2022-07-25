@@ -24,7 +24,7 @@ banner_alt: ''
 
 > **_Monday_**
 >
-> Fried Chicken Thigh, White Beans Over Rice, fried okra, dinner roll
+> Spaghetti, fried corn nuggets, cucumber and tomato salad, dinner roll
 >
 > **_Tuesday_**
 >
