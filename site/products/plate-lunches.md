@@ -24,7 +24,7 @@ banner_alt: ''
 
 > **_Monday_**
 >
-> Spaghetti, fried corn nuggets, cucumber and tomato salad, dinner roll
+> fried boneless chicken thighs, baked macaroni, dinner roll
 >
 > **_Tuesday_**
 >
@@ -32,15 +32,15 @@ banner_alt: ''
 
 > **_Wednesday_**
 >
-> Hamburger Steak ,Mashed Potatoes and Brown Gravy, green bean casserole, dinner roll
+> chicken fried Steak ,Mashed Potatoes and white Gravy, green bean casserole, dinner roll
 
 > **_Thursday_**
 >
-> smothered pork , black eye peas, smothered potatoes, dinner roll
+> smothered beef , black eye peas, smothered potatoes, dinner roll
 
 > **_Friday_**
 >
-> > option 1: shrimp fettucine, corn nuggets, cucumber & tomato  salad, dinner roll
+> > option 1: crawfish fettucine, corn nuggets, cucumber & tomato  salad, dinner roll
 >
 > > option 2: fried fish dinner, fries, hushpuppies, tarter sauce and roll
 >
