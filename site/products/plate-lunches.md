@@ -24,7 +24,7 @@ banner_alt: ''
 
 > **_Monday_**
 >
-> fried boneless chicken thighs, baked macaroni, dinner roll
+> fried boneless chicken thighs, baked macaroni, loaded baked potatoes, dinner roll
 >
 > **_Tuesday_**
 >
