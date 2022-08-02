@@ -102,6 +102,7 @@ module.exports = eleventyConfig => {
     eleventyConfig.addPassthroughCopy("images")
     eleventyConfig.addPassthroughCopy("fonts")
     eleventyConfig.addPassthroughCopy("robots.txt")
+    eleventyConfig.addPassthroughCopy("_redirects")
 
     eleventyConfig.setBrowserSyncConfig({
         // scripts in body conflict with Turbolinks
