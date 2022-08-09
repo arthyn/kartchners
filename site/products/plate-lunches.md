@@ -32,15 +32,15 @@ banner_alt: ''
 
 > **_Wednesday_**
 >
-> chicken fried Steak ,Mashed Potatoes and white Gravy, green bean casserole, dinner roll
+> Hamburger Steak ,Mashed Potatoes and Brown Gravy, green bean casserole, dinner roll
 
 > **_Thursday_**
 >
-> smothered beef , black eye peas, smothered potatoes, dinner roll
+> smothered pork, black eye peas, smothered potatoes, dinner roll
 
 > **_Friday_**
 >
-> > option 1: crawfish fettucine, corn nuggets, cucumber & tomato  salad, dinner roll
+> > option 1: shrimp fettucine, corn nuggets, cucumber & tomato  salad, dinner roll
 >
 > > option 2: fried fish dinner, fries, hushpuppies, tarter sauce and roll
 >
