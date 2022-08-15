@@ -1,5 +1,5 @@
 ---
-price: 3.49
+price: 3.89
 weight__display_: 1oz
 weight: 1
 tags: []
