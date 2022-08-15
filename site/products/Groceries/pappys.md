@@ -4,10 +4,10 @@ weight__display_: 1 lb
 weight: 16
 tags: []
 layout: product
-name: "*TEMPORARILY OUT OF STOCK* Pappy's Cajun BBQ Sauce "
+name: 'Pappy''s Cajun BBQ Sauce '
 sku: 205
 image: "/v1618518805/kartchners/pappys_czalsl.jpg"
-description: Pappy's Cajun BBQ Sauce
+description: 'Pappy''s Cajun BBQ Sauce *TEMPORARILY OUT OF STOCK* '
 product_options: []
 meta_title: ''
 meta_description: ''
