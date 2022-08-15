@@ -24,7 +24,7 @@ banner_alt: ''
 
 > **_Monday_**
 >
-> fried boneless chicken thighs, white beans over rice, tomato and cucumber salad dinner roll
+> fried boneless chicken thighs, broccoli and cheeses casserole , tomato and cucumber salad dinner roll
 >
 > **_Tuesday_**
 >
