@@ -40,7 +40,7 @@ banner_alt: ''
 
 > **_Friday_**
 >
-> > option 1: Shrimp fettucine, corn nuggets, cucumber & tomato  salad, dinner roll
+> > option 1: Crawfish fettucine, corn nuggets, cucumber & tomato  salad, dinner roll
 >
 > > option 2: fried fish dinner, fries, hushpuppies, tarter sauce and roll
 >
