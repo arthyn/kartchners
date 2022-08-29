@@ -24,7 +24,7 @@ banner_alt: ''
 
 > **_Monday_**
 >
-> Baked Chicken (white or dark) rice dressing, fried okra and a dinner roll
+> Fried Boneless Chicken Thigh, Mac and Cheese, Loaded potato Casserole and a dinner roll
 >
 > **_Tuesday_**
 >
@@ -32,15 +32,15 @@ banner_alt: ''
 
 > **_Wednesday_**
 >
-> Hamburger Steak ,Mashed Potatoes and Brown Gravy, green bean casserole, dinner roll
+> Chicken Fried Steak ,Mashed Potatoes and White Gravy, green bean casserole, dinner roll
 
 > **_Thursday_**
 >
-> smothered Pork, black eye peas, smothered Cabbage, dinner roll
+> smothered Beef, black eye peas, smothered Cabbage, dinner roll
 
 > **_Friday_**
 >
-> > option 1: Crawfish fettucine, corn nuggets, cucumber & tomato  salad, dinner roll
+> > option 1: Shrimp fettucine, corn nuggets, cucumber & tomato  salad, dinner roll
 >
 > > option 2: fried fish dinner, fries, hushpuppies, tarter sauce and roll
 >
