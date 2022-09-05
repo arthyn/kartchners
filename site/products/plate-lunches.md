@@ -24,7 +24,7 @@ banner_alt: ''
 
 > **_Monday_**
 >
-> Fried Boneless Chicken Thigh, Mac and Cheese, Loaded potato Casserole and a dinner roll
+> No Plate Lunches Today.....Happy Labor Day!!!!
 >
 > **_Tuesday_**
 >
@@ -32,15 +32,15 @@ banner_alt: ''
 
 > **_Wednesday_**
 >
-> Chicken Fried Steak ,Mashed Potatoes and White Gravy, green bean casserole, dinner roll
+> Hamburger Steak ,Mashed Potatoes and Brown Gravy, green bean casserole, dinner roll
 
 > **_Thursday_**
 >
-> smothered Beef, lima beans, smothered Cabbage, dinner roll
+> Smothered Pork, lima beans, smothered Cabbage, dinner roll
 
 > **_Friday_**
 >
-> > option 1: Shrimp fettucine, corn nuggets, cucumber & tomato  salad, dinner roll
+> > option 1: Crawfish fettucine, corn nuggets, cucumber & tomato  salad, dinner roll
 >
 > > option 2: fried fish dinner, fries, hushpuppies, tarter sauce and roll
 >
