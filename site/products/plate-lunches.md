@@ -24,23 +24,21 @@ banner_alt: ''
 
 > **_Monday_**
 >
-> No Plate Lunches Today.....Happy Labor Day!!!!
->
 > **_Tuesday_**
 >
 > fried pork chop, red beans & sausage with rice, Cole slaw, cornbread
 
 > **_Wednesday_**
 >
-> Hamburger Steak ,Mashed Potatoes and Brown Gravy, green bean casserole, dinner roll
+> Chicken Fried Steak ,Mashed Potatoes and white Gravy, green bean casserole, dinner roll
 
 > **_Thursday_**
 >
-> Smothered Pork, lima beans, smothered Cabbage, dinner roll
+> Smothered Beef, lima beans, smothered Potatoes, dinner roll
 
 > **_Friday_**
 >
-> > option 1: Crawfish fettucine, corn nuggets, cucumber & tomato  salad, dinner roll
+> > option 1:Shrimp fettucine, corn nuggets, cucumber & tomato  salad, dinner roll
 >
 > > option 2: fried fish dinner, fries, hushpuppies, tarter sauce and roll
 >
