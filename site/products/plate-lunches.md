@@ -24,6 +24,8 @@ banner_alt: ''
 
 > **_Monday_**
 >
+> Fried Chicken, Rice Dressing, & corn Nuggets
+>
 > **_Tuesday_**
 >
 > fried pork chop, red beans & sausage with rice, Cole slaw, cornbread
