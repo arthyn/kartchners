@@ -24,7 +24,7 @@ banner_alt: ''
 
 > **_Monday_**
 >
-> Fried Chicken, Rice Dressing, & corn Nuggets
+> Fried Chicken, white beans rice, & corn Nuggets
 >
 > **_Tuesday_**
 >
@@ -32,15 +32,15 @@ banner_alt: ''
 
 > **_Wednesday_**
 >
-> Chicken Fried Steak ,Mashed Potatoes and white Gravy, green bean casserole, dinner roll
+> Hamburger steak ,Mashed Potatoes andbrown Gravy, green bean casserole, dinner roll
 
 > **_Thursday_**
 >
-> Smothered Beef, lima beans, smothered Potatoes, dinner roll
+> Smothered pork, smothered cabbage, Blackeye peas, dinner roll
 
 > **_Friday_**
 >
-> > option 1:Shrimp fettucine, corn nuggets, cucumber & tomato  salad, dinner roll
+> > option 1:Crawfish fettucine, corn nuggets, cucumber & tomato  salad, dinner roll
 >
 > > option 2: fried fish dinner, fries, hushpuppies, tarter sauce and roll
 >
