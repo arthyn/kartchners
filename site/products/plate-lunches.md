@@ -24,7 +24,7 @@ banner_alt: ''
 
 > **_Monday_**
 >
-> Fried Chicken, white beans rice, & corn Nuggets
+> Fried Chicken, white beans over rice, & corn Nuggets
 >
 > **_Tuesday_**
 >
