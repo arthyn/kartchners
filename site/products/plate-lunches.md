@@ -22,25 +22,27 @@ banner_alt: ''
 >
 > **Lafayette**: [337-534-4060](tel:3375344060)
 
-> **_Monday_**
+> **_Monday-$11.99_**
 >
-> Fried Chicken, white beans over rice, & corn Nuggets
+> Fried Boneless Chicken Thighs, Loaded Mashed Potatoes, Fried
 >
-> **_Tuesday_**
+> Okra, & Dinner Roll
+>
+> **_Tuesday-$11.99_**
 >
 > fried pork chop, red beans & sausage with rice, Cole slaw, cornbread
 
-> **_Wednesday_**
+> **_Wednesday-$11.99_**
 >
-> Hamburger steak ,Mashed Potatoes andbrown Gravy, green bean casserole, dinner roll
+> Chicken Fried Steak ,Mashed Potatoes and White Gravy, green bean casserole, dinner roll
 
-> **_Thursday_**
+> **_Thursday-$11.99_**
 >
-> Smothered pork, smothered cabbage, Blackeye peas, dinner roll
+> Smothered beef, smothered cabbage, Blackeye peas, dinner roll
 
-> **_Friday_**
+> **_Friday-$12.99_**
 >
-> > option 1:Crawfish fettucine, corn nuggets, cucumber & tomato  salad, dinner roll
+> > option 1:Shrimp fettucine, corn nuggets, cucumber & tomato  salad, dinner roll
 >
 > > option 2: fried fish dinner, fries, hushpuppies, tarter sauce and roll
 >
@@ -50,13 +52,13 @@ banner_alt: ''
 >
 > **_Saturday_**
 >
-> chili cheese dogs
+> chili cheese dogs-$1.99
 >
-> Tasso sandwiches
+> Tasso sandwiches-$5.99
 >
-> BBQ burgers
+> BBQ burgers-$5.99
 
-> **_Sunday_**
+> **_Sunday-$12.99_**
 >
 > 1/2 Chicken 1/4 rack Baby Back Ribs, or Pork Steak, Rice Dressing, Potato Salad, Baked Beans, and Dinner Roll
 >
