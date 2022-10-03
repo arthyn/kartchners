@@ -24,7 +24,7 @@ banner_alt: ''
 
 > **_Monday-$11.99_**
 >
-> Fried Boneless Chicken Thighs, Loaded Mashed Potatoes, Fried
+> Fried Boneless Chicken Thighs, Loaded Potato Casserole, Fried
 >
 > Okra, & Dinner Roll
 >
@@ -34,15 +34,15 @@ banner_alt: ''
 
 > **_Wednesday-$11.99_**
 >
-> Chicken Fried Steak ,Mashed Potatoes and White Gravy, green bean casserole, dinner roll
+> Hamburger Steak ,Mashed Potatoes and Brown Gravy, green bean casserole, dinner roll
 
 > **_Thursday-$11.99_**
 >
-> Smothered beef, smothered cabbage, Blackeye peas, dinner roll
+> Smothered pork, smothered cabbage, Blackeye peas, dinner roll
 
 > **_Friday-$12.99_**
 >
-> > option 1:Shrimp fettucine, corn nuggets, cucumber & tomato  salad, dinner roll
+> > option 1:Crawfish fettucine, corn nuggets, cucumber & tomato  salad, dinner roll
 >
 > > option 2: fried fish dinner, fries, hushpuppies, tarter sauce and roll
 >
