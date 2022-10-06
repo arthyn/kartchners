@@ -38,7 +38,7 @@ banner_alt: ''
 
 > **_Thursday-$11.99_**
 >
-> Smothered pork, smothered cabbage, Blackeye peas, dinner roll
+> Smothered pork, smothered potatoes, Blackeye peas, dinner roll
 
 > **_Friday-$12.99_**
 >
