@@ -24,9 +24,7 @@ banner_alt: ''
 
 > **_Monday-$11.99_**
 >
-> Fried Boneless Chicken Thighs, Loaded Potato Casserole, Fried
->
-> Okra, & Dinner Roll
+> bacon wrapped tenderloin stuffed with boudin, Loaded Potato corn nuggets &  a Dinner Roll
 >
 > **_Tuesday-$11.99_**
 >
@@ -38,7 +36,7 @@ banner_alt: ''
 
 > **_Thursday-$11.99_**
 >
-> Smothered pork, smothered potatoes, Blackeye peas, dinner roll
+> Smothered pork, smothered cabbage, Blackeye peas, dinner roll
 
 > **_Friday-$12.99_**
 >
