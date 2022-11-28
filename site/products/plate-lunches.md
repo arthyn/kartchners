@@ -24,7 +24,7 @@ banner_alt: ''
 
 > **_Monday-$11.99_**
 >
-> bacon wrapped tenderloin stuffed with boudin, Loaded Potato corn nuggets &  a Dinner Roll
+> Spaghetti & Meatballs With Corn, Cucumber and Tomato Salad, and A Dinner Roll
 >
 > **_Tuesday-$11.99_**
 >
@@ -32,11 +32,11 @@ banner_alt: ''
 
 > **_Wednesday-$11.99_**
 >
-> Hamburger Steak ,Mashed Potatoes and Brown Gravy, green bean casserole, dinner roll
+> Chicken Fried Steak ,Mashed Potatoes and White Gravy, green bean casserole, dinner roll
 
 > **_Thursday-$11.99_**
 >
-> Smothered pork, smothered cabbage, Blackeye peas, dinner roll
+> Smothered beef, smothered cabbage, Blackeye peas, dinner roll
 
 > **_Friday-$12.99_**
 >
