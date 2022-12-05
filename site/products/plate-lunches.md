@@ -24,19 +24,19 @@ banner_alt: ''
 
 > **_Monday-$11.99_**
 >
-> Spaghetti & Meatballs With Corn, Cucumber and Tomato Salad, and A Dinner Roll
+> Fried Chicken Thigh With Loaded Mashed Potatoes, Corn Nuggets, And A Dinner Roll
 >
 > **_Tuesday-$11.99_**
 >
-> fried pork chop, red beans & sausage with rice, Cole slaw, cornbread
+> Fried Pork Chop, White Beans & sausage With Rice, Cole Slaw, Cornbread, And A Dinner Roll
 
 > **_Wednesday-$11.99_**
 >
-> Chicken Fried Steak ,Mashed Potatoes and White Gravy, green bean casserole, dinner roll
+> Hamburger Steak ,Mashed Potatoes And Brown Gravy, Green Bean Casserole, And A Dinner Roll
 
 > **_Thursday-$11.99_**
 >
-> Smothered beef, smothered cabbage, Blackeye peas, dinner roll
+> Smothered Pork, Smothered Cabbage, Blackeye Peas, And A Dinner Roll
 
 > **_Friday-$12.99_**
 >
