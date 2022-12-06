@@ -28,7 +28,7 @@ banner_alt: ''
 >
 > **_Tuesday-$11.99_**
 >
-> Fried Pork Chop, White Beans & sausage With Rice, Cole Slaw, Cornbread, And A Dinner Roll
+> Fried Pork Chop, Red Beans & sausage With Rice, Cole Slaw, Cornbread, And A Dinner Roll
 
 > **_Wednesday-$11.99_**
 >
