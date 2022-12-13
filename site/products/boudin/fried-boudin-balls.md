@@ -26,7 +26,7 @@ product_options:
 - option_name: regular boudin wraps
   option_price: 15.39
 - option_name: regular boudin balls
-  option_price: 10.99
+  option_price: 15.39
 meta_title: ''
 meta_description: ''
 social_image: ''
