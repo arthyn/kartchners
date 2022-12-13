@@ -14,7 +14,7 @@ product_options:
 - option_name: Maple Wraps
   option_price: 16.49
 - option_name: Crawfish Balls
-  option_price: 10.99
+  option_price: 16.49
 - option_name: Jalapeno Cream Cheese Boudin Wraps
   option_price: 10.99
 - option_name: Jalapeno Cream Cheese Boudin Balls
