@@ -24,7 +24,7 @@ banner_alt: ''
 
 > **_Monday-$11.99_**
 >
-> Fried Chicken Thigh With Loaded Mashed Potatoes, Corn Nuggets, And A Dinner Roll
+> cheesy chicken pasta, cucumber and tomato salad, Corn Nuggets, And A Dinner Roll
 >
 > **_Tuesday-$11.99_**
 >
@@ -32,11 +32,11 @@ banner_alt: ''
 
 > **_Wednesday-$11.99_**
 >
-> Hamburger Steak ,Mashed Potatoes And Brown Gravy, Green Bean Casserole, And A Dinner Roll
+> Chicken fried Steak ,Mashed Potatoes And white Gravy, Green Bean Casserole, And A Dinner Roll
 
 > **_Thursday-$11.99_**
 >
-> Smothered Pork, Smothered Cabbage, Blackeye Peas, And A Dinner Roll
+> Smothered bee, Smothered potatoes, Blackeye Peas, And A Dinner Roll
 
 > **_Friday-$12.99_**
 >
