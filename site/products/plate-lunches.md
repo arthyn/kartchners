@@ -24,7 +24,7 @@ banner_alt: ''
 
 > **_Monday-$11.99_**
 >
-> cheesy chicken pasta, cucumber and tomato salad, Corn Nuggets, And A Dinner Roll
+> fried boneless chicken thigh, loaded potato casserole & corn nuggets
 >
 > **_Tuesday-$11.99_**
 >
@@ -32,15 +32,15 @@ banner_alt: ''
 
 > **_Wednesday-$11.99_**
 >
-> Chicken fried Steak ,Mashed Potatoes And white Gravy, Green Bean Casserole, And A Dinner Roll
+> chicken fried steak ,Mashed Potatoes And white Gravy, Green Bean Casserole, And A Dinner Roll
 
 > **_Thursday-$11.99_**
 >
-> Smothered bee, Smothered potatoes, Blackeye Peas, And A Dinner Roll
+> Smothered beef, Smothered cabbage, Blackeye Peas, And A Dinner Roll
 
 > **_Friday-$12.99_**
 >
-> > option 1:Crawfish fettucine, corn nuggets, cucumber & tomato  salad, dinner roll
+> > option 1:crawfish  fettucine, corn nuggets, cucumber & tomato  salad, dinner roll
 >
 > > option 2: fried fish dinner, fries, hushpuppies, tarter sauce and roll
 >
