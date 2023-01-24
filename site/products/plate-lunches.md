@@ -36,7 +36,7 @@ banner_alt: ''
 
 > **_Thursday-$11.99_**
 >
-> Smothered beef, Smothered cabbage, Blackeye Peas, And A Dinner Roll
+> Beef Stew, Carrots, Corn, & Coleslaw
 
 > **_Friday-$12.99_**
 >
