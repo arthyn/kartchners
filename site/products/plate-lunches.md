@@ -24,23 +24,21 @@ banner_alt: ''
 
 > **_Monday-$11.99_**
 >
-> fried boneless chicken thigh, loaded potato casserole & corn nuggets
+> chicken thighs stuffed with pepperjack cheese, loaded mashed potatoes, fried okra, dinner roll
 >
 > **_Tuesday-$11.99_**
 >
-> Fried Pork Chop, Red Beans & sausage With Rice, Cole Slaw, Cornbread, And A Dinner Roll
+> Fried chicken , Red Beans & sausage With Rice, Cole Slaw, Cornbread, And A Dinner Roll
 
 > **_Wednesday-$11.99_**
 >
-> chicken fried steak ,Mashed Potatoes And white Gravy, Green Bean Casserole, And A Dinner Roll
+> hamburger steak ,Mashed Potatoes And brown Gravy, Green Bean Casserole, And A Dinner Roll
 
 > **_Thursday-$11.99_**
->
-> Beef Stew, Carrots, Corn, & Coleslaw
 
 > **_Friday-$12.99_**
 >
-> > option 1:crawfish  fettucine, corn nuggets, cucumber & tomato  salad, dinner roll
+> > option 1:shrimp fettucine, corn nuggets, cucumber & tomato  salad, dinner roll
 >
 > > option 2: fried fish dinner, fries, hushpuppies, tarter sauce and roll
 >
