@@ -35,10 +35,12 @@ banner_alt: ''
 > hamburger steak ,Mashed Potatoes And brown Gravy, Green Bean Casserole, And A Dinner Roll
 
 > **_Thursday-$11.99_**
+>
+> Meatball Stew, Corn, Coleslaw, & Dinner Roll
 
 > **_Friday-$12.99_**
 >
-> > option 1:shrimp fettucine, corn nuggets, cucumber & tomato  salad, dinner roll
+> > option 1:crawfish fettucine, corn nuggets, cucumber & tomato  salad, dinner roll
 >
 > > option 2: fried fish dinner, fries, hushpuppies, tarter sauce and roll
 >
