@@ -36,7 +36,7 @@ banner_alt: ''
 
 > **_Thursday-$11.99_**
 >
-> pork Stew, smothered cabbage, Corn, & Dinner Roll
+> pork Stew, coleslaw, Corn, & Dinner Roll
 
 > **_Friday-$12.99_**
 >
