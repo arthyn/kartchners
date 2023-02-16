@@ -24,7 +24,7 @@ banner_alt: ''
 
 > **_Monday-$11.99_**
 >
-> chicken thighs stuffed with pepperjack cheese, loaded mashed potatoes, fried okra, dinner roll
+> ## 
 >
 > **_Tuesday-$11.99_**
 >
@@ -36,7 +36,7 @@ banner_alt: ''
 
 > **_Thursday-$11.99_**
 >
-> Meatball Stew, Corn, Coleslaw, & Dinner Roll
+> pork Stew, smothered cabbage, Corn, & Dinner Roll
 
 > **_Friday-$12.99_**
 >
