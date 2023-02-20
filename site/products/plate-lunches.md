@@ -24,7 +24,7 @@ banner_alt: ''
 
 > **_Monday-$11.99_**
 >
-> ## 
+> ##### fried pork chop, loaded mashed potatoes, corn, & cucumber & tomato salad 
 >
 > **_Tuesday-$11.99_**
 >
