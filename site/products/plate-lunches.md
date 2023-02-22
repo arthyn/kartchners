@@ -24,15 +24,15 @@ banner_alt: ''
 
 > **_Monday-$11.99_**
 >
-> ##### fried pork chop, loaded mashed potatoes, corn, & cucumber & tomato salad 
+> ##### fried pork chop, loaded mashed potatoes, corn, & cucumber & tomato salad
 >
 > **_Tuesday-$11.99_**
 >
 > Fried chicken , Red Beans & sausage With Rice, Cole Slaw, Cornbread, And A Dinner Roll
 
-> **_Wednesday-$11.99_**
+> **_Wednesday-$12.99_**
 >
-> hamburger steak ,Mashed Potatoes And brown Gravy, Green Bean Casserole, And A Dinner Roll
+> Shrimp stuffed bellpepper, mac & cheese, green bean casserole, cucumber & tomato salad, & a dinner roll
 
 > **_Thursday-$11.99_**
 >
