@@ -24,15 +24,15 @@ banner_alt: ''
 
 > **_Monday-$11.99_**
 >
-> ##### fried pork chop, loaded mashed potatoes, corn, & cucumber & tomato salad
+> ##### white beans over rice, fried chicken thigh,corn nuggets and dinner roll
 >
 > **_Tuesday-$11.99_**
 >
 > Fried chicken , Red Beans & sausage With Rice, Cole Slaw, Cornbread, And A Dinner Roll
 
-> **_Wednesday-$12.99_**
+> **_Wednesday-$11.99_**
 >
-> Shrimp stuffed bellpepper, mac & cheese, green bean casserole, cucumber & tomato salad, & a dinner roll
+> chicken fried steak cream potatoes green bean casserole and dinner roll
 
 > **_Thursday-$11.99_**
 >
@@ -40,7 +40,7 @@ banner_alt: ''
 
 > **_Friday-$12.99_**
 >
-> > option 1:crawfish fettucine, corn nuggets, cucumber & tomato  salad, dinner roll
+> > option 1:shrimp fettucine, corn nuggets, cucumber & tomato  salad, dinner roll
 >
 > > option 2: fried fish dinner, fries, hushpuppies, tarter sauce and roll
 >
