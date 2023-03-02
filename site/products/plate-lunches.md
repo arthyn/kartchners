@@ -36,7 +36,7 @@ banner_alt: ''
 
 > **_Thursday-$11.99_**
 >
-> pork Stew, coleslaw, Corn, & Dinner Roll
+> ###### smothered turkey wing over rice, macaroni, corn, & dinner roll
 
 > **_Friday-$12.99_**
 >
