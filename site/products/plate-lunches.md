@@ -24,7 +24,7 @@ banner_alt: ''
 
 > **_Monday-$11.99_**
 >
-> ##### spaghettie and meatballs, corn nuggets, and cucumber and tomato salad
+> ##### spaghetti and meatballs, corn nuggets, and cucumber and tomato salad
 >
 > **_Tuesday-$11.99_**
 >
