@@ -24,23 +24,23 @@ banner_alt: ''
 
 > **_Monday-$11.99_**
 >
-> ##### white beans over rice, fried chicken thigh,corn nuggets and dinner roll
+> ##### spaghettie and meatballs, corn nuggets, and cucumber and tomato salad
 >
 > **_Tuesday-$11.99_**
 >
-> Fried chicken , Red Beans & sausage With Rice, Cole Slaw, Cornbread, And A Dinner Roll
+> Fried porkchop , Red Beans & sausage With Rice, Cole Slaw, Cornbread, And A Dinner Roll
 
 > **_Wednesday-$11.99_**
 >
-> chicken fried steak cream potatoes green bean casserole and dinner roll
+> hamburger steak cream potatoes green bean casserole and dinner roll
 
 > **_Thursday-$11.99_**
 >
-> ###### smothered turkey wing over rice, macaroni, corn, & dinner roll
+> ###### smothered pork,smothered potatoes, & dinner roll
 
 > **_Friday-$12.99_**
 >
-> > option 1:shrimp fettucine, corn nuggets, cucumber & tomato  salad, dinner roll
+> > option 1:crawfish fettucine, corn nuggets, cucumber & tomato  salad, dinner roll
 >
 > > option 2: fried fish dinner, fries, hushpuppies, tarter sauce and roll
 >
