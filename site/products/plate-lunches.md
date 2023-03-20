@@ -24,7 +24,7 @@ banner_alt: ''
 
 > **_Monday-$11.99_**
 >
-> ##### spaghetti and meatballs, corn nuggets, and cucumber and tomato salad
+> ###### fried boneless chicken thighs, Loaded Mashed Potatoes, &macaroni , And A Dinner Roll
 >
 > **_Tuesday-$11.99_**
 >
