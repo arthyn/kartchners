@@ -18,7 +18,7 @@ product_options:
 - option_name: cornbread dressing
   option_price: 21.99
 - option_name: andouille sausage
-  option_price: 19.69
+  option_price: 21.99
 - option_name: shrimp and rice
   option_price: 19.69
 - option_name: crawfish and rice
