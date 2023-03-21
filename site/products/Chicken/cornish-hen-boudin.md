@@ -12,7 +12,7 @@ product_options:
 - option_name: Cornish Hen stuffed with Cornbread
   option_price: 10.99
 - option_name: Cornish Hen stuffed with Boudin
-  option_price: 9.89
+  option_price: 10.99
 meta_title: ''
 meta_description: ''
 social_image: ''
