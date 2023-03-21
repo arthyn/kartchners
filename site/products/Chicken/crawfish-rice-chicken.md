@@ -1,5 +1,5 @@
 ---
-price: 0
+price: 1
 weight__display_: 2 lb
 weight: 32
 tags: []
@@ -10,7 +10,7 @@ image: "/v1620664611/kartchners/Stuffed_Chicken_t9nu0r.jpg"
 description: Whole Deboned Chickens Stuffed with a Variety of Options
 product_options:
 - option_name: boudin
-  option_price: 19.69
+  option_price: 21.99
 - option_name: spinach and cheese
   option_price: 19.69
 - option_name: broccoli, rice, and cheese
