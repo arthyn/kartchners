@@ -22,7 +22,7 @@ product_options:
 - option_name: shrimp and rice
   option_price: 21.99
 - option_name: crawfish and rice
-  option_price: 20.79
+  option_price: 23.99
 meta_title: ''
 meta_description: ''
 social_image: ''
