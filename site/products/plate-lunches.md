@@ -32,15 +32,15 @@ banner_alt: ''
 
 > **_Wednesday-$11.99_**
 >
-> hamburger steak cream potatoes green bean casserole and dinner roll
+> chicken fried steak cream potatoes green bean casserole and dinner roll
 
 > **_Thursday-$11.99_**
 >
-> ###### smothered pork,smothered potatoes, & dinner roll
+> ###### smothered beef ,smothered potatoes, & dinner roll
 
 > **_Friday-$12.99_**
 >
-> > option 1:crawfish fettucine, corn nuggets, cucumber & tomato  salad, dinner roll
+> > option 1: shrimp fettucine, corn nuggets, cucumber & tomato  salad, dinner roll
 >
 > > option 2: fried fish dinner, fries, hushpuppies, tarter sauce and roll
 >
