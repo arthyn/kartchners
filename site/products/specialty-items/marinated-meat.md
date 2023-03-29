@@ -17,7 +17,7 @@ product_options:
 - option_name: marinated beef
   option_price: 11.99
 - option_name: marinated bone-in rabbit
-  option_price: 17.79
+  option_price: 17.99
 meta_title: ''
 meta_description: ''
 social_image: ''
