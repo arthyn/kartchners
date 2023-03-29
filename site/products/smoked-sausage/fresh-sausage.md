@@ -30,7 +30,7 @@ product_options:
 - option_name: chicken
   option_price: 10.89
 - option_name: green onion garlic pork
-  option_price: 8.39
+  option_price: 8.49
 - option_name: pork
   option_price: 8.39
 meta_title: ''
