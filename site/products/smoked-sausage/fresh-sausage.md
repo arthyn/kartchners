@@ -12,7 +12,7 @@ description: |-
   3 link packs
 product_options:
 - option_name: 'cabbage and pork '
-  option_price: 8.39
+  option_price: 9.89
 - option_name: jack miller pork
   option_price: 8.39
 - option_name: deer and pork
