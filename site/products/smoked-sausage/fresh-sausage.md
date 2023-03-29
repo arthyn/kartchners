@@ -32,7 +32,7 @@ product_options:
 - option_name: green onion garlic pork
   option_price: 8.49
 - option_name: pork
-  option_price: 8.39
+  option_price: 10.09
 meta_title: ''
 meta_description: ''
 social_image: ''
