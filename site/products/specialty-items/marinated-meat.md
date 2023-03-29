@@ -13,7 +13,7 @@ product_options:
 - option_name: marinated chicken
   option_price: 7.39
 - option_name: marinated pork
-  option_price: 8.59
+  option_price: 9.99
 - option_name: marinated beef
   option_price: 8.59
 - option_name: marinated bone-in rabbit
