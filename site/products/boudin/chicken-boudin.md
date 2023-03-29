@@ -1,7 +1,7 @@
 ---
 layout: product
 sku: 5
-price: 5.79
+price: 6.99
 tags: 
 weight: 16
 name: Chicken Boudin
