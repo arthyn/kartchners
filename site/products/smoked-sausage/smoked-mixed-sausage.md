@@ -10,8 +10,6 @@ image: "/v1613851803/kartchners/sausage/DSC_1644_yxilip.jpg"
 description: "One of the largest varieties of smoked sausage in our area, all guaranteed
   to make your mouth water. \n3 link packs"
 product_options:
-- option_name: Honey Garlic
-  option_price: 8.99
 - option_name: green onion garlic pork
   option_price: 8.99
 - option_name: mixed beef and pork
