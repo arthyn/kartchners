@@ -1,7 +1,7 @@
 ---
 layout: product
 sku: 6
-price: 8.39
+price: 8.69
 tags: 
 weight: 16
 name: Beef Boudin
