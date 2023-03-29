@@ -1,7 +1,7 @@
 ---
 layout: product
 sku: 3
-price: 12.09
+price: 16.09
 tags: []
 weight: 24
 name: Deer Boudin
