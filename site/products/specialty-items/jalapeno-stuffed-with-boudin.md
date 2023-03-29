@@ -12,7 +12,7 @@ description: |-
   5 per pack
 product_options:
 - option_name: Jalapeno stuffed with Cream Cheese
-  option_price: 8.79
+  option_price: 9.99
 - option_name: Jalapeno stuffed with Boudin
   option_price: 10.99
 meta_title: ''
