@@ -24,7 +24,7 @@ product_options:
 - option_name: italian pork
   option_price: 8.39
 - option_name: pork, spinach and sundried tomatoes
-  option_price: 8.39
+  option_price: 9.09
 - option_name: chicken, bacon, pepper jack cheese
   option_price: 8.39
 - option_name: chicken
