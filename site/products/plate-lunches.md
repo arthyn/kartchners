@@ -24,7 +24,7 @@ banner_alt: ''
 
 > **_Monday-$11.99_**
 >
-> ###### fried boneless chicken thighs, Loaded Mashed Potatoes, &macaroni , And A Dinner Roll
+> white beans over rice, fried chicken thigh,corn nuggets and dinner roll
 >
 > **_Tuesday-$11.99_**
 >
