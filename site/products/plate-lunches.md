@@ -40,11 +40,9 @@ banner_alt: ''
 
 > **_Friday-$12.99_**
 >
-> > option 1: shrimp fettucine, corn nuggets, cucumber & tomato  salad, dinner roll
+>   option 1: fried fish dinner, fries, hushpuppies, tarter sauce and roll
 >
-> > option 2: fried fish dinner, fries, hushpuppies, tarter sauce and roll
->
-> > option 3: fried shrimp dinner, fries, hushpuppies, tarter sauce and roll
+> > option 2: fried shrimp dinner, fries, hushpuppies, tarter sauce and roll
 >
 > > Fried platters can be combined into a combo plate. Fried seafood can be added to fettucine plate.
 >
