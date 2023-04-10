@@ -24,7 +24,7 @@ banner_alt: ''
 
 > **_Monday-$11.99_**
 >
-> white beans over rice, fried chicken thigh,corn nuggets and dinner roll
+> pepperjack cheese stuffed meatloaf,loaded mashed potatoes,corn nuggets, and dinner roll
 >
 > **_Tuesday-$11.99_**
 >
@@ -40,7 +40,7 @@ banner_alt: ''
 
 > **_Friday-$12.99_**
 >
->   option 1: fried fish dinner, fries, hushpuppies, tarter sauce and roll
+> option 1: fried fish dinner, fries, hushpuppies, tarter sauce and roll
 >
 > > option 2: fried shrimp dinner, fries, hushpuppies, tarter sauce and roll
 >
