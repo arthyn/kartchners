@@ -24,7 +24,7 @@ banner_alt: ''
 
 > **_Monday-$11.99_**
 >
-> pepperjack cheese stuffed meatloaf,loaded mashed potatoes,corn nuggets, and dinner roll
+> fried boneless chicken thigh, loaded potatoes, corn & fried okra 
 >
 > **_Tuesday-$11.99_**
 >
