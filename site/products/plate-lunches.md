@@ -24,7 +24,7 @@ banner_alt: ''
 
 > **_Monday-$11.99_**
 >
-> fried boneless chicken thigh, loaded potatoes, corn & fried okra 
+> fried boneless chicken thigh, loaded potatoes, corn & fried okra
 >
 > **_Tuesday-$11.99_**
 >
@@ -32,7 +32,7 @@ banner_alt: ''
 
 > **_Wednesday-$11.99_**
 >
-> chicken fried steak cream potatoes green bean casserole and dinner roll
+> hamburger steak with brown gravy and onions, cream potatoes, green bean casserole, and dinner roll
 
 > **_Thursday-$11.99_**
 >
