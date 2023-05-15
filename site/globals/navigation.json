@@ -11,6 +11,11 @@
       "main": false
     },
     {
+      "label": "Lunch",
+      "url": "/daily-plate-lunches",
+      "main": true
+    },
+    {
       "label": "Products",
       "url": "/products",
       "main": true,

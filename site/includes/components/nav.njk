@@ -17,6 +17,11 @@
                                 <a class="block px-4 py-2 text-lg text-gray-900 hover:text-red-700" href="{{ subitem.url }}">{{ subitem.data.title or subitem.data.name }}</a>
                             </li>
                         {% endfor %}
+                        {% if item.submenu == 'product-category' %}
+                            <li>
+                                <a class="block px-4 py-2 text-lg text-gray-900 hover:text-red-700" href="/daily-plate-lunches">Daily Plate Lunches</a>
+                            </li>
+                        {% endif %}
                     </ul>
                 {% endif %}
             </li>
