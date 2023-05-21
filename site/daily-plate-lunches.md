@@ -28,20 +28,19 @@ sections:
       <p class="font-bold mb-6">Lunches are subject to change, please call in advance</p>
 
       <h2 class="text-white mb-0">Monday - $11.99</h2>
-      <p class="mb-6">Smothered pork chops with rice, corn, loaded 
-      potatoes, and dinner roll</p>
+      <p class="mb-6">Fresh sausage in brown gravy, broccoli and cheese, corn, and dinner roll</p>
 
       <h2 class="text-white mb-0">Tuesday - $11.99</h2>
-      <p class="mb-6">Red beans and rice, fried boneless chicken thighs, and cornbread</p>
+      <p class="mb-6">Fried pork chop, red beans, cornbread, and coleslaw</p>
       
       <h2 class="text-white mb-0">Wednesday - $11.99</h2>
-      <p class="mb-6">Hamburger steaks with gravy, mashed potatoes, and green bean casserole</p>
+      <p class="mb-6">Chicken fried steak, mashed potatoes with white gravy, and green bean casserole</p>
       
       <h2 class="text-white mb-0">Thurdsay - $11.99</h2>
-      <p class="mb-6">Smothered pork, mac and cheese, and smothered cabbage</p>
+      <p class="mb-6">Smothered beef, cabbage, and blackeyes</p>
       
       <h2 class="text-white mb-0">Friday - $12.99</h2>
-      <p class="mb-6">Shrimp fettucine, corn, with cucumber and tomato salad</p>
+      <p class="mb-6">Crawfish fettucine, corn, with cucumber and tomato salad</p>
 
       <h2 class="text-white mb-0">Sunday - $12.99</h2>
       <p class="mb-6">Half chicken, quarter rack baby back ribs, or pork steak with rice dressing, potato salad, baked beans, and dinner roll</p>
