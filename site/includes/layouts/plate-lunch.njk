@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+<main id="main" class="main focus:outline-none text-xl xl:text-2xl" tabindex="-1">
+    <section class="relative">
+        {% block heroSection %}
+            {% set heroImage = banner_image or "v1601152899/kartchners/building-dawn" %}
+            {% set heroFormat = banner_format or "x_0,y_200,w_2400,h_703,c_crop,f_auto,q_80" %}
+            {% set heroClass = banner_class or "peach" %}
+            {% set heroAlt = banner_alt or site.name %}
+            <img 
+                class="hero {{ heroClass }} w-full object-cover"
+                srcset="{{ heroImage | sizes("https://res.cloudinary.com/hmillerdev/image/upload/" + heroFormat)}}"
+                sizes="100vw"
+                width="2400"
+                height="703"
+                src="https://res.cloudinary.com/hmillerdev/image/upload/{{ heroFormat }}{{ heroImage }}" alt="{{ heroAlt }}" 
+            />
+        {% endblock %}
+    </section>
+    <section class="{{ section.section_class }}">
+        <div class="inner flex flex-col md:flex-row py-16 md:py-24 ">
+            <div class="flex-1 md:px-4 xl:px-8 mb-12">
+              {{ content | safe }}
+            </div>
+            <div class="flex-1 md:px-4 xl:px-8">
+              <img 
+                  srcset="{{ image | norm | sizes("https://res.cloudinary.com/hmillerdev/image/upload/" + image_format) }}"
+                  sizes="(min-width: 1536px) 656px, (min-width: 768px) 50vw, 100vw"
+                  src="https://res.cloudinary.com/hmillerdev/image/upload/{{ image_format }}{{ image | norm }}"
+                  alt="{{ image_alt }}" 
+              />
+            </div>
+        </div>
+    </section>
+    <section class="relative py-16 text-white bg-red-800">
+      <div class="inner">
+        <div class="max-w-xl mx-auto">
+          <p class="font-bold mb-6">Lunches are subject to change, please call in advance</p>
+
+          {% for day in days %}
+            <h2 class="text-white mb-0">{{day.day}} - ${{day.price}}</h2>
+            <p class="mb-6">{{day.description}}</p>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+  </main>

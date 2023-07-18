@@ -3,7 +3,7 @@ backend:
   branch: master
 
 local_backend: true
-
+media_folder: images
 media_library:
   name: cloudinary
   output_filename_only: true
@@ -19,6 +19,30 @@ media_library:
         - quality: 80
 
 collections:
+  - name: pages
+    label: Pages
+    files:
+      - name: plate-lunches
+        label: Plate Lunches
+        file: site/daily-plate-lunches.md
+        fields:
+          - {label: "Title", name: "title", widget: "string", required: true}
+          - {label: "Image", name: "image", widget: "image", required: true}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {
+            label: "Days", 
+            name: "days", 
+            widget: "list",
+            allow_add: false,
+            collapsed: false,
+            min: 6,
+            max: 6, 
+            fields: [
+              {label: "Day", name: "day", widget: "string", required: true}, 
+              {label: "Price", name: "price", widget: "number", required: true, default: 11.99},
+              {label: "Description", name: "description", widget: "text", required: true}
+            ]
+          }
   - name: product-categories
     label: Category Pages
     folder: site/products

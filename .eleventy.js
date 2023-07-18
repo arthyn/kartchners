@@ -96,6 +96,7 @@ module.exports = eleventyConfig => {
     eleventyConfig.addLayoutAlias('post', 'layouts/post.njk')
     eleventyConfig.addLayoutAlias('product-grid', 'layouts/product-grid.njk')
     eleventyConfig.addLayoutAlias('contact', 'layouts/contact.njk')
+    eleventyConfig.addLayoutAlias('plate-lunch', 'layouts/plate-lunch.njk')
 
     // Include our static assets
     eleventyConfig.addPassthroughCopy("css")
