@@ -12,7 +12,7 @@
         @apply font-body;
     }
 
-    .snipcart__actions--link {
+    .snipcart-button-link {
         @apply text-gray-600 hover:text-red-700 font-body;
     }
 
@@ -21,11 +21,11 @@
         @apply fill-current text-gray-600;
     }
 
-    .snipcart-cart-button {
+    .snipcart-base-button {
         align-items: center;
     }
 
-    .snipcart-cart-button--highlight {
+    .snipcart-button-primary {
         @apply bg-red-700 hover:bg-red-600 bg-none text-2xl font-bold rounded;
     }
 

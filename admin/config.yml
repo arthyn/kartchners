@@ -1,0 +1,144 @@
+backend:
+  name: git-gateway
+  branch: master
+
+local_backend: true
+
+media_library:
+  name: cloudinary
+  output_filename_only: true
+  config:
+    cloud_name: hmillerdev
+    api_key: 216684738283276
+    multiple: false
+    output_filename_only: true
+    default_transformations:
+      - - crop: crop
+        - aspect_ratio: 1.3
+        - fetch_format: auto
+        - quality: 80
+
+collections:
+  - name: product-categories
+    label: Category Pages
+    folder: site/products
+    create: false
+    slug: "{{slug}}"
+    filter: {field: layout, value: product-grid}
+    identifier_field: name
+    nested:
+      depth: 2
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "product-grid"}
+      - {label: "Tags", name: "tags", widget: "hidden", default: "product-category"}
+      - {label: "Name", name: "name", widget: "string", required: true}
+      - {label: "Image", name: "image", widget: "image", description: "Shows up on the products page", required: true}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: chicken
+    label: Chicken Products
+    folder: site/products/Chicken
+    create: true
+    slug: "{{slug}}"
+    identifier_field: name
+    filter: {field: layout, value: product}
+    fields: &product_fields
+      - {label: "Layout", name: "layout", widget: "hidden", default: "product"}
+      - {label: "Name", name: "name", widget: "string", required: true}
+      - {label: "SKU", name: "sku", widget: "number", required: true, description: "Must be unique"}
+      - {label: "Price", name: "price", widget: "number", required: true, default: 5.99}
+      - {label: "Weight (Display)", name: "weight__display_", widget: "text", required: true, description: "Displayed to the customer, include units.", default: "1 lb"}
+      - {label: "Weight (ounces)", name: "weight", widget: "number", required: true, description: "Not displayed, used for shipping weight in Snipcart", default: 16}
+      - {label: "Image", name: "image", widget: "image", description: "Shows up on the products page", required: true, allow_multiple: false}
+      - {label: "Description", name: "description", widget: "markdown"}
+      - {
+          label: "Product Options", 
+          name: "product_options", 
+          description: "If using options, include option for default or base product as well.",
+          widget: "list", 
+          fields: [
+            {label: "Option Name", name: "option_name", widget: "string", required: true},
+            {label: "Option Price", name: "option_price", widget: "number", required: true, default: 0},
+          ]
+        }
+      - {label: "Body", name: "body", widget: "markdown", required: false}
+      - {label: "Extra Categories", name: "tags", description: "Product will appear in these categories in addition to whatever folder it's under, which will be it's primary category.", widget: "list"}
+  - name: seafood
+    label: Seafood Products
+    folder: site/products/Seafood
+    create: true
+    slug: "{{slug}}"
+    identifier_field: name
+    filter: {field: layout, value: product}
+    fields: *product_fields
+  - name: boudin
+    label: Boudin Products
+    folder: site/products/boudin
+    create: true
+    slug: "{{slug}}"
+    identifier_field: name
+    filter: {field: layout, value: product}
+    fields: *product_fields
+  - name: smoked-sausage
+    label: Sausage Products
+    folder: site/products/smoked-sausage
+    create: true
+    slug: "{{slug}}"
+    identifier_field: name
+    filter: {field: layout, value: product}
+    fields: *product_fields
+  - name: specialty-items
+    label: Specialty Items
+    folder: site/products/specialty-items
+    create: true
+    slug: "{{slug}}"
+    identifier_field: name
+    filter: {field: layout, value: product}
+    fields: *product_fields
+  - name: game
+    label: Game Products
+    folder: site/products/game
+    create: true
+    slug: "{{slug}}"
+    identifier_field: name
+    filter: {field: layout, value: product}
+    fields: *product_fields
+  - name: pork
+    label: Pork Products
+    folder: site/products/pork
+    create: true
+    slug: "{{slug}}"
+    identifier_field: name
+    filter: {field: layout, value: product}
+    fields: *product_fields
+  - name: hand-cut-steaks
+    label: Hand Cut Steaks
+    folder: site/products/hand-cut-steaks
+    create: true
+    slug: "{{slug}}"
+    identifier_field: name
+    filter: {field: layout, value: product}
+    fields: *product_fields
+  - name: cooking-instructions
+    label: Cooking Instructions
+    folder: site/products/cooking-instructions
+    create: true
+    slug: "{{slug}}"
+    identifier_field: name
+    filter: {field: layout, value: product}
+    fields: *product_fields
+  - name: groceries
+    label: Groceries
+    folder: site/products/groceries
+    create: true
+    slug: "{{slug}}"
+    identifier_field: name
+    filter: {field: layout, value: product}
+    fields: *product_fields
+  - name: heat-and-eat
+    label: Heat and Eat Products
+    folder: site/products/heat-and-eat
+    create: true
+    slug: "{{slug}}"
+    identifier_field: name
+    filter: {field: layout, value: product}
+    fields: *product_fields

@@ -9,8 +9,8 @@ layout: page
             <div class="flex-1 px-4 xl:px-8 mb-8">
                 {% set format = image_format or "ar_1.3,c_crop/f_auto,q_80" %}
                 <img
-                    srcset="{{ (image or default_image) | sizes("https://res.cloudinary.com/hmillerdev/image/upload/" + format)}}" 
-                    src="https://res.cloudinary.com/hmillerdev/image/upload/{{ format }}{{ image }}"
+                    srcset="{{ (image or default_image) | norm | sizes("https://res.cloudinary.com/hmillerdev/image/upload/" + format)}}" 
+                    src="https://res.cloudinary.com/hmillerdev/image/upload/{{ format }}{{ image | norm }}"
                     alt=""
                     width="2400"
                     height="1846"
@@ -56,7 +56,7 @@ layout: page
                         data-item-url="{{ helpers.domain }}{{ permalink or page.url }}"
                         data-item-name="{{ name }}"
                         data-item-description="{{ description }}"
-                        data-item-image="https://res.cloudinary.com/hmillerdev/image/upload/ar_1.3,c_crop/f_auto,q_80{{ image or default_image }}"
+                        data-item-image="https://res.cloudinary.com/hmillerdev/image/upload/ar_1.3,c_crop/f_auto,q_80{{ (image or default_image) | norm }}"
                         data-item-weight="{{ (weight * 28.34952) | round }}"
                         {% if hasOptions %}
                             data-item-custom1-name="Option"

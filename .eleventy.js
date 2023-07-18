@@ -13,6 +13,7 @@ module.exports = eleventyConfig => {
     eleventyConfig.addFilter("htmlDateDisplay", require("./filters/timestamp.js"))
 
     eleventyConfig.addFilter("sizes", require("./filters/cloudinary-sizes.js"))
+    eleventyConfig.addFilter("norm", require("./filters/image-path-norm.js"))
     eleventyConfig.addFilter("keys", require("./filters/keys.js"))
     eleventyConfig.addFilter("variants", require("./filters/product-variant.js"))
 
@@ -101,8 +102,10 @@ module.exports = eleventyConfig => {
     eleventyConfig.addPassthroughCopy("js")
     eleventyConfig.addPassthroughCopy("images")
     eleventyConfig.addPassthroughCopy("fonts")
+    eleventyConfig.addPassthroughCopy("admin")
     eleventyConfig.addPassthroughCopy("robots.txt")
     eleventyConfig.addPassthroughCopy("_redirects")
+    eleventyConfig.addPassthroughCopy("snipcart.html")
 
     eleventyConfig.setBrowserSyncConfig({
         // scripts in body conflict with Turbolinks

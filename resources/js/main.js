@@ -8,6 +8,25 @@ import * as helpers from '@utilities/helpers'
 
 window.cartPopup = cartPopup;
 window.kUtils = helpers;
+
+function replaceElementWithElement(fromElement, toElement) {
+  const parentElement = fromElement.parentElement
+  if (parentElement) {
+    return parentElement.replaceChild(toElement, fromElement)
+  }
+}
+
+// turbolinks.SnapshotRenderer.prototype.assignNewBody = function () {
+//   const currentBody = window.document.body
+//   const newBody = this.newBody
+
+//   const permanentElement = document.querySelector('#snipcart')
+
+//   debugger;
+//   newBody.append(permanentElement)
+
+//   replaceElementWithElement(currentBody, newBody)
+// }
 turbolinks.start()
 
 let observer;
