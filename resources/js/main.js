@@ -8,6 +8,25 @@ import * as helpers from '@utilities/helpers'
 
 window.cartPopup = cartPopup;
 window.kUtils = helpers;
+
+function replaceElementWithElement(fromElement, toElement) {
+  const parentElement = fromElement.parentElement
+  if (parentElement) {
+    return parentElement.replaceChild(toElement, fromElement)
+  }
+}
+
+turbolinks.SnapshotRenderer.prototype.assignNewBody = function () {
+  const currentSwap = window.document.body.querySelector('#swap');
+  const newSwap = this.newBody.querySelector('#swap');
+
+  // const permanentElement = document.querySelector('#snipcart')
+
+  // debugger;
+  // newBody.append(permanentElement)
+
+  replaceElementWithElement(currentSwap, newSwap)
+}
 turbolinks.start()
 
 let observer;

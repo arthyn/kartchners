@@ -2066,6 +2066,23 @@ var turbolinks = __webpack_require__(/*! turbolinks */ "./node_modules/turbolink
 
 window.cartPopup = _modules_cart__WEBPACK_IMPORTED_MODULE_4__.cartPopup;
 window.kUtils = _utilities_helpers__WEBPACK_IMPORTED_MODULE_5__;
+function replaceElementWithElement(fromElement, toElement) {
+  var parentElement = fromElement.parentElement;
+  if (parentElement) {
+    return parentElement.replaceChild(toElement, fromElement);
+  }
+}
+turbolinks.SnapshotRenderer.prototype.assignNewBody = function () {
+  var currentSwap = window.document.body.querySelector('#swap');
+  var newSwap = this.newBody.querySelector('#swap');
+
+  // const permanentElement = document.querySelector('#snipcart')
+
+  // debugger;
+  // newBody.append(permanentElement)
+
+  replaceElementWithElement(currentSwap, newSwap);
+};
 turbolinks.start();
 var observer;
 document.addEventListener('turbolinks:click', function (event) {
@@ -2870,7 +2887,7 @@ try {
 /******/ 			return __webpack_require__.O(result);
 /******/ 		}
 /******/ 		
-/******/ 		var chunkLoadingGlobal = self["webpackChunkskeleventy"] = self["webpackChunkskeleventy"] || [];
+/******/ 		var chunkLoadingGlobal = self["webpackChunkkartchners"] = self["webpackChunkkartchners"] || [];
 /******/ 		chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
 /******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
 /******/ 	})();

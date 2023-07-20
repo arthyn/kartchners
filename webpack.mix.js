@@ -1,6 +1,7 @@
 
 let mix = require('laravel-mix')
 const path = require('path')
+const tailwindcss = require('tailwindcss')
 
 // Paths
 const paths = {
@@ -36,5 +37,6 @@ mix
     // .minify(paths.javascript.dest + 'main.js')
     .version()
     .options({
-        processCssUrls: false
+        processCssUrls: false,
+        postCss: [tailwindcss('./tailwind.config.js')],
     })
