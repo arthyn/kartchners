@@ -48,23 +48,25 @@
 
 <body {% if body_class %} id="{{ body_class }}"{% endif %} class="text-gray-800 leading-normal text-lg font-body">
 
-    <a class="sr-only" href="#main">Skip to content</a>
+    <div id="swap">
+        <a class="sr-only" href="#main">Skip to content</a>
 
-    <div id="wrapper" class="wrapper pb-16 md:pb-0 flex flex-col relative min-h-screen">
+        <div id="wrapper" class="wrapper pb-16 md:pb-0 flex flex-col relative min-h-screen">
 
-        {# include header #}
-        {% include "components/header.njk" %}
+            {# include header #}
+            {% include "components/header.njk" %}
 
-        {# include content #}
-        {{ content | safe }}
+            {# include content #}
+            {{ content | safe }}
 
-        {# include footer #}
-        {% include "components/footer.njk" %}
+            {# include footer #}
+            {% include "components/footer.njk" %}
 
+        </div>
+
+        {# include mobile nav #}
+        {% include "components/mobile-nav.njk" %}
     </div>
-
-    {# include mobile nav #}
-    {% include "components/mobile-nav.njk" %}
 
     <script>
         window.SnipcartSettings = {

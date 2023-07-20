@@ -2072,18 +2072,17 @@ function replaceElementWithElement(fromElement, toElement) {
     return parentElement.replaceChild(toElement, fromElement);
   }
 }
+turbolinks.SnapshotRenderer.prototype.assignNewBody = function () {
+  var currentSwap = window.document.body.querySelector('#swap');
+  var newSwap = this.newBody.querySelector('#swap');
 
-// turbolinks.SnapshotRenderer.prototype.assignNewBody = function () {
-//   const currentBody = window.document.body
-//   const newBody = this.newBody
+  // const permanentElement = document.querySelector('#snipcart')
 
-//   const permanentElement = document.querySelector('#snipcart')
+  // debugger;
+  // newBody.append(permanentElement)
 
-//   debugger;
-//   newBody.append(permanentElement)
-
-//   replaceElementWithElement(currentBody, newBody)
-// }
+  replaceElementWithElement(currentSwap, newSwap);
+};
 turbolinks.start();
 var observer;
 document.addEventListener('turbolinks:click', function (event) {

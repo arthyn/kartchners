@@ -16,17 +16,17 @@ function replaceElementWithElement(fromElement, toElement) {
   }
 }
 
-// turbolinks.SnapshotRenderer.prototype.assignNewBody = function () {
-//   const currentBody = window.document.body
-//   const newBody = this.newBody
+turbolinks.SnapshotRenderer.prototype.assignNewBody = function () {
+  const currentSwap = window.document.body.querySelector('#swap');
+  const newSwap = this.newBody.querySelector('#swap');
 
-//   const permanentElement = document.querySelector('#snipcart')
+  // const permanentElement = document.querySelector('#snipcart')
 
-//   debugger;
-//   newBody.append(permanentElement)
+  // debugger;
+  // newBody.append(permanentElement)
 
-//   replaceElementWithElement(currentBody, newBody)
-// }
+  replaceElementWithElement(currentSwap, newSwap)
+}
 turbolinks.start()
 
 let observer;
