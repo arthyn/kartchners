@@ -34,7 +34,6 @@ days:
 image_format: ar_1.3,c_crop/f_auto,q_80
 meta_title: ""
 ---
-
 <h1 class="text-5xl text-red-700">
   Daily Plate Lunches
 </h1>
@@ -44,3 +43,5 @@ meta_title: ""
 
 <p><strong>Scott</strong>: <a href="tel:3373451992">337-345-1992</a></p>
 <p class="mb-6"><strong>Lafayette</strong>: <a href="tel:3375344060">337-534-4060</a></p>
+
+test
