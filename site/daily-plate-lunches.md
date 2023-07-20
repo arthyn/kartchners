@@ -43,5 +43,3 @@ meta_title: ""
 
 <p><strong>Scott</strong>: <a href="tel:3373451992">337-345-1992</a></p>
 <p class="mb-6"><strong>Lafayette</strong>: <a href="tel:3375344060">337-534-4060</a></p>
-
-test
