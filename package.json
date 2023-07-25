@@ -24,7 +24,6 @@
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.9",
-    "alpine-turbolinks-adapter": "^0.3.0",
     "alpinejs": "^2.7.0",
     "autoprefixer": "^10.1.0",
     "change-case": "^4.1.2",
@@ -33,7 +32,6 @@
     "lodash.escape": "^4.0.1",
     "multimatch": "^5.0.0",
     "node-mailjet": "^3.3.1",
-    "postcss": "^8.2.1",
-    "turbolinks": "^5.2.0"
+    "postcss": "^8.2.1"
   }
 }
