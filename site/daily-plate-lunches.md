@@ -45,5 +45,9 @@ meta_title: ""
 <p class="mb-6">We serve homestyle plate lunches Monday-Friday and a barbecue plate lunch on Sunday. Call our store to place orders in advance as they sell out quickly. <em>Orders cannot be placed online.</em></p>
 <h2 class="text-gray-800">Hot dogs served daily</h2>
 
+S﻿ATURDAY
+
+T﻿asso sandwiches & BBQ burgers
+
 <p><strong>Scott</strong>: <a href="tel:3373451992">337-345-1992</a></p>
 <p class="mb-6"><strong>Lafayette</strong>: <a href="tel:3375344060">337-534-4060</a></p>
