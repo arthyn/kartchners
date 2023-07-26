@@ -14,23 +14,27 @@ image: /v1613851779/kartchners/plates/DSC_1536_srqx2f.jpg
 days:
   - day: Monday
     price: 11.99
-    description: Fried catfish, loaded mashed potatoes, and corn nuggets
+    description: z
   - day: Tuesday
     price: 11.99
-    description: Fried pork chop, red beans and rice, coleslaw, and cornbread
+    description: z
   - day: Wednesday
     price: 11.99
-    description: Hamburger steak, mashed potatoes, corn, and cucumber + tomato salad
+    description: Hamburger steak, green bean casserole, and dinner roll
   - day: Thurdsay
     price: 11.99
-    description: Smothered beef with rice, mac and cheese, and blackeye peas
+    description: Smothered chicken with rice, smothered cabbage, blackeye peas, and
+      dinner roll
   - day: Friday
     price: 12.99
-    description: Shrimp fettucine, corn, with cucumber and tomato salad
+    description: |-
+      fried fish, french fries, hush puppies, dinner roll, and tarter sauce 
+      fried shrimp,  french fries, hush puppies, dinner roll, and tarter sauce
+      fish and shrimp can be made as a combo
   - day: Sunday
     price: 12.99
-    description: Half chicken, quarter rack baby back ribs, or pork steak with rice
-      dressing, potato salad, baked beans, and dinner roll
+    description: Half chicken, baby back ribs, or pork steak with rice dressing,
+      potato salad, baked beans, and dinner roll
 image_format: ar_1.3,c_crop/f_auto,q_80
 meta_title: ""
 ---
