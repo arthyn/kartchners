@@ -69,7 +69,7 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "product"}
       - {label: "Name", name: "name", widget: "string", required: true}
       - {label: "SKU", name: "sku", widget: "number", required: true, description: "Must be unique"}
-      - {label: "Price", name: "price", widget: "number", required: true, default: 5.99}
+      - {label: "Price", name: "price", widget: "number", required: true, default: 5.99, value_type: float}
       - {label: "Weight (Display)", name: "weight__display_", widget: "text", required: true, description: "Displayed to the customer, include units.", default: "1 lb"}
       - {label: "Weight (ounces)", name: "weight", widget: "number", required: true, description: "Not displayed, used for shipping weight in Snipcart", default: 16}
       - {label: "Image", name: "image", widget: "image", description: "Shows up on the products page", required: true, allow_multiple: false}
@@ -81,7 +81,7 @@ collections:
           widget: "list", 
           fields: [
             {label: "Option Name", name: "option_name", widget: "string", required: true},
-            {label: "Option Price", name: "option_price", widget: "number", required: true, default: 0},
+            {label: "Option Price", name: "option_price", widget: "number", required: true, default: 0, value_type: float},
           ]
         }
       - {label: "Body", name: "body", widget: "markdown", required: false}
