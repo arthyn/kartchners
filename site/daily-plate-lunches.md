@@ -17,7 +17,8 @@ days:
     description: z
   - day: Tuesday
     price: 11.99
-    description: z
+    description: Boudin stuffed tenderloin wrapped in bacon, mac & cheese, corn
+      nuggets, and a dinner roll.
   - day: Wednesday
     price: 11.99
     description: Hamburger steak, green bean casserole, and dinner roll
