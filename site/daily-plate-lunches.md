@@ -21,7 +21,8 @@ days:
       nuggets, and a dinner roll.
   - day: Wednesday
     price: 11.99
-    description: Hamburger steak, green bean casserole, and dinner roll
+    description: chicken fried steak, mashed potatoes with white gravy, corn,  and
+      dinner roll
   - day: Thurdsay
     price: 11.99
     description: Smothered chicken with rice, smothered cabbage, blackeye peas, and
