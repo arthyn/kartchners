@@ -14,7 +14,8 @@ image: /v1613851779/kartchners/plates/DSC_1536_srqx2f.jpg
 days:
   - day: Monday
     price: 11.99
-    description: z
+    description: Fried boneless chicken thigh, loaded mashed potatoes, fried okra,
+      dinner roll
   - day: Tuesday
     price: 11.99
     description: Boudin stuffed tenderloin wrapped in bacon, mac & cheese, corn
