@@ -18,16 +18,16 @@ days:
       dinner roll
   - day: Tuesday
     price: 11.99
-    description: Boudin stuffed tenderloin wrapped in bacon, mac & cheese, corn
-      nuggets, and a dinner roll.
+    description: Shake-N-Bake pork chops, mac & cheese, corn nuggets, coleslaw, and
+      a dinner roll.
   - day: Wednesday
     price: 11.99
-    description: chicken fried steak, mashed potatoes with white gravy, corn,  and
-      dinner roll
+    description: Hamburger steak, mashed potatoes with brown gravy, green bean
+      casserole, cucumber & tomato salad, and a dinner roll.
   - day: Thurdsay
     price: 11.99
-    description: Smothered chicken with rice, smothered cabbage, blackeye peas, and
-      dinner roll
+    description: Smothered pork over rice, smothered cabbage, blackeye peas, and a
+      dinner roll.
   - day: Friday
     price: 12.99
     description: |-
