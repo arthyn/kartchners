@@ -18,7 +18,8 @@ days:
       dinner roll
   - day: Tuesday
     price: 11.99
-    description: Baked pork chops, mac & cheese, corn nuggets, coleslaw, and a dinner roll.
+    description: fried pork chops, red beans and rice ,corn bread, coleslaw, and a
+      dinner roll.
   - day: Wednesday
     price: 11.99
     description: Hamburger steak, mashed potatoes with brown gravy, green bean
