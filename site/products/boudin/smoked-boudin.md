@@ -1,21 +1,22 @@
 ---
+meta_description: ""
+banner_class: ""
+banner_image: ""
+price: 14.29
+social_image: ""
+banner_format: ""
 layout: product
-sku: 2
-price: 12.99
-tags: []
-weight: 24
 name: Smoked Boudin
-image: "/v1643820584/kartchners/smoked_boudin_2_gfrokd.jpg"
-description: "smoked pork boudin \n3 links"
+sku: 2
 product_options: []
+canonical: ""
 weight__display_: 1.5lb.
-meta_title: ''
-meta_description: ''
-social_image: ''
-canonical: ''
-banner_image: ''
-banner_format: ''
-banner_class: ''
-banner_alt: ''
-
+banner_alt: ""
+weight: 24
+image: /v1643820584/kartchners/smoked_boudin_2_gfrokd.jpg
+description: |-
+  smoked pork boudin 
+  3 links
+tags: []
+meta_title: ""
 ---
