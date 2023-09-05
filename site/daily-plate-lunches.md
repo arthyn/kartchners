@@ -14,12 +14,12 @@ image: /v1613851779/kartchners/plates/DSC_1536_srqx2f.jpg
 days:
   - day: Monday
     price: 11.99
-    description: Fried boneless chicken thigh, loaded mashed potatoes, fried okra,
-      dinner roll
+    description: |-
+      No plate lunches.
+      Happy Labor Day!
   - day: Tuesday
     price: 11.99
-    description: fried pork chops, red beans and rice ,corn bread, coleslaw, and a
-      dinner roll.
+    description: Chicken Fettucine, Corn, Coleslaw, & Dinner Roll.
   - day: Wednesday
     price: 11.99
     description: Hamburger steak, mashed potatoes with brown gravy, green bean
