@@ -1,22 +1,21 @@
 ---
-price: 6.49
-weight__display_: 1 lb
-weight: 16
-tags: []
+meta_description: ""
+banner_class: ""
+banner_image: ""
+price: 6.99
+social_image: ""
+banner_format: ""
 layout: product
 name: Stuffed Potato
 sku: 57
-image: "/v1627929381/kartchners/twice_baked_potato_pan_nwdmg4.jpg"
-description: 'A quick and easy side for every meal. Can be prepared within minutes
-  once defrosted. '
 product_options: []
-meta_title: ''
-meta_description: ''
-social_image: ''
-canonical: ''
-banner_image: ''
-banner_format: ''
-banner_class: ''
-banner_alt: ''
-
+canonical: ""
+weight__display_: 1 lb
+banner_alt: ""
+weight: 16
+image: /v1627929381/kartchners/twice_baked_potato_pan_nwdmg4.jpg
+description: "A quick and easy side for every meal. Can be prepared within
+  minutes once defrosted. "
+tags: []
+meta_title: ""
 ---
