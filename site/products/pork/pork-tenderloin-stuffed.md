@@ -15,7 +15,7 @@ product_options:
     option_price: 16.79
   - option_name: spinach and cream cheese
     option_price: 16.99
-  - option_price: 14.69
+  - option_price: 15.19
     option_name: pepper jack cheese
 canonical: ""
 weight__display_: 1 lb
