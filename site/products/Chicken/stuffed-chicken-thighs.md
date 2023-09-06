@@ -18,7 +18,7 @@ product_options:
   - option_name: spinach and cream cheese
     option_price: 20.49
   - option_name: pepper jack cheese
-    option_price: 19.99
+    option_price: 20.49
   - option_name: mushroom, black olive, and mozzarella cheese
     option_price: 22.99
   - option_name: mushroom and swiss cheese
