@@ -14,7 +14,7 @@ product_options:
   - option_name: boudin and pepper jack cheese
     option_price: 20.49
   - option_name: pineapple and cream cheese
-    option_price: 19.99
+    option_price: 20.49
   - option_name: spinach and cream cheese
     option_price: 19.99
   - option_name: pepper jack cheese
