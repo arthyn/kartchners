@@ -12,7 +12,7 @@ product_options:
   - option_name: Seasoned Catfish Fillets
     option_price: 12.09
   - option_name: Unseasoned Catfish Fillets
-    option_price: 10.59
+    option_price: 11.09
 canonical: ""
 weight__display_: 1 lb
 banner_alt: ""
