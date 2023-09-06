@@ -24,7 +24,7 @@ product_options:
   - option_name: mushroom and swiss cheese
     option_price: 23.49
   - option_name: pepperoni and mozzarella cheese
-    option_price: 22.99
+    option_price: 23.49
   - option_name: goat cheese, sundried tomato, spinach
     option_price: 22.99
 canonical: ""
