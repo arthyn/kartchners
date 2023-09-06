@@ -10,7 +10,7 @@ name: Stuffed Chicken Thighs
 sku: 26
 product_options:
   - option_name: jalapeno and cream cheese
-    option_price: 20.99
+    option_price: 21.49
   - option_name: boudin and pepper jack cheese
     option_price: 19.99
   - option_name: pineapple and cream cheese
