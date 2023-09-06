@@ -29,8 +29,7 @@ canonical: ""
 weight__display_: 1 lb
 banner_alt: ""
 weight: 16
-image: 'imageView.cldSetImage(cloudinary.createUrl().generate("logo_2_ft5ef3.png")!,
-  cloudinary: cloudinary)'
+image: /images/logo_2_ft5ef3.png
 description: |-
   Stuffed Boneless Chicken Breasts with Your Choice of Stuffing
   1 per pack
