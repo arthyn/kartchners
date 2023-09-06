@@ -1,23 +1,22 @@
 ---
-price: 5.49
-weight__display_: 1 lb
-weight: 16
-tags: []
+meta_description: ""
+banner_class: ""
+banner_image: ""
+price: 5.99
+social_image: ""
+banner_format: ""
 layout: product
 name: Seasoned Leg Quarters
 sku: 106
-image: "/v1634312819/kartchners/Leg_Quarters_4_skj2wb.jpg"
+product_options: []
+canonical: ""
+weight__display_: 1 lb
+banner_alt: ""
+weight: 16
+image: /v1634312819/kartchners/Leg_Quarters_4_skj2wb.jpg
 description: |-
   Seasoned Leg Quarters
   2 per pack
-product_options: []
-meta_title: ''
-meta_description: ''
-social_image: ''
-canonical: ''
-banner_image: ''
-banner_format: ''
-banner_class: ''
-banner_alt: ''
-
+tags: []
+meta_title: ""
 ---
