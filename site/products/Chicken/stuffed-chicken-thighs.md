@@ -20,7 +20,7 @@ product_options:
   - option_name: pepper jack cheese
     option_price: 20.49
   - option_name: mushroom, black olive, and mozzarella cheese
-    option_price: 22.99
+    option_price: 23.49
   - option_name: mushroom and swiss cheese
     option_price: 22.99
   - option_name: pepperoni and mozzarella cheese
