@@ -26,7 +26,7 @@ product_options:
   - option_name: chicken, bacon, pepper jack cheese
     option_price: 10.29
   - option_name: chicken
-    option_price: 10.89
+    option_price: 11.29
   - option_name: green onion garlic pork
     option_price: 8.49
   - option_name: pork
