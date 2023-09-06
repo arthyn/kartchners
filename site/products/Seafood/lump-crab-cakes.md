@@ -1,23 +1,22 @@
 ---
-price: 9.89
-weight__display_: 1 lb
-weight: 16
-tags: []
+meta_description: ""
+banner_class: ""
+banner_image: ""
+price: 10.39
+social_image: ""
+banner_format: ""
 layout: product
 name: Jumbo Lump Crab Cakes
 sku: 42
-image: "/v1628527214/kartchners/crab_cakes_bwqlif.jpg"
+product_options: []
+canonical: ""
+weight__display_: 1 lb
+banner_alt: ""
+weight: 16
+image: /v1628527214/kartchners/crab_cakes_bwqlif.jpg
 description: |-
   Jumbo Lump Crab Cakes
   2 per pack
-product_options: []
-meta_title: ''
-meta_description: ''
-social_image: ''
-canonical: ''
-banner_image: ''
-banner_format: ''
-banner_class: ''
-banner_alt: ''
-
+tags: []
+meta_title: ""
 ---
