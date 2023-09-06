@@ -29,11 +29,11 @@ canonical: ""
 weight__display_: 1 lb
 banner_alt: ""
 weight: 16
-image: "<cld-image publicId=\"logo_2_ft5ef3.png\" >\r
+image: "<cl-image public-id=\"logo_2_ft5ef3.png\" >\r
 
   \r
 
-  </cld-image>"
+  </cl-image>"
 description: |-
   Stuffed Boneless Chicken Breasts with Your Choice of Stuffing
   1 per pack
