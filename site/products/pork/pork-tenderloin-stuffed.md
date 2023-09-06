@@ -12,7 +12,7 @@ product_options:
   - option_name: Jalapeno Cream Cheese
     option_price: 16.49
   - option_name: boudin
-    option_price: 16.39
+    option_price: 16.79
   - option_name: spinach and cream cheese
     option_price: 16.49
   - option_price: 14.69
