@@ -1,22 +1,21 @@
 ---
+weight_display_: 1 dozen
 layout: product
+name: Frozen Boudin Balls
 sku: 8
 price: 0
-tags: 
+weight__display_: 1 dozen
 weight: 48
-name: Frozen Boudin Balls
-image: "/v1628004609/kartchners/boudin_balls_auetpo.jpg"
+image: /v1628004609/kartchners/boudin_balls_auetpo.jpg
 description: |-
   Un-battered Frozen Boudin Balls
   1 dozen
 product_options:
-- option_name: crawfish balls
-  option_price: 21.99
-- option_name: Regular
-  option_price: 16.49
-- option_name: Stuffed with Jalapeño & Cream Cheese
-  option_price: 19.79
-weight_display_: 1 dozen
-weight__display_: 1 dozen
-
+  - option_name: crawfish balls
+    option_price: 22.49
+  - option_name: Regular
+    option_price: 16.99
+  - option_name: Stuffed with Jalapeño & Cream Cheese
+    option_price: 20.29
+tags: null
 ---
