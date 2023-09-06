@@ -10,7 +10,7 @@ name: Pre-battered Boudin Balls & Wraps
 sku: 202
 product_options:
   - option_name: Maple Wraps
-    option_price: 15.39
+    option_price: 15.89
   - option_name: Crawfish Balls
     option_price: 16.49
   - option_name: Jalapeno Cream Cheese Boudin Wraps
