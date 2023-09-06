@@ -22,9 +22,9 @@ product_options:
   - option_name: Pepper Jack Boudin Balls
     option_price: 16.99
   - option_name: regular boudin wraps
-    option_price: 15.39
+    option_price: 15.89
   - option_name: regular boudin balls
-    option_price: 15.39
+    option_price: 16.39
 canonical: ""
 weight__display_: "0"
 banner_alt: ""
