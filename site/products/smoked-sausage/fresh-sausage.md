@@ -16,9 +16,9 @@ product_options:
   - option_name: deer and pork
     option_price: 10.49
   - option_name: jalapeno cheddar cheese pork
-    option_price: 9.29
+    option_price: 9.79
   - option_name: green onion pork
-    option_price: 8.59
+    option_price: 9.09
   - option_name: italian pork
     option_price: 8.39
   - option_name: pork, spinach and sundried tomatoes
