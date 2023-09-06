@@ -30,7 +30,7 @@ product_options:
   - option_name: green onion garlic pork
     option_price: 8.99
   - option_name: pork
-    option_price: 10.09
+    option_price: 10.59
 canonical: ""
 weight__display_: 1 lb
 banner_alt: ""
