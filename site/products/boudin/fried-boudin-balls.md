@@ -18,7 +18,7 @@ product_options:
   - option_name: Jalapeno Cream Cheese Boudin Balls
     option_price: 16.99
   - option_name: Pepper Jack Boudin Wraps
-    option_price: 16.49
+    option_price: 16.99
   - option_name: Pepper Jack Boudin Balls
     option_price: 16.49
   - option_name: regular boudin wraps
