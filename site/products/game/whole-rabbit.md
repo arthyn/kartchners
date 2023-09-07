@@ -1,21 +1,20 @@
 ---
-price: 15.79
-weight__display_: 1 lb
-weight: 16
-tags: []
+meta_description: ""
+banner_class: ""
+banner_image: ""
+price: 16.99
+social_image: ""
+banner_format: ""
 layout: product
 name: Whole Rabbit
 sku: 31
-image: ''
-description: Whole Rabbit
 product_options: []
-meta_title: ''
-meta_description: ''
-social_image: ''
-canonical: ''
-banner_image: ''
-banner_format: ''
-banner_class: ''
-banner_alt: ''
-
+canonical: ""
+weight__display_: 1 lb
+banner_alt: ""
+weight: 16
+image: ""
+description: Whole Rabbit
+tags: []
+meta_title: ""
 ---
