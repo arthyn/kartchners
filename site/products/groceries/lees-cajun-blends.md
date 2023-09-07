@@ -1,21 +1,20 @@
 ---
-price: 3.99
-weight__display_: 8oz
-weight: 8
-tags: []
+meta_description: ""
+banner_class: ""
+banner_image: ""
+price: 5.99
+social_image: ""
+banner_format: ""
 layout: product
 name: Lee's Cajun Blends Seasoning
 sku: 206
-image: "/v1618518827/kartchners/lees_oeoyjn.jpg"
-description: 'Lee''s Cajun Blends Seasoning '
 product_options: []
-meta_title: ''
-meta_description: ''
-social_image: ''
-canonical: ''
-banner_image: ''
-banner_format: ''
-banner_class: ''
-banner_alt: ''
-
+canonical: ""
+weight__display_: 8oz
+banner_alt: ""
+weight: 8
+image: /v1618518827/kartchners/lees_oeoyjn.jpg
+description: "Lee's Cajun Blends Seasoning "
+tags: []
+meta_title: ""
 ---
