@@ -1,9 +1,10 @@
 module.exports = function(filename) {
   const parts = filename.split('/');
+  const strip = filename.replace('/images', '');
 
   if (parts.length > 3) {
     return filename;
   }
 
-  return `/v${Date.now()}/kartchners${filename.startsWith('/') ? '' : '/'}${filename}`;
+  return `/v${Date.now()}/kartchners${strip.startsWith('/') ? '' : '/'}${strip}`;
 }

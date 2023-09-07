@@ -1686,6 +1686,10 @@ i, em, .italic {
   max-width: 72rem;
 }
 
+.max-w-\[40vw\]{
+  max-width: 40vw;
+}
+
 .max-w-xl{
   max-width: 36rem;
 }
