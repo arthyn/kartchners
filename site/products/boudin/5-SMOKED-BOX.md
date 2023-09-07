@@ -1,21 +1,20 @@
 ---
-price: 41.99
-weight__display_: "0"
-weight: 5
-tags: []
+meta_description: ""
+banner_class: ""
+banner_image: ""
+price: 42.49
+social_image: ""
+banner_format: ""
 layout: product
 name: 5# Smoked Pork Boudin
 sku: 301
-image: ''
-description: 10 links per box
 product_options: []
-meta_title: ''
-meta_description: ''
-social_image: ''
-canonical: ''
-banner_image: ''
-banner_format: ''
-banner_class: ''
-banner_alt: ''
-
+canonical: ""
+weight__display_: "0"
+banner_alt: ""
+weight: 5
+image: ""
+description: 10 links per box
+tags: []
+meta_title: ""
 ---
