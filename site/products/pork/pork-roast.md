@@ -1,21 +1,20 @@
 ---
-price: 35.49
-weight__display_: 4lbs.
-weight: 64
-tags: []
+meta_description: ""
+banner_class: ""
+banner_image: ""
+price: 36.99
+social_image: ""
+banner_format: ""
 layout: product
 name: Boston Butt Pork Roast
 sku: 311
-image: ''
-description: Seasoned and Stuffed Boston Butt Pork Roast
 product_options: []
-meta_title: ''
-meta_description: ''
-social_image: ''
-canonical: ''
-banner_image: ''
-banner_format: ''
-banner_class: ''
-banner_alt: ''
-
+canonical: ""
+weight__display_: 4lbs.
+banner_alt: ""
+weight: 64
+image: ""
+description: Seasoned and Stuffed Boston Butt Pork Roast
+tags: []
+meta_title: ""
 ---
