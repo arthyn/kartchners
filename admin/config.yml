@@ -72,7 +72,7 @@ collections:
       - {label: "Price", name: "price", widget: "number", required: true, default: 5.99, value_type: float}
       - {label: "Weight (Display)", name: "weight__display_", widget: "text", required: true, description: "Displayed to the customer, include units.", default: "1 lb"}
       - {label: "Weight (ounces)", name: "weight", widget: "number", required: true, description: "Not displayed, used for shipping weight in Snipcart", default: 16}
-      - {label: "Image", name: "image", widget: "image", description: "Shows up on the products page", required: true, allow_multiple: false}
+      - {label: "Image", name: "image", widget: "image", description: "Shows up on the products page", required: false, allow_multiple: false}
       - {label: "Description", name: "description", widget: "markdown"}
       - {
           label: "Product Options", 

@@ -5,5 +5,5 @@ module.exports = function(filename) {
     return filename;
   }
 
-  return `/v${Date.now()}/kartchners${filename}`;
+  return `/v${Date.now()}/kartchners${filename.startsWith('/') ? '' : '/'}${filename}`;
 }
