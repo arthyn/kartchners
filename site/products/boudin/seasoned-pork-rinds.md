@@ -1,21 +1,20 @@
 ---
-price: 3.99
-weight__display_: ".25lb"
-weight: 4
-tags: []
+meta_description: ""
+banner_class: ""
+banner_image: ""
+price: 4.99
+social_image: ""
+banner_format: ""
 layout: product
 name: Seasoned Pork Rinds
 sku: 999
-image: ''
-description: quarter of a pound of pork rinds
 product_options: []
-meta_title: ''
-meta_description: ''
-social_image: ''
-canonical: ''
-banner_image: ''
-banner_format: ''
-banner_class: ''
-banner_alt: ''
-
+canonical: ""
+weight__display_: .25lb
+banner_alt: ""
+weight: 4
+image: ""
+description: quarter of a pound of pork rinds
+tags: []
+meta_title: ""
 ---
