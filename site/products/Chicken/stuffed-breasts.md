@@ -10,21 +10,21 @@ name: "Stuffed Boneless Chicken Breasts "
 sku: 27
 product_options:
   - option_name: jalapeno and cream cheese wrapped in bacon
-    option_price: 11.99
+    option_price: 12.49
   - option_name: pineapple and cream cheese wrapped in bacon
-    option_price: 11.99
+    option_price: 12.49
   - option_name: pepper jack cheese wrapped in bacon
-    option_price: 11.99
+    option_price: 12.49
   - option_name: spinach and cream cheese
-    option_price: 11.99
+    option_price: 12.49
   - option_name: boudin
-    option_price: 11.99
+    option_price: 12.49
   - option_name: cornbread dressing
-    option_price: 11.99
+    option_price: 12.49
   - option_name: shrimp dressing
-    option_price: 14.99
+    option_price: 15.49
   - option_name: crawfish dressing
-    option_price: 17.49
+    option_price: 17.99
 canonical: ""
 weight__display_: 1 lb
 banner_alt: ""
