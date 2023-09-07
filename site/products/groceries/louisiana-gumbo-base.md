@@ -1,21 +1,20 @@
 ---
-price: 1.89
-weight__display_: '5oz. '
-weight: 5
-tags: []
+meta_description: ""
+banner_class: ""
+banner_image: ""
+price: 3.99
+social_image: ""
+banner_format: ""
 layout: product
 name: Louisiana Cajun Gumbo Base
 sku: 126
-image: "/v1628701509/kartchners/gumbo_base_its3nn.jpg"
-description: louisiana cajun gumbo base
 product_options: []
-meta_title: ''
-meta_description: ''
-social_image: ''
-canonical: ''
-banner_image: ''
-banner_format: ''
-banner_class: ''
-banner_alt: ''
-
+canonical: ""
+weight__display_: "5oz. "
+banner_alt: ""
+weight: 5
+image: /v1628701509/kartchners/gumbo_base_its3nn.jpg
+description: louisiana cajun gumbo base
+tags: []
+meta_title: ""
 ---
