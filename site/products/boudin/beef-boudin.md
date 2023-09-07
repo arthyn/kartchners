@@ -5,7 +5,7 @@ sku: 6
 price: 6.69
 weight__display_: 1lb.
 weight: 16
-image: /v1628006333/kartchners/beef_boudin_h0wlgl.jpg
+image: /images/boudin2_ebgppi.jpg
 description: |-
   Beef Boudin
   3 link pack 
