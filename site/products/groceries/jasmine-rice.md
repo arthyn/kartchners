@@ -1,21 +1,20 @@
 ---
-price: 3.79
-weight__display_: 2 lb
-weight: 32
-tags: []
+meta_description: ""
+banner_class: ""
+banner_image: ""
+price: 4.99
+social_image: ""
+banner_format: ""
 layout: product
 name: Cajun Country Jasmine Rice
 sku: 122
-image: "/v1628701562/kartchners/jasmine_rice_luaquf.jpg"
-description: 'Cajun Country Jasmine Rice 2lbs. '
 product_options: []
-meta_title: ''
-meta_description: ''
-social_image: ''
-canonical: ''
-banner_image: ''
-banner_format: ''
-banner_class: ''
-banner_alt: ''
-
+canonical: ""
+weight__display_: 2 lb
+banner_alt: ""
+weight: 32
+image: /v1628701562/kartchners/jasmine_rice_luaquf.jpg
+description: "Cajun Country Jasmine Rice 2lbs. "
+tags: []
+meta_title: ""
 ---
