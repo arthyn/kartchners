@@ -1,21 +1,20 @@
 ---
-price: 19.79
-weight__display_: 1 lb
-weight: 16
-tags: []
+meta_description: ""
+banner_class: ""
+banner_image: ""
+price: 20.99
+social_image: ""
+banner_format: ""
 layout: product
 name: Whole Rabbit Stuffed With Green Onion Sausage
 sku: 32
-image: ''
-description: Whole Rabbit Stuffed With Green Onion Sausage
 product_options: []
-meta_title: ''
-meta_description: ''
-social_image: ''
-canonical: ''
-banner_image: ''
-banner_format: ''
-banner_class: ''
-banner_alt: ''
-
+canonical: ""
+weight__display_: 1 lb
+banner_alt: ""
+weight: 16
+image: ""
+description: Whole Rabbit Stuffed With Green Onion Sausage
+tags: []
+meta_title: ""
 ---
