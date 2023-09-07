@@ -12,9 +12,9 @@ product_options:
   - option_name: jalapeno pepper jack cheese
     option_price: 10.59
   - option_name: Regular
-    option_price: 12.99
+    option_price: 13.99
   - option_name: Spicy
-    option_price: 12.99
+    option_price: 13.99
 canonical: ""
 weight__display_: 1.5 lb
 banner_alt: ""
