@@ -31,7 +31,7 @@ canonical: ""
 weight__display_: 2 lb
 banner_alt: ""
 weight: 32
-image: https://console.cloudinary.com/console/c-7bed250a64bee9fdca992474d1fab6/media_library/folders/home/asset/8ba2736ea08861dfdff36d0bb92c1038/manage?context=manage
+image: /images/logo_2_ft5ef3_i2nr6z.png
 description: |-
   Chicken Thighs Stuffed With Your Choice of Stuffing
   (4 per pack)
