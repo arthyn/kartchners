@@ -1,26 +1,27 @@
 ---
-price: 13.99
-weight__display_: 1 lb
-weight: 16
-tags: []
+meta_description: ""
+banner_class: ""
+banner_image: ""
+price: 14.49
+social_image: ""
+banner_format: ""
 layout: product
-name: Boneless Skinless Duck Breast Stuffed with Jalapeno Cream Cheese Wrapped in
-  Bacon
+name: Boneless Skinless Duck Breast Stuffed with Jalapeno Cream Cheese Wrapped
+  in Bacon
 sku: 28
-image: ''
-description: |-
+product_options: []
+canonical: ""
+weight__display_: 1 lb
+banner_alt: ""
+weight: 16
+image: ""
+description: >-
   *TEMPORARILY OUT OF STOCK*
 
-  Boneless Skinless Duck Breast Stuffed with Jalapeno Cream Cheese Wrapped in Bacon
-  1 per pack
-product_options: []
-meta_title: ''
-meta_description: ''
-social_image: ''
-canonical: ''
-banner_image: ''
-banner_format: ''
-banner_class: ''
-banner_alt: ''
 
+  Boneless Skinless Duck Breast Stuffed with Jalapeno Cream Cheese Wrapped in Bacon
+
+  1 per pack
+tags: []
+meta_title: ""
 ---
