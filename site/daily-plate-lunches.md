@@ -15,8 +15,11 @@ days:
   - day: Monday
     price: 11.99
     description: |-
-      No plate lunches.
-      Happy Labor Day!
+      Boneless Fried Chicken Thigh,
+      Loaded Mashed Potatoes,
+      Fried Okra,
+      Corn, & A 
+      Dinner Roll
   - day: Tuesday
     price: 11.99
     description: Chicken Fettucine, Corn, Coleslaw, & Dinner Roll.
