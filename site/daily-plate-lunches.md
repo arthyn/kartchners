@@ -22,21 +22,23 @@ days:
       Dinner Roll
   - day: Tuesday
     price: 11.99
-    description: Chicken Fettucine, Corn, Coleslaw, & Dinner Roll.
+    description: fried pork chop, red beans and rice, coleslaw, corn, and dinner roll
   - day: Wednesday
     price: 11.99
-    description: Hamburger steak, mashed potatoes with brown gravy, green bean
-      casserole, cucumber & tomato salad, and a dinner roll.
+    description: Chicken Fried steak, mashed potatoes with white gravy, green bean
+      casserole, corn nuggets , and a dinner roll.
   - day: Thurdsay
     price: 11.99
-    description: Smothered pork over rice, smothered cabbage, blackeye peas, and a
+    description: Smothered pork over rice, macaroni and  cheese, green beans, and a
       dinner roll.
   - day: Friday
     price: 12.99
-    description: |-
+    description: >-
+      Crawfish Fettucine, corn, cucumber & tomato salad.
+                                          OR      
       fried fish, french fries, hush puppies, dinner roll, and tarter sauce 
-      fried shrimp,  french fries, hush puppies, dinner roll, and tarter sauce
-      fish and shrimp can be made as a combo
+
+      fried shrimp,  french fries, hush puppies, dinner roll, and tarter sauce. fish and shrimp can be made as a combo
   - day: Sunday
     price: 12.99
     description: Half chicken, baby back ribs, or pork steak with rice dressing,
