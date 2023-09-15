@@ -2,13 +2,17 @@
 meta_description: ""
 banner_class: ""
 banner_image: ""
-price: 8.19
+price: -2.51
 social_image: ""
 banner_format: ""
 layout: product
 name: "Chili "
 sku: 51
-product_options: []
+product_options:
+  - option_price: 7.49
+    option_name: chili without beans
+  - option_price: 7.49
+    option_name: Chili with beans
 canonical: ""
 weight__display_: 1 lb
 banner_alt: ""
