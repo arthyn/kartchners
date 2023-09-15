@@ -10,19 +10,19 @@ name: Boneless Stuffed Chickens
 sku: 25
 product_options:
   - option_name: boudin
-    option_price: 22.49
+    option_price: 20.99
   - option_name: spinach and cheese
-    option_price: 22.49
+    option_price: 20.99
   - option_name: broccoli, rice, and cheese
-    option_price: 22.49
+    option_price: 19.49
   - option_name: cornbread dressing
-    option_price: 23.49
+    option_price: 20.99
   - option_name: andouille sausage
-    option_price: 22.49
+    option_price: 20.99
   - option_name: shrimp and rice
-    option_price: 23.49
+    option_price: 20.99
   - option_name: crawfish and rice
-    option_price: 24.49
+    option_price: 21.99
 canonical: ""
 weight__display_: 2 lb
 banner_alt: ""
