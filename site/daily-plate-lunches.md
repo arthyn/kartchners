@@ -18,23 +18,23 @@ days:
       Boneless Fried Chicken Thigh,
       Loaded Mashed Potatoes,
       Fried Okra,
-      Corn, & A 
+      Cucumber & Tomato Salad
       Dinner Roll
   - day: Tuesday
     price: 11.99
     description: fried pork chop, red beans and rice, coleslaw, corn, and dinner roll
   - day: Wednesday
     price: 11.99
-    description: Chicken Fried steak, mashed potatoes with white gravy, green bean
-      casserole, corn nuggets , and a dinner roll.
+    description: Ham burger Steak, mashed potatoes with Brown gravy, green bean
+      casserole, and a dinner roll.
   - day: Thurdsay
     price: 11.99
-    description: Smothered pork over rice, macaroni and  cheese, green beans, and a
-      dinner roll.
+    description: Smothered beef over rice, smothered potatoes, green bean casserole
+      and a dinner roll.
   - day: Friday
     price: 12.99
     description: >-
-      Crawfish Fettucine, corn, cucumber & tomato salad.
+      Shrimp Fettucine, corn, cucumber & tomato salad.
                                           OR      
       fried fish, french fries, hush puppies, dinner roll, and tarter sauce 
 
