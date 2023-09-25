@@ -15,9 +15,8 @@ days:
   - day: Monday
     price: 11.99
     description: |-
-      Boneless Fried Chicken Thigh,
-      Loaded Mashed Potatoes,
-      Fried Okra,
+      Spaghetti & Meatballs
+      Corn
       Cucumber & Tomato Salad
       Dinner Roll
   - day: Tuesday
