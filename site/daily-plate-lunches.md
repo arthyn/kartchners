@@ -21,7 +21,8 @@ days:
       Dinner Roll
   - day: Tuesday
     price: 11.99
-    description: fried pork chop, white beans and rice, coleslaw, corn, and dinner roll
+    description: fried boneless chicken thigh loaded mashed potatoes, coleslaw,
+      fried okra, and dinner roll
   - day: Wednesday
     price: 11.99
     description: Ham burger Steak, mashed potatoes with Brown gravy, green bean
