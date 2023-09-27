@@ -25,8 +25,8 @@ days:
       fried okra, and dinner roll
   - day: Wednesday
     price: 11.99
-    description: Ham burger Steak, mashed potatoes with Brown gravy, green bean
-      casserole, and a dinner roll.
+    description: country fried Steak, mashed potatoes with white gravy, green bean
+      casserole, fried okra and a dinner roll.
   - day: Thurdsay
     price: 11.99
     description: Smothered beef over rice, smothered potatoes, green bean casserole
