@@ -15,26 +15,30 @@ days:
   - day: Monday
     price: 11.99
     description: |-
-      Spaghetti & Meatballs
+      chicken fried steak
+      loaded mashed potatoes
       Corn
       Cucumber & Tomato Salad
       Dinner Roll
   - day: Tuesday
     price: 11.99
-    description: fried boneless chicken thigh loaded mashed potatoes, coleslaw,
-      fried okra, and dinner roll
+    description: |-
+      fried pork chop
+      red beans and rice
+      coleslaw,and 
+      cornbread
   - day: Wednesday
     price: 11.99
-    description: country fried Steak, mashed potatoes with white gravy, green bean
-      casserole, fried okra and a dinner roll.
+    description: hamburger Steak, mashed potatoes with brown gravy, green bean
+      casserole, and a dinner roll.
   - day: Thurdsay
     price: 11.99
-    description: Smothered beef over rice, smothered potatoes, green bean casserole
-      and a dinner roll.
+    description: Smothered pork over rice, smothered cabbage, mac and cheese and a
+      dinner roll.
   - day: Friday
     price: 12.99
     description: >-
-      Crawfish Fettucine, corn, cucumber & tomato salad.
+      shrimp Fettucine, corn, cucumber & tomato salad.
                                           OR      
       fried fish, french fries, hush puppies, dinner roll, and tarter sauce 
 
