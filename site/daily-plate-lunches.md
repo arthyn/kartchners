@@ -24,8 +24,8 @@ days:
     price: 11.99
     description: |-
       fried pork chop
-      red beans and rice
-      coleslaw,and 
+      white beans and rice
+      coleslaw, and 
       cornbread
   - day: Wednesday
     price: 11.99
