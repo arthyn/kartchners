@@ -10,9 +10,9 @@ name: Cajun Country Medium Grain Rice
 sku: 200
 product_options:
   - option_name: 5 lb bag
-    option_price: 6.99
+    option_price: 5.49
   - option_name: 3 lb. bag
-    option_price: 4.99
+    option_price: 3.49
 canonical: ""
 weight__display_: 3lb
 banner_alt: ""
