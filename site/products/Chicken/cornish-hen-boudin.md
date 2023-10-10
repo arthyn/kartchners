@@ -10,9 +10,9 @@ name: Cornish Hen
 sku: 103
 product_options:
   - option_name: Cornish Hen stuffed with Cornbread
-    option_price: 11.49
+    option_price: 10.49
   - option_name: Cornish Hen stuffed with Boudin
-    option_price: 11.49
+    option_price: 10.49
 canonical: ""
 weight__display_: 1 lb
 banner_alt: ""
