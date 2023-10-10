@@ -12,19 +12,23 @@ product_options:
   - option_name: Maple Wraps
     option_price: 15.89
   - option_name: Crawfish Balls
-    option_price: 16.99
+    option_price: 14.99
   - option_name: Jalapeno Cream Cheese Boudin Wraps
-    option_price: 16.99
+    option_price: 11.99
   - option_name: Jalapeno Cream Cheese Boudin Balls
     option_price: 16.99
   - option_name: Pepper Jack Boudin Wraps
-    option_price: 16.99
+    option_price: 14.99
   - option_name: Pepper Jack Boudin Balls
-    option_price: 16.99
+    option_price: 14.99
   - option_name: regular boudin wraps
-    option_price: 15.89
+    option_price: 13.99
   - option_name: regular boudin balls
-    option_price: 15.89
+    option_price: 13.99
+  - option_price: 13.99
+    option_name: Chicken Balls
+  - option_price: 14.99
+    option_name: Chicken Balls Stuffed With Pepper jack Cheese
 canonical: ""
 weight__display_: "0"
 banner_alt: ""
