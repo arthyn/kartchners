@@ -10,16 +10,16 @@ name: Pop's Hot Sauces
 sku: 205
 product_options:
   - option_name: ghost pepper
-    option_price: 8.99
+    option_price: 6.99
   - option_name: midnight blaze
-    option_price: 8.99
+    option_price: 6.99
   - option_name: midnight fire
-    option_price: 8.99
+    option_price: 6.99
   - option_name: midnight heat
-    option_price: 8.99
+    option_price: 6.99
   - option_name: cayenne on demand
-    option_price: 8.99
-  - option_price: 8.99
+    option_price: 6.99
+  - option_price: 6.99
     option_name: banana
 canonical: ""
 weight__display_: 1 lb
