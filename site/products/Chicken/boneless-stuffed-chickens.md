@@ -14,7 +14,7 @@ product_options:
   - option_name: spinach and cheese
     option_price: 20.99
   - option_name: broccoli, rice, and cheese
-    option_price: 19.49
+    option_price: 20.99
   - option_name: cornbread dressing
     option_price: 20.99
   - option_name: andouille sausage
