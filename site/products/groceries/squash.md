@@ -10,17 +10,25 @@ name: Pop's Pickled Vegetables
 sku: 203
 product_options:
   - option_name: candied jalapenos
-    option_price: 8.49
+    option_price: 5.999
   - option_name: sweet spice pickles
-    option_price: 8.49
+    option_price: 7.99
   - option_name: bread and butter jalapenos
-    option_price: 8.49
+    option_price: 7.99
   - option_name: bread and butter pickles
-    option_price: 8.49
+    option_price: 7.99
   - option_name: bread, butter, habanero pickles
-    option_price: 8.49
+    option_price: 7.99
   - option_name: sweet squash
-    option_price: 8.49
+    option_price: 7.99
+  - option_price: 7.99
+    option_name: Jalapeno Mustard
+  - option_price: 7.99
+    option_name: Salsa
+  - option_price: 7.99
+    option_name: "Spicy Salsa "
+  - option_price: 7.99
+    option_name: Pepper Jelly
 canonical: ""
 weight__display_: 1 lb
 banner_alt: ""
