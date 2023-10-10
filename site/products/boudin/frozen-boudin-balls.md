@@ -11,11 +11,13 @@ description: |-
   Un-battered Frozen Boudin Balls
   1 dozen
 product_options:
-  - option_name: crawfish balls
-    option_price: 22.49
-  - option_name: Regular
-    option_price: 16.99
-  - option_name: Stuffed with Jalapeño & Cream Cheese
-    option_price: 20.29
+  - option_name: Crawfish Balls
+    option_price: 16.49
+  - option_name: Regular Boudin Balls
+    option_price: 14.99
+  - option_name: Boudin Balls Stuffed with Jalapeño & Cream Cheese
+    option_price: 17.99
+  - option_price: 17.99
+    option_name: Boudin Balls Stuffed With Pepper Jack Cheese
 tags: null
 ---
