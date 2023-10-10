@@ -10,23 +10,25 @@ name: Cajun Jack's Pepper Jellies
 sku: 203
 product_options:
   - option_name: fig
-    option_price: 7.99
+    option_price: 6.59
   - option_name: crawfish
-    option_price: 7.99
+    option_price: 6.59
   - option_name: strawberry
-    option_price: 7.99
+    option_price: 6.59
   - option_name: pineapple
-    option_price: 7.99
-  - option_name: mago
-    option_price: 7.99
+    option_price: 6.59
+  - option_name: mango
+    option_price: 6.59
   - option_name: cranberry
-    option_price: 7.99
+    option_price: 6.59
   - option_name: grape
-    option_price: 7.99
+    option_price: 6.59
   - option_name: green
-    option_price: 7.99
+    option_price: 6.59
   - option_name: red
-    option_price: 7.99
+    option_price: 6.59
+  - option_price: 6.59
+    option_name: Garlic
 canonical: ""
 weight__display_: 1 lb
 banner_alt: ""
