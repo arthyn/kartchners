@@ -29,7 +29,7 @@ days:
       cornbread
   - day: Wednesday
     price: 11.99
-    description: hamburger Steak, mashed potatoes with brown gravy, green bean
+    description: Chicken Fried Steak, mashed potatoes with white gravy, green bean
       casserole, and a dinner roll.
   - day: Thurdsay
     price: 11.99
