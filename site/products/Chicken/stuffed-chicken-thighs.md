@@ -10,23 +10,23 @@ name: Stuffed Chicken Thighs
 sku: 26
 product_options:
   - option_name: jalapeno and cream cheese
-    option_price: 21.49
+    option_price: 17.19
   - option_name: boudin and pepper jack cheese
-    option_price: 20.49
+    option_price: 21.19
   - option_name: pineapple and cream cheese
-    option_price: 20.49
+    option_price: 18.89
   - option_name: spinach and cream cheese
-    option_price: 20.49
+    option_price: 19.99
   - option_name: pepper jack cheese
-    option_price: 20.49
+    option_price: 19.49
   - option_name: mushroom, black olive, and mozzarella cheese
-    option_price: 23.49
+    option_price: 21.99
   - option_name: mushroom and swiss cheese
-    option_price: 23.49
+    option_price: 19.49
   - option_name: pepperoni and mozzarella cheese
-    option_price: 23.49
+    option_price: 21.09
   - option_name: goat cheese, sundried tomato, spinach
-    option_price: 23.49
+    option_price: 17.49
 canonical: ""
 weight__display_: 2 lb
 banner_alt: ""
