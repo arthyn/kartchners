@@ -1,7 +1,7 @@
 ---
 layout: product
 name: Alligator Sausage
-sku: 0
+sku: 1
 price: 6.99
 weight__display_: 1 lb
 weight: 16
