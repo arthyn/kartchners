@@ -9,9 +9,9 @@ layout: product
 name: 5# Boxes Of Boudin
 sku: 300
 product_options:
-  - option_price: 40.49
+  - option_price: 49.29
     option_name: Regular Boudin
-  - option_price: 42.49
+  - option_price: 50.79
     option_name: Smoked Boudin
 canonical: ""
 weight__display_: "0"
