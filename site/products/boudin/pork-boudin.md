@@ -14,19 +14,23 @@ product_options:
   - option_name: Regular
     option_price: 13.99
   - option_name: Spicy
-    option_price: 13.99
-  - option_price: 14.79
+    option_price: 16.09
+  - option_price: 12.29
     option_name: Smoked Pork Boudin
-  - option_price: 6.69
+  - option_price: 10.99
     option_name: Beef Boudin
-  - option_price: 14.29
+  - option_price: 10.09
     option_name: Cauliflower Boudin
-  - option_price: 7.49
+  - option_price: 9.09
     option_name: Chicken Boudin
-  - option_price: 11.59
+  - option_price: 10.99
     option_name: Crawfish Boudin
-  - option_price: 16.59
+  - option_price: 16.29
     option_name: Deer Boudin
+  - option_price: 9
+    option_name: Pepper Jelly
+  - option_price: 11.99
+    option_name: Blood
 canonical: ""
 weight__display_: 1.5 lb
 banner_alt: ""
