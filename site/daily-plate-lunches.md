@@ -9,7 +9,7 @@ banner_format: ""
 layout: plate-lunch
 canonical: ""
 banner_alt: ""
-title: Daily Plate Lunches
+title: "Daily Plate "
 image: /v1613851779/kartchners/plates/DSC_1536_srqx2f.jpg
 days:
   - day: Monday
