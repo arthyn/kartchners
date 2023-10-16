@@ -15,10 +15,9 @@ days:
   - day: Monday
     price: 11.99
     description: |-
-      chicken fried steak
-      loaded mashed potatoes
-      Corn
-      Cucumber & Tomato Salad
+      Spaghetti and meatballs
+      corn nuggets, 
+      cucumber and tomato salad,
       Dinner Roll
   - day: Tuesday
     price: 11.99
