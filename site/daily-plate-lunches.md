@@ -36,7 +36,7 @@ days:
   - day: Friday
     price: 12.99
     description: >-
-      shrimp Fettucine, corn, cucumber & tomato salad.
+      shrimp fettucine, corn, cucumber & tomato salad.
                                           OR      
       fried fish, french fries, hush puppies, dinner roll, and tarter sauce 
 
