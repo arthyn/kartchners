@@ -43,6 +43,13 @@ collections:
               {label: "Description", name: "description", widget: "text", required: true}
             ]
           }
+      - name: contact
+        label: Contact
+        file: site/contact.md
+        fields:
+          - {label: "Title", name: "title", widget: "string", required: true}
+          - {label: "Body", name: "body", widget: "markdown", required: true}
+          - {label: "Banner Image", name: "banner_image", widget: "image", required: false}
   - name: product-categories
     label: Category Pages
     folder: site/products
