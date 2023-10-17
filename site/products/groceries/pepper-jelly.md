@@ -6,7 +6,7 @@ price: 4.99
 social_image: ""
 banner_format: ""
 layout: product
-name: Cajun Jack's Pepper Jellies
+name: Cajun Jack's Pepper Jelly
 sku: 203
 product_options:
   - option_name: fig
