@@ -14,11 +14,7 @@ image: /v1613851779/kartchners/plates/DSC_1536_srqx2f.jpg
 days:
   - day: Monday
     price: 11.99
-    description: |-
-      Spaghetti and meatballs
-      corn nuggets, 
-      cucumber and tomato salad,
-      Dinner Roll
+    description: Sausage in tomato gravy over rice, corn nuggets, salad, and dinner roll
   - day: Tuesday
     price: 11.99
     description: |-
