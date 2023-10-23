@@ -18,17 +18,18 @@ days:
   - day: Tuesday
     price: 11.99
     description: |-
-      fried pork chop
+      fried chicken (white or dark)
       red beans and rice
       coleslaw, and 
       cornbread
   - day: Wednesday
     price: 11.99
-    description: Hamburger Steak, mashed potatoes with brown gravy, green bean
+    description: Chicken Fried Steak, mashed potatoes with white gravy, green bean
       casserole, and a dinner roll.
   - day: Thurdsay
     price: 11.99
-    description: Chicken Stew over rice, corn, cucumber & tomato salad, and a dinner roll.
+    description: smothered pork chop over rice, corn, cucumber & tomato salad, and a
+      dinner roll.
   - day: Friday
     price: 12.99
     description: >-
