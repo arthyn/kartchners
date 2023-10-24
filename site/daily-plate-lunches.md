@@ -21,7 +21,7 @@ days:
       fried chicken (white or dark)
       red beans and rice
       coleslaw, and 
-      cornbread
+      cornbread dressing
   - day: Wednesday
     price: 11.99
     description: Chicken Fried Steak, mashed potatoes with white gravy, green bean
