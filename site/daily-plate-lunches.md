@@ -14,14 +14,14 @@ image: /v1613851779/kartchners/plates/DSC_1536_srqx2f.jpg
 days:
   - day: Monday
     price: 11.99
-    description: Sausage in tomato gravy over rice, corn nuggets, salad, and dinner roll
+    description: pork tenderloin stuffed with boudin wrapped in bacon, loaded mashed
+      potatoes, corn nuggets, cucumber and tomato salad, and a dinner roll
   - day: Tuesday
     price: 11.99
     description: |-
-      fried chicken (white or dark)
+      fried pork chop 
       red beans and rice
-      coleslaw, and 
-      cornbread dressing
+      coleslaw, and corn bread
   - day: Wednesday
     price: 11.99
     description: Chicken Fried Steak, mashed potatoes with white gravy, green bean
