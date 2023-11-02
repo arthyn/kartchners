@@ -28,8 +28,7 @@ days:
       casserole, and a dinner roll.
   - day: Thurdsay
     price: 11.99
-    description: smothered pork chop over rice, corn, cucumber & tomato salad, and a
-      dinner roll.
+    description: smothered beef over rice, corn, cucumber & tomato salad, and a dinner roll.
   - day: Friday
     price: 12.99
     description: >-
