@@ -14,8 +14,7 @@ image: /v1613851779/kartchners/plates/DSC_1536_srqx2f.jpg
 days:
   - day: Monday
     price: 11.99
-    description: pork tenderloin stuffed with boudin wrapped in bacon, loaded mashed
-      potatoes, corn nuggets, cucumber and tomato salad, and a dinner roll
+    description: crawfish fettucine, corn, fried okra, and dinner roll
   - day: Tuesday
     price: 11.99
     description: |-
