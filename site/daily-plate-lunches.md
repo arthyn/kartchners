@@ -13,12 +13,12 @@ title: Daily Plate Lunches
 image: /v1613851779/kartchners/plates/DSC_1536_srqx2f.jpg
 days:
   - day: Monday
-    price: 11.99
+    price: 1299
     description: crawfish fettucine, corn, fried okra, and dinner roll
   - day: Tuesday
     price: 11.99
     description: |-
-      fried pork chop 
+      fried chicken(white or dark meat)
       red beans and rice
       coleslaw, and corn bread
   - day: Wednesday
