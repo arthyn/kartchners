@@ -27,7 +27,7 @@ days:
       casserole, corn nuggets  and a dinner roll.
   - day: Thurdsay
     price: 11.99
-    description: smothered beef over rice, corn, cucumber & tomato salad, and a dinner roll.
+    description: meatball stew, corn, cucumber & tomato salad, and dinner roll
   - day: Friday
     price: 12.99
     description: >-
