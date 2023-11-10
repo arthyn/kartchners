@@ -31,8 +31,6 @@ days:
   - day: Friday
     price: 12.99
     description: >-
-      shrimp fettucine, corn, cucumber & tomato salad.
-                                          OR      
       fried fish, french fries, hush puppies, dinner roll, and tarter sauce 
 
       fried shrimp,  french fries, hush puppies, dinner roll, and tarter sauce. fish and shrimp can be made as a combo
