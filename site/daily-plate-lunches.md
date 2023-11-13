@@ -13,8 +13,9 @@ title: Daily Plate Lunches
 image: /v1613851779/kartchners/plates/DSC_1536_srqx2f.jpg
 days:
   - day: Monday
-    price: 1299
-    description: crawfish fettucine, corn, fried okra, and dinner roll
+    price: 1199
+    description: boudin stuffed tenderloin wrapped in bacon,loaded mashed
+      potatoes,fried okra, and cucumber and tomato salad
   - day: Tuesday
     price: 11.99
     description: |-
