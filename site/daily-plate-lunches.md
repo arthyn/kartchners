@@ -24,7 +24,7 @@ days:
       coleslaw, and corn bread
   - day: Wednesday
     price: 11.99
-    description: chicken fried steak, mashed potatoes withwhite gravy, green bean
+    description: hamburger steak, mashed potatoes with brown gravy, green bean
       casserole, corn nuggets  and a dinner roll.
   - day: Thurdsay
     price: 11.99
