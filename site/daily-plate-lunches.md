@@ -25,7 +25,7 @@ days:
   - day: Wednesday
     price: 11.99
     description: hamburger steak, mashed potatoes with brown gravy, green bean
-      casserole, corn nuggets  and a dinner roll.
+      casserole, and a dinner roll.
   - day: Thurdsay
     price: 11.99
     description: meatball stew, corn, cucumber & tomato salad, and dinner roll
