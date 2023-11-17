@@ -6,7 +6,7 @@ price: 20.29
 social_image: ""
 banner_format: ""
 layout: product
-name: Seasoned Choice Filet Mignon
+name: Seasoned Filet Mignon
 sku: 36
 product_options: []
 canonical: ""
