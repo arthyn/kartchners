@@ -14,8 +14,8 @@ image: /v1613851779/kartchners/plates/DSC_1536_srqx2f.jpg
 days:
   - day: Monday
     price: 1199
-    description: boudin stuffed tenderloin wrapped in bacon,loaded mashed
-      potatoes,fried okra, and cucumber and tomato salad
+    description: fried boneless chicken thigh, loaded mashed potatoes, fried corn
+      nuggets, and cucumber and tomato salad
   - day: Tuesday
     price: 11.99
     description: |-
