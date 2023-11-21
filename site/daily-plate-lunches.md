@@ -18,17 +18,13 @@ days:
       nuggets, and cucumber and tomato salad
   - day: Tuesday
     price: 11.99
-    description: |-
-      friedpork chop
-      red beans and rice
-      coleslaw, and corn bread
+    description: no plate lunches
   - day: Wednesday
     price: 11.99
-    description: hamburger steak, mashed potatoes with brown gravy, green bean
-      casserole, and a dinner roll.
+    description: no plate lunches
   - day: Thurdsay
     price: 11.99
-    description: pork stew, corn, mac & cheese, and dinner roll
+    description: Happy Thanksgiving!!
   - day: Friday
     price: 12.99
     description: >-
