@@ -14,8 +14,7 @@ image: /v1613851779/kartchners/plates/DSC_1536_srqx2f.jpg
 days:
   - day: Monday
     price: 1199
-    description: fried boneless chicken thigh, loaded mashed potatoes, fried corn
-      nuggets, and cucumber and tomato salad
+    description: fried boneless chicken thigh, loaded Mashed Potatoes, fried okra,coleslaw
   - day: Tuesday
     price: 11.99
     description: no plate lunches
