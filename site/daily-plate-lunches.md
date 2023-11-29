@@ -17,10 +17,12 @@ days:
     description: fried boneless chicken thigh, loaded Mashed Potatoes, fried okra,coleslaw
   - day: Tuesday
     price: 11.99
-    description: no plate lunches
+    description: "1"
   - day: Wednesday
     price: 11.99
-    description: no plate lunches
+    description: |-
+      Chicken Fried Steak with white gravy
+      mashed potatoes, green bean casserole and a dinner roll
   - day: Thurdsay
     price: 11.99
     description: Happy Thanksgiving!!
