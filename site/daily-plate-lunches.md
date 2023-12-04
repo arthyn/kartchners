@@ -18,16 +18,16 @@ days:
       nuggets, and dinner roll
   - day: Tuesday
     price: 11.99
-    description: "1"
+    description: fried chicken (white or dark), red beans & sausage over rice, cole
+      slaw, and cornbread
   - day: Wednesday
     price: 11.99
     description: |-
-      Chicken Fried Steak with white gravy
-      mashed potatoes, green bean casserole and a dinner roll
+      hamburger steak with brown gravy,
+      mashed potatoes, green bean casserole, and a dinner roll
   - day: Thurdsay
     price: 11.99
-    description: chicken stew (white or dark) over rice, corn, cucumber & tomato
-      salad, and dinner roll
+    description: smothered beef over rice, corn, cucumber & tomato salad, and dinner roll
   - day: Friday
     price: 12.99
     description: >-
