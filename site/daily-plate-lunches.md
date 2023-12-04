@@ -14,7 +14,8 @@ image: /v1613851779/kartchners/plates/DSC_1536_srqx2f.jpg
 days:
   - day: Monday
     price: 1199
-    description: fried boneless chicken thigh, loaded Mashed Potatoes, fried okra,coleslaw
+    description: fried boneless chicken thigh, loaded Mashed Potatoes, fried corn
+      nuggets, and dinner roll
   - day: Tuesday
     price: 11.99
     description: "1"
