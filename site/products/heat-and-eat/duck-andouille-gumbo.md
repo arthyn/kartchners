@@ -14,9 +14,7 @@ weight__display_: 1 lb
 banner_alt: ""
 weight: 16
 image: /v1627929849/kartchners/duck_gumbo_stncja.jpg
-description: |-
-  *TEMPORARILY OUT OF STOCK*
-  Our own homemade cajun dish, fully cooked and ready to be boiled and served.
+description: Our own homemade cajun dish, fully cooked and ready to be boiled and served.
 tags: []
 meta_title: ""
 ---
