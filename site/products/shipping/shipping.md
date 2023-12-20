@@ -15,6 +15,8 @@ short_description: ""
 image: /v1637606894/kartchners/SHIPPING_MAP_3_fcpoal.jpg
 meta_title: ""
 ---
+> **ALL ORDERS PLACED AFTER 12:00 ON 12/20 WILL BE SHIPPED ON 12/26!** 
+>
 > All shipments are shipped Monday - Wednesday. Orders that are placed for Friday have to be PRIORITY OVERNIGHT. 
 >
 > For same day shipping please call or place your order online before noon!
@@ -23,4 +25,4 @@ meta_title: ""
 
 **Any further questions, please contact us before placing order!**
 
-##  ***Please call the store directly for dry good only purchases***
+## ***Please call the store directly for dry good only purchases***
