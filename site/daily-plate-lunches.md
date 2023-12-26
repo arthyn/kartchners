@@ -18,16 +18,16 @@ days:
       nuggets, and dinner roll
   - day: Tuesday
     price: 11.99
-    description: fried chickien (white or dark), white beans & sausage over rice,
-      cole slaw, and dinner roll
+    description: chicken stew (boneless thighs) over rice, corn, fried orka, and diner roll
   - day: Wednesday
     price: 11.99
     description: |-
-      hamburger steak with brown gravy,
+      chicken fried steak with white gravy,
       mashed potatoes, green bean casserole, and a dinner roll
   - day: Thurdsay
     price: 11.99
-    description: smothered beef over rice, corn, cucumber & tomato salad, and dinner roll
+    description: smothered pork over rice, mac and cheese, cucumber & tomato salad,
+      dinner roll
   - day: Friday
     price: 12.99
     description: >-
@@ -36,7 +36,10 @@ days:
       fried shrimp,  french fries, hush puppies, dinner roll, and tarter sauce. fish and shrimp can be made as a combo
   - day: Sunday
     price: 12.99
-    description: NO LUNCH!!!!!!
+    description: >-
+      BBQ Dinner
+
+      Your choice of 1/2 chicken, pork steak, or ribs, served with potato salad, baked beans, rice dressing and dinner rolls  
 image_format: ar_1.3,c_crop/f_auto,q_80
 meta_title: ""
 ---
