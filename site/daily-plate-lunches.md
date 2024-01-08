@@ -14,21 +14,19 @@ image: /v1613851779/kartchners/plates/DSC_1536_srqx2f.jpg
 days:
   - day: Monday
     price: 1199
-    description: |-
-      *No Plate Lunches*
-      Happy New Year!!
+    description: Baked Chicken (white or dark), loaded mashed potatoes, corn
+      nuggets, mac & cheese, dinner roll
   - day: Tuesday
     price: 11.99
-    description: chicken stew (boneless thighs) over rice, corn, fried orka, and diner roll
+    description: Fried Pork Chop, white beans over rice, cole slaw, and dinner roll
   - day: Wednesday
     price: 11.99
     description: |-
-      hamburger steak with brown gravy,
+      country fried steak with white gravy,
       mashed potatoes, green bean casserole, and a dinner roll
   - day: Thurdsay
     price: 11.99
-    description: chicken stew (white or dark) over rice, corn, cucumber & tomato
-      salad, dinner roll
+    description: meatball stew, corn, cucumber & tomato salad, dinner roll
   - day: Friday
     price: 12.99
     description: >-
