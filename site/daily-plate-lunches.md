@@ -14,8 +14,11 @@ image: /v1613851779/kartchners/plates/DSC_1536_srqx2f.jpg
 days:
   - day: Monday
     price: 1199
-    description: Baked Chicken (white or dark), loaded mashed potatoes, corn
-      nuggets, mac & cheese, dinner roll
+    description: |-
+      Fried Boneless Chicken Thigh
+      Loaded Mashed Potatoes
+      Fried Okra
+      Dinner Roll
   - day: Tuesday
     price: 11.99
     description: Fried Pork Chop, white beans over rice, cole slaw, and dinner roll
