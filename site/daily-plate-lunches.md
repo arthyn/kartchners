@@ -25,7 +25,7 @@ days:
   - day: Wednesday
     price: 11.99
     description: |-
-      country fried steak with white gravy,
+      hamburger steak with brown gravy,
       mashed potatoes, green bean casserole, and a dinner roll
   - day: Thurdsay
     price: 11.99
