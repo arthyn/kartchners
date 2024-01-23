@@ -22,7 +22,7 @@ days:
       Dinner Roll
   - day: Tuesday
     price: 11.99
-    description: Fried Pork Chop, white beans over rice, cole slaw, and dinner roll
+    description: Fried Pork Chop, red beans over rice, coleslaw, and cornbread
   - day: Wednesday
     price: 11.99
     description: |-
