@@ -15,10 +15,9 @@ days:
   - day: Monday
     price: 1199
     description: |-
-      fried boneless chicken thigh
-      Loaded Mashed Potatoes
-      Fried corn nuggets
-      cucumber & tomato salad
+      Spaghetti & Meatballs
+      Fried Okra
+      Cucumber & Tomato Salad
       Dinner Roll
   - day: Tuesday
     price: 11.99
