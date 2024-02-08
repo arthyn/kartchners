@@ -30,7 +30,11 @@ days:
       mashed potatoes, green bean casserole, and a dinner roll
   - day: Thurdsay
     price: 11.99
-    description: smothered pork, mac & cheese, corn, and a dinner roll
+    description: |-
+      meatball stew
+      corn
+      cucumber & tomato salad 
+      dinner roll
   - day: Friday
     price: 12.99
     description: >-
