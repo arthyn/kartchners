@@ -15,8 +15,8 @@ days:
   - day: Monday
     price: 1199
     description: |-
-      Spaghetti & Meatballs
-      Fried Okra
+      boneless chicken thigh
+      mac and cheese corn nuggets
       Cucumber & Tomato Salad
       Dinner Roll
   - day: Tuesday
