@@ -21,8 +21,10 @@ days:
       Dinner Roll
   - day: Tuesday
     price: 11.99
-    description: Fried Chicken (white or dark) , red beans over rice, coleslaw, and
-      cornbread
+    description: |-
+      Fried Pork Chop
+      White beans over rice, 
+      coleslaw, and cornbread
   - day: Wednesday
     price: 11.99
     description: |-
