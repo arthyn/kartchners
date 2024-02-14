@@ -27,9 +27,12 @@ days:
       coleslaw, and cornbread
   - day: Wednesday
     price: 11.99
-    description: |-
-      chicken fried steak with white gravy,
-      mashed potatoes, green bean casserole, and a dinner roll
+    description: >-
+      Crawfish Etouffee, corn, cucumber & tomato salad
+                                          OR
+      fried fish, french fries, hush puppies, dinner roll, and tarter sauce 
+
+      fried shrimp,  french fries, hush puppies, dinner roll, and tarter sauce. fish and shrimp can be made as a combo
   - day: Thurdsay
     price: 11.99
     description: |-
@@ -38,7 +41,7 @@ days:
       cucumber & tomato salad 
       dinner roll
   - day: Friday
-    price: 12.99
+    price: 13
     description: >-
       fried fish, french fries, hush puppies, dinner roll, and tarter sauce 
 
