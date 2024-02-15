@@ -40,10 +40,10 @@ days:
   - day: Thurdsay
     price: 11.99
     description: |-
-      meatball stew
-      corn
-      cucumber & tomato salad 
-      dinner roll
+      Chicken Stew (White Or Dark)
+      Fried Okra
+      Coleslaw
+      Dinner Roll
   - day: Friday
     price: 13
     description: >-
