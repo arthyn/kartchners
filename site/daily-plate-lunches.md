@@ -15,8 +15,9 @@ days:
   - day: Monday
     price: 1199
     description: |-
-      boneless chicken thigh
-      mac and cheese corn nuggets
+      fried chicken thigh
+      loaded mashed potatoes
+      corn
       Cucumber & Tomato Salad
       Dinner Roll
   - day: Tuesday
