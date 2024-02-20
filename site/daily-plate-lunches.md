@@ -24,7 +24,7 @@ days:
     price: 11.99
     description: |-
       Fried Pork Chop
-      White beans over rice, 
+      red beans over rice, 
       coleslaw, and cornbread
   - day: Wednesday
     price: 1299
