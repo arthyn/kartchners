@@ -27,17 +27,12 @@ days:
       red beans over rice, 
       coleslaw, and cornbread
   - day: Wednesday
-    price: 1299
-    description: >-
-      Crawfish Etouffee, corn, cucumber & tomato salad
-                                          OR
-      fried fish, french fries, hush puppies, dinner roll, and tarter sauce 
-
-      fried shrimp,  french fries, hush puppies, dinner roll, and tarter sauce. fish and shrimp can be made as a combo
-
-                                          OR
-
-      Crab burger $6.49 or combo with fries $9.99
+    price: 1199
+    description: |-
+      Chicken Fried Steak
+      Mashed Potatoes With White Gravy
+      Green Bean Casserole
+      Dinner Roll
   - day: Thurdsay
     price: 11.99
     description: |-
