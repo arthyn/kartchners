@@ -15,9 +15,8 @@ days:
   - day: Monday
     price: 1199
     description: |-
-      fried chicken thigh
-      loaded mashed potatoes
-      corn
+      Cheesy Chicken Spaghetti
+      Fried Okra
       Cucumber & Tomato Salad
       Dinner Roll
   - day: Tuesday
