@@ -8,7 +8,9 @@ banner_format: ""
 layout: product
 name: Mild Slim Sticks
 sku: 23
-product_options: []
+product_options:
+  - option_price: 10.99
+    option_name: Pepperjack Cheese
 canonical: ""
 weight__display_: 1 lb
 banner_alt: ""
