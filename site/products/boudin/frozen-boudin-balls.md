@@ -19,5 +19,7 @@ product_options:
     option_price: 17.99
   - option_price: 17.99
     option_name: Boudin Balls Stuffed With Pepper Jack Cheese
+  - option_price: 17.99
+    option_name: Pepper Jack Cheese
 tags: null
 ---
