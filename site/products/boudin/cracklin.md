@@ -17,8 +17,6 @@ product_options:
     option_price: 13.49
   - option_name: 1lb. pork cracklin just salt
     option_price: 25.49
-  - option_price: 50.99
-    option_name: "5lb Bag Frozen Chicken Cracklin "
 canonical: ""
 weight__display_: 1 lb
 banner_alt: ""
