@@ -23,8 +23,8 @@ product_options:
     option_price: 10.49
   - option_name: pork
     option_price: 7.39
-  - option_name: jalapeno pork
-    option_price: 8.29
+  - option_name: Swamp (Seafood Boil)
+    option_price: 9.99
   - option_name: deer with jalapeno pepper jack cheese
     option_price: 10.49
   - option_name: caution hot pork
