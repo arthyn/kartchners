@@ -15,6 +15,10 @@ product_options:
     option_price: 10.29
   - option_name: crawfish dressing
     option_price: 13.29
+  - option_price: 9.99
+    option_name: Boudin
+  - option_price: 9.99
+    option_name: Green Onion Sausage
 canonical: ""
 weight__display_: 1 lb
 banner_alt: ""
