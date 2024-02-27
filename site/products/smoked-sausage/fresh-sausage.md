@@ -31,6 +31,12 @@ product_options:
     option_price: 8.99
   - option_name: pork
     option_price: 10.59
+  - option_price: 12.99
+    option_name: Duck & Pork
+  - option_price: 12.99
+    option_name: Mixed (Beef&Pork)
+  - option_price: 10.99
+    option_name: Jalapeno Chicken
 canonical: ""
 weight__display_: 1 lb
 banner_alt: ""
