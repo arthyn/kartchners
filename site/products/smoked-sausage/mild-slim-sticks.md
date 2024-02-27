@@ -2,7 +2,7 @@
 meta_description: ""
 banner_class: ""
 banner_image: ""
-price: 10.49
+price: 0
 social_image: ""
 banner_format: ""
 layout: product
@@ -11,6 +11,8 @@ sku: 23
 product_options:
   - option_price: 10.99
     option_name: Pepperjack Cheese
+  - option_price: 10.49
+    option_name: pork
 canonical: ""
 weight__display_: 1 lb
 banner_alt: ""
