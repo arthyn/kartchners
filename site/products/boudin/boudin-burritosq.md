@@ -1,6 +1,6 @@
 ---
 layout: product
-name: Boudin Burritosq
+name: Boudin Burritos
 sku: 125
 price: 7.99
 weight__display_: 1 lb
