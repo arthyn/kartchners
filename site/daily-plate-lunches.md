@@ -35,9 +35,9 @@ days:
   - day: Thurdsay
     price: 11.99
     description: |-
-      Chicken Stew (White Or Dark)
-      Fried Okra
-      Coleslaw
+      Smothered fresh green onion sausage over rice
+      sweet pea salad.
+      corn
       Dinner Roll
   - day: Friday
     price: 13
