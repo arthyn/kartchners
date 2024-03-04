@@ -15,7 +15,8 @@ days:
   - day: Monday
     price: 1199
     description: |-
-      Cheesy Chicken Spaghetti
+      Baked Chicken (White or Dark)
+      Mac & Cheese
       Fried Okra
       Cucumber & Tomato Salad
       Dinner Roll
