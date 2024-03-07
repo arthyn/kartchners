@@ -36,8 +36,8 @@ days:
   - day: Thurdsay
     price: 11.99
     description: |-
-      Smothered fresh green onion sausage over rice
-      sweet pea salad.
+      Smothered Pork
+      Cucumber & tomato salad
       corn
       Dinner Roll
   - day: Friday
