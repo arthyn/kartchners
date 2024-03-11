@@ -17,8 +17,7 @@ days:
     description: |-
       Baked Chicken (White or Dark)
       Mac & Cheese
-      Fried Okra
-      Cucumber & Tomato Salad
+      Corn Nuggets
       Dinner Roll
   - day: Tuesday
     price: 11.99
