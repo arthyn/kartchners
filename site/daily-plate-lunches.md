@@ -22,7 +22,7 @@ days:
   - day: Tuesday
     price: 11.99
     description: |-
-      Fried Pork Steak
+      Fried Pork Chop
       red beans over rice, 
       coleslaw, and cornbread
   - day: Wednesday
