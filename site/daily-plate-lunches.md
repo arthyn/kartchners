@@ -15,9 +15,10 @@ days:
   - day: Monday
     price: 1199
     description: |-
-      Baked Chicken (White or Dark)
+      Fried Chicken Thigh
+      Loaded Mashed Potatoes
       Mac & Cheese
-      Corn Nuggets
+      Fried Okra
       Dinner Roll
   - day: Tuesday
     price: 11.99
