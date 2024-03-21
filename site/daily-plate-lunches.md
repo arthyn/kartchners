@@ -36,7 +36,7 @@ days:
   - day: Thurdsay
     price: 11.99
     description: |-
-      Smothered Pork
+      Chicken Stew (white or dark meat)
       Cucumber & tomato salad
       corn
       Dinner Roll
