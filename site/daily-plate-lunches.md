@@ -28,8 +28,8 @@ days:
   - day: Wednesday
     price: 1199
     description: |-
-      Hamburger Steak
-      Mashed Potatoes With Brown Gravy
+      country fried  Steak
+      Mashed Potatoes With white Gravy
       Green Bean Casserole
       Dinner Roll
   - day: Thurdsay
