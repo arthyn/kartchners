@@ -35,8 +35,9 @@ days:
   - day: Thurdsay
     price: 11.99
     description: |-
-      smothered pork over rice
-      Cucumber & tomato salad
+      Chicken Stew
+      (white or dark meat)
+      Smothered Cabbage
       corn
       Dinner Roll
   - day: Friday
