@@ -15,7 +15,7 @@ days:
   - day: Monday
     price: 1199
     description: |-
-      Spaghetti & Meatballs
+      Cheesy Chicken Spaghetti
       Fried Corn Nuggets
       Cucumber & Tomato Salad
       Dinner Roll
