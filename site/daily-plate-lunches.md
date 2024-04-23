@@ -22,9 +22,10 @@ days:
   - day: Tuesday
     price: 11.99
     description: |-
-      Fried Pork Chop
-      red beans over rice, 
-      coleslaw, and cornbread
+      Baked Chicken ( White Or Dark Meat)
+      Cornbread Dressing
+      Coleslaw
+      Mac-N-Cheese
   - day: Wednesday
     price: 1199
     description: |-
