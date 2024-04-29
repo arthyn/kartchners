@@ -22,23 +22,23 @@ days:
   - day: Tuesday
     price: 11.99
     description: |-
-      Baked Chicken ( White Or Dark Meat)
-      Cornbread Dressing
+      Fried Pork Chop
+      Red Beans & Rice
       Coleslaw
-      Mac-N-Cheese
+      Cornbread
   - day: Wednesday
     price: 1199
     description: |-
-      country fried  Steak
+      Chicken Fried Chicken
       Mashed Potatoes With white Gravy
       Green Bean Casserole
       Dinner Roll
   - day: Thurdsay
     price: 11.99
     description: |-
-      Meatball Stew
-      Coleslaw
-      corn
+      Smothered Beef Over Rice
+      Blackeye Peas
+      Smothered Cabbage
       Dinner Roll
   - day: Friday
     price: 13
