@@ -15,8 +15,8 @@ days:
   - day: Monday
     price: 1199
     description: |-
-      Cheesy Chicken Spaghetti
-      Fried Corn Nuggets
+      Cajun Chicken Pasta
+      Corn
       Cucumber & Tomato Salad
       Dinner Roll
   - day: Tuesday
