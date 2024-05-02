@@ -18,7 +18,10 @@ weight__display_: "0"
 banner_alt: ""
 weight: 5
 image: ""
-description: 10 links per box
+description: |-
+  10 Links Per Box (Regular)
+
+  1﻿2 Links Per Box (Smoked)
 tags: []
 meta_title: ""
 ---
