@@ -27,8 +27,6 @@ product_options:
     option_price: 13.99
   - option_price: 13.99
     option_name: Chicken Balls
-  - option_price: 14.99
-    option_name: Chicken Balls Stuffed With Pepper jack Cheese
 canonical: ""
 weight__display_: "0"
 banner_alt: ""
