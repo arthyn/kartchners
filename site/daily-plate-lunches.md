@@ -15,8 +15,8 @@ days:
   - day: Monday
     price: 1199
     description: |-
-      Spaghetti & Meatballs
-      Corn Nuggets
+      Boneless Fried Chicken Thigh
+      Loaded Mashed Potatoes
       Cucumber & Tomato Salad
       Dinner Roll
   - day: Tuesday
