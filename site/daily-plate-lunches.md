@@ -36,8 +36,8 @@ days:
   - day: Thurdsay
     price: 11.99
     description: |-
-      Smothered Beef Over Rice
-      Blackeye Peas
+      Chicken Stew (White Or Dark Meat)
+      corn
       Smothered Cabbage
       Dinner Roll
   - day: Friday
