@@ -13,7 +13,7 @@ title: Daily Plate Lunches
 image: /v1613851779/kartchners/plates/DSC_1536_srqx2f.jpg
 days:
   - day: Monday
-    price: 1199
+    price: 1299
     description: |-
       Cajun Crawfish Pasta
       corn
