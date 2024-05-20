@@ -15,14 +15,14 @@ days:
   - day: Monday
     price: 1199
     description: |-
-      Boneless Fried Chicken Thigh
-      Loaded Mashed Potatoes
+      Cajun Crawfish Pasta
+      corn
       Cucumber & Tomato Salad
       Dinner Roll
   - day: Tuesday
     price: 11.99
     description: |-
-      Fried Pork Chop
+      Fried Chicken
       Red Beans & Rice
       Coleslaw
       Cornbread
