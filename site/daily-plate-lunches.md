@@ -22,7 +22,7 @@ days:
   - day: Tuesday
     price: 11.99
     description: |-
-      Fried Chicken
+      Fried Pork Chop
       Red Beans & Rice
       Coleslaw
       Cornbread
