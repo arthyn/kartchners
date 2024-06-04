@@ -23,9 +23,9 @@ days:
     price: 11.99
     description: |-
       Fried Pork Chop
-      Red Beans & Rice
-      Coleslaw
-      Cornbread
+      rice dressing 
+      corn nuggets
+      coleslaw
   - day: Wednesday
     price: 1199
     description: |-
