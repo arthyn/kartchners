@@ -16,7 +16,7 @@ days:
     price: 1299
     description: |-
       Cajun Crawfish Pasta
-      corn
+      corn nuggets
       Cucumber & Tomato Salad
       Dinner Roll
   - day: Tuesday
