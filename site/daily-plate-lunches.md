@@ -22,10 +22,11 @@ days:
   - day: Tuesday
     price: 11.99
     description: |-
-      Fried Pork Chop
-      rice dressing 
-      corn nuggets
-      coleslaw
+      Fried Chicken (White Or Dark Meat)
+      Red Beans and Sausage Over Rice
+      Corn Bread
+      Coleslaw
+      Dinner Roll
   - day: Wednesday
     price: 1199
     description: |-
