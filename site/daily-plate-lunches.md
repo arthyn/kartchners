@@ -37,9 +37,9 @@ days:
   - day: Thurdsay
     price: 11.99
     description: |-
-      Chicken Stew
+      Meatball Stew
       corn
-      Smothered Cabbage
+      Corn
       Dinner Roll
   - day: Friday
     price: 13
