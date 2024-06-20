@@ -37,9 +37,9 @@ days:
   - day: Thurdsay
     price: 11.99
     description: |-
-      Meatball Stew
-      corn
-      Corn
+      Smothered Pork Over Rice
+      Smothered Potatoes
+      Sweet Pea Salad
       Dinner Roll
   - day: Friday
     price: 13
