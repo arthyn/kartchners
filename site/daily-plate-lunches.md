@@ -37,9 +37,9 @@ days:
   - day: Thurdsay
     price: 11.99
     description: |-
-      Smothered Pork Over Rice
-      Smothered Potatoes
-      Sweet Pea Salad
+      Smothered Beef Over Rice
+      Smothered Cabbage
+      Corn
       Dinner Roll
   - day: Friday
     price: 13
