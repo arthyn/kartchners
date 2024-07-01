@@ -15,9 +15,9 @@ days:
   - day: Monday
     price: 1299
     description: |-
-      Shrimp Pasta
-      corn nuggets
-      Cucumber & Tomato Salad
+      Crawfish Pasta
+      Fried Okra
+      Corn
       Dinner Roll
   - day: Tuesday
     price: 11.99
