@@ -35,12 +35,12 @@ days:
       Green Bean Casserole
       Dinner Roll
   - day: Thurdsay
-    price: 11.99
+    price: 0
     description: |-
-      Smothered Beef Over Rice
-      Smothered Cabbage
-      Corn
-      Dinner Roll
+      
+      No Plate Lunches Today
+      Chili Dogs $1.99
+      Hot Links On Bun $3.19
   - day: Friday
     price: 13
     description: >-
