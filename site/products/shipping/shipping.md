@@ -15,13 +15,15 @@ short_description: ""
 image: /v1637606894/kartchners/SHIPPING_MAP_3_fcpoal.jpg
 meta_title: ""
 ---
-> **ALL ORDERS PLACED AFTER 12:00 ON 12/20 WILL BE SHIPPED ON 12/26!** 
->
+
+
 > All shipments are shipped Monday - Wednesday.
 >
-> For same day shipping please call or place your order online before noon!
+> W﻿e will ship on Thursday but you HAVE to choose PRIORTY OVERNIGHT.
 >
-> The picture shown above is a great guideline when choosing shipping method. As of now, we are only doing 2day shipments for all out of state orders as FedEx is experiencing delays and perishable items are not guaranteed to remain frozen after 2 days.
+> I﻿f you place an order Thursday-Sunday, it will not be shipped out until the Monday.
+>
+> For same day shipping please call or place your order online before noon!
 
 **Any further questions, please contact us before placing order!**
 
