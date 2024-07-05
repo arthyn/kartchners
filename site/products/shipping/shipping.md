@@ -17,7 +17,7 @@ meta_title: ""
 ---
 > **ALL ORDERS PLACED AFTER 12:00 ON 12/20 WILL BE SHIPPED ON 12/26!** 
 >
-> All shipments are shipped Monday - Wednesday. Orders that are placed for Friday have to be PRIORITY OVERNIGHT. 
+> All shipments are shipped Monday - Wednesday.
 >
 > For same day shipping please call or place your order online before noon!
 >
