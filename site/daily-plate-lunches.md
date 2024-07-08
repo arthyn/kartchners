@@ -13,11 +13,11 @@ title: Daily Plate Lunches
 image: /v1613851779/kartchners/plates/DSC_1536_srqx2f.jpg
 days:
   - day: Monday
-    price: 1299
+    price: 1199
     description: |-
-      Crawfish Pasta
-      Fried Okra
-      Corn
+      Chicken Fettucine
+      Cucumber & Tomato Salad
+      Corn Nuggets
       Dinner Roll
   - day: Tuesday
     price: 11.99
