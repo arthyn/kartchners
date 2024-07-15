@@ -15,9 +15,9 @@ days:
   - day: Monday
     price: 1199
     description: |-
-      Chicken Fettucine
+      Crawfish Pasta
       Cucumber & Tomato Salad
-      Corn Nuggets
+      Fried Okra
       Dinner Roll
   - day: Tuesday
     price: 11.99
