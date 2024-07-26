@@ -15,11 +15,7 @@ short_description: ""
 image: /v1637606894/kartchners/SHIPPING_MAP_3_fcpoal.jpg
 meta_title: ""
 ---
-
-
 > All shipments are shipped Monday - Wednesday.
->
-> W﻿e will ship on Thursday but you HAVE to choose PRIORTY OVERNIGHT.
 >
 > I﻿f you place an order Thursday-Sunday, it will not be shipped out until the Monday.
 >
