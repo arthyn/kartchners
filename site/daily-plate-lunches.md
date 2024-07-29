@@ -15,10 +15,10 @@ days:
   - day: Monday
     price: 1199
     description: |-
-      Crawfish Pasta
-      Cucumber & Tomato Salad
+      Boudin & Pepperjack Cheese Stuffed Chicken Thigh
+      Smothered Green Beans
+      Mac & Cheese
       Fried Okra
-      Dinner Roll
   - day: Tuesday
     price: 11.99
     description: |-
