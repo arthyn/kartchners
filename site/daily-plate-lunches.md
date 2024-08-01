@@ -37,16 +37,16 @@ days:
   - day: Thurdsay
     price: 1199
     description: |-
-      Smothered Pork Chop Over Rice
-      Smothered Cabbage
-      Sweet Pea Salad 
+      Chicken Ball Stew Over Rice
+      Corn
+      Cucumber & Tomato Salad  
       Dinner Roll 
   - day: Friday
     price: 13
     description: >-
       fried fish, french fries, hush puppies, dinner roll, and tarter sauce 
 
-      fried shrimp,  french fries, hush puppies, dinner roll, and tarter sauce. fish and shrimp can be made as a combo
+      fried shrimp,  french fries, hush puppies, dinner roll, and tarter sauce. fish and shrimp can be made as a combo, burger, or po boy. Also selling Crab Burgers
   - day: Sunday
     price: 12.99
     description: >-
