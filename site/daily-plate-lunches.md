@@ -15,10 +15,8 @@ days:
   - day: Monday
     price: 1199
     description: |-
-      Boudin & Pepperjack Cheese Stuffed Chicken Thigh
-      Smothered Green Beans
-      Mac & Cheese
-      Fried Okra
+      Taco Salad 
+      Corn Nuggets
   - day: Tuesday
     price: 11.99
     description: |-
