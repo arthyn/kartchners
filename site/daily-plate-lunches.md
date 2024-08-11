@@ -15,12 +15,14 @@ days:
   - day: Monday
     price: 1199
     description: |-
-      Taco Salad 
-      Corn Nuggets
+      Pastalya
+      white beans
+      coleslaw
+      dinner roll
   - day: Tuesday
     price: 11.99
     description: |-
-      Fried Porkchop
+      Fried Chicken (white or dark)
       Red Beans and Sausage Over Rice
       Corn Bread
       Coleslaw
@@ -28,14 +30,14 @@ days:
   - day: Wednesday
     price: 1199
     description: |-
-      Chicken Fried Steak
-      Mashed Potatoes With White Gravy
+      Hamburger steak
+      Mashed Potatoes With brown Gravy
       Green Bean Casserole
       Dinner Roll
   - day: Thurdsay
     price: 1199
     description: |-
-      Chicken Ball Stew Over Rice
+      Smothered pork chops
       Corn
       Cucumber & Tomato Salad  
       Dinner Roll 
