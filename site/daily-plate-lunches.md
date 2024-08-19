@@ -15,9 +15,10 @@ days:
   - day: Monday
     price: 1199
     description: |-
-      Pastalya
-      white beans
-      coleslaw
+      Boneless Fried Chicken Thigh
+      Loaded Mashed Potatoes
+      Mac& Cheese
+      Corn
       dinner roll
   - day: Tuesday
     price: 11.99
