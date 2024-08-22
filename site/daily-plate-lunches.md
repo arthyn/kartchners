@@ -38,7 +38,7 @@ days:
   - day: Thurdsay
     price: 1199
     description: |-
-      Smothered pork chops
+      Chicken Ball Stew
       Corn
       Cucumber & Tomato Salad  
       Dinner Roll 
