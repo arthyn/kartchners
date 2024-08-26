@@ -15,10 +15,8 @@ days:
   - day: Monday
     price: 1199
     description: |-
-      Boneless Fried Chicken Thigh
-      Loaded Mashed Potatoes
-      Mac& Cheese
-      Corn
+      Crawfish Pasta
+      Fried Okra
       dinner roll
   - day: Tuesday
     price: 11.99
