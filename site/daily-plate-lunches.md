@@ -17,6 +17,7 @@ days:
     description: |-
       Crawfish Pasta
       Fried Okra
+      Corn
       dinner roll
   - day: Tuesday
     price: 11.99
