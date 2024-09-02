@@ -15,10 +15,10 @@ days:
   - day: Monday
     price: 1199
     description: |-
-      Crawfish Pasta
+      Spicy Chicken Sandwich
+      French Fries
       Fried Okra
-      Corn
-      dinner roll
+      20oz Fountain Drink Included
   - day: Tuesday
     price: 11.99
     description: |-
