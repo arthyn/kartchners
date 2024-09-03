@@ -30,20 +30,26 @@ days:
   - day: Wednesday
     price: 1199
     description: |-
-      Hamburger Steak
+      Chicken Fried Steak
       Mashed Potatoes With Brown Gravy
       Green Bean Casserole
       Dinner Roll
   - day: Thurdsay
     price: 1199
     description: |-
-      Chicken Ball Stew
-      Corn
+      Smothered Pork
+      Mac & Cheese
       Cucumber & Tomato Salad  
       Dinner Roll 
   - day: Friday
     price: 13
     description: >-
+      Shrimp & crab Stew
+
+      Corn Coleslaw
+
+      Or 
+
       fried fish, french fries, hush puppies, dinner roll, and tarter sauce 
 
       fried shrimp,  french fries, hush puppies, dinner roll, and tarter sauce. fish and shrimp can be made as a combo, burger, or po boy. Also selling Crab Burgers
