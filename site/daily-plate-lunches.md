@@ -18,6 +18,7 @@ days:
       Chicken Spaghetti
       Fried Okra
       Corn
+      Dinner Roll
   - day: Tuesday
     price: 11.99
     description: |-
