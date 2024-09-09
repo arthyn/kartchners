@@ -14,11 +14,10 @@ image: /v1613851779/kartchners/plates/DSC_1536_srqx2f.jpg
 days:
   - day: Monday
     price: 1199
-    description: |-
-      Spicy Chicken Sandwich
-      French Fries
+    description: |
+      Chicken Spaghetti
       Fried Okra
-      20oz Fountain Drink Included
+      Corn
   - day: Tuesday
     price: 11.99
     description: |-
