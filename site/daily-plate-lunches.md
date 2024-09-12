@@ -37,8 +37,8 @@ days:
   - day: Thurdsay
     price: 1199
     description: |-
-      Smothered Pork
-      Mac & Cheese
+      Meatball Stew
+      Corn
       Cucumber & Tomato Salad  
       Dinner Roll 
   - day: Friday
