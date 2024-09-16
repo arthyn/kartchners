@@ -15,9 +15,9 @@ days:
   - day: Monday
     price: 1199
     description: |
-      Chicken Spaghetti
-      Fried Okra
-      Corn
+      Fried Chicken Thigh
+      Mashed Potatoes
+      Green Salad
       Dinner Roll
   - day: Tuesday
     price: 11.99
