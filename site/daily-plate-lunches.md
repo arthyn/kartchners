@@ -37,9 +37,9 @@ days:
   - day: Thurdsay
     price: 1199
     description: |-
-      Meatball Stew
+      Smothered Pork Over Rice
       Corn
-      Cucumber & Tomato Salad  
+      Black eye peas
       Dinner Roll 
   - day: Friday
     price: 13
