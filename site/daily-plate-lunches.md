@@ -37,9 +37,9 @@ days:
   - day: Thurdsay
     price: 1199
     description: |-
-      Smothered Pork Over Rice
-      Corn
-      Black eye peas
+      Smothered Beef Over Rice
+      Mac & Cheese
+      Smothered Green Beans
       Dinner Roll 
   - day: Friday
     price: 13
