@@ -31,8 +31,8 @@ days:
   - day: Wednesday
     price: 1199
     description: |-
-      Hamburger Steak 
-      Mashed Potatoes With Brown Gravy
+      Country Fried Steak 
+      Mashed Potatoes With White Gravy
       Green Bean Casserole
       Dinner Roll
   - day: Thurdsay
@@ -43,17 +43,22 @@ days:
       Smothered Green Beans
       Dinner Roll 
   - day: Friday
-    price: 13
+    price: 1299
     description: >-
-      fried fish, french fries, hush puppies, dinner roll, and tarter sauce 
+      Plate Lunch: fried fish &/or fried shrimp with fries, hushpuppies, a
+      dinner roll & tarter sauce......$12.99
 
-      fried shrimp,  french fries, hush puppies, dinner roll, and tarter sauce. fish and shrimp can be made as a combo, burger, or po boy. Also selling Crab Burgers
+      Poboys: fried fish or fried shrimp........$9.99
+
+      Burgers: fried fish, fried shrimp, or crab patty......$6.49
+
+      Fries can be added to a poboy or burger to make a combo: Poboy Combo = $12.99, Burger Combo = $9.99
   - day: Sunday
     price: 12.99
     description: >-
-      BBQ Dinner
+      BBQ Plate Lunch
 
-      Your choice of 1/2 chicken, pork steak, or ribs, served with potato salad, baked beans, rice dressing and dinner rolls  
+      Your choice of: 1/2 chicken, pork steak or ribs, served with potato salad, baked beans, rice dressing and dinner rolls  
 image_format: ar_1.3,c_crop/f_auto,q_80
 meta_title: ""
 ---
