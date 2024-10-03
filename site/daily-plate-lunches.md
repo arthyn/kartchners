@@ -21,7 +21,7 @@ days:
       Cucumber & Tomato Salad
       Dinner Roll
   - day: Tuesday
-    price: 11.99
+    price: 1199
     description: |-
       Fried Pork Chop
       Red Beans and Sausage Over Rice
@@ -29,21 +29,21 @@ days:
       Coleslaw
       Dinner Roll
   - day: Wednesday
-    price: 1199
+    price: 1202
     description: |-
       Country Fried Steak 
       Mashed Potatoes With White Gravy
       Green Bean Casserole
       Dinner Roll
   - day: Thurdsay
-    price: 1199
+    price: 1202
     description: |-
       Smothered Pork Over Rice
       Corn
       Smothered Cabbage
       Dinner Roll 
   - day: Friday
-    price: 1299
+    price: 1301
     description: >-
       Plate Lunch: fried fish &/or fried shrimp with fries, hushpuppies, a
       dinner roll & tarter sauce......$12.99
