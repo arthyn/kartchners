@@ -22,7 +22,7 @@ days:
   - day: Tuesday
     price: 1199
     description: |-
-      Fried Pork Chop
+      Fried Chicken ( White Or Dark Meat)
       Red Beans and Sausage Over Rice
       Corn Bread
       Coleslaw
@@ -30,8 +30,8 @@ days:
   - day: Wednesday
     price: 1202
     description: |-
-      Country Fried Steak 
-      Mashed Potatoes With White Gravy
+      Hamburger Steak
+      Mashed Potatoes With Brown Gravy
       Green Bean Casserole
       Dinner Roll
   - day: Thurdsay
