@@ -22,7 +22,7 @@ days:
   - day: Tuesday
     price: 1199
     description: |-
-      Fried Chicken ( White Or Dark Meat)
+      Fried Porkchop 
       Red Beans and Sausage Over Rice
       Corn Bread
       Coleslaw
