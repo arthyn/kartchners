@@ -37,9 +37,9 @@ days:
   - day: Thurdsay
     price: 1202
     description: |-
-      Smothered Pork Over Rice
+      Smothered Beef Over Rice
       Corn
-      Smothered Cabbage
+      Cucumber & Tomato Salad
       Dinner Roll 
   - day: Friday
     price: 1301
