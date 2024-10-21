@@ -15,9 +15,9 @@ days:
   - day: Monday
     price: 1199
     description: |
-      Baked Chicken leg Quarters
-      Fried Okra
-      Mac & Cheese
+      Chicken Pasta
+      Corn Nuggets
+      Sweet Pea Salad
       Dinner Roll
   - day: Tuesday
     price: 1199
