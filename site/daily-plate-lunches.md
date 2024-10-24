@@ -37,9 +37,9 @@ days:
   - day: Thurdsay
     price: 1202
     description: |-
-      Smothered Beef Over Rice
+      Pork stew over rice
       Corn
-      Cucumber & Tomato Salad
+      Coleslaw
       Dinner Roll 
   - day: Friday
     price: 1301
