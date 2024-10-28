@@ -15,9 +15,9 @@ days:
   - day: Monday
     price: 1199
     description: |
-      Chicken Pasta
-      Corn Nuggets
-      Sweet Pea Salad
+      Baked Chicken ( White or Dark)
+      Mac & Cheese
+      Fried Okra
       Dinner Roll
   - day: Tuesday
     price: 1199
