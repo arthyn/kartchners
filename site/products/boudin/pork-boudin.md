@@ -27,8 +27,6 @@ product_options:
     option_name: Crawfish Boudin
   - option_price: 16.29
     option_name: Deer Boudin
-  - option_price: 10.99
-    option_name: "Hot Jalapeno "
   - option_price: 11.99
     option_name: Blood
 canonical: ""
