@@ -35,7 +35,7 @@ days:
       Green Bean Casserole
       Dinner Roll
   - day: Thurdsay
-    price: 1197
+    price: 1199
     description: |-
       Pork stew over rice
       Corn
