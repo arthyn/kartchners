@@ -42,7 +42,7 @@ days:
       Coleslaw
       Dinner Roll 
   - day: Friday
-    price: 1298
+    price: 1299
     description: >-
       Plate Lunch: fried fish &/or fried shrimp with fries, hushpuppies, a
       dinner roll & tarter sauce......$12.99
