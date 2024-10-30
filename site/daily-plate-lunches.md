@@ -42,7 +42,7 @@ days:
       Coleslaw
       Dinner Roll 
   - day: Friday
-    price: 1299
+    price: 1295
     description: >-
       Plate Lunch: fried fish &/or fried shrimp with fries, hushpuppies, a
       dinner roll & tarter sauce......$12.99
@@ -53,7 +53,7 @@ days:
 
       Fries can be added to a poboy or burger to make a combo: Poboy Combo = $12.99, Burger Combo = $9.99
   - day: Sunday
-    price: 12.99
+    price: 1299
     description: >-
       BBQ Plate Lunch
 
