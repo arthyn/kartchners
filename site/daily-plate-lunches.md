@@ -28,21 +28,21 @@ days:
       Coleslaw
       Dinner Roll
   - day: Wednesday
-    price: 1202
+    price: 1199
     description: |-
       Country Fried Steak
       Mashed Potatoes With White Gravy
       Green Bean Casserole
       Dinner Roll
   - day: Thurdsay
-    price: 1202
+    price: 1197
     description: |-
       Pork stew over rice
       Corn
       Coleslaw
       Dinner Roll 
   - day: Friday
-    price: 1301
+    price: 1298
     description: >-
       Plate Lunch: fried fish &/or fried shrimp with fries, hushpuppies, a
       dinner roll & tarter sauce......$12.99
