@@ -37,9 +37,9 @@ days:
   - day: Thurdsay
     price: 1199
     description: |-
-      Pork stew over rice
+      Chicken Ball Stew 
       Corn
-      Coleslaw
+      Cucumber and Tomato Salad
       Dinner Roll 
   - day: Friday
     price: 1295
