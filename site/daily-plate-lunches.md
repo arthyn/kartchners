@@ -13,7 +13,7 @@ title: Daily Plate Lunches
 image: /v1613851779/kartchners/plates/DSC_1536_srqx2f.jpg
 days:
   - day: Monday
-    price: 1299
+    price: 1199
     description: |-
       Boneless Fried Chicken Thigh
       Mac & Cheese
