@@ -2,7 +2,7 @@
 meta_description: ""
 banner_class: ""
 banner_image: ""
-price: 9.49
+price: 9.99
 social_image: ""
 banner_format: ""
 layout: product
