@@ -14,9 +14,9 @@ image: /v1613851779/kartchners/plates/DSC_1536_srqx2f.jpg
 days:
   - day: Monday
     price: 1299
-    description: |
-      Crawfish Pasta 
-      Sweet Pea Salad
+    description: |-
+      Boneless Fried Chicken Thigh
+      Mac & Cheese
       Corn Nuggets
       Dinner Roll
   - day: Tuesday
