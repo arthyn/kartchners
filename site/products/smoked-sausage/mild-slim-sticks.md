@@ -9,8 +9,6 @@ layout: product
 name: Mild Slim Sticks
 sku: 23
 product_options:
-  - option_price: 10.99
-    option_name: Pepperjack Cheese
   - option_price: 10.49
     option_name: pork
 canonical: ""
