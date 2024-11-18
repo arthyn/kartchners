@@ -15,9 +15,9 @@ days:
   - day: Monday
     price: 1199
     description: |-
-      Boneless Fried Chicken Thigh
-      Mac & Cheese
-      Corn Nuggets
+      Chicken Pasta
+      Fried Okra
+      Sweet Pea Salad
       Dinner Roll
   - day: Tuesday
     price: 1199
