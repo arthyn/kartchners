@@ -15,11 +15,15 @@ short_description: ""
 image: /v1637606894/kartchners/SHIPPING_MAP_3_fcpoal.jpg
 meta_title: ""
 ---
-> All shipments are shipped Monday - Wednesday.
->
-> I﻿f you place an order Thursday-Sunday, it will not be shipped out until the Monday.
->
-> For same day shipping please call or place your order online before noon!
+**\*﻿\*\*\*\*WE WILL NOT BE SHIPPING NOVEMBER 26TH - DECEMBER 1ST\*\*\*\*\***
+
+**I﻿F YOU PLACE AN ORDER ON ANY OF THESE DATES THEY WILL NOT BE SHIPPED OUT UNTIL DECEMBER 2ND.**
+
+All shipments are shipped Monday - Wednesday.
+
+I﻿f you place an order Thursday-Sunday, it will not be shipped out until the Monday.
+
+For same day shipping please call or place your order online before noon!
 
 **Any further questions, please contact us before placing order!**
 
