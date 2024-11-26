@@ -30,10 +30,8 @@ days:
   - day: Wednesday
     price: 1199
     description: |-
-      Hamburger Steak
-      Mashed Potatoes With Brown Gravy
-      Green Bean Casserole
-      Dinner Roll
+      NO PLATE LUNCH!
+      HAPPY THANKSGIVING!
   - day: Thurdsay
     price: 1199
     description: |-
