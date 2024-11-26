@@ -22,8 +22,8 @@ days:
   - day: Tuesday
     price: 1199
     description: |-
-      Fried Chicken (white or dark)
-      Red Beans and Sausage Over Rice
+      Fried Porkchop
+      White Beans and Sausage Over Rice
       Corn Bread
       Coleslaw
       Dinner Roll
