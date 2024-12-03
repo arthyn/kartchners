@@ -23,7 +23,7 @@ days:
     price: 1199
     description: |-
       Fried Chicken (White Or Dark)
-      White Beans and Sausage Over Rice
+      Red Beans and Sausage Over Rice
       Corn Bread
       Coleslaw
       Dinner Roll
