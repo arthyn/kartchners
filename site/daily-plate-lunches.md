@@ -15,9 +15,9 @@ days:
   - day: Monday
     price: 1199
     description: |-
-      Baked Leg Quarters 
-      Fried Okra
+      Fried Boneless Chicken Thigh
       Mac and Cheese
+      Fried Corn Nuggets
       Dinner Roll
   - day: Tuesday
     price: 1199
