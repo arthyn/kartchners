@@ -30,12 +30,14 @@ days:
   - day: Wednesday
     price: 1199
     description: |-
-      NO PLATE LUNCH!
-      HAPPY THANKSGIVING!
+      Country Fried Steak
+      Mashed Potatoes with Brown Gravy
+      Green Bean Casserole
+      Dinner Roll
   - day: Thurdsay
     price: 1199
     description: |-
-      Smothered Pork Over Rice
+      Chicken Ball Stew
       Corn
       Cucumber and Tomato Salad
       Dinner Roll 
