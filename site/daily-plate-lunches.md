@@ -49,7 +49,7 @@ days:
 
       Poboys: fried fish or fried shrimp........$9.99
 
-      Burgers: fried fish, fried shrimp, or crab patty......$6.49
+      Burgers: fried fish, fried shrimp......$6.49
 
       Fries can be added to a poboy or burger to make a combo: Poboy Combo = $12.99, Burger Combo = $9.99
   - day: Sunday
