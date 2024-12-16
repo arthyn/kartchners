@@ -10,7 +10,7 @@ layout: page
                 {% set format = image_format or "ar_1.3,c_crop/f_auto,q_80" %}
                 <img
                     class="max-w-[40vw]"
-                    srcset="{{ (image or default_image) | norm | sizes("https://res.cloudinary.com/hmillerdev/image/upload/" + format)}}" 
+                    srcset="{{ (image or default_image) | norm | sizes("https://res.cloudinary.com/hmillerdev/image/upload/" + format)}}"
                     src="https://res.cloudinary.com/hmillerdev/image/upload/{{ format }}{{ image | norm }}"
                     alt=""
                     width="2400"
@@ -30,7 +30,7 @@ layout: page
                 <hr class="mb-10"/>
                 {% if description %}
                     <p class="mb-6 text-gray-700">{{ description }}</p>
-                {% endif %}  
+                {% endif %}
                 <div class="flex flex-wrap items-center mb-10">
                     {% if hasOptions %}
                         <select name="product-options" x-model="option" class="pl-2 pr-10 py-1 mr-6 mb-3 rounded border border-gray-400 focus:border-gray-500 focus:bg-white focus:ring-0">
@@ -38,7 +38,7 @@ layout: page
                                 <option value="{{option.option_name}}">{{option.option_name}} ${{option.option_price}}</option>
                             {% endfor %}
                         </select>
-                    {% endif %} 
+                    {% endif %}
                     <div class="inline-flex mr-6 mb-3 text-gray-500 rounded border border-gray-400 divide-x divide-gray-400">
                         <button class="h-8 w-8 hover:text-gray-700 transition-colors duration-200" @click="quantity--" :disabled="quantity <= 1">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-8 w-8"><path fill="currentColor" fill-rule="evenodd" d="M17 11a1 1 0 0 1 0 2H7a1 1 0 0 1 0-2h10z"/></svg>
@@ -50,7 +50,7 @@ layout: page
                             <span class="sr-only">Increase quantity</span>
                         </button>
                     </div>
-                    <button 
+                    <button
                         class="snipcart-add-item p-3 mb-3 leading-none font-semibold bg-red-700 hover:bg-red-600 text-white rounded transition-colors duration-200"
                         data-item-id="{{ sku }}"
                         data-item-price="{{ price }}"
@@ -58,6 +58,9 @@ layout: page
                         data-item-name="{{ name }}"
                         data-item-description="{{ description }}"
                         data-item-image="https://res.cloudinary.com/hmillerdev/image/upload/ar_1.3,c_crop/f_auto,q_80{{ (image or default_image) | norm }}"
+                        data-item-custom1-name="TaxJarCategory"
+                        data-item-custom1-value="40030"
+                        data-item-custom1-type="hidden"
                         data-item-weight="{{ (weight * 28.34952) | round }}"
                         {% if hasOptions %}
                             data-item-custom1-name="Option"
@@ -68,7 +71,7 @@ layout: page
                     >
                         Add to Cart
                     </button>
-                </div>                              
+                </div>
             </div>
         </div>
 
