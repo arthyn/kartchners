@@ -58,9 +58,9 @@ layout: page
                         data-item-name="{{ name }}"
                         data-item-description="{{ description }}"
                         data-item-image="https://res.cloudinary.com/hmillerdev/image/upload/ar_1.3,c_crop/f_auto,q_80{{ (image or default_image) | norm }}"
-                        data-item-custom1-name="TaxJarCategory"
-                        data-item-custom1-value="40030"
-                        data-item-custom1-type="hidden"
+                        data-item-custom2-name="TaxJarCategory"
+                        data-item-custom2-value="40030"
+                        data-item-custom2-type="hidden"
                         data-item-weight="{{ (weight * 28.34952) | round }}"
                         {% if hasOptions %}
                             data-item-custom1-name="Option"
