@@ -31,7 +31,7 @@ days:
     price: 1199
     description: |-
       Country Fried Steak
-      Mashed Potatoes with Brown Gravy
+      Mashed Potatoes with White Gravy
       Green Bean Casserole
       Dinner Roll
   - day: Thurdsay
