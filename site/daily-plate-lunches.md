@@ -13,27 +13,14 @@ title: Daily Plate Lunches
 image: /v1613851779/kartchners/plates/DSC_1536_srqx2f.jpg
 days:
   - day: Monday
-    price: 1299
-    description: |-
-      Crawfish Pasta
-      Corn 
-      Fried Okra
-      Dinner Roll
+    price: 0
+    description: No Lunches today. Merry Christmas!
   - day: Tuesday
-    price: 1199
-    description: |-
-      Fried Porkchop
-      Red Beans and Sausage Over Rice
-      Corn Bread
-      Coleslaw
-      Dinner Roll
+    price: 2
+    description: No Lunches Today. Merry Christmas!
   - day: Wednesday
-    price: 1199
-    description: |-
-      Country Fried Steak
-      Mashed Potatoes with White Gravy
-      Green Bean Casserole
-      Dinner Roll
+    price: 2
+    description: Closed. Merry Christmas!
   - day: Thurdsay
     price: 1199
     description: |-
