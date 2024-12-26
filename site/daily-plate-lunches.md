@@ -24,10 +24,10 @@ days:
   - day: Thurdsay
     price: 1199
     description: |-
-      Pork Stew over Rice
-      Corn
+      Boneless Fried Chicken Thigh
+      Loaded Mashed Potatoes
       Cucumber and Tomato Salad
-      Dinner Roll 
+      Dinner Roll
   - day: Friday
     price: 1299
     description: >-
