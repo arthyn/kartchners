@@ -26,7 +26,7 @@ days:
     description: |-
       Boneless Fried Chicken Thigh
       Loaded Mashed Potatoes
-      Cucumber and Tomato Salad
+      Coleslaw
       Dinner Roll
   - day: Friday
     price: 1299
