@@ -13,8 +13,8 @@ title: Daily Plate Lunches
 image: /v1613851779/kartchners/plates/DSC_1536_srqx2f.jpg
 days:
   - day: Monday
-    price: 0
-    description: No Lunches today. Merry Christmas!
+    price: 1199
+    description: Chicken Pasta, Corn, & Fried Okra
   - day: Tuesday
     price: 2
     description: No Lunches Today. Merry Christmas!
