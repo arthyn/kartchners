@@ -16,8 +16,12 @@ days:
     price: 1199
     description: Chicken Pasta, Corn, & Fried Okra
   - day: Tuesday
-    price: 2
-    description: No Lunches Today. Merry Christmas!
+    price: 1199
+    description: |-
+      Fried Chicken (White Or Dark Meat)
+      White Beans & Rice
+      Corn Nuggets 
+      Dinner Roll
   - day: Wednesday
     price: 2
     description: Closed. Merry Christmas!
