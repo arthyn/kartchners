@@ -28,8 +28,8 @@ days:
   - day: Thurdsay
     price: 1199
     description: |-
-      Boneless Fried Chicken Thigh
-      Loaded Mashed Potatoes
+      Fried Chicken Thigh
+      Mac & Cheese
       Coleslaw
       Dinner Roll
   - day: Friday
