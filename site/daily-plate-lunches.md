@@ -18,9 +18,10 @@ days:
   - day: Tuesday
     price: 1199
     description: |-
-      Fried Chicken (White Or Dark Meat)
-      White Beans & Rice
-      Corn Nuggets 
+      Fried Porkchop
+      Red Beans & Rice
+      Coleslaw
+      Cornbread
       Dinner Roll
   - day: Wednesday
     price: 2
