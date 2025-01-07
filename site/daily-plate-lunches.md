@@ -25,25 +25,22 @@ days:
       Dinner Roll
   - day: Wednesday
     price: 2
-    description: Closed. Merry Christmas!
+    description: "Hamburger Steak, Mashed Potatoes, topped with Brown Gravy and
+      Onions (optional), and Green Bean Casserole  "
   - day: Thurdsay
     price: 1199
-    description: |-
-      Fried Chicken Thigh
-      Mac & Cheese
-      Coleslaw
-      Dinner Roll
+    description: Pork Stew served over Rice, Corn, Sweet Peas, and Dinner Roll
   - day: Friday
     price: 1299
     description: >-
       Plate Lunch: fried fish &/or fried shrimp with fries, hushpuppies, a
       dinner roll & tarter sauce......$12.99
 
-      Poboys: fried fish or fried shrimp........$9.99
+      Po boys: fried fish or fried shrimp........$9.99
 
-      Burgers: fried fish, fried shrimp......$6.49
+      Burgers: fried fish, fried shrimp, Crab Burgers......$6.49
 
-      Fries can be added to a poboy or burger to make a combo: Poboy Combo = $12.99, Burger Combo = $9.99
+      Fries can be added to a po boy or burger to make a combo: Po boy Combo = $12.99, Burger Combo = $9.99
   - day: Sunday
     price: 1299
     description: >-
