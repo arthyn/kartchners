@@ -24,7 +24,7 @@ days:
       Cornbread
       Dinner Roll
   - day: Wednesday
-    price: 2
+    price: 1199
     description: "Hamburger Steak, Mashed Potatoes, topped with Brown Gravy and
       Onions (optional), and Green Bean Casserole  "
   - day: Thurdsay
