@@ -14,7 +14,12 @@ image: /v1613851779/kartchners/plates/DSC_1536_srqx2f.jpg
 days:
   - day: Monday
     price: 1299
-    description: Crawfish pasta, fried okra, sweet pea salad, and a dinner roll
+    description: |-
+      Crawfish Pasta
+      Corn 
+      Cucumber & Tomato Salad
+      Slice Of King Cake
+      Dinner Roll
   - day: Tuesday
     price: 1199
     description: |-
