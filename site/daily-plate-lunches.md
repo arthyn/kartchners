@@ -30,8 +30,8 @@ days:
       Dinner Roll
   - day: Wednesday
     price: 1199
-    description: "Hamburger Steak, Mashed Potatoes, topped with Brown Gravy and
-      Onions (optional), and Green Bean Casserole  "
+    description: Country Fried Steak, Mashed Potatoes, topped with White gravy,
+      Green Bean Casserole, slice of king cake, & dinner roll
   - day: Thurdsay
     price: 1199
     description: Pork Stew served over Rice, Corn, Sweet Peas, and Dinner Roll
