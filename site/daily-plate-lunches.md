@@ -34,7 +34,11 @@ days:
       Green Bean Casserole, slice of king cake, & dinner roll
   - day: Thurdsay
     price: 1199
-    description: Pork Stew served over Rice, Corn, Sweet Peas, and Dinner Roll
+    description: |-
+      Meatball Stew
+      Corn
+      Sweet Pea Salad
+      Dinner Roll
   - day: Friday
     price: 1299
     description: >-
