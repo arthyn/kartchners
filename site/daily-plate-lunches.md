@@ -13,12 +13,11 @@ title: Daily Plate Lunches
 image: /v1613851779/kartchners/plates/DSC_1536_srqx2f.jpg
 days:
   - day: Monday
-    price: 1299
+    price: 1199
     description: |-
-      Crawfish Pasta
-      Corn 
-      Cucumber & Tomato Salad
-      Slice Of King Cake
+      Chili with Beans
+      Corn Nuggets
+      Cornbread
       Dinner Roll
   - day: Tuesday
     price: 1199
