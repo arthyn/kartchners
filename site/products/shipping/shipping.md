@@ -15,9 +15,7 @@ short_description: ""
 image: /v1637606894/kartchners/SHIPPING_MAP_3_fcpoal.jpg
 meta_title: ""
 ---
-**\*﻿\*\*\*\*WE WILL NOT BE SHIPPING DECEMBER 19TH - JANUARY 5TH\*\*\*\*\***
 
-**I﻿F YOU PLACE AN ORDER ON ANY OF THESE DATES THEY WILL NOT BE SHIPPED OUT UNTIL JANUARY 6TH**
 
 All shipments are shipped Monday - Wednesday.
 
