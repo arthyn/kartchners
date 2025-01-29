@@ -30,7 +30,7 @@ days:
   - day: Wednesday
     price: 1199
     description: Country Fried Steak, Mashed Potatoes, topped with White gravy,
-      Green Bean Casserole, slice of king cake, & dinner roll
+      Green Bean Casserole, & dinner roll
   - day: Thurdsay
     price: 1199
     description: |-
