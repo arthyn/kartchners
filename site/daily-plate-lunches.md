@@ -34,9 +34,9 @@ days:
   - day: Thurdsay
     price: 1199
     description: |-
-      Meatball Stew
+      Smothered Beef over Rice
       Corn
-      Sweet Pea Salad
+      Coleslaw
       Dinner Roll
   - day: Friday
     price: 1299
