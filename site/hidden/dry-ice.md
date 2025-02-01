@@ -1,5 +1,5 @@
 ---
-price: 0.0
+price: '0.0'
 weight__display_: 10 lbs
 weight: 160
 tags: []

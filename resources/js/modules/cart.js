@@ -21,6 +21,7 @@ export const cartPopup = function() {
         show(item) {
             clearTimeout(this.timeout);
             this.item = item;
+            console.log(this.item)
             this.open = true;
 
             this.timeout = setTimeout(() => {
@@ -30,7 +31,7 @@ export const cartPopup = function() {
         getName() {
             const optionField = this.item.customFields[0];
 
-            if (optionField && optionField.value) {
+            if (optionField && optionField.value && optionField.name === 'Option') {
                 return this.item.name + ' - ' + optionField.value
             }
 
