@@ -22,19 +22,18 @@ days:
   - day: Tuesday
     price: 1199
     description: |-
-      Fried Chicken (White or Dark)
+      Fried Pork Chop
       Red Beans & Rice
       Coleslaw
       Cornbread
-      Dinner Roll
   - day: Wednesday
     price: 1199
-    description: Country Fried Steak, Mashed Potatoes, topped with White gravy,
-      Green Bean Casserole, & dinner roll
+    description: Hamburger Steak, Mashed Potatoes, topped with Brown Gravy, Green
+      Bean Casserole, & Dinner roll
   - day: Thurdsay
     price: 1199
     description: |-
-      Smothered Beef over Rice
+      Meatball Stew
       Corn
       Coleslaw
       Dinner Roll
