@@ -15,9 +15,9 @@ days:
   - day: Monday
     price: 1199
     description: |-
-      Fried Boneless Chicken Thigh
-      Mac & Cheese
-      Cucumber & Tomato Salad
+      Spiral Baked Ham
+      Cornbread Dressing
+      Fried Okra 
       Dinner Roll
   - day: Tuesday
     price: 1199
