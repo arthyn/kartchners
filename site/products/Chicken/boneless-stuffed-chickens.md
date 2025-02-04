@@ -17,12 +17,12 @@ product_options:
     option_price: 21.99
   - option_name: cornbread dressing
     option_price: 21.99
-  - option_name: andouille sausage
-    option_price: 21.99
   - option_name: shrimp and rice
     option_price: 21.99
   - option_name: crawfish and rice
     option_price: 22.99
+  - option_price: 21.99
+    option_name: "Smothered Potatoes "
 canonical: ""
 weight__display_: 2 lb
 banner_alt: ""
