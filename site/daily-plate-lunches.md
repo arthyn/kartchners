@@ -22,10 +22,11 @@ days:
   - day: Tuesday
     price: 1199
     description: |-
-      Fried Pork Chop
+      Boneless Fried Chicken Thigh
       Red Beans & Rice
       Coleslaw
       Cornbread
+      Dinner Roll
   - day: Wednesday
     price: 1199
     description: Hamburger Steak, Mashed Potatoes, topped with Brown Gravy, Green
