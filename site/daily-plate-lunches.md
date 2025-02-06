@@ -33,11 +33,7 @@ days:
       Bean Casserole, & Dinner roll
   - day: Thurdsay
     price: 1199
-    description: |-
-      Meatball Stew
-      Corn
-      Coleslaw
-      Dinner Roll
+    description: Meatball Stew with Corn, Coleslaw & a dinner roll
   - day: Friday
     price: 1299
     description: >-
