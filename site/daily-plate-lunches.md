@@ -15,29 +15,25 @@ days:
   - day: Monday
     price: 1199
     description: |-
-      Fried Boneless Chicken Thigh
-      Mac & Cheese
-      Cucumber & Tomato Salad
+      Spiral Baked Ham
+      Cornbread Dressing
+      Fried Okra 
       Dinner Roll
   - day: Tuesday
     price: 1199
     description: |-
-      Fried Chicken (White or Dark)
+      Boneless Fried Chicken Thigh
       Red Beans & Rice
       Coleslaw
       Cornbread
       Dinner Roll
   - day: Wednesday
     price: 1199
-    description: Country Fried Steak, Mashed Potatoes, topped with White gravy,
-      Green Bean Casserole, & dinner roll
+    description: Hamburger Steak, Mashed Potatoes, topped with Brown Gravy, Green
+      Bean Casserole, & Dinner roll
   - day: Thurdsay
     price: 1199
-    description: |-
-      Smothered Beef over Rice
-      Corn
-      Coleslaw
-      Dinner Roll
+    description: Meatball Stew with Corn, Coleslaw & a dinner roll
   - day: Friday
     price: 1299
     description: >-
