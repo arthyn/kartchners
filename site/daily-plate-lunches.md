@@ -14,11 +14,7 @@ image: /v1613851779/kartchners/plates/DSC_1536_srqx2f.jpg
 days:
   - day: Monday
     price: 1199
-    description: |-
-      Spiral Baked Ham
-      Cornbread Dressing
-      Fried Okra 
-      Dinner Roll
+    description: Chicken Pasta with Corn, Cucumber & Tomato Salad and a dinner roll
   - day: Tuesday
     price: 1199
     description: |-
