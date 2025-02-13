@@ -29,7 +29,8 @@ days:
       Casserole, and a Dinner Roll
   - day: Thurdsay
     price: 1199
-    description: Meatball Stew with Corn, Coleslaw & a dinner roll
+    description: Chicken Sauce Piquante with Corn, Cucumber & Tomato Salad, and a
+      Dinner Roll
   - day: Friday
     price: 1299
     description: >-
