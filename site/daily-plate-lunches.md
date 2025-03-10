@@ -14,7 +14,8 @@ image: /v1613851779/kartchners/plates/DSC_1536_srqx2f.jpg
 days:
   - day: Monday
     price: 1199
-    description: Boneless fried chicken thigh with mac & cheese, corn and a dinner roll
+    description: Boneless fried chicken thigh, with loaded mashed potatoes, corn
+      nuggets, and a dinner roll
   - day: Tuesday
     price: 1199
     description: |-
@@ -64,4 +65,6 @@ BBQ burgers
 C﻿hili Dogs
 
 <p><strong>Scott</strong>: <a href="tel:3373451992">337-345-1992</a></p>
-<p class="mb-6"><strong>Lafayette</strong>: <a href="tel:3375344060">337-534-4060</a></p>
+<p class="mb-6"><strong>Lafayette</strong>: <a href="tel:3375344060">337-534-4060</a></p> 
+
+C﻿rowley: 337-514-2378
