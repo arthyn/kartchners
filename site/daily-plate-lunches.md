@@ -30,7 +30,7 @@ days:
       Casserole and a Dinner Roll
   - day: Thurdsay
     price: 1199
-    description: Pork stew with corn, sweet pea salad and a dinner roll
+    description: Chicken stew with corn, sweet pea salad and a dinner roll
   - day: Friday
     price: 1299
     description: >-
