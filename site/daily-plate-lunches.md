@@ -19,10 +19,9 @@ days:
   - day: Tuesday
     price: 1199
     description: |-
-      Fried Porkchop
-      Red Beans & Rice
+      Boneless Fried Chicken Thigh
+      White Beans
       Coleslaw
-      Cornbread
       Dinner Roll
   - day: Wednesday
     price: 1199
