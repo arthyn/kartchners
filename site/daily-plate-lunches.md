@@ -25,7 +25,7 @@ days:
       Dinner Roll
   - day: Wednesday
     price: 1199
-    description: Country Fried Steak, Mashed Potatoes with White Gravy, Green bean
+    description: Hamburger Steak, Mashed Potatoes with brown Gravy, Green bean
       Casserole and a Dinner Roll
   - day: Thurdsay
     price: 1199
