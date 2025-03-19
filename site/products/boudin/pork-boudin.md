@@ -15,7 +15,7 @@ product_options:
     option_price: 13.99
   - option_name: Spicy
     option_price: 14.99
-  - option_price: 12.29
+  - option_price: 14.99
     option_name: Smoked Pork Boudin
   - option_price: 10.99
     option_name: Beef Boudin
