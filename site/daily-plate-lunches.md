@@ -14,8 +14,8 @@ image: /v1613851779/kartchners/plates/DSC_1536_srqx2f.jpg
 days:
   - day: Monday
     price: 1199
-    description: Boneless fried chicken thigh, with loaded mashed potatoes, corn
-      nuggets, and a dinner roll
+    description: Baked chicken with your choice of white or dark meat, with mac &
+      cheese, corn nuggets and a dinner roll
   - day: Tuesday
     price: 1199
     description: |-
