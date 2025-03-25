@@ -18,11 +18,7 @@ days:
       cheese, corn nuggets and a dinner roll
   - day: Tuesday
     price: 1199
-    description: |-
-      Boneless Fried Chicken Thigh
-      White Beans
-      Coleslaw
-      Dinner Roll
+    description: Fried porkchop with red beans and rice, cornbread and coleslaw
   - day: Wednesday
     price: 1199
     description: Hamburger Steak, Mashed Potatoes with brown Gravy, Green bean
