@@ -20,7 +20,7 @@ days:
     description: Boneless fried chicken thigh, white beans, with coleslaw and a dinner roll
   - day: Wednesday
     price: 1199
-    description: Country fried Steak, Mashed Potatoes with white Gravy, Green bean
+    description: Hamburger Steak, Mashed Potatoes with brown gravy, Green bean
       Casserole and a Dinner Roll
   - day: Thurdsay
     price: 1199
