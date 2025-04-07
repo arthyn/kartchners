@@ -13,8 +13,9 @@ title: Daily Plate Lunches
 image: /v1613851779/kartchners/plates/DSC_1536_srqx2f.jpg
 days:
   - day: Monday
-    price: 1299
-    description: Crawfish pasta with fried okra, corn and a dinner roll
+    price: 1199
+    description: Boneless fried chicken thigh with mac & cheese, corn nuggets, and a
+      dinner roll
   - day: Tuesday
     price: 1199
     description: Boneless fried chicken thigh, white beans, with coleslaw and a dinner roll
