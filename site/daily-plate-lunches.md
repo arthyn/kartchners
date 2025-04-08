@@ -18,7 +18,7 @@ days:
       dinner roll
   - day: Tuesday
     price: 1199
-    description: Boneless fried chicken thigh, white beans, with coleslaw and a dinner roll
+    description: Fried porkchop with red beans and rice, cornbread, and coleslaw
   - day: Wednesday
     price: 1199
     description: Hamburger Steak, Mashed Potatoes with brown gravy, Green bean
