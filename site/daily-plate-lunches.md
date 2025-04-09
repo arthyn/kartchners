@@ -21,8 +21,8 @@ days:
     description: Fried porkchop with red beans and rice, cornbread, and coleslaw
   - day: Wednesday
     price: 1199
-    description: Hamburger Steak, Mashed Potatoes with brown gravy, Green bean
-      Casserole and a Dinner Roll
+    description: Country fried steak, mashed potatoes with white gravy, green bean
+      casserole and a dinner roll
   - day: Thurdsay
     price: 1199
     description: Meatball stew with corn, tomato salad and a dinner roll
