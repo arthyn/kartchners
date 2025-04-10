@@ -25,7 +25,7 @@ days:
       casserole and a dinner roll
   - day: Thurdsay
     price: 1199
-    description: Meatball stew with corn, tomato salad and a dinner roll
+    description: Pork stew with corn, cucumber & tomato salad and a dinner roll
   - day: Friday
     price: 1299
     description: >-
