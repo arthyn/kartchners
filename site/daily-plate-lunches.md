@@ -14,8 +14,7 @@ image: /v1613851779/kartchners/plates/DSC_1536_srqx2f.jpg
 days:
   - day: Monday
     price: 1199
-    description: Boneless fried chicken thigh with mac & cheese, corn nuggets, and a
-      dinner roll
+    description: Chicken pasta, with corn, fried okra and a dinner roll
   - day: Tuesday
     price: 1199
     description: Fried porkchop with red beans and rice, cornbread, and coleslaw
