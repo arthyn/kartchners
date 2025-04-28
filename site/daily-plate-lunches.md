@@ -13,8 +13,8 @@ title: Daily Plate Lunches
 image: /v1613851779/kartchners/plates/DSC_1536_srqx2f.jpg
 days:
   - day: Monday
-    price: 1199
-    description: Chicken pasta, with corn, fried okra and a dinner roll
+    price: 1299
+    description: Shrimp pasta, with corn, fried okra and a dinner roll
   - day: Tuesday
     price: 1199
     description: Fried porkchop with red beans and rice, cornbread, and coleslaw
