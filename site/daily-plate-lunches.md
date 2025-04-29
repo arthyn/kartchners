@@ -17,7 +17,8 @@ days:
     description: Shrimp pasta, with corn, fried okra and a dinner roll
   - day: Tuesday
     price: 1199
-    description: Fried porkchop with red beans and rice, cornbread, and coleslaw
+    description: Boneless fried chicken thigh with red beans and rice, cornbread,
+      and coleslaw
   - day: Wednesday
     price: 1199
     description: Country fried steak, mashed potatoes with white gravy, green bean
