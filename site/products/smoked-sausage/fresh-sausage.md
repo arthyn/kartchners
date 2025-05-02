@@ -10,7 +10,7 @@ name: Fresh Sausage
 sku: 200
 product_options:
   - option_name: "cabbage and pork "
-    option_price: 12.39
+    option_price: 10.99
   - option_name: jack miller pork
     option_price: 12.39
   - option_name: deer and pork
