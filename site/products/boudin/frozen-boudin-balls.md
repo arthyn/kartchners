@@ -12,7 +12,7 @@ description: |-
   1 dozen
 product_options:
   - option_name: Crawfish Balls
-    option_price: 16.49
+    option_price: 17.99
   - option_name: Regular Boudin Balls
     option_price: 14.99
   - option_name: Boudin Balls Stuffed with Jalapeño & Cream Cheese
