@@ -6,13 +6,9 @@ price: 7.99
 social_image: ""
 banner_format: ""
 layout: product
-name: "Chili "
+name: "Hot Dog Chili "
 sku: 51
-product_options:
-  - option_price: 7.49
-    option_name: chili without beans
-  - option_price: 7.49
-    option_name: Chili with beans
+product_options: []
 canonical: ""
 weight__display_: 1 lb
 banner_alt: ""
