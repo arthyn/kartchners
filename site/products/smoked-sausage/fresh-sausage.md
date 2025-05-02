@@ -18,7 +18,7 @@ product_options:
   - option_name: green onion pork
     option_price: 10.99
   - option_name: pork, spinach and sundried tomatoes
-    option_price: 12.59
+    option_price: 12.99
   - option_name: chicken, bacon, pepper jack cheese
     option_price: 12.99
   - option_name: chicken
