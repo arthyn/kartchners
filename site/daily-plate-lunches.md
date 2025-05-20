@@ -13,7 +13,7 @@ title: Daily Plate Lunches
 image: /v1613851779/kartchners/plates/DSC_1536_srqx2f.jpg
 days:
   - day: Monday
-    price: 119
+    price: 1199
     description: |-
       Fried Boneless Chicken Thigh
       Mashed Potatoes
@@ -21,8 +21,11 @@ days:
       Dinner Roll
   - day: Tuesday
     price: 1199
-    description: Boneless fried chicken thigh with red beans and rice, cornbread,
-      and coleslaw
+    description: |
+      Fried Porkchop
+      White Beans Over Rice
+      Cornbread
+      Coleslaw
   - day: Wednesday
     price: 1199
     description: Country fried steak, mashed potatoes with white gravy, green bean
