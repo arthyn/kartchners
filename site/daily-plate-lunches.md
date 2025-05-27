@@ -23,7 +23,7 @@ days:
     price: 1199
     description: |
       Fried Porkchop
-      White Beans Over Rice
+      Red Beans & Sausage Over Rice
       Cornbread
       Coleslaw
   - day: Wednesday
