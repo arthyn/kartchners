@@ -22,7 +22,7 @@ days:
   - day: Tuesday
     price: 1199
     description: |
-      Fried Porkchop
+      Fried Chicken Thigh
       Red Beans & Sausage Over Rice
       Cornbread
       Coleslaw
@@ -32,7 +32,7 @@ days:
       casserole and a dinner roll
   - day: Thurdsay
     price: 1199
-    description: chicken stew with macaroni & cheese, corn, and a dinner roll
+    description: smothered beef with macaroni & cheese, corn, and a dinner roll
   - day: Friday
     price: 1299
     description: >-
