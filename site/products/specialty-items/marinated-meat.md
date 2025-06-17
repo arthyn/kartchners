@@ -16,7 +16,7 @@ product_options:
   - option_name: marinated beef
     option_price: 12.49
   - option_name: marinated bone-in rabbit
-    option_price: 18.49
+    option_price: 17.99
   - option_price: 16.99
     option_name: "Marinated Duck "
 canonical: ""
