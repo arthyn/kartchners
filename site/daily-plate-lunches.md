@@ -13,11 +13,11 @@ title: Daily Plate Lunches
 image: /v1613851779/kartchners/plates/DSC_1536_srqx2f.jpg
 days:
   - day: Monday
-    price: 1299
+    price: 1199
     description: |-
-      Shrimp Pasta
+      Boudin & Pepperjack stuffed chicken thigh
+      Loaded Mashed Potatoes
       Corn Nuggets
-      Cucumber & Tomato Salad
       Dinner Roll
   - day: Tuesday
     price: 1199
