@@ -18,11 +18,11 @@ product_options:
   - option_name: cornbread dressing
     option_price: 23.99
   - option_name: shrimp and rice
-    option_price: 25.99
+    option_price: 23.99
   - option_name: crawfish and rice
     option_price: 24.99
-  - option_price: 23.99
-    option_name: Jalapeno & cream cheese boudin balls
+  - option_price: 25.99
+    option_name: "Crawfish Cornbread "
 canonical: ""
 weight__display_: 2 lb
 banner_alt: ""
