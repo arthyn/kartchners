@@ -15,9 +15,9 @@ days:
   - day: Monday
     price: 1199
     description: |-
-      Boudin & Pepperjack stuffed chicken thigh
+      Pepperjack stuffed chicken thigh
       Loaded Mashed Potatoes
-      Corn Nuggets
+      fried okra
       Dinner Roll
   - day: Tuesday
     price: 1199
