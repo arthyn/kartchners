@@ -22,9 +22,9 @@ days:
   - day: Tuesday
     price: 1199
     description: |
-      Fried Pork Chop
-      White Beans & Sausage Over Rice
-      Dinner Roll
+      Fried Chicken 
+      Red Beans & Sausage Over Rice
+      Cornbread
       Coleslaw
   - day: Wednesday
     price: 1199
