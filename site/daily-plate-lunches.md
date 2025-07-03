@@ -32,7 +32,11 @@ days:
       casserole and a dinner roll
   - day: Thurdsay
     price: 1199
-    description: smothered beef with macaroni & cheese, corn, and a dinner roll
+    description: |-
+      Smothered Chicken
+      Cucumber & Tomato salad
+      corn
+      dinner roll
   - day: Friday
     price: 1299
     description: >-
