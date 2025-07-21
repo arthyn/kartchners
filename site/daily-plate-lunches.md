@@ -14,11 +14,15 @@ image: /v1613851779/kartchners/plates/DSC_1536_srqx2f.jpg
 days:
   - day: Monday
     price: 1199
-    description: |-
-      Pepperjack stuffed chicken thigh
-      Loaded Mashed Potatoes
-      fried okra
+    description: "Pastalya
+
+      White Beans
+
+      Fried Corn Nuggets
+
       Dinner Roll
+
+      \ "
   - day: Tuesday
     price: 1199
     description: |
