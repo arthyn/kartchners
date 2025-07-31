@@ -37,9 +37,9 @@ days:
   - day: Thurdsay
     price: 1199
     description: |-
-      Smothered Chicken
+      Smothered Beef
       Cucumber & Tomato salad
-      corn
+      Mac & Cheese
       dinner roll
   - day: Friday
     price: 1299
