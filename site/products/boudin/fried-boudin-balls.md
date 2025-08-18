@@ -11,7 +11,7 @@ sku: 202
 product_options:
   - option_name: Maple Wraps
     option_price: 17.99
-  - option_name: Crawfish Balls
+  - option_name: Crawfish Balls (12 Pack Mini Balls)
     option_price: 24.99
   - option_name: Jalapeno Cream Cheese Boudin Wraps
     option_price: 17.99
