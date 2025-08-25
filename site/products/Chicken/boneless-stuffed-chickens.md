@@ -20,7 +20,7 @@ product_options:
   - option_name: shrimp and rice
     option_price: 23.99
   - option_name: crawfish and rice
-    option_price: 24.99
+    option_price: 27.99
   - option_price: 25.99
     option_name: "Crawfish Cornbread "
 canonical: ""
