@@ -13,14 +13,10 @@ title: Daily Plate Lunches
 image: /v1613851779/kartchners/plates/DSC_1536_srqx2f.jpg
 days:
   - day: Monday
-    price: 1199
-    description: "Chicken Pasta
+    price: 0
+    description: "**No Plate Lunch Today**
 
-      Corn Nuggets
-
-      Sweet Peas
-
-      Dinner Roll
+      Happy Labor Day!!
 
       \ "
   - day: Tuesday
