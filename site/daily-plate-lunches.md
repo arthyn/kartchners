@@ -26,10 +26,10 @@ days:
   - day: Tuesday
     price: 1199
     description: |
-      Fried Pork Chop
-      Red Beans & Sausage Over Rice
-      Cornbread
+      Fried Chicken Thigh
+      White Beans & Sausage Over Rice
       Coleslaw
+      Dinner Roll
   - day: Wednesday
     price: 1199
     description: Country fried steak, mashed potatoes with white gravy, green bean
