@@ -14,11 +14,11 @@ image: /v1613851779/kartchners/plates/DSC_1536_srqx2f.jpg
 days:
   - day: Monday
     price: 1199
-    description: "Chicken Thigh Stuffed with Pepperjack Cheese Wrapped in Bacon
+    description: "Chicken Pasta\ 
 
       Corn Nuggets
 
-      Mac & Cheese
+      Peas
 
       Dinner Roll
 
