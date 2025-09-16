@@ -26,7 +26,7 @@ days:
   - day: Tuesday
     price: 1199
     description: |
-      Fried Chicken Thigh
+      Fried Pork Chop
       White Beans & Sausage Over Rice
       Coleslaw
       Dinner Roll
