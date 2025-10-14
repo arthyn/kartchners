@@ -29,8 +29,6 @@ product_options:
     option_name: Deer Boudin
   - option_price: 11.99
     option_name: Blood
-  - option_price: 10.99
-    option_name: "Pepperjelly "
 canonical: ""
 weight__display_: 1.5 lb
 banner_alt: ""
