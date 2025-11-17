@@ -14,11 +14,12 @@ image: /v1613851779/kartchners/plates/DSC_1536_srqx2f.jpg
 days:
   - day: Monday
     price: 1199
-    description: "Chicken Pasta\ 
+    description: "Chicken Thigh Stuffed with boudin & pepper jack cheeses wrapped in
+      bacon
 
-      Corn Nuggets
+      fried okra
 
-      Peas
+      loaded mashed potatoes
 
       Dinner Roll
 
