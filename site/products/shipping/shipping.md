@@ -15,6 +15,16 @@ short_description: ""
 image: /v1637606894/kartchners/SHIPPING_MAP_3_fcpoal.jpg
 meta_title: ""
 ---
+# \*﻿\*\*THANKSGIVING SHIPPING\*\*\*
+
+## Please place all orders by November 24th before noon. We will resume shipping orders December 1st.
+
+
+
+
+
+
+
 
 
 All shipments are shipped Monday - Wednesday.
