@@ -13,28 +13,14 @@ title: Daily Plate Lunches
 image: /v1613851779/kartchners/plates/DSC_1536_srqx2f.jpg
 days:
   - day: Monday
-    price: 1199
-    description: "Chicken Thigh Stuffed with boudin & pepper jack cheeses wrapped in
-      bacon
-
-      fried okra
-
-      loaded mashed potatoes
-
-      Dinner Roll
-
-      \ "
+    price: 2
+    description: "NO LUNCH\n "
   - day: Tuesday
-    price: 1199
-    description: |-
-      Fried Chicken Thigh
-      Red & Sausage Over Rice
-      Coleslaw
-      Cornbread 
+    price: 0
+    description: NO LUNCH
   - day: Wednesday
-    price: 1199
-    description: Country fried steak, mashed potatoes with white gravy, green bean
-      casserole and a dinner roll
+    price: 0
+    description: NO LUNCH
   - day: Thurdsay
     price: 1199
     description: |-
