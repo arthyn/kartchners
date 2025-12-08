@@ -10,9 +10,9 @@ name: Stuffed Mushrooms
 sku: 92
 product_options:
   - option_name: Green Onion Sausage
-    option_price: 25.49
+    option_price: 13.99
   - option_name: Shrimp and Crab Meat Au Gratin
-    option_price: 29.49
+    option_price: 15.99
 canonical: ""
 weight__display_: "0"
 banner_alt: ""
@@ -22,7 +22,7 @@ description: >-
   Stuffed mushrooms with your choice of green onion sausage or shrimp and crab
   meat au gratin. 
 
-  5 per pack 
+  6 pack
 tags: []
 meta_title: ""
 ---
