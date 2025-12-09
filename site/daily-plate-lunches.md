@@ -16,8 +16,12 @@ days:
     price: 2
     description: "NO LUNCH\n "
   - day: Tuesday
-    price: 0
-    description: NO LUNCH
+    price: 1199
+    description: |-
+      Fried Chicken Thigh
+      Red Beans & Sausage Over Rice
+      Corn Bread
+      Coleslaw
   - day: Wednesday
     price: 0
     description: NO LUNCH
