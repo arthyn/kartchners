@@ -36,7 +36,7 @@ days:
   - day: Thurdsay
     price: 1199
     description: |-
-      Smothered Chicken Over Rice
+      Smothered beef over rice
       Corn
       Cucumber & tomato salad
       Dinner Roll
