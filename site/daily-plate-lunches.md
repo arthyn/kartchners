@@ -42,15 +42,7 @@ days:
       Dinner Roll
   - day: Friday
     price: 1299
-    description: >-
-      Plate Lunch: fried fish &/or fried shrimp with fries, hushpuppies, a
-      dinner roll & tarter sauce......$12.99
-
-      Po boys: fried fish or fried shrimp........$9.99
-
-      Burgers: fried fish, fried shrimp, Crab Burgers......$6.49
-
-      Fries can be added to a po boy or burger to make a combo: Po boy Combo = $12.99, Burger Combo = $9.99
+    description: No Plate Lunches Today!!!
   - day: Sunday
     price: 1299
     description: >-
