@@ -31,8 +31,12 @@ days:
       Dinner Roll
       Coleslaw
   - day: Wednesday
-    price: 0
-    description: NO LUNCH
+    price: 1199
+    description: |-
+      Country Fried Steak
+      Mashed Potatoes With White Gravy
+      Green Bean Casserole
+      Dinner Roll
   - day: Thurdsay
     price: 1199
     description: |-
