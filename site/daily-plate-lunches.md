@@ -41,7 +41,7 @@ days:
     price: 1199
     description: |-
       Smothered beef over rice
-      Corn
+      Blackeyes
       Cucumber & tomato salad
       Dinner Roll
   - day: Friday
