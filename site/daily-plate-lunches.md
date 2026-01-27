@@ -21,7 +21,7 @@ days:
       Fried Chicken Thigh
       Red Beans & sausage Over Rice
       Cornbread
-      Fried Okra
+      Fried Corn Nuggets
   - day: Wednesday
     price: 1199
     description: |-
