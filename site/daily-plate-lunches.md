@@ -38,7 +38,10 @@ days:
       Dinner Roll
   - day: Friday
     price: 1299
-    description: No Plate Lunches Today!!!
+    description: |-
+      Fried Fish & Shrimp With Fries & Hushpuppies 
+      Seafood Burgers $6.49
+      Seafood Poboys $9.99
   - day: Sunday
     price: 1299
     description: >-
