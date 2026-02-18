@@ -55,7 +55,7 @@ meta_title: ""
   Daily Plate Lunches
 </h1>
 
-<p class="mb-6">We serve homestyle plate lunches Monday-Friday and a barbecue plate lunch on Sunday. Call our store to place orders in advance as they sell out really quickly. <em>Orders cannot be placed online.</em></p>
+<p class="mb-6">We serve homestyle plate lunches Monday-Friday and a barbecue plate lunch on Sunday. Call our store to place orders in advance as they sell out quickly. <em>Orders cannot be placed online.</em></p>
 <h2 class="text-gray-800">Hot dogs served daily</h2>
 
 S﻿ATURDAY
