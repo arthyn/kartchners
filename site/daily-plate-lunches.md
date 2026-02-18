@@ -23,11 +23,11 @@ days:
       Cornbread
       Fried Corn Nuggets
   - day: Wednesday
-    price: 1199
+    price: 1299
     description: |-
-      Country Fried Steak
-      Mashed Potatoes With White Gravy
-      Corn
+      Shrimp Pasta
+      Green Bean Casserole
+      Fried Okra
       Dinner Roll
   - day: Thurdsay
     price: 1199
