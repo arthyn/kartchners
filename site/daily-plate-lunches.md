@@ -13,32 +13,35 @@ title: Daily Plate Lunches
 image: /v1613851779/kartchners/plates/DSC_1536_srqx2f.jpg
 days:
   - day: Monday
-    price: 2
-    description: "NO LUNCH\n "
+    price: 0
+    description: "No plate Lunches\n "
   - day: Tuesday
-    price: 0
-    description: NO LUNCH
+    price: 1199
+    description: |-
+      Fried Chicken Thigh
+      Red Beans & sausage Over Rice
+      Cornbread
+      Fried Corn Nuggets
   - day: Wednesday
-    price: 0
-    description: NO LUNCH
+    price: 1199
+    description: |-
+      Country Fried Steak
+      Mashed Potatoes With White Gravy
+      Corn
+      Dinner Roll
   - day: Thurdsay
     price: 1199
     description: |-
-      Smothered Chicken Over Rice
-      Corn
+      Smothered beef over rice
+      Blackeyes
       Cucumber & tomato salad
       Dinner Roll
   - day: Friday
     price: 1299
-    description: >-
-      Plate Lunch: fried fish &/or fried shrimp with fries, hushpuppies, a
-      dinner roll & tarter sauce......$12.99
-
-      Po boys: fried fish or fried shrimp........$9.99
-
-      Burgers: fried fish, fried shrimp, Crab Burgers......$6.49
-
-      Fries can be added to a po boy or burger to make a combo: Po boy Combo = $12.99, Burger Combo = $9.99
+    description: |-
+      Fried Fish & Shrimp With Fries & Hushpuppies 
+      Seafood Burgers $6.49
+      Seafood Poboys $9.99
   - day: Sunday
     price: 1299
     description: >-

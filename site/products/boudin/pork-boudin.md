@@ -23,7 +23,7 @@ product_options:
     option_name: Cauliflower Boudin
   - option_price: 9.09
     option_name: Chicken Boudin
-  - option_price: 10.99
+  - option_price: 13.99
     option_name: Crawfish Boudin
   - option_price: 15.99
     option_name: Deer Boudin

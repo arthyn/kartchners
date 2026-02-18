@@ -2,11 +2,11 @@
 meta_description: ""
 banner_class: ""
 banner_image: ""
-price: 5.99
+price: 6.99
 social_image: ""
 banner_format: ""
 layout: product
-name: White Beans and Smoked Sausage
+name: White Beans and Sausage
 sku: 54
 product_options: []
 canonical: ""
