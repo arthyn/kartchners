@@ -8,6 +8,7 @@ const ROOT = process.cwd()
 const CONTENT_DIR = path.join(ROOT, 'site')
 const DIST_DIR = path.join(ROOT, 'dist')
 const CACHE_DIR = path.join(ROOT, 'images', 'remote-cache')
+const DIST_CACHE_DIR = path.join(ROOT, 'dist', 'images', 'remote-cache')
 const CACHE_META_DIR = path.join(ROOT, '.cache')
 const MANIFEST_PATH = path.join(CACHE_META_DIR, 'remote-images-manifest.json')
 const MAP_PATH = path.join(ROOT, 'site', 'globals', 'remote-image-map.json')
@@ -25,6 +26,20 @@ const CLOUDINARY_BASE_URL = 'https://res.cloudinary.com/hmillerdev/image/upload'
 
 function ensureDir(dir) {
   fs.mkdirSync(dir, { recursive: true })
+}
+
+function copyDirRecursive(sourceDir, targetDir) {
+  if (!fs.existsSync(sourceDir)) return
+  ensureDir(targetDir)
+  for (const entry of fs.readdirSync(sourceDir, { withFileTypes: true })) {
+    const src = path.join(sourceDir, entry.name)
+    const dst = path.join(targetDir, entry.name)
+    if (entry.isDirectory()) {
+      copyDirRecursive(src, dst)
+    } else {
+      fs.copyFileSync(src, dst)
+    }
+  }
 }
 
 function walk(dir, allowedExtensions = CONTENT_FILE_EXTENSIONS) {
@@ -286,6 +301,10 @@ async function main() {
 
   fs.writeFileSync(MANIFEST_PATH, JSON.stringify({ version: 1, images: nextImages }, null, 2) + '\n')
   fs.writeFileSync(MAP_PATH, JSON.stringify(rewriteMap, null, 2) + '\n')
+
+  if (rewriteDist && fs.existsSync(DIST_DIR)) {
+    copyDirRecursive(CACHE_DIR, DIST_CACHE_DIR)
+  }
 
   let rewrittenFiles = 0
   if (rewriteDist && distFiles.length) {
