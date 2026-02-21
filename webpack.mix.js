@@ -18,6 +18,7 @@ const paths = {
 
 // Run mix
 mix
+    .disableNotifications()
     .setPublicPath('./')
     .webpackConfig({
         resolve: {

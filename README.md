@@ -39,6 +39,25 @@ Uncompiled SCSS and JS reside in the `resources` folder - as mentioned above, Mi
 
 In development mode, Skeleventy will reference `main.css` for it's stylesheet. This will be pretty chunky in filesize (around 800KB!), due to the amount of Tailwind utility classes - but don't worry, Skeleventy has you covered!
 
+## Remote image caching (Netlify-friendly)
+
+This project now runs `npm run sync:remote-images` before `dev/debug/production` builds.
+
+What it does:
+- Scans content files in `site/` for remote image URLs (`http/https`)
+- Downloads remote images into `images/remote-cache/`
+- Stores cache metadata (etag/last-modified/content-length/content-type) in `.cache/remote-images-manifest.json`
+- Uses conditional requests (`If-None-Match` / `If-Modified-Since`) to avoid re-downloading unchanged images
+- Generates `site/globals/remote-image-map.json`, and Eleventy rewrites matching remote URLs in rendered HTML to local `/images/remote-cache/...` paths
+
+This keeps source files unchanged while making production output use local cached assets.
+
+To clear and rebuild cache:
+
+```bash
+npm run sync:remote-images:refresh
+```
+
 ## Ready to deploy?
 
 Type the `npm run production` command to minify scripts, styles and run Purgecss.
