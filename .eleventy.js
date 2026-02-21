@@ -3,63 +3,8 @@ const utils = require('./utilities')
 const klawSync = require('klaw-sync')
 const multimatch = require('multimatch')
 const casing = require('change-case')
-const fs = require('fs')
-const path = require('path')
 
 module.exports = eleventyConfig => {
-
-    const remoteImageMapPath = path.join(process.cwd(), 'site', 'globals', 'remote-image-map.json')
-    let remoteImageMap = {}
-
-    try {
-        remoteImageMap = JSON.parse(fs.readFileSync(remoteImageMapPath, 'utf8'))
-    } catch (err) {
-        remoteImageMap = {}
-    }
-
-    const getCloudinaryAssetPath = (url) => {
-        try {
-            const parsed = new URL(url)
-            const marker = '/image/upload/'
-            const idx = parsed.pathname.indexOf(marker)
-            if (idx === -1) return null
-
-            const afterUpload = parsed.pathname.slice(idx + marker.length)
-            const match = afterUpload.match(/(?:^|\/)(v\d+\/.+)$/)
-            if (!match) return null
-
-            return `/${match[1]}`
-        } catch (err) {
-            return null
-        }
-    }
-
-    const cloudinaryPathMap = Object.entries(remoteImageMap).reduce((acc, [remoteUrl, localPath]) => {
-        const assetPath = getCloudinaryAssetPath(remoteUrl)
-        if (assetPath) acc[assetPath] = localPath
-        return acc
-    }, {})
-
-    const rewriteRemoteImages = (content) => {
-        const entries = Object.entries(remoteImageMap)
-        if (!entries.length || typeof content !== 'string') {
-            return content
-        }
-
-        let updated = entries
-            .sort((a, b) => b[0].length - a[0].length)
-            .reduce((html, [remoteUrl, localPath]) => html.split(remoteUrl).join(localPath), content)
-
-        updated = updated.replace(/https?:\/\/res\.cloudinary\.com\/hmillerdev\/image\/upload\/[^\s"'<>]+/g, (match) => {
-            const assetPath = getCloudinaryAssetPath(match)
-            if (assetPath && cloudinaryPathMap[assetPath]) {
-                return cloudinaryPathMap[assetPath]
-            }
-            return match
-        })
-
-        return updated
-    }
 
     // Add a readable date formatter filter to Nunjucks
     eleventyConfig.addFilter("dateDisplay", require("./filters/dates.js"))
@@ -89,8 +34,7 @@ module.exports = eleventyConfig => {
     eleventyConfig.addTransform("htmlmin", (content, outputPath) => {
         if ( outputPath.endsWith(".html") )
         {
-            const rewritten = rewriteRemoteImages(content)
-            let minified = htmlmin.minify(rewritten, {
+            let minified = htmlmin.minify(content, {
                 useShortDoctype: true,
                 removeComments: true,
                 collapseWhitespace: true

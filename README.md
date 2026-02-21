@@ -41,16 +41,18 @@ In development mode, Skeleventy will reference `main.css` for it's stylesheet. T
 
 ## Remote image caching (Netlify-friendly)
 
-This project now runs `npm run sync:remote-images` before `dev/debug/production` builds.
+This project runs a post-build remote-image sync step.
 
 What it does:
-- Scans content files in `site/` for remote image URLs (`http/https`)
-- Downloads remote images into `images/remote-cache/`
+- Builds full HTML to `dist/` first
+- Scans rendered `dist/**/*.html` for remote image URLs (`http/https`), including transformed Cloudinary variants from `src/srcset/data-lazy`
+- Downloads remote images into `images/remote-cache/` using deterministic hash-based filenames
 - Stores cache metadata (etag/last-modified/content-length/content-type) in `.cache/remote-images-manifest.json`
 - Uses conditional requests (`If-None-Match` / `If-Modified-Since`) to avoid re-downloading unchanged images
-- Generates `site/globals/remote-image-map.json`, and Eleventy rewrites matching remote URLs in rendered HTML to local `/images/remote-cache/...` paths
+- Generates `site/globals/remote-image-map.json`
+- Rewrites URLs directly in `dist/**/*.html` to local `/images/remote-cache/...` paths
 
-This keeps source files unchanged while making production output use local cached assets.
+This keeps source files untouched and avoids template-order issues by doing URL swaps only after final HTML exists.
 
 To clear and rebuild cache:
 

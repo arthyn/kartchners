@@ -6,10 +6,15 @@ const crypto = require('crypto')
 
 const ROOT = process.cwd()
 const CONTENT_DIR = path.join(ROOT, 'site')
+const DIST_DIR = path.join(ROOT, 'dist')
 const CACHE_DIR = path.join(ROOT, 'images', 'remote-cache')
 const CACHE_META_DIR = path.join(ROOT, '.cache')
 const MANIFEST_PATH = path.join(CACHE_META_DIR, 'remote-images-manifest.json')
 const MAP_PATH = path.join(ROOT, 'site', 'globals', 'remote-image-map.json')
+
+const args = new Set(process.argv.slice(2))
+const distOnly = args.has('--dist-only')
+const rewriteDist = args.has('--rewrite-dist')
 
 const CONTENT_FILE_EXTENSIONS = new Set(['.md', '.njk', '.html', '.json', '.yml', '.yaml'])
 const IMAGE_EXTENSIONS = new Set(['.jpg', '.jpeg', '.png', '.gif', '.webp', '.svg', '.avif', '.bmp', '.tiff'])
@@ -22,15 +27,15 @@ function ensureDir(dir) {
   fs.mkdirSync(dir, { recursive: true })
 }
 
-function walk(dir) {
+function walk(dir, allowedExtensions = CONTENT_FILE_EXTENSIONS) {
   const entries = fs.readdirSync(dir, { withFileTypes: true })
   const files = []
   for (const entry of entries) {
     const full = path.join(dir, entry.name)
     if (entry.isDirectory()) {
-      if (entry.name === 'node_modules' || entry.name === '.git' || entry.name === 'dist') continue
-      files.push(...walk(full))
-    } else if (CONTENT_FILE_EXTENSIONS.has(path.extname(entry.name).toLowerCase())) {
+      if (entry.name === 'node_modules' || entry.name === '.git') continue
+      files.push(...walk(full, allowedExtensions))
+    } else if (allowedExtensions.has(path.extname(entry.name).toLowerCase())) {
       files.push(full)
     }
   }
@@ -123,6 +128,29 @@ function normalizedRecord(url, record = {}) {
   }
 }
 
+function toCloudinaryFallback(url) {
+  try {
+    const parsed = new URL(url)
+    const host = parsed.hostname.toLowerCase()
+    if (!(host === 'www.kartchnersinscott.com' || host === 'kartchnersinscott.com')) return null
+    if (!parsed.pathname.startsWith('/v')) return null
+    return `${CLOUDINARY_BASE_URL}${parsed.pathname}`
+  } catch (_) {
+    return null
+  }
+}
+
+function stripCloudinaryWidthTransform(url) {
+  try {
+    const parsed = new URL(url)
+    if (!parsed.hostname.toLowerCase().includes('cloudinary.com')) return null
+    parsed.pathname = parsed.pathname.replace(/\/w_\d+(?=\/)/g, '')
+    return parsed.toString()
+  } catch (_) {
+    return null
+  }
+}
+
 async function fetchImage(url, previous) {
   const headers = {}
   if (previous && previous.etag) headers['If-None-Match'] = previous.etag
@@ -139,6 +167,20 @@ async function fetchImage(url, previous) {
   }
 
   if (!response.ok) {
+    if (response.status === 404) {
+      const fallbackUrl = toCloudinaryFallback(url)
+      if (fallbackUrl) {
+        return fetchImage(fallbackUrl, previous)
+      }
+    }
+
+    if (response.status === 400) {
+      const stripped = stripCloudinaryWidthTransform(url)
+      if (stripped && stripped !== url) {
+        return fetchImage(stripped, previous)
+      }
+    }
+
     throw new Error(`HTTP ${response.status}`)
   }
 
@@ -168,10 +210,11 @@ async function main() {
   const manifest = loadJson(MANIFEST_PATH, { version: 1, images: {} })
   const previousImages = manifest.images || {}
 
-  const contentFiles = walk(CONTENT_DIR)
+  const contentFiles = distOnly ? [] : walk(CONTENT_DIR)
+  const distFiles = fs.existsSync(DIST_DIR) ? walk(DIST_DIR, new Set(['.html'])) : []
   const urls = new Set()
 
-  for (const file of contentFiles) {
+  for (const file of [...contentFiles, ...distFiles]) {
     for (const url of extractUrlsFromFile(file)) {
       if (isLikelyImageUrl(url)) urls.add(url)
     }
@@ -244,7 +287,20 @@ async function main() {
   fs.writeFileSync(MANIFEST_PATH, JSON.stringify({ version: 1, images: nextImages }, null, 2) + '\n')
   fs.writeFileSync(MAP_PATH, JSON.stringify(rewriteMap, null, 2) + '\n')
 
-  console.log(`[remote-images] scanned=${sortedUrls.length} downloaded=${downloaded} reused=${reused} failed=${failed}`)
+  let rewrittenFiles = 0
+  if (rewriteDist && distFiles.length) {
+    const entries = Object.entries(rewriteMap).sort((a, b) => b[0].length - a[0].length)
+    for (const filePath of distFiles) {
+      const original = fs.readFileSync(filePath, 'utf8')
+      const updated = entries.reduce((html, [remoteUrl, localPath]) => html.split(remoteUrl).join(localPath), original)
+      if (updated !== original) {
+        fs.writeFileSync(filePath, updated)
+        rewrittenFiles += 1
+      }
+    }
+  }
+
+  console.log(`[remote-images] scanned=${sortedUrls.length} downloaded=${downloaded} reused=${reused} failed=${failed} contentFiles=${contentFiles.length} distFiles=${distFiles.length} rewrittenDistFiles=${rewrittenFiles}`)
 }
 
 main().catch((error) => {
