@@ -9,12 +9,17 @@ layout: default
             {% set heroFormat = banner_format or "x_0,y_200,w_2400,h_703,c_crop,f_auto,q_80" %}
             {% set heroClass = banner_class or "peach" %}
             {% set heroAlt = banner_alt or site.name %}
+            {% set isDefaultHero = heroImage == "/v1601152899/kartchners/building-dawn.jpg" %}
             <img 
+                {% if isDefaultHero %}id="site-hero-image" data-turbolinks-permanent{% endif %}
                 class="hero {{ heroClass }} w-full object-cover"
                 srcset="{{ heroImage | sizes("https://res.cloudinary.com/hmillerdev/image/upload/" + heroFormat)}}"
                 sizes="100vw"
                 width="2400"
                 height="703"
+                loading="eager"
+                fetchpriority="high"
+                decoding="sync"
                 src="https://res.cloudinary.com/hmillerdev/image/upload/{{ heroFormat }}{{ heroImage }}" alt="{{ heroAlt }}" 
             />
         {% endblock %}
