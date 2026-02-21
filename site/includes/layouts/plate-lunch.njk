@@ -11,7 +11,7 @@ layout: default
             {% set heroAlt = banner_alt or site.name %}
             {% set isDefaultHero = heroImage == "/v1601152899/kartchners/building-dawn.jpg" %}
             <img 
-                {% if isDefaultHero %}id="site-hero-image" data-turbolinks-permanent{% endif %}
+                {% if isDefaultHero %}id="site-hero-image"{% endif %}
                 class="hero {{ heroClass }} w-full object-cover"
                 srcset="{{ heroImage | sizes("https://res.cloudinary.com/hmillerdev/image/upload/" + heroFormat)}}"
                 sizes="100vw"
