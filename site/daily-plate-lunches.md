@@ -14,11 +14,11 @@ image: /v1613851779/kartchners/plates/DSC_1536_srqx2f.jpg
 days:
   - day: Monday
     price: 1199
-    description: "Boudin Stuffed Pork Loin Wrapped In Bacon
+    description: "Baked Chicken (white or Dark)
 
       Loaded Mashed Potatoes
 
-      Corn\ 
+      Corn Nuggets
 
       Dinner Roll
 
@@ -26,10 +26,10 @@ days:
   - day: Tuesday
     price: 1199
     description: |-
-      Fried Chicken Thigh
+      Fried Pork Chop
       Red Beans & sausage Over Rice
       Cornbread
-      Fried Corn Nuggets
+      Coleslaw
   - day: Wednesday
     price: 1299
     description: |-
