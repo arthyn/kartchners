@@ -8,13 +8,16 @@
 
 .hero {
     height: 35vh;
+    height: 35svh;
 
     @media (min-width: 640px) {
         height: 45vh;
+        height: 45svh;
     }
 
     @media (min-width: 992px) {
         height: 50vh;
+        height: 50svh;
     }
 }
 

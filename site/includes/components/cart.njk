@@ -12,7 +12,7 @@
     <div class="fixed left-4 bottom-20 md:left-auto md:bottom-auto md:top-6 md:right-6 flex flex-wrap items-center w-96 p-4 text-xl bg-white rounded shadow-lg" x-show.transition="open" style="display: none">
         <img 
             class="flex-none w-20 h-20 object-cover mr-4" 
-            :src="item.image && 'https://res.cloudinary.com/hmillerdev/image/upload/ar_1,c_crop/f_auto,q_80,w_80/' + kUtils.extractCloudinaryParts(item.image).path" 
+            :src="item.image && (item.image.startsWith('/images/') ? item.image : (kUtils.extractCloudinaryParts(item.image) ? ('https://res.cloudinary.com/hmillerdev/image/upload/ar_1,c_crop/f_auto,q_80,w_80/' + kUtils.extractCloudinaryParts(item.image).path) : item.image))" 
         />
         <div class="flex-auto leading-none">
             <div class="text-red-700 font-bold mb-2" x-text="getName()"></div>
