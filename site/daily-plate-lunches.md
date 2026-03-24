@@ -14,7 +14,7 @@ image: /v1613851779/kartchners/plates/DSC_1536_srqx2f.jpg
 days:
   - day: Monday
     price: 1199
-    description: "Baked Chicken (white or Dark)
+    description: "Fried Pork Chop
 
       Loaded Mashed Potatoes
 
@@ -26,7 +26,7 @@ days:
   - day: Tuesday
     price: 1199
     description: |-
-      Fried Pork Chop
+      Fried Chicken Thigh
       Red Beans & sausage Over Rice
       Cornbread
       Coleslaw
