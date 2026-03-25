@@ -33,9 +33,9 @@ days:
   - day: Wednesday
     price: 1299
     description: |-
-      Shrimp Pasta
-      Green Bean Casserole
-      Fried Okra
+      Country Fried Steak
+      Mashed Potatoes With white Gravy
+      Corn
       Dinner Roll
   - day: Thurdsay
     price: 1199
