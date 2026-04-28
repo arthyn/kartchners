@@ -26,8 +26,8 @@ days:
   - day: Tuesday
     price: 1199
     description: |-
-      Fried Chicken Thigh
-      Red Beans & sausage Over Rice
+      Fried Pork Chop
+      White Beans & sausage Over Rice
       Cornbread
       Coleslaw
   - day: Wednesday
