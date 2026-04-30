@@ -40,8 +40,8 @@ days:
   - day: Thurdsay
     price: 1199
     description: |-
-      Smothered Beef Over Rice
-      Butter Beans 
+      Smothered Pork Over Rice
+      Sweet Peas
       Cucumber & Tomato Salad
       Dinner Roll
   - day: Friday
