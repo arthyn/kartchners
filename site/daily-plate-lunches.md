@@ -14,7 +14,7 @@ image: /v1613851779/kartchners/plates/DSC_1536_srqx2f.jpg
 days:
   - day: Monday
     price: 1199
-    description: "Jalapeno Cream Cheese Stuffed Chicken Thigh Wrapped In Bacon
+    description: "Boudin Stuffed Chicken Thigh Wrapped In Bacon
 
       Loaded Mashed Potatoes
 
@@ -26,7 +26,7 @@ days:
   - day: Tuesday
     price: 1199
     description: |-
-      Fried Chicken Thigh
+      Fried Porkchop
       Red Beans & sausage Over Rice
       Cornbread
       Coleslaw
