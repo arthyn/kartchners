@@ -15,12 +15,6 @@ short_description: ""
 image: /v1637606894/kartchners/SHIPPING_MAP_3_fcpoal.jpg
 meta_title: ""
 ---
-# \*﻿\*\*CHRISTMAS SHIPPING\*\*\*
-
-## Last day to place orders is Monday December 22nd @12:00. 
-
-###### \*\*\*\*\*S﻿HIPPING WILL RESUME ON MONDAY DECMEBER 29TH.\*\*\*\*\**
-
 All shipments are shipped Monday - Wednesday.
 
 If you place an order Thursday-Sunday, it will not be shipped out until the Monday.
