@@ -41,7 +41,7 @@ days:
     price: 1199
     description: |-
       Smothered Pork Over Rice
-      Sweet Peas
+      Butter Beans
       Cucumber & Tomato Salad
       Dinner Roll
   - day: Friday
