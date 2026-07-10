@@ -16,8 +16,7 @@ banner_alt: ""
 weight: 16
 image: ""
 description: >-
-  *TEMPORARILY OUT OF STOCK*
-
+  
 
   Boneless Skinless Duck Breast Stuffed with Jalapeno Cream Cheese Wrapped in Bacon
 
