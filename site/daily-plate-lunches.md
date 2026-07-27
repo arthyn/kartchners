@@ -14,7 +14,7 @@ image: /v1613851779/kartchners/plates/DSC_1536_srqx2f.jpg
 days:
   - day: Monday
     price: 1199
-    description: "Chicken Thigh Stuffed With Pepper Jack Cheese Wrapped In Bacon\ 
+    description: "Boneless Fried Chicken Thigh
 
       Loaded Mashed Potatoes
 
