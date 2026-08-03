@@ -14,7 +14,8 @@ image: /v1613851779/kartchners/plates/DSC_1536_srqx2f.jpg
 days:
   - day: Monday
     price: 1199
-    description: "Boneless Fried Chicken Thigh
+    description: "Chicken Thigh Stuffed With Jalapenos And Cream Cheese Wrapped In
+      Bacon
 
       Loaded Mashed Potatoes
 
