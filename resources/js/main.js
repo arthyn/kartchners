@@ -12,10 +12,6 @@ lazyload();
 document.addEventListener('snipcart.ready', () => {
   Snipcart.events.on('item.added', needIce);
   Snipcart.events.on('item.removed', needIce);
-  Snipcart.events.on('snipcart.initialized', function () {
-    const snipcart = document.getElementById('snipcart');
-    snipcart.setAttribute('data-turbolinks-permanent', '');
-  });
 });
 
 async function addIce(iceId) {

@@ -3,6 +3,10 @@ module.exports = function(filename) {
     return filename;
   }
   
+  if (filename.startsWith('/images/')) {
+    return filename;
+  }
+
   const parts = filename.split('/');
   const strip = filename.replace('/images', '');
 
