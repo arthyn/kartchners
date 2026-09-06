@@ -21,6 +21,8 @@ product_options:
     option_price: 24.99
   - option_name: crawfish and rice
     option_price: 28.99
+  - option_price: 24.99
+    option_name: "Smothered Potatoes "
 canonical: ""
 weight__display_: 2 lb
 banner_alt: ""
