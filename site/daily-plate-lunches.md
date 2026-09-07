@@ -13,15 +13,12 @@ title: Daily Plate Lunches
 image: /v1613851779/kartchners/plates/DSC_1536_srqx2f.jpg
 days:
   - day: Monday
-    price: 1199
-    description: "Chicken Thigh Stuffed With Jalapenos And Cream Cheese Wrapped In
-      Bacon
+    price: 999
+    description: "Loaded Hamburger
 
-      Loaded Mashed Potatoes
+      French Fries
 
-      Corn Nuggets
-
-      Dinner Roll
+      20oz Fountain Drink
 
       \ "
   - day: Tuesday
