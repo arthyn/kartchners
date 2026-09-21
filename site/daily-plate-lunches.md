@@ -13,12 +13,14 @@ title: Daily Plate Lunches
 image: /v1613851779/kartchners/plates/DSC_1536_srqx2f.jpg
 days:
   - day: Monday
-    price: 999
-    description: "Loaded Hamburger
+    price: 1199
+    description: "Chicken thigh stuffed with pepperjack cheese wrapped in bacon
 
-      French Fries
+      loaded mashed potatoes
 
-      20oz Fountain Drink
+      corn nuggets
+
+      dinner roll\ 
 
       \ "
   - day: Tuesday
