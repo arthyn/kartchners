@@ -7,3 +7,8 @@ package-lock.json
 .netlify
 
 .env
+
+# Remote image cache artifacts (generated during build)
+.cache/
+images/remote-cache/
+site/globals/remote-image-map.json

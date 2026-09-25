@@ -27,11 +27,18 @@ layout: page
             {% for item in collections[category] %}
                 <li class="group">
                     <a href="{{ item.url }}" class="no-underline">
+                        {% set itemImage = (item.data.image or default_image) | norm %}
+                        {% set isLocalItemImage = itemImage and itemImage.startsWith('/images/') %}
                         <img 
                             class="w-full h-auto mb-2"
-                            data-srcset="{{ (item.data.image or default_image) | norm | sizes("https://res.cloudinary.com/hmillerdev/image/upload/ar_1.5,c_crop/f_auto,q_80")}}"
+                            {% if isLocalItemImage %}
+                            data-srcset="{{ itemImage }} 400w, {{ itemImage }} 800w, {{ itemImage }} 1200w, {{ itemImage }} 1600w, {{ itemImage }} 2000w, {{ itemImage }} 2400w"
+                            data-lazy="{{ itemImage }}"
+                            {% else %}
+                            data-srcset="{{ itemImage | sizes("https://res.cloudinary.com/hmillerdev/image/upload/ar_1.5,c_crop/f_auto,q_80")}}"
+                            data-lazy="https://res.cloudinary.com/hmillerdev/image/upload/ar_1.5,c_crop/f_auto,q_80{{ itemImage }}"
+                            {% endif %}
                             sizes="(min-width: 1536px) 312px, (min-width: 992px) 25vw, (min-width: 768px) 33vw, (min-width: 640px) 50vw, 100vw" 
-                            data-lazy="https://res.cloudinary.com/hmillerdev/image/upload/ar_1.5,c_crop/f_auto,q_80{{ item.data.image | norm }}"
                             width="312"
                             height="208"
                             alt=""

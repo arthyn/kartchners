@@ -3,9 +3,13 @@
   "version": "2.0.0",
   "description": "kartchners boudin and specialty meats",
   "scripts": {
-    "debug": "DEBUG=Eleventy* ELEVENTY_ENV=development npx @11ty/eleventy --serve & mix watch",
-    "dev": "ELEVENTY_ENV=development npx @11ty/eleventy --serve & mix watch & npx netlify-cms-proxy-server",
-    "production": "mix -p && npx @11ty/eleventy"
+    "sync:remote-images": "node scripts/sync-remote-images.js",
+    "sync:remote-images:dist": "node scripts/sync-remote-images.js --dist-only --rewrite-dist",
+    "sync:remote-images:refresh": "rm -rf images/remote-cache .cache/remote-images-manifest.json site/globals/remote-image-map.json && npm run sync:remote-images:dist",
+    "debug": "npm run sync:remote-images && DEBUG=Eleventy* ELEVENTY_ENV=development npx @11ty/eleventy --serve & mix watch",
+    "dev": "npm run sync:remote-images && ELEVENTY_ENV=development npx @11ty/eleventy --serve & mix watch & npx netlify-cms-proxy-server",
+    "production": "mix -p && npx @11ty/eleventy && npm run sync:remote-images:dist",
+    "serve:production": "npm run production && npx serve dist -l 58080"
   },
   "author": "Hunter Miller",
   "license": "MIT",
