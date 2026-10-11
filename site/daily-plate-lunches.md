@@ -13,7 +13,7 @@ title: Daily Plate Lunches
 image: /v1613851779/kartchners/plates/DSC_1536_srqx2f.jpg
 days:
   - day: Monday
-    price: 1199
+    price: 1299
     description: "Chicken thigh stuffed with pepperjack cheese wrapped in bacon
 
       loaded mashed potatoes
@@ -24,7 +24,7 @@ days:
 
       \ "
   - day: Tuesday
-    price: 1199
+    price: 1299
     description: |-
       Fried Porkchop
       Red Beans & sausage Over Rice
@@ -38,20 +38,20 @@ days:
       Corn
       Dinner Roll
   - day: Thurdsay
-    price: 1199
+    price: 1299
     description: |-
       Smothered Pork Over Rice
       Butter Beans
       Cucumber & Tomato Salad
       Dinner Roll
   - day: Friday
-    price: 1299
+    price: 1399
     description: |-
       Fried Fish & Shrimp With Fries & Hushpuppies 
       Seafood Burgers $6.49
       Seafood Poboys $9.99
   - day: Sunday
-    price: 1299
+    price: 1399
     description: >-
       BBQ Plate Lunch
 
