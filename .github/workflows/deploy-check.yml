@@ -4,6 +4,10 @@ on:
   schedule:
     - cron: "0 14 * * *" # daily, 8am Central
   workflow_dispatch:
+    inputs:
+      expected_commit:
+        description: "Override the expected commit (for testing the failure path)"
+        required: false
 
 jobs:
   check:
@@ -16,6 +20,11 @@ jobs:
           expected=$(git rev-parse HEAD)
           committed_at=$(git log -1 --format=%ct HEAD)
           age_min=$(( ($(date +%s) - committed_at) / 60 ))
+          if [ -n "${{ inputs.expected_commit }}" ]; then
+            echo "Test mode: pretending master is at ${{ inputs.expected_commit }}"
+            expected="${{ inputs.expected_commit }}"
+            age_min=999
+          fi
 
           live=$(curl -fsSL --max-time 30 https://kartchners.com/version.txt | head -1 | tr -d '[:space:]')
           echo "latest commit: $expected ($age_min min ago)"
