@@ -6,7 +6,7 @@ price: 0
 social_image: ""
 banner_format: ""
 layout: product
-name: Boneless Stuffed Chickens
+name: Boneless Stuffed Chicken
 sku: 25
 product_options:
   - option_name: boudin
