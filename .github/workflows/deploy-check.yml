@@ -1,0 +1,36 @@
+name: Deploy check
+
+on:
+  schedule:
+    - cron: "0 14 * * *" # daily, 8am Central
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Compare live site to latest commit
+        run: |
+          expected=$(git rev-parse HEAD)
+          committed_at=$(git log -1 --format=%ct HEAD)
+          age_min=$(( ($(date +%s) - committed_at) / 60 ))
+
+          live=$(curl -fsSL --max-time 30 https://kartchners.com/version.txt | head -1 | tr -d '[:space:]')
+          echo "latest commit: $expected ($age_min min ago)"
+          echo "live commit:   ${live:-<none>}"
+
+          if [ -z "$live" ]; then
+            echo "::error::Could not read https://kartchners.com/version.txt"
+            exit 1
+          fi
+          if [ "$live" != "$expected" ]; then
+            if [ "$age_min" -lt 60 ]; then
+              echo "Latest commit is under an hour old; Netlify may still be building."
+              exit 0
+            fi
+            echo "::error::Live site is at $live but master is at $expected. The Netlify deploy did not go through."
+            exit 1
+          fi
+          echo "Live site matches latest commit."
